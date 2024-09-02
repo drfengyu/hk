@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Base">
+      <Items>
+        <String Name="ServerRepAddress">
+          <CurValue>tcp://127.0.0.1:5555</CurValue>
+        </String>
+        <String Name="ModuleName">
+          <CurValue>IMVSCircleEdgeInspModu</CurValue>
+        </String>
+        <Bool Name="IsLoalModule">
+          <CurValue>0</CurValue>
+        </Bool>
+        <Integer Name="ModuleViewMode">
+          <CurValue>1</CurValue>
+        </Integer>
+        <String Name="ModuleDisplayName">
+          <CurValue>IMVSCircleEdgeInspModu</CurValue>
+        </String>
+        <String Name="ModuleHelp">
+          <CurValue>Reserve</CurValue>
+        </String>
+      </Items>
+    </Category>
+    <Category Name="Input">
+      <Items>
+        <Combination Name="InputImage" Style="IMAGE">
+          <Filters>
+            <Filter Name="InImage" ValueType="image" IsForce="true"></Filter>
+            <Filter Name="InImageWidth" ValueType="int" IsForce="true"></Filter>
+            <Filter Name="InImageHeight" ValueType="int" IsForce="true"></Filter>
+            <Filter Name="InImagePixelFormat" ValueType="int" IsForce="true"></Filter>
+          </Filters>
+        </Combination>
+        <Combination Name="InputAnnulus" Style="ROIANNULUS">
+          <Filters>
+            <Combination Name="InputAnnulusCenterPoint" Style="POINT">
+              <Filters>
+                <Filter Name="AnnulusCenterX" ValueType="float" IsForce="false"></Filter>
+                <Filter Name="AnnulusCenterY" ValueType="float" IsForce="false"></Filter>
+              </Filters>
+            </Combination>
+            <Filter Name="AnnulusInnerRadius" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="AnnulusOuterRadius" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="AnnulusStartAngle" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="AnnulusAngleExtend" ValueType="float" IsForce="false"></Filter>
+          </Filters>
+        </Combination>
+        <Combination Name="InputROIAnnulus" Style="ROIANNULUS">
+          <Filters>
+            <Combination Name="AnnulusCenterPoint" Style="POINT">
+              <Filters>
+                <Filter Name="roiAnnulusCenterX" ValueType="float" IsForce="false"></Filter>
+                <Filter Name="roiAnnulusCenterY" ValueType="float" IsForce="false"></Filter>
+              </Filters>
+            </Combination>
+            <Filter Name="roiAnnulusInnerRadius" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="roiAnnulusOuterRadius" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="roiAnnulusStartAngle" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="roiAnnulusAngleExtend" ValueType="float" IsForce="false"></Filter>
+          </Filters>
+        </Combination>
+        <Combination Name="Position Correction Info" Style="FIXTURE">
+          <Filters>
+            <Combination Name="Fixtured Point" Style="POINT">
+              <Filters>
+                <Filter Name="FixtureInitPointX" ValueType="float" IsForce="false"></Filter>
+                <Filter Name="FixtureInitPointY" ValueType="float" IsForce="false"></Filter>
+              </Filters>
+            </Combination>
+            <Filter Name="FixtureInitAngle" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="FixtureInitScaleX" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="FixtureInitScaleY" ValueType="float" IsForce="false"></Filter>
+            <Combination Name="Unfixtured Point" Style="POINT">
+              <Filters>
+                <Filter Name="FixtureRunPointX" ValueType="float" IsForce="false"></Filter>
+                <Filter Name="FixtureRunPointY" ValueType="float" IsForce="false"></Filter>
+              </Filters>
+            </Combination>
+            <Filter Name="FixtureRunAngle" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="FixtureRunScaleX" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="FixtureRunScaleY" ValueType="float" IsForce="false"></Filter>
+          </Filters>
+        </Combination>
+      </Items>
+    </Category>
+    <Category Name="Output">
+      <Items>
+        <Filter Name="ModuStatus" ValueType="int" IsForce="true"></Filter>
+        <Filter Name="FlawNum" ValueType="int" IsForce="true"></Filter>
+        <Combination Name="DetectAnnulus" Style="ROIANNULUS" IsArray="false">
+          <Filters>
+            <Combination Name="DetectAnnulusCenterPoint" Style="POINT" IsArray="false">
+              <Filters>
+                <Filter Name="DetectAnnulusCenterX" StructName="DetectAnnulusCenterX" ValueType="float" IsForce="false" IsArray="false"></Filter>
+                <Filter Name="DetectAnnulusCenterY" StructName="DetectAnnulusCenterY" ValueType="float" IsForce="false" IsArray="false"></Filter>
+              </Filters>
+            </Combination>
+            <Filter Name="DetectAnnulusInnerRadius" StructName="DetectAnnulusInnerRadius" ValueType="float" IsForce="false" IsArray="false"></Filter>
+            <Filter Name="DetectAnnulusOuterRadius" StructName="DetectAnnulusOuterRadius" ValueType="float" IsForce="false" IsArray="false"></Filter>
+            <Filter Name="DetectAnnulusStartAngle" StructName="DetectAnnulusStartAngle" ValueType="float" IsForce="false" IsArray="false"></Filter>
+            <Filter Name="DetectAnnulusAngleExtend" StructName="DetectAnnulusAngleExtend" ValueType="float" IsForce="false" IsArray="false"></Filter>
+          </Filters>
+        </Combination>
+        <Combination Name="FlawRect" Style="ROIBOX" IsArray="true">
+          <Filters>
+            <Combination Name="Defect Center Point" Style="POINT">
+              <Filters>
+                <Filter Name="FlawCenterX" ValueType="float" IsForce="false" ArrayMatch="true"></Filter>
+                <Filter Name="FlawCenterY" ValueType="float" IsForce="false" ArrayMatch="true"></Filter>
+              </Filters>
+            </Combination>
+            <Filter Name="FlawWidth" ValueType="float" IsForce="false" ArrayMatch="true"></Filter>
+            <Filter Name="FlawHeight" ValueType="float" IsForce="false" ArrayMatch="true"></Filter>
+            <Filter Name="FlawAngle" ValueType="float" IsForce="false" ArrayMatch="true"></Filter>
+          </Filters>
+        </Combination>
+        <Filter Name="DefectSize" ValueType="float" IsForce="false" ArrayMatch="true" IsArray="true"></Filter>
+        <Filter Name="DefectArea" ValueType="float" IsForce="false" ArrayMatch="true" IsArray="true"></Filter>
+        <Filter Name="CaliperStart" ValueType="int" IsForce="false" ArrayMatch="true" IsArray="true"></Filter>
+        <Filter Name="CaliperEnd" ValueType="int" IsForce="false" ArrayMatch="true" IsArray="true"></Filter>
+        <Filter Name="DefectType" ValueType="int" IsForce="false" ArrayMatch="true" IsArray="true"></Filter>
+        <Combination Name="ROI" Style="ROIBOX">
+          <Filters>
+            <Combination Name="DetectRectCenterPoint" Style="POINT">
+              <Filters>
+                <Filter Name="DetectCenterX" ValueType="float" IsForce="false"></Filter>
+                <Filter Name="DetectCenterY" ValueType="float" IsForce="false"></Filter>
+              </Filters>
+            </Combination>
+            <Filter Name="DetectWidth" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="DetectHeight" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="DetectAngle" ValueType="float" IsForce="false"></Filter>
+          </Filters>
+        </Combination>
+        <Combination Name="EdgePoints" Style="POINT" IsArray="true">
+          <Filters>
+            <Filter Name="EdgePointX" ValueType="float" IsForce="false" ArrayMatch="true"></Filter>
+            <Filter Name="EdgePointY" ValueType="float" IsForce="false" ArrayMatch="true"></Filter>
+          </Filters>
+        </Combination>
+        <Filter Name="EdgePointStatus" ValueType="int" IsForce="false" ArrayMatch="true" IsArray="true"></Filter>
+        <Filter Name="EdgePointNum" ValueType="int" IsForce="false"></Filter>
+        <Combination Name="Caliper Point" Style="POINT" IsArray="true">
+          <Filters>
+            <Filter Name="CalipIdeaPointX" ValueType="float" IsForce="false" ArrayMatch="true"></Filter>
+            <Filter Name="CalipIdeaPointY" ValueType="float" IsForce="false" ArrayMatch="true"></Filter>
+          </Filters>
+        </Combination>
+        <Filter Name="CalipIdeaPointStatus" ValueType="int" IsForce="false" ArrayMatch="true" IsArray="true"></Filter>
+        <Filter Name="CalipIdeaPointNum" ValueType="int" IsForce="false"></Filter>
+        <Combination Name="StandardCircle" Style="CIRCLE" Visible="false">
+          <Filters>
+            <Filter Name="StandardCircleRadius" ValueType="float" IsForce="false" AutoSubscribe="false"></Filter>
+            <Combination Name="StandardCirclePoint" Style="POINT">
+              <Filters>
+                <Filter Name="StandardCircleCenterX" ValueType="float" IsForce="false" AutoSubscribe="false"></Filter>
+                <Filter Name="StandardCircleCenterY" ValueType="float" IsForce="false" AutoSubscribe="false"></Filter>
+              </Filters>
+            </Combination>
+          </Filters>
+        </Combination>
+        <Combination Name="StandardAnnulus" Style="ROIANNULUS">
+          <Filters>
+            <Combination Name="StandardAnnulusCenterPoint" Style="POINT">
+              <Filters>
+                <Filter Name="StandardAnnulusCenterX" ValueType="float" IsForce="false"></Filter>
+                <Filter Name="StandardAnnulusCenterY" ValueType="float" IsForce="false"></Filter>
+              </Filters>
+            </Combination>
+            <Filter Name="StandardAnnulusInnerRadius" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="StandardAnnulusOuterRadius" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="StandardAnnulusStartAngle" ValueType="float" IsForce="false"></Filter>
+            <Filter Name="StandardAnnulusAngleExtend" ValueType="float" IsForce="false"></Filter>
+          </Filters>
+        </Combination>
+        <Combination Name="BlindPolygon" Style="ROIPOLYGON" IsArray="true">
+          <Filters>
+            <Filter Name="BlindPolygonPointNum" ValueType="int" IsForce="false" IsArray="true"></Filter>
+            <Combination Name="BlindPolygonPoints" Style="POINT" IsArray="true">
+              <Filters>
+                <Filter Name="BlindPolygonPointsX" ValueType="float" IsForce="false" IsArray="true"></Filter>
+                <Filter Name="BlindPolygonPointsY" ValueType="float" IsForce="false" IsArray="true"></Filter>
+              </Filters>
+            </Combination>
+          </Filters>
+        </Combination>
+        <Combination Name="Output Position Correction Info" Style="FIXTURE" Visible="false">
+          <Filters>
+            <Combination Name="Output Fixtured Point" Style="POINT" Visible="false">
+              <Filters>
+                <Filter Name="OutputFixtureInitPointX" ValueType="float" IsForce="false" Visible="false"></Filter>
+                <Filter Name="OutputFixtureInitPointY" ValueType="float" IsForce="false" Visible="false"></Filter>
+              </Filters>
+            </Combination>
+            <Filter Name="OutputFixtureInitAngle" ValueType="float" IsForce="false" Visible="false"></Filter>
+            <Filter Name="OutputFixtureInitScaleX" ValueType="float" IsForce="false" Visible="false"></Filter>
+            <Filter Name="OutputFixtureInitScaleY" ValueType="float" IsForce="false" Visible="false"></Filter>
+            <Combination Name="Output Unfixtured Point" Style="POINT" Visible="false">
+              <Filters>
+                <Filter Name="OutputFixtureRunPointX" ValueType="float" IsForce="false" Visible="false"></Filter>
+                <Filter Name="OutputFixtureRunPointY" ValueType="float" IsForce="false" Visible="false"></Filter>
+              </Filters>
+            </Combination>
+            <Filter Name="OutputFixtureRunAngle" ValueType="float" IsForce="false" Visible="false"></Filter>
+            <Filter Name="OutputFixtureRunScaleX" ValueType="float" IsForce="false" Visible="false"></Filter>
+            <Filter Name="OutputFixtureRunScaleY" ValueType="float" IsForce="false" Visible="false"></Filter>
+          </Filters>
+        </Combination>
+      </Items>
+    </Category>
+    <Category Name="TransmitInfo"></Category>
+  </Categorys>
+</ParamRoot>

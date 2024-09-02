@@ -1,0 +1,4886 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VMControls.WPF</name>
+    </assembly>
+    <members>
+        <member name="T:VMControls.WPF.Base.DefaultAdorner">
+            <summary>
+            默认装饰器，为了获取当前缩放系数
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.Astar.AStar.FindPath(VMControls.WPF.Base.Astar.APoint,VMControls.WPF.Base.Astar.APoint,VMControls.WPF.Base.Astar.APoint[0:,0:])">
+            <summary>
+            查找最优路径
+            </summary>
+            <param name="start"></param>
+            <param name="end"></param>
+        </member>
+        <member name="T:VMControls.WPF.Base.Connection">
+            <summary>
+            Connection.xaml 的交互逻辑
+            </summary>
+            <summary>
+            Connection
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.Connection.PathPoints">
+            <summary>
+            自定义连线
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.Connection.IsDragOver">
+            <summary>
+            是否拖拽
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.Connection.Connection_RequestBringIntoView(System.Object,System.Windows.RequestBringIntoViewEventArgs)">
+            <summary>
+            阻止元素获得焦点时，导致滚动条自动滚动
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.Base.Connection.GetCleanLinePoint(System.Collections.Generic.List{System.Windows.Point})">
+            <summary>
+            去掉拐点的连线
+            </summary>
+            <param name=""></param>
+        </member>
+        <member name="M:VMControls.WPF.Base.Connection.Shape_DragEnter(System.Object,System.Windows.DragEventArgs)">
+            <summary>
+            拖拽改色
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.Base.Connection.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.ConnectorInfo">
+            <summary>
+            连接端子信息,被用于路径计算,替代完整的连接器
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ConnectorInfo.DiagramItemLeft">
+            <summary>
+            Item的左边
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ConnectorInfo.DiagramItemTop">
+            <summary>
+            Item的上边
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ConnectorInfo.DiagramItemSize">
+            <summary>
+            Item的尺寸
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ConnectorInfo.Position">
+            <summary>
+            Item的位置
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ConnectorInfo.Orientation">
+            <summary>
+            Item的连接方位
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.HoverPot">
+            <summary>
+            HoverPot.xaml 的交互逻辑
+            </summary>
+            <summary>
+            HoverPot
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.HoverPot.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.HoverPotDelegate">
+            <summary>
+            HoverPotDelegate.xaml 的交互逻辑
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.PathFinder.RechargeLinePoints(System.Collections.Generic.List{System.Windows.Point},System.Collections.Generic.List{System.Windows.Rect})">
+            <summary>
+            减少不必要的拐点
+            </summary>
+            <param name="linePoints"></param>
+        </member>
+        <member name="F:VMControls.WPF.Base.PathFinder.dcint">
+            <summary>
+            钝化程度
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.PathFinder.IsNeedPointCharge(System.Int32,System.Collections.Generic.List{System.Windows.Point},System.Collections.Generic.List{System.Windows.Rect},System.Collections.Generic.List{System.Int32})">
+            <summary>
+            判断拐点是否需要翻转
+            </summary>
+            <param name="i"></param>
+            <param name="linePoints"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.PathFinder.GetVectAngle(System.Windows.Vector,System.Windows.Vector)">
+            <summary>
+            计算拐点方向
+            </summary>
+            <param name="p1"></param>
+            <param name="p1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.PathFinder.GetTurnPoints(System.Collections.Generic.List{System.Windows.Point})">
+            <summary>
+            获取所有拐弯
+            </summary>
+            <param name="linePoints"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.PathFinder.OptimizeLinePoints(System.Collections.Generic.List{System.Windows.Point},System.Collections.Generic.List{System.Windows.Rect},System.Collections.Generic.List{System.Windows.Rect},VMControls.WPF.Base.ConnectorOrientation,VMControls.WPF.Base.ConnectorOrientation)">
+            <summary>
+            优化点集(去除冗余点集)
+            </summary>
+            <param name="linePoints"></param>
+            <param name="rectangles"></param>
+            <param name="sourceOrientation"></param>
+            <param name="sinkOrientation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.PathFinder.OptimizeLinePoints(System.Collections.Generic.List{System.Windows.Point})">
+            <summary>
+            优化点集(去除冗余点集),只保留拐点
+            </summary>
+            <param name="linePoints"></param>
+            <param name="rectangles"></param>
+            <param name="sourceOrientation"></param>
+            <param name="sinkOrientation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.PathFinder.OptimizeLinePoints2(System.Collections.Generic.List{System.Windows.Point},System.Collections.Generic.List{System.Windows.Rect},VMControls.WPF.Base.ConnectorOrientation,VMControls.WPF.Base.ConnectorOrientation)">
+            <summary>
+            优化点集(去除冗余点集)
+            </summary>
+            <param name="linePoints"></param>
+            <param name="rectangles"></param>
+            <param name="sourceOrientation"></param>
+            <param name="sinkOrientation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.PathFinder.GetConnectionLine(VMControls.WPF.Base.DiagramItem,System.Windows.Point,System.Int32)">
+            <summary>
+            连线调用的方法
+            </summary>
+            <param name="source"></param>
+            <param name="sinkPoint"></param>
+            <param name="preferredOrientation"></param>
+            <returns></returns>
+        </member>
+        <member name="T:VMControls.WPF.Base.Connector">
+            <summary>
+            Connector.xaml 的交互逻辑
+            </summary>
+            <summary>
+            Connector
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.Base.Connector.pathGeometry">
+            <summary>
+            自定义形状路径
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.Connector.Orientation">
+            <summary>
+            连接方位
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.Base.Connector.drawingPen">
+            <summary>
+            绘笔
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.Connector.IsHited">
+            <summary>
+            被击中
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.Connector.SetNearestConnector(VMControls.WPF.Base.DiagramItem)">
+            <summary>
+            设置item最近的Connector为击中
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.Connector.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.DiagramArea">
+            <summary>
+            DiagramArea.xaml 的交互逻辑
+            </summary>
+            <summary>
+            DiagramArea
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramArea.SubSource">
+            <summary>
+            用来存流程数据，Procedure用来显示流程和group
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramArea.SearchModuleInfo">
+            <summary>
+            搜索完成后将目标模块的信息传递给ZoomArea控制滚动条
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramArea.ZoomIndex">
+            <summary>
+            缩放比例
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramArea.IsLockWorkArea">
+            <summary>
+            是否锁定工作区
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramArea.IsOpenParams">
+            <summary>
+            是否打开了参数列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramArea.UpdateCalibGuide">
+            <summary>
+            更新一键标定配置界面
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramArea.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.IndentConverter">
+            <summary>
+            TreeViewItem的缩进值计算
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.VMDataVisibleConverter">
+            <summary>
+            TreeViewItem只在数据是组合时显示
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.DiagramGroupListUI">
+            <summary>
+            DiagramGroupListUI.xaml 的交互逻辑
+            </summary>
+            <summary>
+            DiagramGroupListUI
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramGroupListUI.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.DiagramItem">
+            <summary>
+            DiagramItem.xaml 的交互逻辑
+            </summary>
+            <summary>
+            DiagramItem
+            </summary>
+        </member>
+        <member name="E:VMControls.WPF.Base.DiagramItem.OnConnect">
+            <summary>
+            设置连接
+            </summary>
+            <param name="sender"></param>
+            <returns></returns>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramItem.Position">
+            <summary>
+            模块位置信息
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramItem.DisplayType">
+            <summary>
+            显示类型
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramItem.IsModuleConfigCorrect">
+            <summary>
+            模块配置状态
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramItem.IsModuleForbidden">
+            <summary>
+            模块是否禁用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramItem.IsLockWorkArea">
+            <summary>
+            是否锁定工作区
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramItem.IsOpenParams">
+            <summary>
+            是否打开了参数列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramItem.RunState">
+            <summary>
+            模块运行状态
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.DiagramItem.IsHited">
+            <summary>
+            击中
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramItem.Connect(VMControls.WPF.Base.DiagramItem,System.Int32,System.Int32)">
+            <summary>
+            连接
+            </summary>
+            <param name="targetItem"></param>
+            <param name="hitIndex"></param>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramItem.GetAllConnectorPosition">
+            <summary>
+            获取所有连接点位置信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramItem.GetAllConnectors">
+            <summary>
+            获取当前所有连接点
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramItem.DrawHotRegion(System.Double,System.Double)">
+            <summary>
+            绘制热区
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramItem.DrawAlignLine(System.Double,System.Double)">
+            <summary>
+            绘制对齐线
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramItem.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.DiagramItemSubDisplayConverter">
+            <summary>
+            次显示类型转换
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.DiagramItemDisplayConverter">
+            <summary>
+            主显示类型转换
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.DiagramPage">
+            <summary>
+            DiagramPage.xaml 的交互逻辑
+            </summary>
+            <summary>
+            DiagramPage
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.Base.DiagramPage.DiagramPageWidth">
+            <summary>
+            幕布大小
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramPage.GetContainerForItemOverride">
+            <summary> Create or identify the element used to display the given item. </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramPage.GetPath(VMControls.WPF.Base.DiagramItem,VMControls.WPF.Base.DiagramItem,System.Int32,System.Int32)">
+            <summary>
+            获得连线
+            </summary>
+            <param name="sourceItem">源</param>
+            <param name="targetItem">目标</param>
+            <param name="sourceIndex">锚点位置</param>
+            <param name="targetIndex">锚点位置</param>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramPage.GetAllRect">
+            <summary>
+            获取页面所有的被占有矩形
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramPage.GetAllRect(System.Collections.Generic.List{System.Windows.Rect},VMControls.WPF.Base.ItemsPage)">
+            <summary>
+            获取页面所有的被占有矩形
+            </summary>
+            <param name="diagramPage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.DiagramPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.ExternAdorner.ABCdddd">
+            <summary>
+            测试用
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.ExternAdorner.ConnectorForMouseOver">
+            <summary>
+            给Item加上4个锚点
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.ExternAdorner.DrawDottedLineForMouseDrag">
+            <summary>
+            给模块绘制虚线
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.ExternAdorner.VirtualForGragDrop">
+            <summary>
+            模块拖拽
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.ExternServer.MouseDragExtensionServer">
+            <summary>
+            实现拖拽
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ItemsPage.IsLockWorkArea">
+            <summary>
+            是否锁定工作区
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ItemsPage.IsOpenParams">
+            <summary>
+            是否打开了参数列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ItemsPage.TransformAdorner">
+            <summary>
+            用于获取缩放系数的装饰器
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.ItemsPage.OnIsMouseCapturedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            不要删除,重写MouseCapturedChanged，防止长按鼠标左键导致选中模块改变
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.Base.ItemsPage.GetDropItems(System.Windows.Point,System.Collections.Generic.List{VMControls.WPF.Base.DiagramItem},VMControls.WPF.Base.DiagramItem)">
+            <summary>
+            获取需要放置模块的信息
+            </summary>
+            <param name="point"></param>
+            <param name="diagramItems"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.ItemsPage.OnDrop(System.Windows.DragEventArgs)">
+            <summary>
+            可拖动元素或选取的文本放置在目标区域时触发,创建Item并添加到界面
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.Base.ItemsPage.GetDrawPointByRoughPoint(System.Windows.Point)">
+            <summary>
+            根据初始点位得到归一化的点位
+            </summary>
+            <param name="ptPos">初始点位</param>
+            <returns>归一化后的点位(Item中心的位置)</returns>
+        </member>
+        <member name="P:VMControls.WPF.Base.ItemsPage.CurBoxOfItems">
+            <summary>
+            当前被框选的项
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.WindowLockModeTipsView">
+            <summary>
+            WindowLockModeTipsView.xaml 的交互逻辑
+            </summary>
+            <summary>
+            WindowLockModeTipsView
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.WindowLockModeTipsView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.RectDragPanal">
+            <summary>
+            RectDragPanal.xaml 的交互逻辑
+            </summary>
+            <summary>
+            RectDragPanal
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.RectDragPanal.menuAlgClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            对齐
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.Base.RectDragPanal.menuLayoutClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            分布
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.Base.RectDragPanal.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.RectDragPanalBase.Area">
+            <summary>
+            位置范围
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.ROISelecterHolder">
+            <summary>
+            用于承载ROISelecter数据的控件
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ROISelecterHolder.RoiChangedCommand">
+            <summary>
+            roi数据变更事件
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.ROISelecterHolder.ClearROI">
+            <summary>
+            清除所管理的ROI
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ServiceProvideControl.Services">
+            <summary>
+            Gets the ServiceContainer
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.StatusBar">
+            <summary>
+            StatusBar.xaml 的交互逻辑
+            </summary>
+            <summary>
+            StatusBar
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.StatusBar.IsProcedure">
+            <summary>
+            是否为流程
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.StatusBar.IsModule">
+            <summary>
+            是否为模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.StatusBar.CurDiagramAreaSource">
+            <summary>
+            当前工作区数据源（流程或Group）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.StatusBar.SelectedItemSource">
+            <summary>
+            选中模块源
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.StatusBar.SelectedItem">
+            <summary>
+            选中模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.StatusBar.ModuleTime">
+            <summary>
+            工具耗时
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.StatusBar.AlgorithmTime">
+            <summary>
+            算法耗时
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.StatusBar.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ToolItemGrid.ModuleDir">
+            <summary>
+            模块路径
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ToolItemGrid.ModuleTypeName">
+            <summary>
+            模块类型名
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.ToolItemGrid.GetToolItemBackgroudData">
+            <summary>
+            获取该item对应的数据层数据
+            </summary>
+            <param name="sender"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.Base.ToolItemGrid.DrawHotRegion(System.Double,System.Double,System.Windows.IDataObject)">
+            <summary>
+            绘制热区
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.ToolItemGrid.DrawAlignLine(System.Double,System.Double)">
+            <summary>
+            绘制对齐线
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Base.ZoomArea">
+            <summary>
+            ZoomArea.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ZoomArea
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ZoomArea.DiagramZoomIndex">
+            <summary>
+            缩放比例
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ZoomArea.SearchModuleInfo">
+            <summary>
+            搜索完成后将目标模块的信息传递给ZoomArea控制滚动条
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ZoomArea.IsEyeSpread">
+            <summary>
+            是否展开鹰眼
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Base.ZoomArea.Child">
+            <summary>
+            缩放对象
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.Base.ZoomArea.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.DisplayImageListDecorator.ParentUI">
+            <summary>
+            暂用属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.DisplayImageListDecorator.ImageViewList">
+            <summary>
+            图像视图列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.DisplayImageListDecorator.SelectedImage">
+            <summary>
+            当前选中图像
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.DisplayImageListDecorator.RefreshImageList">
+            <summary>
+            刷新图像下拉列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.DisplayImageListDecorator.RecoveryCheckedImages">
+            <summary>
+            恢复图像选项
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.DisplayImageListDecorator.RecordCheckedImages">
+            <summary>
+            记录图像选项
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.DisplayImageListDecorator.SelectedInputImage">
+            <summary>
+            当前选中图像
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.DisplayImageListDecorator.selectImageCommand">
+            <summary>
+            选中或去选图像处理
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.DisplayImageListDecorator.clickImageCommand">
+            <summary>
+            点击图像标识按钮，更换背景图
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.DataForUI.ImageViewItem">
+            <summary>
+            图像视图数据类
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ImageViewItem.DisplayName">
+            <summary>
+            显示名称
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ImageViewItem.DisplayValue">
+            <summary>
+            显示值
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ImageViewItem.DisplayObject">
+            <summary>
+            显示值
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ImageViewItem.IsCheck">
+            <summary>
+            是否选中
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ImageViewItem.IsEnable">
+            <summary>
+            是否使能
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ImageViewItem.IsBackgroundImage">
+            <summary>
+            是否背景图
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ImageViewItem.IsCallBackEnable">
+            <summary>
+            是否订阅回调
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.DataForUI.TransparencyData">
+            <summary>
+            透明度数据
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.TransparencyData.key">
+            <summary>
+            透明度所在图层key
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.TransparencyData.ImageTransparency">
+            <summary>
+            图像透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.TransparencyData.ZIndex">
+            <summary>
+            Z平面出现的顺序
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.TransparencyData.IsUsed">
+            <summary>
+            是否已被使用
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.DataForUI.RenderDataCenter">
+            <summary>
+            渲染缓存数据处理中心
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.RenderDataCenter.SelectedImage">
+            <summary>
+            背景图（渲染必需）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.RenderDataCenter.SelectedInputImage">
+            <summary>
+            输入背景图（不必需）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.RenderDataCenter.CheckImagesName">
+            <summary>
+            叠加图层（不必需）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.RenderDataCenter.BufferExecuteCount">
+            <summary>
+            缓存数据正在存的数据执行次数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.RenderDataCenter.SpareExecuteCount">
+            <summary>
+            备用数据正在存的数据执行次数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.RenderDataCenter.FixedExcuteCount">
+            <summary>
+            正在交换的执行次数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.RenderDataCenter.IsBusy">
+            <summary>
+            是否正在交换数据
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.RenderDataCenter.SetDataToStore(System.Object,System.EventArgs)">
+            <summary>
+            将数据存入正确的缓存区
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.RenderDataCenter.TryGetImage(System.String,Apps.Data.ImageData@)">
+            <summary>
+            获取指定键值对应图像
+            </summary>
+            <param name="key"></param>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.RenderDataCenter.GetShapeStore">
+            <summary>
+            获取待渲染图形仓库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.RenderDataCenter.BeforeExchange(System.UInt32)">
+            <summary>
+            交换数据前给标志位置位，需要在回调线程中同步调用
+            </summary>
+            <param name="executeCount"></param>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.RenderDataCenter.Exchange(System.UInt32,System.UInt32)">
+            <summary>
+            交换缓存区
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.RenderDataCenter.ClearDisplayStore">
+            <summary>
+            清空渲染仓库
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.RenderDataCenter.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.RenderDataCenter.DeInit">
+            <summary>
+            反初始化
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmGroupDecorator.DisplayType">
+            <summary>
+            模块显示方式
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.VmModuleSetDecorator._WorkStateInfo">
+            <summary>
+            状态栏信息
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmModuleSetDecorator.ImportProcessCommand">
+            <summary>
+            导入流程命令,对应VmSolutionDecorator中的命令，默认为空
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.Clipboard.copyInfos">
+            <summary>
+            剪贴板
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayType.NONE">
+            <summary>
+            不显示的全局模块
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayType.NORMAL">
+            <summary>
+            普通模块
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayType.IMAGE">
+            <summary>
+            图像源模块
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayType.PROCESS">
+            <summary>
+            流程模块
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayType.GROUP">
+            <summary>
+            组模块
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.DataForUI.StatusBarSymbol">
+            <summary>
+            状态栏状态
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.DecoratorBase.IsRemoteMode">
+            <summary>
+            是否远端模式
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.DecoratorBase.DecorateSource">
+            <summary>
+            源数据
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.DecoratorBase.CheckRunning(VMControls.Interface.IVMRun)">
+            <summary>
+            检查是否正在运行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.DecoratorBase.ImportGroup(VMControls.Interface.IVmModuleSet,System.Windows.Point,System.Boolean)">
+            <summary>
+            导入Group
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.DataForUI.ModuleDisplayDecorator">
+            <summary>
+            1.刷新图像下拉列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.ModuleParams">
+            <summary>
+            模块参数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.IsProcedure">
+            <summary>
+            是否为流程模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.AlgorithmItems">
+            <summary>
+            模块配置参数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.RenderDataCenter">
+            <summary>
+            渲染数据处理中心
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.ImageViewList">
+            <summary>
+            图像视图列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.SelectedInputImage">
+            <summary>
+            当前选中图像
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.SelectedImage">
+            <summary>
+            当前选中图像
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.ImageAlgorithmTabRoot">
+            <summary>
+            当前选中图像所属模块的参数列表
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayDecorator.isShowLocalImageList">
+            <summary>
+            是否显示本地图列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.IsShowImageName">
+            <summary>
+            是否显示图像名称
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.IsCanDrawROI">
+            <summary>
+            是否可以绘制ROI
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.ImageInputs">
+            <summary>
+            模块输入图片的订阅集合
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.ParentUI">
+            <summary>
+            暂用属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.HelperContent">
+            <summary>
+            帮助内容
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.ModuleDisplayInfoList">
+            <summary>
+            历史结果
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.ModuleDisplayDecorator.AddRecord(System.Object)">
+            <summary>
+            添加历史记录并返回本次执行是否失败
+            </summary>
+            <param name="result"></param>
+            <returns>本次执行是否失败</returns>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.ModuleDisplayDecorator.RefreshRecordResult">
+            <summary>
+            更新历史结果
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayDecorator.curRelatedDisplayList">
+            <summary>
+            渲染控件当前关联的Object列表，用于撤销重做生成新的Object列表后解除与原Object的关联时调用
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.ModuleDisplayDecorator.OnParamRootReloadEnd(System.Object,System.EventArgs)">
+            <summary>
+            撤销重做后，需要重新关联Object
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.ModuleDisplayDecorator.RefreshShapeList">
+            <summary>
+            初始化图形列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.ModuleDisplayDecorator.UnRefreshShapeList(System.Collections.Generic.IList{System.Object})">
+            <summary>
+            释放图形列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.ModuleDisplayDecorator.RefreshImageList">
+            <summary>
+            刷新图像下拉列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.ModuleDisplayDecorator.GetDeepChildren(VMControls.Interface.IVmModuleSet)">
+            <summary>
+            获取所有子模块(排除组合模块)
+            </summary>
+            <param name="vmModuleSet"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.ModuleDisplayDecorator.RecoveryCheckedImages">
+            <summary>
+            恢复图像选项
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.ModuleDisplayDecorator.RecordCheckedImages">
+            <summary>
+            记录图像选项
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.ResultData">
+            <summary>
+            模块结果树
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.ErrorInfo">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.ModuleDisplayDecorator.SelectedItemPath">
+            <summary>
+            选中项路径
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayDecorator.selectedCommand">
+            <summary>
+            选中命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayDecorator.copyPathCommand">
+            <summary>
+            复制路径命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayDecorator.relatedGlobalVarCommand">
+            <summary>
+            绑定全局变量命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayDecorator.unRelatedGlobalVarCommand">
+            <summary>
+            解绑全局变量命令
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.ModuleDisplayDecorator.RefreshGlobalBindingRelation">
+            <summary>
+            刷新模块输出与全局变量的绑定关系
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayDecorator.selectImageCommand">
+            <summary>
+            选中或去选图像处理
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.ModuleDisplayDecorator.clickImageCommand">
+            <summary>
+            点击图像标识按钮，更换背景图
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmConnectionDecorator.ConnectionSource">
+            <summary>
+            连线的源模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmConnectionDecorator.SourceVMModule">
+            <summary>
+            连线后序模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmConnectionDecorator.VMModule">
+            <summary>
+            连线前序模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmConnectionDecorator.PathPoints">
+            <summary>
+            用来记录自定义连线
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmConnectionDecorator.SourceIndex">
+            <summary>
+            用来记录连线锚点位置
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmConnectionDecorator.TargetIndex">
+            <summary>
+            用来记录连线锚点位置
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.VmConnectionDecorator.DeleteConnection(VMControls.Interface.IVmModule,VMControls.Interface.IVmModule)">
+            <summary>
+            断开连接
+            </summary>
+            <param name="source"></param>
+            <param name="target"></param>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.VmConnectionDecorator.InsertModule(VMControls.Interface.IVmModule)">
+            <summary>
+            插入模块
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.VmModuleBaseDecorator.displayTypeDic">
+            <summary>
+            模块类型、模块显示类型对
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmModuleBaseDecorator.DisLinkTo">
+            <summary>
+            后续模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmModuleBaseDecorator.DecorateChildren">
+            <summary>
+            子项
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmModuleBaseDecorator.DisplayType">
+            <summary>
+            模块显示方式
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmModuleBaseDecorator.Position">
+            <summary>
+            用来记录模块的位置
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmModuleBaseDecorator.IsForbidden">
+            <summary>
+            模块是否禁用
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.VmModuleBaseDecorator.CheckAndClearDisplayObjectFromParent(VMControls.Interface.IVmModule)">
+            <summary>
+            清理上层和本模块相关的显示
+            </summary>
+            <param name="module"></param>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.VmModuleBaseDecorator.AddConnection(VMControls.Interface.IVmModule,VMControls.Interface.IVmModule,System.Boolean)">
+            <summary>
+            增加连接
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.VmModuleBaseDecorator.CheckPathByModule(VMControls.Interface.IVmModule,VMControls.Interface.IVmModule)">
+            <summary>
+            判断是否存在StartItem到EndItem的路径
+            </summary>
+            <param name="hotItem"></param>
+            <param name="item"></param>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.UnRedo_NameData.ModuleFullName">
+            <summary>
+            模块对象名称
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.UnRedo_NameData.OldName">
+            <summary>
+            旧名称
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.DataForUI.UnRedo_NameData.NewName">
+            <summary>
+            新名称
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmModuleDecorator.ModuleDir">
+            <summary>
+            模块路径
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmModuleDecorator.ModuleTypeName">
+            <summary>
+            模块类型名
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmModuleDecorator.NormalImagePath">
+            <summary>
+            模块左侧显示图片路径
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmModuleDecorator.StateImagePath">
+            <summary>
+            模块左侧显示图片路径
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.VmModuleDecorator.CanOpenConfigurationInterface">
+            <summary>
+            能否打开参数配置界面
+            [权限]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.VmModuleDecorator.IsUnsupportCopyParams">
+            <summary>
+            判断模块是否支持复制参数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmProcedureDecorator.DisplayModuleSet">
+            <summary>
+            当前显示的数据
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmProcedureDecorator.IsSelected">
+            <summary>
+            是否选中
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmProcedureDecorator.SelectedModule">
+            <summary>
+            当前选中模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmProcedureDecorator.IsShowAtSingleProcedureMode">
+            <summary>
+            是否在单流程模式下显示
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmProcedureDecorator.IsEnabled">
+            <summary>
+            是否受全局按钮控制
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.DataForUI.VmProcedureDecorator.DisplayType">
+            <summary>
+            模块显示方式
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.VmProcedureDecorator.RunCheck">
+            <summary>
+            是否可执行检查
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.DataForUI.VmSolutionDecorator.SetDefaultPosition(VMControls.Interface.IVmProcedure,System.Collections.Generic.List{VMControls.WPF.DataForUI.VmModuleBaseDecorator})">
+            <summary>
+            设置默认位置,模块多了会卡，因为要从底层获取位置信息
+            </summary>
+            <param name="curProcedure"></param>
+            <param name="decorates"></param>
+        </member>
+        <member name="F:VMControls.WPF.CrossData.centerCommand">
+            <summary>
+            居中命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.CrossData.hideCommand">
+            <summary>
+            隐藏命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.CrossData.lockCommand">
+            <summary>
+            锁定命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.CrossData.unLockCommand">
+            <summary>
+            解锁命令
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ImageListPanel">
+            <summary>
+            ImageListPanel.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ImageListPanel
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ImageListPanel.TargetValue">
+            <summary>
+            列表当前图像依赖属性
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.TargetValueChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            刷新当前图像操作
+            </summary>
+            <param name="d"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.GetModuleSel(System.String)">
+            <summary>
+            根据底层当前图像刷新图像列表Selitem
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ImageListPanel.ImageList">
+            <summary>
+            图片列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ImageListPanel.Islocal">
+            <summary>
+            是否本地
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.ImageListPanel.CurImageIndex">
+            <summary>
+             当前LIST选中项
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ImageListPanel.CurImageIndexT">
+            <summary>
+            当前图像序号
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.BtnDelete_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            图像删除按钮响应
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.SetAutoRunEnable(System.Boolean)">
+            <summary>
+            设置自动切换
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.GetAutoRunEnable">
+            <summary>
+            获取自动切换状态
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.Grid_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            控制图像列表中图像名grid 鼠标移入时的显示
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.Grid_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            控制图像列表中图像名grid 鼠标移出时的隐藏
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:VMControls.WPF.ImageListPanel.OwnerModule">
+            <summary>
+            所属模块
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.GetVMModule">
+            <summary>
+            获取模块信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.BtnImageClear_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            图像清空按钮响应
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.BtnImageAdd_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            添加图片按钮响应
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.GetImageEntitybyPath(System.String)">
+            <summary>
+            根据图像名称获取列表中的图像实例
+            </summary>
+            <param name="ImagePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.AddImageByDir(System.String,System.Int32)">
+            <summary>
+            添加路径中的所有图像
+            </summary>
+            <param name="dir">文件夹路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.AddImageToList(System.String)">
+            <summary>
+            添加图像至图像列表
+            </summary>
+            <param name="strResult">图像文件路径</param>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.BtnImageAddFolder_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            添加文件夹按钮响应
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.GetFiles(System.String)">
+            <summary>
+            获取当前文件夹下所有文件（夹）集合字符串信息
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.DoEvents">
+            <summary>
+            耗时操作同时处理界面事件
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.IsChildVisibleInParent(System.Windows.FrameworkElement,System.Windows.FrameworkElement)">
+            <summary>
+            判断子控件是否在父控件中可见
+            </summary>
+            <param name="child">子控件</param>
+            <param name="parent">父控件</param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.InterfaceUpdateImageList(System.Object,System.EventArgs)">
+            <summary>
+            界面刷新图像源列表
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.UpdateImageListSource">
+            <summary>
+            更新当前图像列表的缩略图
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.lst_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            图像列表选项改变响应
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="P:VMControls.WPF.ImageListPanel.IsReturnFirstForce">
+            <summary>
+            是否准备强制回到首张
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.ChangedExecutePic(VMControls.WPF.ImageEntity)">
+            <summary>
+            重新下发待执行图像列表
+            </summary>
+            <param name="image"></param>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.GetModuleSelectMode">
+            <summary>
+            获取当前是否选中模式，若是则获取选中项
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ImageListPanel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ImageView">
+            <summary>
+            ImageView.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ImageView
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ImageView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.LocalImageListView">
+            <summary>
+            LocalImageListView.xaml 的交互逻辑
+            </summary>
+            <summary>
+            LocalImageListView
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.LocalImageListView.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.LocalImageListView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ImageEntity">
+            <summary>
+            缩略图实体类
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ImageEntity.ImageSource">
+            <summary>
+            图片
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ImageEntity.ImageIndex">
+            <summary>
+            索引
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ImageEntity.ImagePath">
+            <summary>
+            图片路径
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ModuleSetShapesConfig">
+            <summary>
+            ModuleSetShapesConfig.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ModuleSetShapesConfig
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleSetShapesConfig.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.NurseScheduleStatisticsModel.GetPropertyValue(System.String)">
+            <summary>
+            获取属性值
+            </summary>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.NurseScheduleStatisticsModel.SetPropertyValue(System.String,System.Object)">
+            <summary>
+            设置属性值
+            </summary>
+            <param name="propertyName"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:VMControls.WPF.NurseScheduleStatisticsModel.TrySetMember(System.Dynamic.SetMemberBinder,System.Object)">
+            <summary>
+            设置值
+            </summary>
+            <param name="binder"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.NurseScheduleStatisticsModel.TryGetMember(System.Dynamic.GetMemberBinder,System.Object@)">
+            <summary>
+            获取值
+            </summary>
+            <param name="binder"></param>
+            <param name="result"></param>
+            <returns></returns>
+        </member>
+        <member name="T:VMControls.WPF.CrossConfig">
+            <summary>
+            CrossConfig.xaml 的交互逻辑
+            </summary>
+            <summary>
+            CrossConfig
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.CrossConfig.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.RenderThreadPool">
+            <summary>
+            渲染专用线程池
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderThreadPool.Create">
+            <summary>
+            创建线程池
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderThreadPool.AsyncRun``1(System.Action{``0},``0,VM.Utility.WorkItemPriority)">
+            <summary>
+            异步执行
+            </summary>
+            <param name="action"></param>
+            <param name="param"></param>
+            <param name="workPriority"></param>
+        </member>
+        <member name="M:VMControls.WPF.RenderThreadPool.ShutDown">
+            <summary>
+            销毁线程池
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.SearchModuleView">
+            <summary>
+            SearchModuleDialog.xaml 的交互逻辑
+            </summary>
+            <summary>
+            SearchModuleView
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.SearchModuleView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.TimeDialog.ShowTimeDialog">
+            <summary>
+            UserControl1.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ShowTimeDialog
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.TimeDialog.ShowTimeDialog.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.CalibGuide.CalibHelper">
+            <summary>
+            一键标定帮助类
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.CalibGuide.CalibrationGuideData">
+            <summary>
+            一键标定引导界面数据类
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.Step0Enable">
+            <summary>
+            按钮0是否可用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.Step1Enable">
+            <summary>
+            按钮1是否可用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.Step2Enable">
+            <summary>
+            按钮2是否可用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.Step3Enable">
+            <summary>
+            按钮3是否可用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.CalibrationType">
+            <summary>
+            标定类型，0-静态标定，1-动态标定，2-映射标定
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.CurCommunicationDeviceIndex">
+            <summary>
+            当前通信设备ID
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.StartSignalInput">
+            <summary>
+            开始信号，动态标定使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.CalibrationSignalInput">
+            <summary>
+            标定信号，动态标定使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.EndSignalInput">
+            <summary>
+            结束信号，动态标定使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.TeachSignalInput">
+            <summary>
+            示教信号，动态标定使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.RefelctStartSignal">
+            <summary>
+            映射开始信号，映射标定使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.CameraOneTriggerSignal">
+            <summary>
+            相机1触发信号，映射标定使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.CameraTwoTriggerSignal">
+            <summary>
+            相机2触发信号，映射标定使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.ReflectTriggerSignal">
+            <summary>
+            映射信号，映射标定使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.ReflectTeachSignal">
+            <summary>
+            映射示教信号，映射标定使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.TriggerSignal">
+            <summary>
+            触发信号，静态标定使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.CalibrationWay">
+            <summary>
+            标定方式，0-标定板，1-特征点，2-映射
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.CalibrationModules">
+            <summary>
+            标定模块集合，动态标定特征点方式使用
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.Signals">
+            <summary>
+            结果信号集合
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.UseEnd">
+            <summary>
+            是否使用结束符
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.EndIndex">
+            <summary>
+            结束符序号0-\r,1-\n,2-\r\n
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.GuideStep">
+            <summary>
+            当前引导步骤
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CalibGuide.CalibrationGuideData.NeedGetAllModulesCallBack">
+            <summary>
+            是否需要开启所有模块结果回调
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.CameraAcq.RealTimeAcqControl">
+            <summary>
+            CameraPreviewControl.xaml 的交互逻辑
+            </summary>
+            <summary>
+            RealTimeAcqControl
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CameraAcq.RealTimeAcqControl.ModuleSource">
+            <summary>
+            数据源模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CameraAcq.RealTimeAcqControl.IsShowButton">
+            <summary>
+            按钮是否可见
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.CameraAcq.RealTimeAcqControl.BindRealTimeAcqById(System.UInt32)">
+            <summary>
+            根据实时取流控件绑定ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.CameraAcq.RealTimeAcqControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.AddDeviceType">
+            <summary>
+            AddDeviceType.xaml 的交互逻辑
+            </summary>
+            <summary>
+            AddDeviceType
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.AddDeviceType.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.CameraDeviceTypeHelper.GetVMInstallPath">
+            <summary>
+            获取VM安装路径
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.CameraDeviceTypeHelper.GetRegisterValueByName(System.String,System.String)">
+            <summary>
+            获取注册表中key对应的值
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.GlobalCameraDlg">
+            <summary>
+            GlobalCameraDialog.xaml 的交互逻辑
+            </summary>
+            <summary>
+            GlobalCameraDlg
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCameraDlg.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCameraManager.OnPropertyChanged(System.String)">
+            <summary>
+            通知属性变化
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalCameraManager.ItemsA">
+            <summary>
+            全局设备列表(每个item对应一个module)
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCameraManager.CloseCamera">
+            <summary>
+            清空界面相机设备
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalCameraManager.reNameDevCommand">
+            <summary>
+            重命名设备
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalCameraManager.addDevCommand">
+            <summary>
+            添加设备
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCameraManager.SetDefaultPosition(VMControls.Interface.IVmModule,System.Collections.Generic.List{VMControls.WPF.DataForUI.VmModuleBaseDecorator})">
+            <summary>
+            设置默认位置
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.GlobalCommunication">
+            <summary>
+            GlobalCommunication.xaml 的交互逻辑
+            </summary>
+            <summary>
+            GlobalCommunication
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCommunication.UpdateLanguage(System.String)">
+            <summary>
+            更新网关的多语言
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCommunication.SetTechOperate(System.Boolean)">
+            <summary>
+            设置技术员的权限
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCommunication.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalCommunicationMgr._lock">
+            <summary>
+            对象锁
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalCommunicationMgr.ModuleID">
+            <summary>
+            模块ID
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCommunicationMgr.GetData">
+            <summary>
+            获取底层模块的数据
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCommunicationMgr.CloseComm">
+            <summary>
+            关闭通信网关，关闭方案，清空设备，网关sdk反初始化
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCommunicationMgr.ClearAll">
+            <summary>
+            清空界面设备,仅限于清楚界面的数据
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalCommunicationMgr.ResetParamStateFlag">
+            <summary>
+            复位参数修改状态标志
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalTriggerConfig.MaxTriEventItemCount">
+            <summary>
+            事件类型最大个数
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalTriggerConfig.MaxTriStrItemCount">
+            <summary>
+            字符类型最大个数
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalTriggerConfig.GetAllReceiveList">
+            <summary>
+            获取所有接收事件列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalTriggerConfig.GetParamUnit">
+            <summary>
+            获取所有参数
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.ComTriggerItem.ClearConfig">
+            <summary>
+            command切换时，清空现有的配置
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.ComTriggerItem.ProTriggerString">
+            <summary>
+            流程触发字符串
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.ComTriggerItem.SolutionPath">
+            <summary>
+            方案路径
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.ComTriggerItem.SolutionPasswd">
+            <summary>
+            方案密码
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.ComTriggerItem.TriggerActionsA">
+            <summary>
+            触发模块执行动作
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.ComTriggerItem.ParamName">
+            <summary>
+            触发动作字符串
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalTriggerEventItem.ReceiveEventList">
+            <summary>
+            事件列表
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.GloablTriggleConfigUI">
+            <summary>
+            全局触发模块
+            GloablTiggleConfigeUI.xaml 的交互逻辑
+            </summary>
+            <summary>
+            GloablTriggleConfigUI
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GloablTriggleConfigUI.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.GlobalTriggerParamSet">
+            <summary>
+            GlobalTriggerParamSet.xaml 的交互逻辑
+            </summary>
+            <summary>
+            GlobalTriggerParamSet
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalTriggerParamSet.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.RelationSelector">
+            <summary>
+            参数订阅项
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.RelationSelector.CurValueA">
+            <summary>
+            显示名
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.RelationSelector.IsDropDownOpen">
+            <summary>
+            下拉展开
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.RelationSelector.CurrParamObject">
+            <summary>
+            当前参数对象
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.RelationSelector.ReadOnly">
+            <summary>
+            是否只读
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.RelationSelector.EnumEntrysA">
+            <summary>
+            下来订阅数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.RelationSelector.DropDownCommand">
+            <summary>
+            下拉点击命令
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.RelationSelector.ClickCommand">
+            <summary>
+            双击选中命令
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.GlobalVariableDialog">
+            <summary>
+            GlobalVariableDialog.xaml 的交互逻辑
+            </summary>
+            <summary>
+            GlobalVariableDialog
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.MAX_VAR_COUNT">
+            <summary>
+            全局变量最大数目
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.COLLAPSED">
+            <summary>
+            隐藏
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.VISIBLE">
+            <summary>
+            显示
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.changeByget">
+            <summary>
+            标识是否正在获取底层数据 
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.isChangeItem">
+            <summary>
+            是否正在调整全局变量位置
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog._lock">
+            <summary>
+            对象锁
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog._prefix">
+            <summary>
+            变量名前缀
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog._disposing">
+            <summary>
+            判断是否释放
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog._variableIndex">
+            <summary>
+            变量索引号
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.NodeId">
+            <summary>
+            跟模块通信ID
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.totalPageNum">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.DecorateSource">
+            <summary>
+            全局变量模块数据对象
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.BindItemsProperty">
+            <summary>
+            用于显示的数据源-- add by zhourwien 2020-3-13
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.BindItems">
+            <summary>
+            当前页数据源集合
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.ItemsTotalCount">
+            <summary>
+            变量总数
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.ItemsTotalCountProperty">
+            <summary>
+            总的数据 -- add by zhourwien 2020-3-13
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.CurrentPageNum">
+            <summary>
+            当前选择的页码 -- add by zhourwien 2020-3-13
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.EmptyStatus">
+            <summary>
+            全局变量内容是否显示 标志位   Collapsed
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.PageNumShowStatus">
+            <summary>
+            页码区域是否显示标志位 -- add by zhourwien 2020-3-13
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.IsShowProcessbar">
+            <summary>
+            是否显示蒙版
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.ProcessbarMessage">
+            <summary>
+            蒙版显示信息
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.bFirstGetData">
+            <summary>
+            首次获取全局变量的标志位 -- add by zhourwien 2020-3-13
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.IsSearchState">
+            <summary>
+            标志是否查询状态 查询状态下不进行页码的显示
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.iSearchCount">
+            <summary>
+            查询出来的总数据源的索引值
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.PageCount">
+            <summary>
+            每页显示数
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.ItemsProperty">
+            <summary>
+            总数据源依赖属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.Items">
+            <summary>
+            总数据源
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.IsAllowOperat">
+            <summary>
+            是否允许操作，和权限相关
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableDialog.SolutionData">
+            <summary>
+            方案信息
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.GetDefaultName(System.Text.StringBuilder)">
+            <summary>
+            获取默认名称
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.ValueChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            参数值变化事件
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.OnCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            集合变化事件
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.UpdatePageData(VMControls.WPF.GlobalUI.GlobalVariableDialog.PageShowType)">
+            <summary>
+            更新页码数据 add by zhouriwen 2020-03-13
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.SeearchItem(System.String)">
+            <summary>
+            查询全局变量 add by zhouriwen 2020-03-13
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.SetBindData">
+            <summary>
+            重新设置界面绑定显示的数据
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.GlobalVariableDialog.PageShowType">
+            <summary>
+            页码更新显示类型
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.PageShowType.ShowFirstPage">
+            <summary>
+            第一次显示
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.PageShowType.NoChange">
+            <summary>
+            不发生改变
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableDialog.PageShowType.ImmediateChange">
+            <summary>
+            立即更新页码
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.GetDataAsync">
+            <summary>
+            定时器任务
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            关闭按钮
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.SetData">
+            <summary>
+            数据下发设置
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.GetData">
+            <summary>
+            初始化对象
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.InitDynamicIO">
+            <summary>
+            初始化一次输出IO
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.SetDataR">
+            <summary>
+            全局变量结构数据下发
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.ChangeToSendReceiveData(System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            通知接收发送数据模块
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.SetHeadIndex(System.Int32)">
+            <summary>
+            置顶操作，交换操作，需要通知动态io重新下发至底层，否则保存后加载会有问题
+            这里需要通知到发送数据和接收数据 模块进行更改
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.SwapIndex(System.Int32,System.Int32)">
+            <summary>
+            交换全局变量的位置
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.updateIndex(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            根据交换的index，获取更新后的index
+            </summary>
+            <param name="index">待更新index</param>
+            <param name="sourceIndex">源index</param>
+            <param name="destIndex">目标index</param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.BtnUp_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            上移
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.BtnDown_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            下移
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.BtnTop_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            置顶
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableDialog.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableItem._name">
+            <summary>
+            变量名
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableItem._value">
+            <summary>
+            变量值
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableItem._type">
+            <summary>
+            变量类型
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableItem._comminit">
+            <summary>
+            通讯初始化
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableItem._commstr">
+            <summary>
+            通信字符串
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableItem._Index">
+            <summary>
+            索引值 
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableItem._bindString">
+            <summary>
+            绑定模块结果
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVariableItem.strOldName">
+            <summary>
+            保存旧名称
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableItem.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableItem.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableItem.Value">
+            <summary>
+            初始值
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableItem.CommStr">
+            <summary>
+            通讯字符串
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableItem.CommInit">
+            <summary>
+            通讯初始化
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableItem.Index">
+            <summary>
+            索引值 add by zhouriwen 2020-03-13
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableItem.BindString">
+            <summary>
+            绑定模块结果 add by zhouriwen 2020-03-13
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableItem.IsBindMoudleResult">
+            <summary>
+            是否该全局变量绑定到了模块结果
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.GlobalVariableItem.IsBindTarget">
+            <summary>
+            用于指示是否显示删除按钮
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableItem.GetRunParams(Apps.XmlParser.ParamTab.IMVS_GLOBALVALUE)">
+            <summary>
+            获取绑定的运行对象
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVariableItem.op_Implicit(VMControls.WPF.GlobalUI.GlobalVariableItem)~Apps.XmlParser.ParamTab.IMVS_GLOBALVALUE">
+            <summary>
+            转换为 IMVS_GLOBALVALUE
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVarExtern.ModuleVarDict">
+            <summary>
+            全局变量绑定模块结果的数据
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.GlobalVarExtern.AllModuleList">
+            <summary>
+            模块结果缓存，防止每次都要获取一遍
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVarExtern.StructToGlobalVarItem(Apps.XmlParser.ParamTab.IMVS_GLOBALVALUE)">
+            <summary>
+            结构体转实体类
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVarExtern.StringToByteCount(System.String)">
+            <summary>
+            字符串UTF8编码时的字节长度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVarExtern.GetBindGlobalVarIO(System.String,System.String)">
+            <summary>
+            获取绑定io的全名称
+            </summary>
+            <param name="varName"></param>
+            <param name="ioName"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVarExtern.UnBindGlobarVarItem(System.String,System.String,VMControls.Interface.IVmIO)">
+            <summary>
+            解除模块结果绑定
+            </summary>
+            <param name="varName">全局变量名称</param>
+            <param name="typeName">全局变量名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVarExtern.UnBindingGlobalVariable(System.String,System.String)">
+            <summary>
+            解除模块结果绑定
+            </summary>
+            <param name="varName">全局变量名称</param>
+            <param name="typeName">全局变量名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVarExtern.ChangeBindGlobalVarItem(System.String,System.String,System.String)">
+            <summary>
+            全局变量名称修改，通知模块结果绑定
+            </summary>
+            <param name="oldVarName">旧名称</param>
+            <param name="varName">新名称</param>
+            <param name="type">类型</param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVarExtern.GetBindGlobalVariableItem(System.String,System.String)">
+            <summary>
+            获取绑定模块结果的名称
+            </summary>
+            <param name="varName">全局变量名称</param>
+            <param name="type">全局变量名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVarExtern.GetGlobalBindingRelation">
+            <summary>
+            获取模块结果与全局变量的绑定关系
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.GlobalVarExtern.ClearCache">
+            <summary>
+            清除缓存
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.AddLightSourceDeviceDlg">
+            <summary>
+            AddLightSourceDeviceDlg.xaml 的交互逻辑
+            </summary>
+            <summary>
+            AddLightSourceDeviceDlg
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.AddLightSourceDeviceDlg.LeftTextWidth">
+            <summary>
+            参数名宽度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.AddLightSourceDeviceDlg.IsAdd">
+            <summary>
+            添加设备
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.AddLightSourceDeviceDlg.IsReName">
+            <summary>
+            重命名
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.AddLightSourceDeviceDlg.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.Device_IO">
+            <summary>
+            视觉控制器IO参数
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.LightSourceDevice.IsNeedSetParam">
+            <summary>
+            是否需要下发，防止初始化时下发数据
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.LightSourceDevice.isTriggerControllerSelectChange">
+            <summary>
+            列表刷新时不触发控制器改变命令
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.IsConnected">
+            <summary>
+            是否已连接
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.IsReConnect">
+            <summary>
+            是否自动重连
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.IsParamError">
+            <summary>
+            参数是否错误
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.Guid">
+            <summary>
+            唯一标识
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.NameA">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.Brand">
+            <summary>
+            品牌
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.CommTypeA">
+            <summary>
+            通信协议
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.IndexA">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.IsDeleteEnabled">
+            <summary>
+            是否可删除（用于权限管理）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.CommTypesA">
+            <summary>
+            通信协议列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.Device_IO">
+            <summary>
+            IO参数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.ChannelsA">
+            <summary>
+            通道列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.IsLocalMode">
+            <summary>
+            是否远端模式
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.TriggerProcedure">
+            <summary>
+            触发设置
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.TriggerProcedure_IO_Number">
+            <summary>
+            可以触发流程执行的IO数量
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDevice.LightType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceDevice.OnPropertyChanged(System.String)">
+            <summary>
+            通知属性变化
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceDevice.ConvertToIMVS_LIGHT_DEVICE">
+            <summary>
+            光源设备转换为结构体
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceDevice.GetIOParam(Apps.XmlParser.ParamTab.IO_PARAM)">
+            <summary>
+            解析从底层获取的IO参数
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceDevice.ConvertToST_LIGHT_CONFIG_ID">
+            <summary>
+            通道参数转换为结构体
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceDevice.ParamValueChanged(System.Object,System.EventArgs)">
+            <summary>
+            参数修改下发底层
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceDevice.GetChannelParam">
+            <summary>
+            从底层获取通道参数
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceDevice.SetChannelParam(Apps.XmlParser.ParamTab.ST_LIGHT_CONFIG_ID)">
+            <summary>
+            通道参数下发底层
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceDevice.SetChannelConfig">
+            <summary>
+            设置通道参数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceDevice.SetChannelShowStates">
+            <summary>
+            设置通道参数显示状态
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.LightSourceDevice.connectDevCommand">
+            <summary>
+            连接光源设备
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.LightSourceDevice.reNameDevCommand">
+            <summary>
+            重命名光源设备
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.LightSourceDevice.delDevCommand">
+            <summary>
+            删除光源设备
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.LightChannel">
+            <summary>
+            光源设备通道参数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.Parent">
+            <summary>
+            所属设备
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.IsShow">
+            <summary>
+            是否在界面显示
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.IsShowLightState">
+            <summary>
+            是否在界面显示光源状态
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.IsShowTriggerEdge">
+            <summary>
+            是否在界面显示沿定义
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.IsShowDurationTime">
+            <summary>
+            是否在界面显示持续时间
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.ChannelNumA">
+            <summary>
+            通道号
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.ChannelEnableA">
+            <summary>
+            是否使能
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.LightBrightnessA">
+            <summary>
+            亮度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.LightStateA">
+            <summary>
+            光源状态：0-触发后常亮,1-触发后常灭
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.TriggerEdgeA">
+            <summary>
+            沿定义：0-未知,1-上升沿触发,2-下降沿触发
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightChannel.DurationTimeA">
+            <summary>
+            持续时间
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightChannel.OnPropertyChanged(System.String)">
+            <summary>
+            通知属性变化
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightChannel.ParamChanged(System.Object,System.EventArgs)">
+            <summary>
+            通道参数改变时下发底层
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightChannel.InitParamValue(Apps.XmlParser.ParamTab.LIGHT_CHANNEL_PARAM)">
+            <summary>
+            将从底层获取的参数设置到界面数据源
+            </summary>
+            <param name="param"></param>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.TriggerProcessItem">
+            <summary>
+            触发流程类
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcessItem.ProcessList">
+            <summary>
+            流程列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcessItem.InputIOList">
+            <summary>
+            输入IO列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcessItem.TriggerSignalList">
+            <summary>
+            触发信号列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcessItem.Index">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcessItem.InputIONum">
+            <summary>
+            输入IO编号
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcessItem.TriggerSignal">
+            <summary>
+            触发信号
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcessItem.TriggerProcessID">
+            <summary>
+            触发流程ID
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcessItem.TriggerProcessData">
+            <summary>
+            触发流程数据
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcessItem.OnPropertyChanged(System.String)">
+            <summary>
+            属性变化
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcessItem.GetAllProcess">
+            <summary>
+            获取所有流程
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcessItem.UpdateInputIOList(System.Int32)">
+            <summary>
+            更新可选择IO端口列表
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.LightSourceDlg">
+            <summary>
+            LightSourceDlg.xaml 的交互逻辑
+            </summary>
+            <summary>
+            LightSourceDlg
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceDlg.LeftTextWidth">
+            <summary>
+            参数名宽度
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceDlg.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.LightSourceManager">
+            <summary>
+            设备管理类，设备列表增删以及数据获取下发
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.LightSourceManager._lock">
+            <summary>
+            对象锁
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceManager.ModuleID">
+            <summary>
+            模块ID
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceManager.CurLightDeviceA">
+            <summary>
+            当前选中的设备
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.LightSourceManager.IsAddEnabled">
+            <summary>
+            是否可增加（用于权限管理）
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.OnPropertyChanged(System.String)">
+            <summary>
+            通知属性变化
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.GetData(System.Boolean,System.Boolean)">
+            <summary>
+            获取底层模块的数据
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.ClearDevices">
+            <summary>
+            清空界面设备列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.AddDevice(Apps.XmlParser.ParamTab.IMVS_LIGHT_DEVICE,System.Int32)">
+            <summary>
+            添加底层返回设备
+            </summary>
+            <param name="item"></param>
+            <param name="index"></param>
+            <returns>是否需要刷新设备序号</returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.CheckDeviceList(Apps.XmlParser.ParamTab.IMVS_LIGHT_DEVICE_LIST)">
+            <summary>
+            校验底层返回设备列表是否与界面一致
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.SetData">
+            <summary>
+            设备列表下发底层
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.UpdateLightModule">
+            <summary>
+            更新流程内模块设备列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.ClearDeviceList">
+            <summary>
+            清空设备列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.CheckName(System.String)">
+            <summary>
+            名称检测
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.DeleteDevice(VMControls.WPF.GlobalUI.LightSourceDevice)">
+            <summary>
+            删除设备
+            </summary>
+            <param name="light"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.ReFreshIndex">
+            <summary>
+            刷新序列号
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.LightSourceManager.ReFreshComNum">
+            <summary>
+            刷新端口号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:VMControls.WPF.GlobalUI.LightSourceManager.addDevCommand">
+            <summary>
+            添加光源设备
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.TriggerProcedurePanel">
+            <summary>
+            TriggerProcedurePanel.xaml 的交互逻辑
+            </summary>
+            <summary>
+            TriggerProcedurePanel
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcedurePanel.ParentNode">
+            <summary>
+            父节点
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcedurePanel.Items">
+            <summary>
+            触发流程集合
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.GlobalUI.TriggerProcedurePanel.MaxTriggerCount">
+            <summary>
+            最大触发流程数
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcedurePanel.AddProcessItem_OnClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            添加触发流程
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcedurePanel.Delete_OnHandler(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            删除触发流程
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcedurePanel.ValueChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            值变化事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcedurePanel.OnCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            集合变化事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcedurePanel.Source_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            获取焦点
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcedurePanel.AddNewItem(VMControls.WPF.GlobalUI.TriggerProcessItem)">
+            <summary>
+            添加触发流程
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcedurePanel.SetTriggerProcess(VMControls.WPF.GlobalUI.TriggerProcessItem,System.String)">
+            <summary>
+            设置触发流程
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcedurePanel.SetProcessList">
+            <summary>
+            设置触发流程列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcedurePanel.GetProcessList">
+            <summary>
+            获取触发流程列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.TriggerProcedurePanel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.GlobalUI.OutputConfigWindow">
+            <summary>
+            OutputConfigWindow.xaml 的交互逻辑
+            </summary>
+            <summary>
+            OutputConfigWindow
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.OutputConfigWindow.Close_OnClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            关闭
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.OutputConfigWindow.Delete_OnHandler(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            删除当前项
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.GlobalUI.OutputConfigWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.LogView">
+            <summary>
+            LogView.xaml 的交互逻辑
+            </summary>
+            <summary>
+            LogView
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.LogView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.MainViewControl">
+            <summary>
+            MainViewControl.xaml 的交互逻辑
+            </summary>
+            <summary>
+            MainViewControl
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.MainViewControl.MaskMessage">
+            <summary>
+            滚动条信息
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.MainViewControl.ZoomIndex">
+            <summary>
+            缩放比例
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.MainViewControl.IsLockWorkArea">
+            <summary>
+            是否锁定工作区
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.MainViewControl.IsOpenParams">
+            <summary>
+            是否打开参数列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.MainViewControl.IsParamsEditState">
+            <summary>
+            参数列表编辑状态
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.MainViewControl.IsParamsEditStateProperty">
+            <summary>
+            参数列表编辑状态属性
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.MainViewControl.logCommand">
+            <summary>
+            打开日志浮窗命令
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.MainViewControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ModuleResultView">
+            <summary>
+            ModuleResultView.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ModuleResultView
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.ModuleResultView.pHandle">
+            <summary>
+            用户自定义窗口句柄
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ModuleResultView.CurrentReqAddress">
+            <summary>
+            请求地址
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.ModuleResultView.curImageData">
+            <summary>
+            当前图像数据
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ModuleResultView.UpdateDataResult">
+            <summary>
+            更新显示结果
+            </summary>
+            <param name="struList"></param>
+            <param name="bIsForce"></param>
+            <returns></returns>
+        </member>
+        <member name="T:VMControls.WPF.ModuleResultView.RebuildModule">
+            <summary>
+            通知双击界面事件
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="T:VMControls.WPF.ModuleResultView.ImageListCombobox_SelectionChanged">
+            <summary>
+            输入输出源选择
+            </summary>
+            <param name="nIndex"></param>
+        </member>
+        <member name="T:VMControls.WPF.ModuleResultView.UpadateModuleViewDataGridDisable">
+            <summary>
+            只刷新界面  不入列表
+            </summary>
+            <param name="nIndex"></param>
+        </member>
+        <member name="P:VMControls.WPF.ModuleResultView.IsOpenParams">
+            <summary>
+            是否打开参数列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ModuleResultView.IsRoiVisible">
+            <summary>
+            roi是否显示
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ModuleResultView.ROISelecters">
+            <summary>
+            参数列表绘制ROI的项
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ModuleResultView.ModuleSource">
+            <summary>
+            当前模块绑定信息
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.ModuleResultView.isRendering">
+            <summary>
+            是否正在使用主仓库数据渲染
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.ClearDataStore">
+            <summary>
+            清空缓存数据
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.SetCommonModuleView">
+            <summary>
+            切换为通用视图模型
+            </summary>
+            <param name="info"></param>
+            <param name="resultList"></param>
+            <param name="bIsFirstOpen"></param>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.InitSpecialParams">
+            <summary>
+            初始化特殊参数控件
+            </summary>
+            <param name="info"></param>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.ClearModuleView">
+            <summary>
+            清空模块显示内容
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.ClearModuleTab">
+            <summary>
+            清理模块结果tab控件
+            删除模块自定义控件并执行控件内部方法
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.SetFirstVisibleTab">
+            <summary>
+            显示首个可见页面
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.SetCommonViewMode">
+            <summary>
+            设为通用视图模型
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.UpdateModuleViewResultShow(System.String)">
+            <summary>
+            更新模块结果显示
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.RefreshResultTree">
+            <summary>
+            刷新模块结果树
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.RefreshHikHistogramSelection">
+            <summary>
+            刷新直方图选中项
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.RefreshDataListResult(System.Collections.Generic.List{System.Object})">
+            <summary>
+            刷新当前结果
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.RefreshDataRecord(System.Object)">
+            <summary>
+            刷新模块历史结果
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.UpdateImageView(Apps.Data.ImageData)">
+            <summary>
+            更新图像
+            </summary>
+            <param name="imageData"></param>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.SetRectHighLight(Apps.XmlParser.Object,System.Collections.Generic.List{System.Object})">
+            <summary>
+            设置矩形高亮显示
+            </summary>
+            <param name="displayobj"></param>
+            <param name="shapes"></param>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.DrawDataChart(System.Collections.Generic.List{System.Object},System.String,System.Int32)">
+            <summary>
+            更新图标结果
+            </summary>
+            <param name="dataResultList"></param>
+            <param name="displayobj"></param>
+        </member>
+        <member name="P:VMControls.WPF.ModuleResultView.CrossShowCommand">
+            <summary>
+            显示十字线
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.SaveProcess(System.String,System.String)">
+            <summary>  
+            保存数据data到文件处理过程，返回值为保存的文件名  
+            </summary>  
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.SetRoiVisible">
+            <summary>
+            设置roi的可见性
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.AddCheckImage(Apps.Data.ImageData,System.String)">
+            <summary>
+            增加已选中待叠加的图像
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.RemoveCheckImage(System.String)">
+            <summary>
+            移除已叠加的图层
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.UpdateCheckImages">
+            <summary>
+            更新已叠加图层的图像
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.ClearImageLayer">
+            <summary>
+            清空图层
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.ShapesConfig_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            图形配置窗口
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.ImageChanged(System.String)">
+            <summary>
+            根据选择的ROI名称改变imageListCombobox选中项
+            </summary>
+            <param name="strDisplayImageName"></param>
+        </member>
+        <member name="P:VMControls.WPF.ModuleResultView.IsShowDoubleImage">
+            <summary>
+            是否显示双画面
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ModuleResultView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.RunButtonControl">
+            <summary>
+            RunButtonControl.xaml 的交互逻辑
+            </summary>
+            <summary>
+            RunButtonControl
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RunButtonControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ParamsConfigWithResultViewControl">
+            <summary>
+            ParamsConfigWithRenderControlBase.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ParamsConfigWithResultViewControl
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithResultViewControl.IsParamsEditState">
+            <summary>
+            参数列表编辑状态
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.ParamsConfigWithResultViewControl.IsParamsEditStateProperty">
+            <summary>
+            参数列表编辑状态属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithResultViewControl.ModuleSource">
+            <summary>
+            数据源模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithResultViewControl.ImageDataSource">
+            <summary>
+            图像源
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithResultViewControl.GetBaseHandle">
+            <summary>
+            获取基础句柄
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithResultViewControl.ROIVisible">
+            <summary>
+            是否显示ROI
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithResultViewControl.CoordinateInfoVisible">
+            <summary>
+            是否显示坐标信息
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithResultViewControl.ParamsConfigWidth">
+            <summary>
+            参数配置控件宽度
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithResultViewControl.ImportSol(System.String,System.String)">
+            <summary>
+            加载方案
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithResultViewControl.ChangeResultViewModuleSourceBinding(System.Windows.Data.Binding)">
+            <summary>
+            修改右侧显示控件数据源绑定
+            </summary>
+            <param name="binding"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithResultViewControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ParamsConfigWithRenderControlBase">
+            <summary>
+            ParamsConfigWithRenderControlBase.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ParamsConfigWithRenderControlBase
+            </summary>
+        </member>
+        <member name="E:VMControls.WPF.ParamsConfigWithRenderControlBase.OnMouseLeftButtonDownPixelChanged">
+            <summary>
+            鼠标左键点击位置像素坐标事件
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithRenderControlBase.ModuleSource">
+            <summary>
+            数据源模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithRenderControlBase.IsParamsEditState">
+            <summary>
+            参数列表编辑状态
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.ParamsConfigWithRenderControlBase.IsParamsEditStateProperty">
+            <summary>
+            参数列表编辑状态属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithRenderControlBase.ImageDataSource">
+            <summary>
+            图像源
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.GetBaseHandle">
+            <summary>
+            获取基础句柄
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithRenderControlBase.ROIVisible">
+            <summary>
+            是否显示ROI
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithRenderControlBase.CoordinateInfoVisible">
+            <summary>
+            是否显示坐标信息
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithRenderControlBase.ParamsConfigWidth">
+            <summary>
+            参数配置控件宽度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigWithRenderControlBase.MultiImageButtonVisible">
+            <summary>
+            多画面切换按钮是否可见
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.UpdateView">
+            <summary>
+            刷新渲染
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.DrawShapes(System.Object)">
+            <summary>
+            绘制图形（立刻绘制）
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.AddShapes(System.Object)">
+            <summary>
+            添加图形（在下次刷新渲染时自动绘制）
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.DrawCppShapes(System.Object,System.Boolean)">
+            <summary>
+            添加图形供cpp接口调用
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.ImportSol(System.String,System.String)">
+            <summary>
+            加载方案
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.ImportIndependentGroup(System.String,System.String)">
+            <summary>
+            加载独立Group方案
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.LoadAssembliesForIndependentGroup">
+            <summary>
+            加载Group模块库（独立使用时调用）
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.EnlargeView(System.Int32)">
+            <summary>
+            放大视图
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.ShrinkView(System.Int32)">
+            <summary>
+            缩小视图
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.InitViewSize(System.Int32)">
+            <summary>
+            还原视图
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.ClearDisplayView(System.Int32)">
+            <summary>
+            清空渲染显示区域（包括图像和图形）
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.SaveOriginalImage(System.String,System.Int32,System.Int32)">
+            <summary>
+            保存原图，jpgQuality范围[1,100]，数值越大质量越高
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.SaveRenderedImage(System.String,System.Int32)">
+            <summary>
+            保存渲染图，jpgQuality范围[1,100]，数值越大质量越高
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.SetBackground(System.String)">
+            <summary>
+            设置控件背景
+            参数为尺寸小于100*100的图像绝对路径或#+16进制数表示的颜色字符串
+            </summary>
+            <param name="value">尺寸小于100*100的图像绝对路径或#+16进制数表示的颜色字符串</param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.SetRenderInterval(System.Int32)">
+            <summary>
+            设置渲染间隔(ms)
+            </summary>
+            <param name="millseconds"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.ChangeImageComboBoxVisibility(System.Boolean)">
+            <summary>
+            控制图层选择控件显示隐藏
+            </summary>
+            <param name="flag"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.GetSelectedImageDisplayName(System.Int32)">
+            <summary>
+            获取当前选中图像名称
+            </summary>
+        </member>
+        <member name="E:VMControls.WPF.ParamsConfigWithRenderControlBase.OnSelectedImageChanged">
+            <summary>
+            当前选中图像改变事件
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.SetModuleAndStatusForRender(VMControls.Interface.IVmModule,VMControls.RenderInterface.RenderSatus)">
+            <summary>
+            设置渲染控件OK/NG时刷新，module：OK/NG状态所属模块（此处模块状态指模块输出中的“模块状态”项，0为NG，1为OK）
+            </summary>
+            <param name="module"></param>
+            <param name="status"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigWithRenderControlBase.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ProcedureConfigControl">
+            <summary>
+            ProcedureConfigControl
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.IsOpenParams">
+            <summary>
+            是否打开参数列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.IsParamsEditState">
+            <summary>
+            参数列表编辑状态
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.ProcedureConfigControl.IsParamsEditStateProperty">
+            <summary>
+            参数列表编辑状态属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.IsLockWorkArea">
+            <summary>
+            是否锁定工作区
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.ZoomIndex">
+            <summary>
+            缩放比例
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.IsForSingleModulesetMode">
+            <summary>
+            hu 2021,用于将多流程控件用于组合模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.IsSingleProcedure">
+            <summary>
+            是否单流程显示
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.ShowSingleProcedure(System.String)">
+            <summary>
+            显示单流程
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.ShowMultiProcedure">
+            <summary>
+            显示全流程
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.ShowSomeProcedure(System.Collections.Generic.List{System.String})">
+            <summary>
+            显示部分流程
+            </summary>
+            <param name="nameList"></param>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.CanOpenConfigurationInterface(System.Object)">
+            <summary>
+            能否打开参数配置界面
+            [权限]
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.WinformHandle">
+            <summary>
+            Winform窗口句柄
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.SetRoiVisible(System.Boolean)">
+            <summary>
+            设置主界面绘制roi的可见性
+            </summary>
+            <param name="v"></param>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.BoolOfDisplayType">
+            <summary>
+            显示为全流程或选项卡的标志
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.SelectedPro">
+            <summary>
+            当前选中流程
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.DecoratorSelectedTabItem">
+            <summary>
+            Tab页选中对象
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.DecoratorSelectedSubTabItem">
+            <summary>
+            实际生成方法
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.DecoratorSolution">
+            <summary>
+            装饰后的solution
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.Procedures">
+            <summary>
+            流程列表
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.AddProcedures(System.Collections.IEnumerable,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="newValue"></param>
+            <param name="isInit">首次添加</param>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.SelectedItemToSelectedTabItem">
+            <summary>
+            当前选中为Tab页的选中
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.SelectedItemToSelectedSubTabItem">
+            <summary>
+            当前选中为Tab页实际数据的选中
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.HeadText_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Tab页的流程选中
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.OnCloseParamsTabControl">
+            <summary>
+            切换语言时要关掉已打开的配置界面
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.ProcedureConfigControl.CanScroll">
+            <summary>
+            是否滚动
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ProcedureConfigControl.MaskMessage">
+            <summary>
+            滚动条信息
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.ContentPresenter_DataContextChanged(System.Object,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            进入和返回时
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:VMControls.WPF.ProcedureConfigControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ProcessAreaViewType">
+            <summary>
+            流程界面显示类型
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.OneProcedureConfigControl">
+            <summary>
+            OneProcedureConfigControl
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.OneProcedureConfigControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ParamsConfigControlBase">
+            <summary>
+            ParamsConfigControl.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ParamsConfigControlBase
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ParamsConfigControlBase.ROIPartUI">
+            <summary>
+            用于画ROI时，得到对应的绘制控件
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigControlBase.NotifyItemValueChanged(System.String)">
+            <summary>
+            CH: 通知参数更新 | EN: Notify Item's Value Changed
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigControlBase.LoadModuleControlDLL(VMControls.BaseInterface.IParamsConfig)">
+            <summary>
+            加载模块控件库，用于二次开发
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigControlBase.GetBaseHandle">
+            <summary>
+            获取基础句柄
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigControlBase.ImportIndependentGroup(System.String,System.String)">
+            <summary>
+            加载独立Group方案
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigControlBase.LoadAssembliesForIndependentGroup">
+            <summary>
+            加载Group模块库（独立使用时调用）
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigControlBase.ImportSol(System.String,System.String)">
+            <summary>
+            加载方案
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="M:VMControls.WPF.ParamsConfigControlBase.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ParamsTabControlBase">
+            <summary>
+            ParamsTabControlBase.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ParamsTabControlBase
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ParamsTabControlBase.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.Properties.Resources.Culture">
+            <summary>
+              重写当前线程的 CurrentUICulture 属性
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.RenderControlBase">
+            <summary>
+            RenderControlBase.xaml 的交互逻辑
+            </summary>
+            <summary>
+            RenderControlBase
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.ROIVisible">
+            <summary>
+            是否显示ROI
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.CoordinateInfoVisible">
+            <summary>
+            是否显示坐标信息
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.ModuleSource">
+            <summary>
+            数据源模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.ImageView">
+            <summary>
+            暂用属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.ImageListDecorator">
+            <summary>
+            图像列表数据源装饰器
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.ClearImageView(System.Int32)">
+            <summary>
+            清空模块结果显示内容
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.UpdateVMResultShow">
+            <summary>
+            更新模块结果显示
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.UpdateImageView(Apps.Data.ImageData)">
+            <summary>
+            更新图像
+            </summary>
+            <param name="imageData"></param>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.GetBaseHandle">
+            <summary>
+            获取基础句柄
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.BindRenderById(System.UInt32)">
+            <summary>
+            根据渲染控件绑定ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.EnlargeView(System.Int32)">
+            <summary>
+            放大视图
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.ShrinkView(System.Int32)">
+            <summary>
+            缩小视图
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.InitViewSize(System.Int32)">
+            <summary>
+            还原视图
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.SaveOriginalImage(System.String,System.Int32,System.Int32)">
+            <summary>
+            保存原图，jpgQuality范围[1,100]
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.SaveRenderedImage(System.String,System.Int32)">
+            <summary>
+            保存渲染图，jpgQuality范围[1,100]
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.SetBackground(System.String)">
+            <summary>
+            设置控件背景
+            参数为尺寸小于100*100的图像绝对路径或#+16进制数表示的颜色字符串
+            </summary>
+            <param name="value">尺寸小于100*100的图像绝对路径或#+16进制数表示的颜色字符串</param>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.ImageComboBoxVisible">
+            <summary>
+            是否显示图像下拉选择控件
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.TopBarVisible">
+            <summary>
+            是否显示图像顶部栏控件
+            </summary>
+        </member>
+        <member name="E:VMControls.WPF.RenderControlBase.OnSelectedImageChanged">
+            <summary>
+            当前选中图像改变事件
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.AddCheckImage(Apps.Data.ImageData,System.String)">
+            <summary>
+            增加已选中待叠加的图像
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.RemoveCheckImage(System.String)">
+            <summary>
+            移除已叠加的图层
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.UpdateCheckImages(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            更新已叠加图层的图像
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.ClearImageLayer">
+            <summary>
+            清空图层
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.AlgorithmItems">
+            <summary>
+            模块配置参数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.ROIList">
+            <summary>
+            ROI列表
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.RenderControlBase.ROIListProperty">
+            <summary>
+            ROI列表依赖属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.ImageSizeChangedCommand">
+            <summary>
+            图像分辨率更改命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.RenderControlBase.ImageSizeChangedCommandProperty">
+            <summary>
+            图像分辨率更改命令依赖属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.RoiSelectedCommand">
+            <summary>
+            ROI选中命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.RenderControlBase.RoiSelectedCommandProperty">
+            <summary>
+            ROI选中命令依赖属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.RoiDelCommand">
+            <summary>
+            ROI删除命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.RenderControlBase.RoiDelCommandProperty">
+            <summary>
+            ROI删除命令依赖属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.RoiCopyCommand">
+            <summary>
+            ROI复制命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.RenderControlBase.RoiCopyCommandProperty">
+            <summary>
+            ROI复制命令依赖属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.RoiPasteCommand">
+            <summary>
+            ROI粘贴命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.RenderControlBase.RoiPasteCommandProperty">
+            <summary>
+            ROI粘贴命令依赖属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.RoiVisibleChangedCommand">
+            <summary>
+            ROI可见性更改通知命令
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.RenderControlBase.RoiVisibleChangedCommandProperty">
+            <summary>
+            ROI可见性更改通知命令依赖属性
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.MultiImageButtonVisible">
+            <summary>
+            多画面切换按钮是否可见
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.IsShowDoubleImage">
+            <summary>
+            是否显示双画面
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.SetRenderInterval(System.Int32)">
+            <summary>
+            设置渲染间隔(ms)
+            </summary>
+            <param name="millseconds"></param>
+        </member>
+        <member name="P:VMControls.WPF.RenderControlBase.OnMouseLeftButtonDownPixelChanged">
+            <summary>
+            鼠标左键点击位置像素坐标事件
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RenderControlBase.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.SingleModuleSetControl">
+            <summary>
+            SingleModuleSetControl.xaml 的交互逻辑
+            </summary>
+            <summary>
+            SingleModuleSetControl
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.SingleModuleSetControl.ModuleSource">
+            <summary>
+            数据源模块
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.SingleModuleSetControl.IsOpenParams">
+            <summary>
+            是否打开参数列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.SingleModuleSetControl.IsParamsEditState">
+            <summary>
+            参数列表编辑状态
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.SingleModuleSetControl.IsParamsEditStateProperty">
+            <summary>
+            参数列表编辑状态属性
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.SingleModuleSetControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TabWinBase.ROIPartUI">
+            <summary>
+            用于画ROI时，得到对应的绘制控件
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PointIn">
+            <summary>
+            点
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PointSetIn">
+            <summary>
+            点集（接口传入）
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PolygonIn">
+            <summary>
+            多边形（接口传入）
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PolylineIn">
+            <summary>
+            折线（接口传入）
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.CircleIn">
+            <summary>
+            圆
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.EllipseIn">
+            <summary>
+            椭圆
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.AnnularSectorIn">
+            <summary>
+            扇环形
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.LineIn">
+            <summary>
+            直线段
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.RectangleIn">
+            <summary>
+            矩形/平行四边形
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.TextIn">
+            <summary>
+            文本（接口传入）
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PointEx">
+            <summary>
+            点
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointEx.CenterX">
+            <summary>
+            坐标X
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointEx.CenterY">
+            <summary>
+            坐标Y
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointEx.Opacity">
+            <summary>
+            不透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointEx.Stroke">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointEx.Fill">
+            <summary>
+            填充色（只在封闭图形中生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointEx.StrokeThickness">
+            <summary>
+            边框粗细
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointEx.ToolTip">
+            <summary>
+            提示语
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.PointEx.#ctor(System.Single,System.Single,System.Double,System.String,System.Double,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PointSetEx">
+            <summary>
+            点集
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointSetEx.PointNum">
+            <summary>
+            点数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointSetEx.PointList">
+            <summary>
+            点列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointSetEx.Opacity">
+            <summary>
+            不透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointSetEx.Stroke">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointSetEx.Fill">
+            <summary>
+            填充色（只在封闭图形中生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointSetEx.StrokeThickness">
+            <summary>
+            粗细（不生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PointSetEx.ToolTip">
+            <summary>
+            提示语（不生效）
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.PointSetEx.#ctor(System.Collections.Generic.List{System.Windows.Point},System.Double,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PolygonEx">
+            <summary>
+            多边形
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolygonEx.PolygonPointNum">
+            <summary>
+            点数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolygonEx.PolygonPointList">
+            <summary>
+            点列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolygonEx.Opacity">
+            <summary>
+            不透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolygonEx.Stroke">
+            <summary>
+            边框颜色
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolygonEx.Fill">
+            <summary>
+            填充色（只在封闭图形中生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolygonEx.StrokeThickness">
+            <summary>
+            边框粗细
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolygonEx.Points">
+            <summary>
+            点列表（同PolygonPointList）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolygonEx.ToolTip">
+            <summary>
+            提示语
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.PolygonEx.#ctor(System.Collections.Generic.List{System.Windows.Point},System.Double,System.String,System.String,System.Double,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PolylineEx">
+            <summary>
+            折线
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolylineEx.PolylinePointNum">
+            <summary>
+            点数
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolylineEx.PolylinePointList">
+            <summary>
+            点列表
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolylineEx.Opacity">
+            <summary>
+            不透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolylineEx.Stroke">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolylineEx.Fill">
+            <summary>
+            填充色（只在封闭图形中生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.PolylineEx.StrokeThickness">
+            <summary>
+            边框粗细
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.PolylineEx.#ctor(System.Collections.Generic.List{System.Windows.Point},System.Double,System.String,System.Double)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.CircleEx">
+            <summary>
+            圆
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CircleEx.CenterPoint">
+            <summary>
+            中心点
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CircleEx.Radius">
+            <summary>
+            半径
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CircleEx.Opacity">
+            <summary>
+            不透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CircleEx.Stroke">
+            <summary>
+            边框颜色
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CircleEx.Fill">
+            <summary>
+            填充色（只在封闭图形中生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CircleEx.StrokeThickness">
+            <summary>
+            边框粗细
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.CircleEx.ToolTip">
+            <summary>
+            提示语
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.CircleEx.#ctor(System.Windows.Point,System.Double,System.Double,System.String,System.String,System.Double,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.AnnularSectorEx">
+            <summary>
+            扇环形
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.AnnularSectorEx.CenterX">
+            <summary>
+            中心点坐标X
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.AnnularSectorEx.CenterY">
+            <summary>
+            中心点坐标Y
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.AnnularSectorEx.OuterRadius">
+            <summary>
+            外径
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.AnnularSectorEx.InnerRadius">
+            <summary>
+            内径
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.AnnularSectorEx.StartAngle">
+            <summary>
+            起始角度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.AnnularSectorEx.AngleRange">
+            <summary>
+            角度范围
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.AnnularSectorEx.Opacity">
+            <summary>
+            不透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.AnnularSectorEx.Stroke">
+            <summary>
+            边框颜色
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.AnnularSectorEx.Fill">
+            <summary>
+            填充色（只在封闭图形中生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.AnnularSectorEx.StrokeThickness">
+            <summary>
+            边框粗细
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.AnnularSectorEx.#ctor(System.Windows.Point,System.Double,System.Double,System.Double,System.Double,System.Double,System.String,System.String,System.Double,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.EllipseEx">
+            <summary>
+            椭圆
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.EllipseEx.CenterPoint">
+            <summary>
+            中心点
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.EllipseEx.MajorRadius">
+            <summary>
+            长半轴
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.EllipseEx.MinorRadius">
+            <summary>
+            短半轴
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.EllipseEx.Angle">
+            <summary>
+            角度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.EllipseEx.Opacity">
+            <summary>
+            不透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.EllipseEx.Stroke">
+            <summary>
+            边框颜色
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.EllipseEx.Fill">
+            <summary>
+            填充色（只在封闭图形中生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.EllipseEx.StrokeThickness">
+            <summary>
+            边框粗细
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.EllipseEx.ToolTip">
+            <summary>
+            提示语
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.EllipseEx.#ctor(System.Windows.Point,System.Double,System.Double,System.Double,System.Double,System.String,System.String,System.Double,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.LineEx">
+            <summary>
+            直线段
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.LineEx.StartPointX">
+            <summary>
+            起始点坐标X
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.LineEx.StartPointY">
+            <summary>
+            起始点坐标Y
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.LineEx.EndPointX">
+            <summary>
+            终止点坐标X
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.LineEx.EndPointY">
+            <summary>
+            终止点坐标Y
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.LineEx.Opacity">
+            <summary>
+            不透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.LineEx.Stroke">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.LineEx.Fill">
+            <summary>
+            填充色（只在封闭图形中生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.LineEx.StrokeThickness">
+            <summary>
+            粗细
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.LineEx.#ctor(System.Windows.Point,System.Windows.Point,System.Double,System.String,System.Double,System.Boolean,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.RectangleEx">
+            <summary>
+            矩形/平行四边形
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RectangleEx.CenterPoint">
+            <summary>
+            中心点坐标
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RectangleEx.Width">
+            <summary>
+            宽度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RectangleEx.Height">
+            <summary>
+            高度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RectangleEx.Angle">
+            <summary>
+            角度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RectangleEx.SkewAngleX">
+            <summary>
+            倾斜角X
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RectangleEx.SkewAngleY">
+            <summary>
+            倾斜角Y
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RectangleEx.Opacity">
+            <summary>
+            不透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RectangleEx.Stroke">
+            <summary>
+            边框颜色
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.RectangleEx.Fill">
+            <summary>
+            填充色（只在封闭图形中生效）
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.RectangleEx.#ctor(System.Windows.Point,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.String,System.String,System.Double,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.TextEx">
+            <summary>
+            文本
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TextEx.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TextEx.Position">
+            <summary>
+            位置
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TextEx.Width">
+            <summary>
+            宽度(已弃用)
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TextEx.Height">
+            <summary>
+            高度(已弃用)
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TextEx.FontSize">
+            <summary>
+            字号
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TextEx.Opacity">
+            <summary>
+            不透明度
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TextEx.Stroke">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TextEx.Fill">
+            <summary>
+            填充色（只在封闭图形中生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TextEx.StrokeThickness">
+            <summary>
+            粗细（在文本图形中不生效）
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.TextEx.ToolTip">
+            <summary>
+            提示语（在文本图形中不生效）
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.TextEx.#ctor(System.String,System.Windows.Point,System.Int32,System.Double,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:VMControls.WPF.GroupIndependInfo" -->
+        <member name="T:VMControls.WPF.PointSetInOld">
+            <summary>
+            点集（接口传入）兼容
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PointExOld">
+            <summary>
+            点
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PolygonInOld">
+            <summary>
+            多边形（接口传入）兼容
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.PolylineInOld">
+            <summary>
+            折线（接口传入）兼容
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ToolControl">
+            <summary>
+            ToolControl.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ToolControl
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.RegesitGlobalModuleWinAction">
+            <summary>
+            注册全局模块窗体事件
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.UnRegesitGlobalModuleWinAction">
+            <summary>
+            卸载全局模块窗体事件
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.CommSetWithNoHide">
+            <summary>
+            每次打开通信管理窗体都是重新new,用于二次开发、运行界面子窗体上弹出通信管理窗体
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.ToolControl.hwndSource">
+            <summary>
+            用于记录查找二次开发模式下winform的窗体句柄，用于设置owner属性
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.GetWinformHandle">
+            <summary>
+            查找winform句柄
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.SetWindowOwner(VM.Controls.BaseWindow)">
+            <summary>
+            设置子窗体的owner属性
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.CommSet">
+            <summary>
+            通信管理
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.LightSet">
+            <summary>
+            光源设置
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.CameraSet">
+            <summary>
+            相机设置
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.GlobalVariable">
+            <summary>
+            全局变量
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.GlobalScript">
+            <summary>
+            全局脚本
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.GlobalTrigger">
+            <summary>
+            全局触发
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.SaveSolution">
+            <summary>
+            保存方案
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.SaveCalibUserData">
+            <summary>
+            所有流程保存一键标定引导信息
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.SaveAsSolution">
+            <summary>
+            方案另存为
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.GetVMInstallPath">
+            <summary>
+            获取VM安装路径
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.GetRegisterValueByName(System.String,System.String)">
+            <summary>
+            获取注册表中key对应的值
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.OpenSolution">
+            <summary>
+            打开方案
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.SaveSolution(System.Threading.Tasks.Task)">
+            <summary>
+            先保存方案，再加载方案
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.SaveAsSolutionProcess">
+            <summary>
+            方案另存为
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.Dispose">
+            <summary>
+            释放函数
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.ToolBox">
+            <summary>
+            ToolBox.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ToolBox
+            </summary>
+        </member>
+        <member name="P:VMControls.WPF.ToolBox.IsGlobleMode">
+            <summary>
+            是否展现为全局模式
+            </summary>
+        </member>
+        <member name="M:VMControls.WPF.ToolBox.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:VMControls.WPF.IsMouseEnterBehavior">
+            <summary>
+            用来解决滚动条阻拦问题,存在bug
+            </summary>
+        </member>
+        <member name="F:VMControls.WPF.IsMouseEnterBehavior.IsMouseLeaveProperty">
+            <summary>
+            为MenuItem对象增加MouseEnter与MouseLeave路由事件 防止原事件被GroupItem截停导致子节点无法展开的情况
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

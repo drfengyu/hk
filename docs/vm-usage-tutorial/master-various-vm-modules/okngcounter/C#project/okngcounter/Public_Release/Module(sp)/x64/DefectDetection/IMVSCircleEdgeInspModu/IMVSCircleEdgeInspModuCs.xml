@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IMVSCircleEdgeInspModuCs</name>
+    </assembly>
+    <members>
+        <member name="T:IMVSCircleEdgeInspModuCs.CircleEdgeInspRoiManager">
+            <summary>
+            CH: ROI管理类 | EN: ROI Manager Class
+            </summary>
+        </member>
+        <member name="M:IMVSCircleEdgeInspModuCs.CircleEdgeInspRoiManager.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IMVSCircleEdgeInspModuCs.CircleEdgeInspRoiManager.#ctor(VM.PlatformSDKCS.CModuleParamBase,System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspRoiManager.RoiAnnulus">
+            <summary>
+            CH: 圆环ROI(仅当次执行起效) | EN: Annulus ROI(Only valid for this execution)
+            </summary>
+        </member>
+        <member name="T:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam">
+            <summary>
+            CH: 圆弧边缘缺陷检测 | EN: Arc Edge Defect Detection
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.InputImage">
+            <summary>
+            CH: 输入图像(仅当次执行起效) | EN: InputImage(Only valid for this execution)
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.InputAnnulus">
+            <summary>
+            CH: 输入圆弧(仅当次执行起效) | EN: InputAnnulus(Only valid for this execution)
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.StandardInput">
+            <summary>
+            CH: 标准输入 | EN: Standard Input
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.ModuRoiManager">
+            <summary>
+            CH: ROI管理器 | EN: ROI Manager
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.FindMode">
+            <summary>
+            CH: 边缘类型 | EN: Edge Type
+            </summary>
+        </member>
+        <member name="F:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.FindModeEnum.Best">
+            <summary>
+            CH: 最强 | EN: Strongest Edge
+            </summary>
+        </member>
+        <member name="F:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.FindModeEnum.First">
+            <summary>
+            CH: 第一条 | EN: First Edge
+            </summary>
+        </member>
+        <member name="F:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.FindModeEnum.Last">
+            <summary>
+            CH: 最后一条 | EN: Last Edge
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.EdgePolarity">
+            <summary>
+            CH: 边缘极性 | EN: EdgePolarity
+            </summary>
+        </member>
+        <member name="F:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.EdgePolarityEnum.B2W">
+            <summary>
+            CH: 从黑到白 | EN: Dark to Light
+            </summary>
+        </member>
+        <member name="F:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.EdgePolarityEnum.W2B">
+            <summary>
+            CH: 从白到黑 | EN: Light to Dark
+            </summary>
+        </member>
+        <member name="F:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.EdgePolarityEnum.All">
+            <summary>
+            CH: 任意极性 | EN: Both
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.HalfKernelSize">
+            <summary>
+            CH: 滤波尺寸 | EN: Filter Size
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.EdgeStrength">
+            <summary>
+            CH: 边缘阈值 | EN: Edge Threshold
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.CaliperHeight">
+            <summary>
+            CH: 卡尺高度 | EN: CaliperHeight
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.CaliperWidth">
+            <summary>
+            CH: 卡尺宽度 | EN: CaliperWidth
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.CaliperDistTraj">
+            <summary>
+            CH: 卡尺间距 | EN: Caliper Spacing
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.FlawPolarityEnable">
+            <summary>
+            CH: 缺陷极性 | EN: Defect Polarity
+            </summary>
+        </member>
+        <member name="F:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.FlawPolarityEnableEnum.All">
+            <summary>
+            CH: 轨迹两侧缺陷 | EN: Trajectory Both Defect
+            </summary>
+        </member>
+        <member name="F:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.FlawPolarityEnableEnum.RightBottom">
+            <summary>
+            CH: 轨迹右侧缺陷 | EN: Trajectory Right Defect
+            </summary>
+        </member>
+        <member name="F:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.FlawPolarityEnableEnum.LeftTop">
+            <summary>
+            CH: 轨迹左侧缺陷 | EN: Trajectory Left Defect
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.RoughMinDis">
+            <summary>
+            CH: 缺陷距离阈值 | EN: Rough Min Distance
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.SizeEnable">
+            <summary>
+            CH: 缺陷尺寸使能 | EN: Defect Size Enable
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.RoughMinSize">
+            <summary>
+            CH: 缺陷尺寸阈值 | EN: Rough Min Size
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.AreaEnable">
+            <summary>
+            CH: 缺陷面积使能 | EN: Defect Area Enable
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.RoughMinArea">
+            <summary>
+            CH: 缺陷面积阈值 | EN: Rough Min Area
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.CircleCaliperNum">
+            <summary>
+            CH: 卡尺数量 | EN: Caliper Number
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.FitRejectNum">
+            <summary>
+            CH: 剔除点数 | EN: Reject Number
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.FitRejectDist">
+            <summary>
+            CH: 剔除阈值 | EN: Threshold to Remove
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.TrackDistTol">
+            <summary>
+            CH: 追踪容忍度 | EN: Track Tolerance
+            </summary>
+        </member>
+        <member name="M:IMVSCircleEdgeInspModuCs.CircleEdgeInspParam.#ctor(System.UInt32)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="T:IMVSCircleEdgeInspModuCs.IMVSCircleEdgeInspModuTool">
+            <summary>
+            CH: 圆弧边缘缺陷检测 | EN: Arc Edge Defect Detection
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.IMVSCircleEdgeInspModuTool.ModuResult">
+            <summary>
+            CH: 模块结果对象 | EN: Module Result Object
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.IMVSCircleEdgeInspModuTool.ModuParams">
+            <summary>
+            CH: 模块参数对象 | EN: Module Param Object
+            </summary>
+        </member>
+        <member name="M:IMVSCircleEdgeInspModuCs.IMVSCircleEdgeInspModuTool.Run">
+            <summary>
+            CH: 模块自执行 | EN: Module Self Run
+            </summary>
+        </member>
+        <member name="T:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult">
+            <summary>
+            CH: 圆弧边缘缺陷检测 | EN: Arc Edge Defect Detection
+            </summary>
+        </member>
+        <member name="M:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.ModuStatus">
+            <summary>
+            CH: 模块状态 | EN: ModuStatus
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.FlawNum">
+            <summary>
+            CH: 缺陷个数 | EN: FlawNum
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.DetectAnnulus">
+            <summary>
+            CH: 检测圆弧 | EN: DetectAnnulus
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.FlawRect">
+            <summary>
+            CH: 缺陷框 | EN: FlawRect
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.DefectSize">
+            <summary>
+            CH: 缺陷尺寸 | EN: DefectSize
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.DefectArea">
+            <summary>
+            CH: 缺陷面积 | EN: DefectArea
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.CaliperStart">
+            <summary>
+            CH: 卡尺起始值 | EN: CaliperStart
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.CaliperEnd">
+            <summary>
+            CH: 卡尺终止值 | EN: CaliperEnd
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.DefectType">
+            <summary>
+            CH: 缺陷类型 | EN: DefectType
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.ROI">
+            <summary>
+            CH: 检测区域 | EN: ROI
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.EdgePoints">
+            <summary>
+            CH: 边缘点 | EN: Edge Point
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.EdgePointStatus">
+            <summary>
+            CH: 轮廓点状态 | EN: EdgePointStatus
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.EdgePointNum">
+            <summary>
+            CH: 边缘点个数 | EN: EdgePointNum
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.CaliperPoint">
+            <summary>
+            CH: 卡尺点 | EN: Caliper Point
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.CalipIdeaPointStatus">
+            <summary>
+            CH: 理想卡尺点状态 | EN: CalipIdealPointStatus
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.CalipIdeaPointNum">
+            <summary>
+            CH: 理想卡尺点数量 | EN: CalipIdealPointNum
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.StandardCircle">
+            <summary>
+            CH: 标准圆 | EN: StandardCircle
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.StandardAnnulus">
+            <summary>
+            CH: 标准圆环 | EN: StandardAnnulus
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.BlindPolygonPointNum">
+            <summary>
+            CH: 多边形点数 | EN: PolygonPointNum
+            </summary>
+        </member>
+        <member name="P:IMVSCircleEdgeInspModuCs.CircleEdgeInspResult.BlindPolygonPoints">
+            <summary>
+            CH: 多边形点集 | EN: PolygonPoints
+            </summary>
+        </member>
+    </members>
+</doc>

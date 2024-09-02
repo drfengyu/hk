@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LightControlCs</name>
+    </assembly>
+    <members>
+        <member name="T:LightControlCs.DeviceTypeEnum">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="T:LightControlCs.TriggerEdgeEnum">
+            <summary>
+            沿定义,用户表示输入信号的触发
+            </summary>
+        </member>
+        <member name="T:LightControlCs.LightStateEnum">
+            <summary>
+            光源常亮常灭
+            </summary>
+        </member>
+        <member name="T:LightControlCs.LightChannelInfo">
+            <summary>
+            光源控制信息结构
+            </summary>
+        </member>
+        <member name="T:LightControlCs.LightConfigInfo">
+            <summary>
+            各通道光源控制信息结构
+            </summary>
+        </member>
+        <member name="T:LightControlCs.GlobalLightParam">
+            <summary>
+            各通道光源控制信息结构
+            </summary>
+        </member>
+        <member name="M:LightControlCs.LightControlTool.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:LightControlCs.LightControlTool.#ctor(System.Object)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:LightControlCs.LightControlTool.SetGlobalLightParam(LightControlCs.GlobalLightParam)">
+            <summary>
+            设置全局光源参数信息
+            说明：异步接口，部分异常设置不返回错误
+            </summary>
+        </member>
+    </members>
+</doc>

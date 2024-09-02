@@ -1,0 +1,274 @@
+2024-08-22 13:40:14.676 INFO  [19604] [PF_M_Init@33] ===========PF_M_Init main begin. Version[V4.3.0, build May 12 2023, 15:02:15] Process[ocrproject.exe]===========
+
+2024-08-22 13:40:14.676 INFO  [19604] [PF_M_Init@34] [Init] [Begin]
+
+2024-08-22 13:40:14.676 INFO  [19604] [CiMVSWorkJob::Init@127] [Init] Client manager init begin.
+
+2024-08-22 13:40:14.676 INFO  [19604] [CiMVSWorkJob::Init@179] [Init] Client manager init end.
+
+2024-08-22 13:40:14.676 INFO  [19604] [CiMVSWorkJob::StartRun@1943] [Init] StartRun begin, client type[2], 0:vm, 1:export process, 2:other.
+
+2024-08-22 13:40:14.676 INFO  [19604] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:40:14.677 INFO  [25004] [LogDllOpr::ClearInvalidUiMapFileDir@432] [Init] Clear invalid ui mapping file dir begin, currunt pid[20384]
+
+2024-08-22 13:40:14.677 INFO  [19604] [CUiParamSetBase::SetChunkDataThreshold@663] ChunkDataThreshold[20971520]
+
+2024-08-22 13:40:14.677 INFO  [19604] [CUiParamSetBase::SetUiChunkMapWhenLoad@881] UiChunkDataMap[0] when load
+
+2024-08-22 13:40:14.677 INFO  [19604] [CiMVSWorkJob::LoadCfgParam@5092] [Init] Get config param, Now RepAddr[tcp://127.0.0.1:5556] memory[98] IsSamePc[1] loadTimeoutmin[180000] loadTimeoutmax[210000] AutoLoadSoluDelay[30000]
+
+2024-08-22 13:40:14.677 INFO  [19604] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:40:14.677 INFO  [19604] [CPluginMgr::LoadCfgParam@510] Now plugin type[0], dongle type[0]
+
+2024-08-22 13:40:14.677 INFO  [19604] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:40:14.677 WARN  [19604] [CFileHandlerMng::InitAutoSaveSol@685] [Init] Can not find file, use default value
+
+2024-08-22 13:40:14.677 INFO  [19604] [CiMVSWorkJob::StartRun@1976] [Init] Process mode[0]
+
+2024-08-22 13:40:14.677 INFO  [19604] [CPluginMgr::Init@42] [Init] Plugin manager init begin
+
+2024-08-22 13:40:14.677 INFO  [19604] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:40:14.677 INFO  [19604] [CPluginMgr::LoadCfgParam@510] Now plugin type[0], dongle type[0]
+
+2024-08-22 13:40:14.677 INFO  [19604] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:40:14.677 INFO  [21324] [FilterNodeManagerForSP::Init@148] [Init] Module manager init begin
+
+2024-08-22 13:40:14.677 INFO  [21324] [FilterNodeManagerForSP::LoadCfgParam@555] Now procedure count[64], token source[VisionMasterServerApp.exe]
+
+2024-08-22 13:40:14.677 INFO  [21324] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:40:14.677 INFO  [18612] [CFileHandlerMng::DoSolutionOperate@317] DoSolutionOperate begin.
+
+2024-08-22 13:40:14.678 INFO  [21324] [CDynamicParam::GetMaxModuleCount@148] Max module count [1024]
+
+2024-08-22 13:40:14.678 INFO  [21324] [FilterNodeManagerForSP::Init@204] [Init] Load proxy dll
+
+2024-08-22 13:40:14.678 INFO  [21324] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:40:14.692 INFO  [25004] [LogDllOpr::ClearInvalidUiMapFileDir@469] [Init] Pid[20384] already exist
+
+2024-08-22 13:40:14.692 INFO  [25004] [LogDllOpr::ClearInvalidUiMapFileDir@477] [Init] Clear invalid ui mapping file dir end
+
+2024-08-22 13:40:14.742 INFO  [19604] [CPluginMgr::LoadComponent@124] Load [PlugAuthorization.dll] success.
+
+2024-08-22 13:40:14.742 INFO  [19604] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:40:14.744 INFO  [21324] [CLoadProxyDll::LoadDll@38] Load [C:/Program Files/VisionMaster4.3.0/Applications/ModuleProxy/x64/ModuleProxy.dll] success.
+
+2024-08-22 13:40:14.745 INFO  [19604] [CPluginMgr::LoadComponent@124] Load [PlugMonitorResource.dll] success.
+
+2024-08-22 13:40:14.761 INFO  [21324] [FilterNodeManagerForSP::Init@224] [Init] VM_PROXY_Init finish
+
+2024-08-22 13:40:14.761 INFO  [21324] [FilterNodeManagerForSP::Init@232] [Init] VM_PROXY_SetServerCallBack finish
+
+2024-08-22 13:40:14.761 INFO  [21324] [FilterNodeManagerForSP::Init@240] [Init] Module manager init finish
+
+2024-08-22 13:40:15.608 INFO  [19604] [CPluginMgr::Init@76] [Init] Plugin manager init finish
+
+2024-08-22 13:40:15.608 INFO  [19604] [CiMVSWorkJob::StartRun@2001] [Init] Now dongle state [0]
+
+2024-08-22 13:40:15.608 INFO  [19604] [FilterNodeManagerForSP::UpdateDongleInfoToProxy@9553] Dongle state[0] camera count[4]
+
+2024-08-22 13:40:15.608 INFO  [19604] [CiMVSWorkJob::StartRun@2021] [Init] StartRun end.
+
+2024-08-22 13:40:15.608 INFO  [19604] [PF_M_Init@49] [Init] [End] PF_M_Init end.
+
+2024-08-22 13:40:15.608 INFO  [19604] [FilterNodeManagerForSP::SPSetSdkCallback@9453] SPSetSdkCallback
+
+2024-08-22 13:40:15.608 INFO  [19604] [CGlobalSriptMng::SetCallback4Single@1922] pCallback[00007FFB2BE51BB0] userdata[00007FFB2C589230]
+
+2024-08-22 13:40:15.609 INFO  [19604] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2063-0*6200*4*1000000]
+
+2024-08-22 13:40:15.609 INFO  [19604] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-22 13:40:15.609 INFO  [19604] [CiMVSWorkJob::SetReportModuResult_V42@6503] Client send[2-0-0], 1:close all, 2:open all, 3:single(id, is report).
+
+2024-08-22 13:40:15.609 INFO  [19604] [CiMVSWorkJob::DevelopSetReportResultAll@6538] Open all module result
+
+2024-08-22 13:40:15.609 INFO  [19604] [FilterNodeManagerForSP::SPSetReportModuResult@8644] bReportAll[1].
+
+2024-08-22 13:40:15.609 INFO  [19604] [FilterNodeManagerForSP::TransmitSdk2ProxyMsgWithReply@7613] TransmitSdk2ProxyMsgWithReply End. ret[0]
+
+2024-08-22 13:40:15.713 INFO  [19604] [CiMVSWorkJob::ControlGetAllProcedure@4524] Client get all procedure begin.
+
+2024-08-22 13:40:15.713 ERROR [19604] [CiMVSWorkJob::ControlGetAllProcedure@4534] ControlGetAllProcedure procedure is empty.
+
+2024-08-22 13:40:15.713 INFO  [19604] [CiMVSWorkJob::ControlGetAllProcedure@4566] Client get all procedure end.
+
+2024-08-22 13:40:15.715 INFO  [19604] [CiMVSWorkJob::ControlGetAllGlobalModules@6779] Control get all global modules.
+
+2024-08-22 13:42:13.643 INFO  [22840] [PF_M_Init@33] ===========PF_M_Init main begin. Version[V4.3.0, build May 12 2023, 15:02:15] Process[ocrproject.exe]===========
+
+2024-08-22 13:42:13.643 INFO  [22840] [PF_M_Init@34] [Init] [Begin]
+
+2024-08-22 13:42:13.643 INFO  [22840] [CiMVSWorkJob::Init@127] [Init] Client manager init begin.
+
+2024-08-22 13:42:13.643 INFO  [22840] [CiMVSWorkJob::Init@179] [Init] Client manager init end.
+
+2024-08-22 13:42:13.643 INFO  [22840] [CiMVSWorkJob::StartRun@1943] [Init] StartRun begin, client type[2], 0:vm, 1:export process, 2:other.
+
+2024-08-22 13:42:13.644 INFO  [22840] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:13.644 INFO  [11228] [LogDllOpr::ClearInvalidUiMapFileDir@432] [Init] Clear invalid ui mapping file dir begin, currunt pid[8156]
+
+2024-08-22 13:42:13.644 INFO  [22840] [CUiParamSetBase::SetChunkDataThreshold@663] ChunkDataThreshold[20971520]
+
+2024-08-22 13:42:13.644 INFO  [22840] [CUiParamSetBase::SetUiChunkMapWhenLoad@881] UiChunkDataMap[0] when load
+
+2024-08-22 13:42:13.644 INFO  [22840] [CiMVSWorkJob::LoadCfgParam@5092] [Init] Get config param, Now RepAddr[tcp://127.0.0.1:5556] memory[98] IsSamePc[1] loadTimeoutmin[180000] loadTimeoutmax[210000] AutoLoadSoluDelay[30000]
+
+2024-08-22 13:42:13.644 INFO  [22840] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:13.644 INFO  [22840] [CPluginMgr::LoadCfgParam@510] Now plugin type[0], dongle type[0]
+
+2024-08-22 13:42:13.644 INFO  [22840] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:13.645 WARN  [22840] [CFileHandlerMng::InitAutoSaveSol@685] [Init] Can not find file, use default value
+
+2024-08-22 13:42:13.645 INFO  [22840] [CiMVSWorkJob::StartRun@1976] [Init] Process mode[0]
+
+2024-08-22 13:42:13.645 INFO  [18784] [CFileHandlerMng::DoSolutionOperate@317] DoSolutionOperate begin.
+
+2024-08-22 13:42:13.645 INFO  [22840] [CPluginMgr::Init@42] [Init] Plugin manager init begin
+
+2024-08-22 13:42:13.645 INFO  [22840] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:13.645 INFO  [22840] [CPluginMgr::LoadCfgParam@510] Now plugin type[0], dongle type[0]
+
+2024-08-22 13:42:13.645 INFO  [22840] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:13.657 INFO  [11228] [LogDllOpr::ClearInvalidUiMapFileDir@464] [Init] Pid[20384] does not exist, now remove it,[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Release\UiMapFile\20384]
+
+2024-08-22 13:42:13.669 INFO  [11228] [LogDllOpr::ClearInvalidUiMapFileDir@469] [Init] Pid[8156] already exist
+
+2024-08-22 13:42:13.669 INFO  [11228] [LogDllOpr::ClearInvalidUiMapFileDir@477] [Init] Clear invalid ui mapping file dir end
+
+2024-08-22 13:42:13.702 INFO  [22840] [CPluginMgr::LoadComponent@124] Load [PlugAuthorization.dll] success.
+
+2024-08-22 13:42:13.702 INFO  [22840] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:13.702 INFO  [15936] [FilterNodeManagerForSP::Init@148] [Init] Module manager init begin
+
+2024-08-22 13:42:13.702 INFO  [15936] [FilterNodeManagerForSP::LoadCfgParam@555] Now procedure count[64], token source[VisionMasterServerApp.exe]
+
+2024-08-22 13:42:13.702 INFO  [15936] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:13.703 INFO  [15936] [CDynamicParam::GetMaxModuleCount@148] Max module count [1024]
+
+2024-08-22 13:42:13.703 INFO  [15936] [FilterNodeManagerForSP::Init@204] [Init] Load proxy dll
+
+2024-08-22 13:42:13.703 INFO  [15936] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:13.703 INFO  [22840] [CPluginMgr::LoadComponent@124] Load [PlugMonitorResource.dll] success.
+
+2024-08-22 13:42:13.705 INFO  [15936] [CLoadProxyDll::LoadDll@38] Load [C:/Program Files/VisionM2024-08-22 13:42:38.509 INFO  [21264] [PF_M_Init@33] ===========PF_M_Init main begin. Version[V4.3.0, build May 12 2023, 15:02:15] Process[ocrproject.exe]===========
+
+2024-08-22 13:42:38.509 INFO  [21264] [PF_M_Init@34] [Init] [Begin]
+
+2024-08-22 13:42:38.509 INFO  [21264] [CiMVSWorkJob::Init@127] [Init] Client manager init begin.
+
+2024-08-22 13:42:38.509 INFO  [21264] [CiMVSWorkJob::Init@179] [Init] Client manager init end.
+
+2024-08-22 13:42:38.509 INFO  [21264] [CiMVSWorkJob::StartRun@1943] [Init] StartRun begin, client type[2], 0:vm, 1:export process, 2:other.
+
+2024-08-22 13:42:38.510 INFO  [21264] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:38.510 INFO  [25520] [LogDllOpr::ClearInvalidUiMapFileDir@432] [Init] Clear invalid ui mapping file dir begin, currunt pid[24952]
+
+2024-08-22 13:42:38.510 INFO  [21264] [CUiParamSetBase::SetChunkDataThreshold@663] ChunkDataThreshold[20971520]
+
+2024-08-22 13:42:38.510 INFO  [21264] [CUiParamSetBase::SetUiChunkMapWhenLoad@881] UiChunkDataMap[0] when load
+
+2024-08-22 13:42:38.510 INFO  [21264] [CiMVSWorkJob::LoadCfgParam@5092] [Init] Get config param, Now RepAddr[tcp://127.0.0.1:5556] memory[98] IsSamePc[1] loadTimeoutmin[180000] loadTimeoutmax[210000] AutoLoadSoluDelay[30000]
+
+2024-08-22 13:42:38.510 INFO  [21264] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:38.510 INFO  [21264] [CPluginMgr::LoadCfgParam@510] Now plugin type[0], dongle type[0]
+
+2024-08-22 13:42:38.510 INFO  [21264] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:38.511 WARN  [21264] [CFileHandlerMng::InitAutoSaveSol@685] [Init] Can not find file, use default value
+
+2024-08-22 13:42:38.511 INFO  [21264] [CiMVSWorkJob::StartRun@1976] [Init] Process mode[0]
+
+2024-08-22 13:42:38.511 INFO  [21264] [CPluginMgr::Init@42] [Init] Plugin manager init begin
+
+2024-08-22 13:42:38.511 INFO  [21264] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:38.511 INFO  [22276] [CFileHandlerMng::DoSolutionOperate@317] DoSolutionOperate begin.
+
+2024-08-22 13:42:38.511 INFO  [21264] [CPluginMgr::LoadCfgParam@510] Now plugin type[0], dongle type[0]
+
+2024-08-22 13:42:38.511 INFO  [21264] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:38.530 INFO  [25520] [LogDllOpr::ClearInvalidUiMapFileDir@469] [Init] Pid[24952] already exist
+
+2024-08-22 13:42:38.538 INFO  [25520] [LogDllOpr::ClearInvalidUiMapFileDir@464] [Init] Pid[8156] does not exist, now remove it,[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Release\UiMapFile\8156]
+
+2024-08-22 13:42:38.538 INFO  [25520] [LogDllOpr::ClearInvalidUiMapFileDir@477] [Init] Clear invalid ui mapping file dir end
+
+2024-08-22 13:42:38.567 INFO  [21264] [CPluginMgr::LoadComponent@124] Load [PlugAuthorization.dll] success.
+
+2024-08-22 13:42:38.567 INFO  [21264] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:38.568 INFO  [21264] [CPluginMgr::LoadComponent@124] Load [PlugMonitorResource.dll] success.
+
+2024-08-22 13:42:38.568 INFO  [13028] [FilterNodeManagerForSP::Init@148] [Init] Module manager init begin
+
+2024-08-22 13:42:38.569 INFO  [13028] [FilterNodeManagerForSP::LoadCfgParam@555] Now procedure count[64], token source[VisionMasterServerApp.exe]
+
+2024-08-22 13:42:38.569 INFO  [13028] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:38.569 INFO  [13028] [CDynamicParam::GetMaxModuleCount@148] Max module count [1024]
+
+2024-08-22 13:42:38.569 INFO  [13028] [FilterNodeManagerForSP::Init@204] [Init] Load proxy dll
+
+2024-08-22 13:42:38.569 INFO  [13028] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-22 13:42:38.571 INFO  [13028] [CLoadProxyDll::LoadDll@38] Load [C:/Program Files/VisionMaster4.3.0/Applications/ModuleProxy/x64/ModuleProxy.dll] success.
+
+2024-08-22 13:42:38.584 INFO  [13028] [FilterNodeManagerForSP::Init@224] [Init] VM_PROXY_Init finish
+
+2024-08-22 13:42:38.584 INFO  [13028] [FilterNodeManagerForSP::Init@232] [Init] VM_PROXY_SetServerCallBack finish
+
+2024-08-22 13:42:38.584 INFO  [13028] [FilterNodeManagerForSP::Init@240] [Init] Module manager init finish
+
+2024-08-22 13:42:39.319 INFO  [21264] [CPluginMgr::Init@76] [Init] Plugin manager init finish
+
+2024-08-22 13:42:39.319 INFO  [21264] [CiMVSWorkJob::StartRun@2001] [Init] Now dongle state [0]
+
+2024-08-22 13:42:39.319 INFO  [21264] [FilterNodeManagerForSP::UpdateDongleInfoToProxy@9553] Dongle state[0] camera count[4]
+
+2024-08-22 13:42:39.319 INFO  [21264] [CiMVSWorkJob::StartRun@2021] [Init] StartRun end.
+
+2024-08-22 13:42:39.319 INFO  [21264] [PF_M_Init@49] [Init] [End] PF_M_Init end.
+
+2024-08-22 13:42:39.319 INFO  [21264] [FilterNodeManagerForSP::SPSetSdkCallback@9453] SPSetSdkCallback
+
+2024-08-22 13:42:39.319 INFO  [21264] [CGlobalSriptMng::SetCallback4Single@1922] pCallback[00007FFB2BE51BB0] userdata[00007FFB2C589230]
+
+2024-08-22 13:42:39.319 INFO  [21264] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2063-0*6200*4*1000000]
+
+2024-08-22 13:42:39.319 INFO  [21264] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-22 13:42:39.319 INFO  [21264] [CiMVSWorkJob::SetReportModuResult_V42@6503] Client send[2-0-0], 1:close all, 2:open all, 3:single(id, is report).
+
+2024-08-22 13:42:39.319 INFO  [21264] [CiMVSWorkJob::DevelopSetReportResultAll@6538] Open all module result
+
+2024-08-22 13:42:39.319 INFO  [21264] [FilterNodeManagerForSP::SPSetReportModuResult@8644] bReportAll[1].
+
+2024-08-22 13:42:39.320 INFO  [21264] [FilterNodeManagerForSP::TransmitSdk2ProxyMsgWithReply@7613] TransmitSdk2ProxyMsgWithReply End. ret[0]
+
+2024-08-22 13:42:39.558 INFO  [21264] [CiMVSWorkJob::ControlGetAllProcedure@4524] Client get all procedure begin.
+
+2024-08-22 13:42:39.558 ERROR [21264] [CiMVSWorkJob::ControlGetAllProcedure@4534] ControlGetAllProcedure procedure is empty.
+
+2024-08-22 13:42:39.558 INFO  [21264] [CiMVSWorkJob::ControlGetAllProcedure@4566] Client get all procedure end.
+
+2024-08-22 13:42:39.561 INFO  [21264] [CiMVSWorkJob::ControlGetAllGlobalModules@6779] Control get all global modules.
+

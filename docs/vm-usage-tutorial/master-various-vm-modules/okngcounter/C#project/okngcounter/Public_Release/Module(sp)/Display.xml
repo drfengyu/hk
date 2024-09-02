@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DisplayRoot>
+  <Items>
+     <Object Type="image" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="1" IsDisplay="true">
+		  <Features>
+			<Feature Name="Image" Value="{0}">
+			</Feature>
+			<Feature Name="Width" Value="0">
+			</Feature>
+			<Feature Name="Height" Value="0">
+			</Feature>
+			<Feature Name="PixelFormat" Value="0" >
+			</Feature>
+		  </Features>
+     </Object>
+     <Object Type="circle"  okcolor="#66ff00" ngcolor="#ff0000" hotcolor ="#66ff00" opacity = "1" linetype="1" linewidth="1" IsDisplay="true">
+		<Features>
+			<Feature Name="CenterX"  Value = "0">
+			</Feature>
+			<Feature Name="CenterY"  Value = "0">
+			</Feature>
+			<Feature Name="MajorRadius"  Value = "0">
+			</Feature>
+			<Feature Name="MinorRadius"  Value = "0">
+			</Feature>			
+			<Feature Name="Status" Value ="0" >
+			</Feature>
+		</Features>
+	 </Object>
+	 <Object Type="point"  okcolor="#66ff00" ngcolor="#ff0000" hotcolor ="#66ff00" opacity = "1" linetype="1" linewidth="1" IsDisplay="true">
+		<Features>
+			<Feature Name="CenterX"  Value = "0">
+			</Feature>
+			<Feature Name="CenterY" Value = "0">
+			</Feature>
+			<Feature Name="Status" Value ="0">
+			</Feature>
+		</Features>
+	 </Object>
+	  <Object Type="micropoint"  okcolor="#66ff00" ngcolor="#ff0000" hotcolor ="#66ff00" opacity = "1" linetype="1" linewidth="1" IsDisplay="true">
+		<Features>
+			<Feature Name="CenterX"  Value = "0">
+			</Feature>
+			<Feature Name="CenterY" Value = "0">
+			</Feature>
+			<Feature Name="Status" Value ="0">
+			</Feature>
+		</Features>
+	 </Object>
+	 <Object Type="rect"  okcolor="#66ff00" ngcolor="#ff0000" hotcolor ="#66ff00" opacity = "1" linetype="1" linewidth="2" IsDisplay="true">
+		<Features>
+			<Feature Name="CenterX"  Value = "0" >
+			</Feature>
+			<Feature Name="CenterY"  Value = "0" >
+			</Feature>
+			<Feature Name="Width"  Value = "0" >
+			</Feature>
+			<Feature Name="Height"  Value = "0" >
+			</Feature>
+			<Feature Name="Angle" Value ="0" >
+			</Feature>
+			<Feature Name="Status" Value ="1" >
+			</Feature>
+		</Features>
+	 </Object>
+	 <Object  Type="text"  okcolor="#66ff00" ngcolor="#ff0000"  hotcolor ="#66ff00"  opacity = "1" IsDisplay="true">
+		<Features>
+			<Feature Name="PositionX"  Value = "0" >
+			</Feature>
+			<Feature Name="PositionY"  Value = "0" >
+			</Feature>
+			<Feature Name="FontSize"  Value = "10" >
+			</Feature>
+			<Feature Name="Angle"  Value = "0">
+			</Feature>
+			<Feature Name="Content" Value = "">
+			</Feature>			
+			<Feature Name="Status" Value ="0">
+			</Feature>
+		</Features>
+	 </Object>
+	 <Object  Type="line"  okcolor="#66ff00" ngcolor="#ff0000" hotcolor ="#66ff00" opacity = "1" linetype="1" linewidth="2" IsDisplay="true" NeedLabel = "false" arrowsize = "10">
+		<Features>
+			<Feature Name="StartLineX" Value = "0">
+			</Feature>
+			<Feature Name="StartLineY" Value = "0">
+			</Feature>
+			<Feature Name="EndLineX"  Value = "0">
+			</Feature>
+			<Feature Name="EndLineY"  Value = "0">
+			</Feature>			
+			<Feature Name="Status" Value ="0">
+			</Feature>
+			<Feature Name="IsThroughLine" Value ="false">
+			</Feature>
+		</Features>
+	</Object>
+	<Object  Type="outlinepoint"  okcolor="#66ff00" ngcolor="#ff0000" hotcolor ="#66ff00" opacity = "1" linetype="1" linewidth="2" IsDisplay="true">
+		<Features>
+			<Feature Name="OutLineInfo"  Value = "{0}">
+			</Feature>
+	   </Features>
+    </Object>
+	
+	<Object  Type="LineAngle" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true" NeedLabel="false" arrowsize="10">
+          <Features>
+            <Feature Name="StartLine1X"  Value="0" />
+            <Feature Name="StartLine1Y"  Value="0" />
+            <Feature Name="EndLine1X"  Value="0" />
+            <Feature Name="EndLine1Y"  Value="0" />
+            <Feature Name="IntersectionX"  Value="0" />
+            <Feature Name="IntersectionY"  Value="0" />
+            <Feature Name="StartLine2X"  Value="0" />
+            <Feature Name="StartLine2Y"  Value="0" />
+            <Feature Name="EndLine2X"  Value="0" />
+            <Feature Name="EndLine2Y"  Value="0" />
+            <Feature Name="Angle"  Value="0" />
+            <Feature Name="Status" Value="0" />
+          </Features>
+     </Object>
+	 
+	<Object Type="coordinate"  okcolor="#66ff00" ngcolor="#ff0000" hotcolor ="#66ff00" opacity = "1" linetype="1" linewidth="1" IsDisplay="true">
+      <Features>
+	      <Feature Name="CenterX" Value = "0">
+		  </Feature>
+		  <Feature Name="CenterY" Value = "0">
+		  </Feature>
+		  <Feature Name="CoorDXVecX" Value = "0">
+		  </Feature>
+		  <Feature Name="CoorDXVecY" Value = "0">
+		  </Feature>
+		  <Feature Name="CoorDYVecX" Value = "0">
+		  </Feature>
+		  <Feature Name="CoorDYVecY" Value = "0">
+		  </Feature>		  
+		  <Feature Name="Status" Value ="0">
+		  </Feature>
+	  </Features>
+    </Object>
+	<Object  Type="pixelinfoimage" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="1" IsDisplay="true">
+          <Features>
+            <Feature Name="Image" Value="{0}" />
+            <Feature Name="Height"  Value="0" />
+            <Feature Name="Width"  Value="0" />
+            <Feature Name="PixelFormat" Value="0"  />
+            <Feature Name="NeedConvertColor" Value="1"  />
+            <Feature Name="PixelInfoLabel" Value=""  />
+            <Feature Name="PixelInfo" Value="{0}"  />
+            <Feature Name="PixelInfoValue" Value="{0}"  />
+          </Features>
+    </Object>
+	<Object  Type="polygon" okcolor="#0000ff" ngcolor="#ff0000" hotcolor="#66ff00" opacity="0.5" linetype="1" linewidth="2" IsDisplay="true" highLightEnable="false">
+        <Features>
+            <Feature Name="PointNum" Value="0" />
+            <Feature Name="PointXArray" Value="NULL" Type="Array" />
+            <Feature Name="PointYArray" Value="NULL" Type="Array" />
+            <Feature Name="FillColor" Value="#FF5400" />
+            <Feature Name="Status" Value="1" />
+        </Features>
+    </Object>
+	<Object Type="annularsector" okcolor="#0000ff" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true">
+        <Features>
+            <Feature Name="CenterX" Value="0" />
+            <Feature Name="CenterY" Value="0" />
+            <Feature Name="OuterRadius" Value="0" />
+            <Feature Name="InnerRadius" Value="0" />
+            <Feature Name="StartAngle" Value="0" />
+            <Feature Name="AngleRange" Value="0" />
+            <Feature Name="Tips" Value="" />
+            <Feature Name="Status" Value="1" />
+        </Features>
+    </Object>
+	<Object Type="path" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="1" IsDisplay="true">
+          <Features>
+            <Feature Name="CenterX" Value="0" ArrayMatch="true" />
+            <Feature Name="CenterY" Value="0" ArrayMatch="true" />
+            <Feature Name="Tips" Value="" ArrayMatch="true" />
+            <Feature Name="Status" Value="0" />
+            <Feature Name="Num" Value="0" />
+          </Features>
+    </Object>
+	<Object Type="ellipse" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="1" IsDisplay="true">
+		<Features>
+			<Feature Name="CenterX" Value="0" />
+			<Feature Name="CenterY" Value="0" />
+			<Feature Name="MajorRadius" Value="0" />
+			<Feature Name="MinorRadius" Value="0" />
+			<Feature Name="Angle" Value="0" />
+			<Feature Name="Status" Value="0" />
+		</Features>
+    </Object>
+	<Object  Type="datarecord" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true">
+          <Features>
+            <Feature Name="Content" Value="{0}" ArrayMatch="true"/>
+			<Feature Name="Num" Value="1" Mapping="NULL" />
+          </Features>
+    </Object>
+  </Items>
+</DisplayRoot>

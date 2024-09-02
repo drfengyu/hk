@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmParamList>
+  
+	<ParamItem>
+		<Name>VlcfPath</Name>
+		<DefaultValue></DefaultValue>
+	</ParamItem>
+	
+	<ParamItem>
+		<Name>LoadCamera</Name>
+		<DefaultValue></DefaultValue>
+	</ParamItem>
+	
+</AlgorithmParamList>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmTabRoot>
+  <IsFullScreen>True</IsFullScreen>
+  <Tabs>
+    <Tab Name="通信配置">
+      <Categorys>        
+		<CategoryNoHead Name="Tab_Com Param">
+		  <CustomVisible>False</CustomVisible>
+          <Items>
+			 <Enumeration Name="Communicationmode">
+              <Description>RunParam_Communicationmode</Description>
+              <DisplayName>RunParam_Communicationmode</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>1</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+			  <EnumEntrys>
+                <EnumEntry Name="TcpClient">
+                  <Description>TcpClient</Description>
+                  <DisplayName>TcpClient</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+<!-- 				<EnumEntry Name="TcpServer">
+                  <Description>TcpServer</Description>
+                  <DisplayName>TcpServer</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry> -->
+               </EnumEntrys>
+			   <Triggers>
+			    <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>1</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>TargetPort</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>TargetIP</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+					<Setter>
+					  <OperationName>InitParamOperation</OperationName>
+					  <OperationParams>TargetPort;TargetIP</OperationParams>
+					</Setter>
+                  </Setters>
+                </Trigger>
+				<Trigger>
+                  <Property>CurValue</Property>
+                  <Value>2</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>HostPort</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>HostIP</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <OperationName>InitParamOperation</OperationName>
+					  <OperationParams>HostPort;HostIP</OperationParams>
+					</Setter>
+                  </Setters>
+                </Trigger>
+			  </Triggers>
+              </Enumeration>
+			  
+			  <IPString Name="TargetIP">
+               <CurValue>127.0.0.1</CurValue>
+               <DefaultValue>127.0.0.1</DefaultValue>
+               <Description>RunParam_Target IP</Description>
+               <DisplayName>RunParam_Target IP</DisplayName>
+               <Visibility>Beginner</Visibility>
+               <AccessMode>RW</AccessMode>
+			   <CustomVisible>False</CustomVisible>
+			   <SupportChangeEnable>True</SupportChangeEnable>
+              </IPString>
+			  <Integer Name="TargetPort">
+               <MinValue>0</MinValue>
+               <MaxValue>65535</MaxValue>
+               <IncValue>1</IncValue>
+               <CurValue>7920</CurValue>
+               <DefaultValue>7920</DefaultValue>
+               <Description>RunParam_Target Port</Description>
+               <DisplayName>RunParam_Target Port</DisplayName>
+               <Visibility>Beginner</Visibility>
+               <AccessMode>RW</AccessMode>
+			   <CustomVisible>False</CustomVisible>
+			   <SupportChangeEnable>True</SupportChangeEnable>
+              </Integer>
+			  
+			  <IPString Name="HostIP">
+               <CurValue>127.0.0.1</CurValue>
+               <DefaultValue>127.0.0.1</DefaultValue>
+               <Description>RunParam_Local IP</Description>
+               <DisplayName>RunParam_Local IP</DisplayName>
+               <Visibility>Beginner</Visibility>
+               <AccessMode>RW</AccessMode>
+			   <CustomVisible>False</CustomVisible>
+			   <SupportChangeEnable>True</SupportChangeEnable>
+              </IPString>
+			  <Integer Name="HostPort">
+               <MinValue>0</MinValue>
+               <MaxValue>65535</MaxValue>
+               <IncValue>1</IncValue>
+               <CurValue>7930</CurValue>
+               <DefaultValue>7930</DefaultValue>
+               <Description>Tab_Local Port</Description>
+               <DisplayName>Tab_Local Port</DisplayName>
+               <Visibility>Beginner</Visibility>
+               <AccessMode>RW</AccessMode>
+			   <CustomVisible>False</CustomVisible>
+			   <SupportChangeEnable>True</SupportChangeEnable>
+              </Integer>
+			  <Integer Name="PollTime">
+               <MinValue>0</MinValue>
+               <MaxValue>65535</MaxValue>
+               <IncValue>1</IncValue>
+               <CurValue>10</CurValue>
+               <DefaultValue>10</DefaultValue>
+               <Description>PollTime</Description>
+               <DisplayName>PollTime</DisplayName>
+               <Visibility>Beginner</Visibility>
+               <AccessMode>RW</AccessMode>
+              </Integer>
+		      <Boolean Name="ReConnectState">
+                <AlgorithmIndex>0</AlgorithmIndex>
+                <CurValue>False</CurValue>
+				<DefaultValue>False</DefaultValue>
+				<Description>RunParam_AutoReconnect</Description>
+				<DisplayName>RunParam_AutoReconnect</DisplayName>
+				<Visibility>Beginner</Visibility>
+				<AccessMode>RW</AccessMode>
+			  </Boolean>			
+          </Items>
+        </CategoryNoHead>
+		<Category Name="Tab_PLCAddress">
+		   <Items>
+		   	<AddressDataSetA Name="AddressDataA">
+			  <IsCustomWidth>True</IsCustomWidth>
+			  <ItemWidth>650</ItemWidth>
+              <Description>RunParam_AddressData</Description>
+              <DisplayName>RunParam_AddressData</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </AddressDataSetA>					 
+		   </Items>
+		</Category>
+      </Categorys>
+    </Tab>
+  </Tabs>
+</AlgorithmTabRoot>

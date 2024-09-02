@@ -1,0 +1,884 @@
+2024-08-16 10:47:06.166 INFO  [18644] [VM_M_Initialize@54] [Init][Begin]SDK Version: win64 v4.3.0 build Jun  2 2023, 18:19:09
+
+2024-08-16 10:47:06.166 INFO  [18644] [VM_M_Initialize@55] [Init] Log Mode Async
+
+2024-08-16 10:47:06.166 INFO  [18644] [VM_M_Initialize@60] [Init]LoadModuleData path[C:\Users\Fengling\AppData\Local\Temp\VM1444ImgSrcTemp]
+
+2024-08-16 10:47:06.166 INFO  [18644] [VM_M_Initialize@75] [Init]Set the module path: C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64
+
+2024-08-16 10:47:06.166 INFO  [18644] [VM_M_Initialize@87] [Init] CallbackMgr
+
+2024-08-16 10:47:06.166 INFO  [18644] [CShareMemoryResMgr::ReleaseMemoryRes@21] ReleaseMemoryRes start 
+
+2024-08-16 10:47:06.166 INFO  [18644] [VM_M_Initialize@95] [Init] TopoDataMgr
+
+2024-08-16 10:47:06.166 INFO  [18644] [VM_M_Initialize@101] [Init] ThreadPool
+
+2024-08-16 10:47:06.167 INFO  [18644] [CVmThreadPool::Init@26] Processor num is 8
+
+2024-08-16 10:47:06.167 INFO  [11516] [CModulePathResolver::Init@25] CModulePathResolver Init Begin
+
+2024-08-16 10:47:06.167 INFO  [20508] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [1]
+
+2024-08-16 10:47:06.167 INFO  [18644] [VM_M_Initialize@108] [Init] ModuleRstCache
+
+2024-08-16 10:47:06.167 INFO  [18644] [VM_M_Initialize@115] [Init] ModuleGlobalVarCache
+
+2024-08-16 10:47:06.167 INFO  [18644] [VM_M_Initialize@122] [Init] UserInputCache
+
+2024-08-16 10:47:06.167 INFO  [18644] [VM_M_Initialize@129] [Init] ModuleLoader
+
+2024-08-16 10:47:06.167 INFO  [18644] [VM_M_Initialize@136] [Init] SubscribeMappingMgr
+
+2024-08-16 10:47:06.167 INFO  [18644] [VM_M_Initialize@143] [Init] ModuleStatusRecord
+
+2024-08-16 10:47:06.167 INFO  [18644] [VM_M_Initialize@150] [Init] MemPoolForProcess
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_Initialize@157] [Init] FrameRuntimeInfo
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_Initialize@164] [Init] ProcedureLinkage
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_Initialize@171] [Init] ReentrantObjMgr
+
+2024-08-16 10:47:06.168 INFO  [9400] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [2]
+
+2024-08-16 10:47:06.168 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Calculation\CalculatorModule\CalculatorModuleAlgorithm.xml
+
+2024-08-16 10:47:06.168 INFO  [18644] [CModuleRstDispatcher::PromotePriority@554] Set thread[tid=28] sched param: policy=0, priority=15
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_Initialize@180] [Init] Singleton
+
+2024-08-16 10:47:06.168 INFO  [18644] [CRunningPolicy::SetProcedureRunningPolicy@60] Running policy mode=1, ensure time stability is false
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_Initialize@183] [Init] GlobalVarRWLock
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_Initialize@191] [Init]Module path: C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64, char set=1, version=10, preload=1
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_Initialize@192] [Init][End]Initialize finished, VmVersion=10
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_EnableSharedMemGlobalPrefix@1924] Shared memory global preifx is not enabled
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_EnableReentrant@2603] VM_M_EnableReentrant(enable=false)
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_EnableReentrant@2607] return code: 0x00000000
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_SetBufferNodeNum@2639] VM_M_SetBufferNodeNum(bufferNum=2)
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_SetBufferNodeNum@2643] return code: 0x00000000
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_SetUnsupportReentrantModules@2615] VM_M_SetUnsupportReentrantModules(pData=ImageSourceModule)
+
+2024-08-16 10:47:06.168 INFO  [18644] [CReentrantObjMgr::SetUnsupportReentrantModules@393] Unsupport reenrant module list, size=1:
+
+2024-08-16 10:47:06.168 INFO  [18644] [CReentrantObjMgr::SetUnsupportReentrantModules@396] [0]:ImageSourceModule
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_SetUnsupportReentrantModules@2619] return code: 0x00000000
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_SetReentrantMaxTimes@2627] VM_M_SetReentrantMaxTimes(nMaxTimes=5)
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_SetReentrantMaxTimes@2631] return code: 0x00000000
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_ForceDeepCopyImage@2707] VM_M_ForceDeepCopyImage(force=true)
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_ForceDeepCopyImage@2711] return code: 0x00000000
+
+2024-08-16 10:47:06.168 INFO  [18644] [VM_M_SetExcludeModuleName@2719] SetExcludeModuleName ImageCollectModu
+
+2024-08-16 10:47:06.168 INFO  [7352] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [3]
+
+2024-08-16 10:47:06.168 INFO  [7748] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [4]
+
+2024-08-16 10:47:06.168 INFO  [10944] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [5]
+
+2024-08-16 10:47:06.169 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Calculation\IMVSSinglePointAlignModu\IMVSSinglePointAlignModuAlgorithm.xml
+
+2024-08-16 10:47:06.169 INFO  [21316] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [6]
+
+2024-08-16 10:47:06.169 INFO  [16972] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [7]
+
+2024-08-16 10:47:06.170 INFO  [20580] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [8]
+
+2024-08-16 10:47:06.170 INFO  [16156] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [9]
+
+2024-08-16 10:47:06.170 INFO  [3048] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [10]
+
+2024-08-16 10:47:06.171 INFO  [20536] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [11]
+
+2024-08-16 10:47:06.171 INFO  [19720] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [12]
+
+2024-08-16 10:47:06.171 INFO  [1272] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [13]
+
+2024-08-16 10:47:06.171 INFO  [4900] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [14]
+
+2024-08-16 10:47:06.172 INFO  [20104] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [15]
+
+2024-08-16 10:47:06.172 INFO  [2772] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [16]
+
+2024-08-16 10:47:06.172 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Collection\ImageBufferModule\ImageBufferModuleAlgorithm.xml
+
+2024-08-16 10:47:06.172 INFO  [17856] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [1]
+
+2024-08-16 10:47:06.173 INFO  [9684] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [2]
+
+2024-08-16 10:47:06.173 INFO  [20688] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [3]
+
+2024-08-16 10:47:06.173 INFO  [20888] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [4]
+
+2024-08-16 10:47:06.174 INFO  [3636] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [5]
+
+2024-08-16 10:47:06.174 INFO  [20608] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [6]
+
+2024-08-16 10:47:06.175 INFO  [6024] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [7]
+
+2024-08-16 10:47:06.175 INFO  [9180] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [8]
+
+2024-08-16 10:47:06.176 INFO  [21052] [DispatchThread@13] Module result dispatcher, tid=28
+
+2024-08-16 10:47:06.176 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\DefectDetection\IMVSEdgeInspGroupModu\IMVSEdgeInspGroupModuAlgorithm.xml
+
+2024-08-16 10:47:06.179 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\GlobalTriggerModule\GlobalTriggerModuleAlgorithm.xml
+
+2024-08-16 10:47:06.179 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\GlobalVariableModule\GlobalVariableModuleAlgorithm.xml
+
+2024-08-16 10:47:06.179 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\LightControl\LightControlAlgorithm.xml
+
+2024-08-16 10:47:06.179 ERROR [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@98] Open file 'C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\ProcedureModule\ProcedureModuleAlgorithm.xml' failed
+
+2024-08-16 10:47:06.179 ERROR [11516] [CModulePathResolver::Init@92] modulename[ProcedureModule] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\ProcedureModule\ProcedureModuleAlgorithm.xml] can not find
+
+2024-08-16 10:47:06.180 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageGeneration\GeometryCreate\GeometryCreateAlgorithm.xml
+
+2024-08-16 10:47:06.209 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageProcessing\IMVSImageCombineProcessModu\IMVSImageCombineProcessModuAlgorithm.xml
+
+2024-08-16 10:47:06.210 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageProcessing\IMVSImageFixtureModu\IMVSImageFixtureModuAlgorithm.xml
+
+2024-08-16 10:47:06.212 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSAngleBisectorFindModu\IMVSAngleBisectorFindModuAlgorithm.xml
+
+2024-08-16 10:47:06.215 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSMedianLineFindModu\IMVSMedianLineFindModuAlgorithm.xml
+
+2024-08-16 10:47:06.216 ERROR [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@98] Open file 'C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSStringLocationModu\IMVSStringLocationModuAlgorithm.xml' failed
+
+2024-08-16 10:47:06.216 ERROR [11516] [CModulePathResolver::Init@92] modulename[IMVSStringLocationModu] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSStringLocationModu\IMVSStringLocationModuAlgorithm.xml] can not find
+
+2024-08-16 10:47:06.217 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\DataSetModule\DataSetModuleAlgorithm.xml
+
+2024-08-16 10:47:06.217 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\FormatModule\FormatModuleAlgorithm.xml
+
+2024-08-16 10:47:06.217 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\GraphicsSetModule\GraphicsSetModuleAlgorithm.xml
+
+2024-08-16 10:47:06.217 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\IfBranchModule\IfBranchModuleAlgorithm.xml
+
+2024-08-16 10:47:06.218 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\PyShellModule\PyShellModuleAlgorithm.xml
+
+2024-08-16 10:47:06.218 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\ShellModule\ShellModuleAlgorithm.xml
+
+2024-08-16 10:47:06.222 ERROR [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@115] Root element is null
+
+2024-08-16 10:47:06.222 ERROR [11516] [CModulePathResolver::Init@92] modulename[IMVSBoxOverlapCalculationModu] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\SplitCombination\IMVSBoxOverlapCalculationModu\IMVSBoxOverlapCalculationModuAlgorithm.xml] can not find
+
+2024-08-16 10:47:06.222 INFO  [11516] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\SplitCombination\IMVSMultiLabelFilterModu\IMVSMultiLabelFilterModuAlgorithm.xml
+
+2024-08-16 10:47:06.222 INFO  [11516] [CModulePathResolver::Init@111] CModulePathResolver Init End
+
+2024-08-16 10:47:08.732 INFO  [15424] [VM_M_AsyncCloseSolution@1139] VM_M_AsyncCloseSolution()
+
+2024-08-16 10:47:08.732 INFO  [15424] [VM_M_AsyncCloseSolution@1145] return code: 0x00000000
+
+2024-08-16 10:47:08.732 INFO  [20508] [CControlDelegate::CloseSolution@1746] Close solution begin
+
+2024-08-16 10:47:08.732 INFO  [20508] [CProcedure::WaitDoWorkFinish@132] Procedure 10999 work finish
+
+2024-08-16 10:47:08.732 INFO  [20508] [CProcedure::WaitDoWorkFinish@132] Procedure 100000 work finish
+
+2024-08-16 10:47:08.732 INFO  [20508] [CTopoDataMgr::CleanUp@232] Delete procedure [10999, #Global#]
+
+2024-08-16 10:47:08.732 INFO  [20508] [CProcedure::WaitDoWorkFinish@132] Procedure 10999 work finish
+
+2024-08-16 10:47:08.732 INFO  [20508] [CTopoDataMgr::CleanUp@232] Delete procedure [100000, #ProcedureThatGroupBelongTo#]
+
+2024-08-16 10:47:08.732 INFO  [20508] [CProcedure::WaitDoWorkFinish@132] Procedure 100000 work finish
+
+2024-08-16 10:47:08.732 INFO  [20508] [CRunningPolicy::SetProcedureRunningPolicy@60] Running policy mode=1, ensure time stability is false
+
+2024-08-16 10:47:08.732 INFO  [20508] [CControlDelegate::CloseSolution@1799] Close solution finished
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_SetLoadSolutionState@1153] VM_M_SetLoadSolutionState(nLoadState=1)
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_SetLoadSolutionState@1157] return code: 0x00000000
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_CreateProcedure@237] VM_M_CreateProcedure(Id=10000, name=流程1)
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_CreateProcedure@253] return code: 0x00000000
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_UpdateProcedure@268] VM_M_UpdateProcedure(Id=10000, name=流程1, exclude=0)
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_UpdateProcedure@272] return code: 0x00000000
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_SetProcedureRunningParam@914] VM_M_SetProcedureRunningParam(procedureId=10000, running interval=100, stopWhenNG=0, waitTime=0, flag=0x00000000)
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_SetProcedureRunningParam@918] return code: 0x00000000
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_BatchAddModuleNodeEx@591] VM_M_BatchAddModuleNodeEx(nArrySize=5)
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_BatchAddModuleNodeEx@593] Module nodes details:
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_BatchAddModuleNodeEx@599] [0] -> (10000, 0, ImageSourceModule, 图像源1), enable=1, upload=1
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_BatchAddModuleNodeEx@599] [1] -> (10000, 1, IMVSCircleEdgeInspModu, 圆弧边缘缺陷检测1), enable=1, upload=1
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_BatchAddModuleNodeEx@599] [2] -> (10000, 2, IfModule, 条件检测1), enable=1, upload=1
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_BatchAddModuleNodeEx@599] [3] -> (10000, 3, CalculatorModule, 计数), enable=1, upload=1
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_BatchAddModuleNodeEx@599] [4] -> (10000, 4, CalculatorModule, 合格率), enable=1, upload=1
+
+2024-08-16 10:47:08.783 INFO  [15424] [VM_M_BatchAddModuleNodeEx@604] return code: 0x00000000
+
+2024-08-16 10:47:08.783 INFO  [17856] [CModuleLoader::Load@30] Load module[1, IMVSCircleEdgeInspModu, 圆弧边缘缺陷检测1] begin
+
+2024-08-16 10:47:08.783 INFO  [9684] [CModuleLoader::Load@30] Load module[0, ImageSourceModule, 图像源1] begin
+
+2024-08-16 10:47:08.783 INFO  [3636] [CModuleLoader::Load@30] Load module[4, CalculatorModule, 合格率] begin
+
+2024-08-16 10:47:08.783 INFO  [20688] [CModuleLoader::Load@30] Load module[2, IfModule, 条件检测1] begin
+
+2024-08-16 10:47:08.783 INFO  [20888] [CModuleLoader::Load@30] Load module[3, CalculatorModule, 计数] begin
+
+2024-08-16 10:47:08.784 INFO  [3636] [CModuleLoader::Load@222] Add module[4, CalculatorModule] elapsed time, load library: 0.007ms, create module: 0.026ms
+
+2024-08-16 10:47:08.784 INFO  [20688] [CModuleLoader::Load@222] Add module[2, IfModule] elapsed time, load library: 0.004ms, create module: 0.018ms
+
+2024-08-16 10:47:08.784 INFO  [20888] [CModuleLoader::Load@222] Add module[3, CalculatorModule] elapsed time, load library: 0.004ms, create module: 0.005ms
+
+2024-08-16 10:47:08.784 INFO  [20888] [CModuleLoader::Load@225] Load module[3, CalculatorModule] finish, error code=0x00000000
+
+2024-08-16 10:47:08.784 INFO  [3636] [CModuleLoader::Load@225] Load module[4, CalculatorModule] finish, error code=0x00000000
+
+2024-08-16 10:47:08.784 INFO  [20688] [CModuleLoader::Load@225] Load module[2, IfModule] finish, error code=0x00000000
+
+2024-08-16 10:47:08.784 INFO  [9684] [VM_M_GetBufferNodeNum@2653] VM_M_GetBufferNodeNum value = 2, return code: 0x00000000
+
+2024-08-16 10:47:08.784 INFO  [9684] [VM_M_GetBufferNodeNum@2653] VM_M_GetBufferNodeNum value = 2, return code: 0x00000000
+
+2024-08-16 10:47:08.784 INFO  [9684] [VM_M_GetBufferNodeNum@2653] VM_M_GetBufferNodeNum value = 2, return code: 0x00000000
+
+2024-08-16 10:47:08.784 INFO  [9684] [CModuleLoader::Load@222] Add module[0, ImageSourceModule] elapsed time, load library: 0.007ms, create module: 0.382ms
+
+2024-08-16 10:47:08.784 INFO  [9684] [CModuleLoader::Load@225] Load module[0, ImageSourceModule] finish, error code=0x00000000
+
+2024-08-16 10:47:08.784 INFO  [20456] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [17]
+
+2024-08-16 10:47:08.787 INFO  [17856] [CModuleLoader::Load@222] Add module[1, IMVSCircleEdgeInspModu] elapsed time, load library: 0.006ms, create module: 3.179ms
+
+2024-08-16 10:47:08.787 INFO  [17856] [CModuleLoader::Load@225] Load module[1, IMVSCircleEdgeInspModu] finish, error code=0x00000000
+
+2024-08-16 10:47:08.787 INFO  [9400] [CTopoDataMgr::BatchAddModuleParallel@2444] Event callback, batch adding module finished, error code: 0x00000000
+
+2024-08-16 10:47:08.787 INFO  [9400] [CTopoDataMgr::AsyncBatchAddModule@2172] [time]Batch add module used 3.534 ms, method is: Parallel
+
+2024-08-16 10:47:08.789 INFO  [15424] [VM_M_LoadSolutionFromFile@1076] VM_M_LoadSolutionFromFile(filePath={
+    "dataAddr": 1991246835712,
+    "dataLen": 0,
+    "attachmentDir": "C:\\Users\\Fengling\\AppData\\Local\\Temp\\VM1444ImgSrcTemp",
+    "globalDataAddr": 0,
+    "globalDataLen": 0,
+    "solConfigDataAddr": 0,
+    "solConfigDataLen": 0
+})
+
+2024-08-16 10:47:08.789 INFO  [15424] [VM_M_LoadSolutionFromFile@1083] solution file path: {
+    "dataAddr": 1991246835712,
+    "dataLen": 0,
+    "attachmentDir": "C:\\Users\\Fengling\\AppData\\Local\\Temp\\VM1444ImgSrcTemp",
+    "globalDataAddr": 0,
+    "globalDataLen": 0,
+    "solConfigDataAddr": 0,
+    "solConfigDataLen": 0
+}, attachments dir: C:\Users\Fengling\AppData\Local\Temp\VM1444ImgSrcTemp
+
+2024-08-16 10:47:08.789 INFO  [15424] [VM_M_LoadSolutionFromFile@1093] return code: 0x00000000
+
+2024-08-16 10:47:08.789 INFO  [7352] [CControlDelegate::AsyncLoadSolutionFromFile@1819] [Load Solution][Async Begin]
+
+2024-08-16 10:47:08.789 INFO  [7352] [CControlDelegate::ParseFrameDataFromAddrStr@3728] After parse, dataAddr=0x1cf9f8f7000, dataLen=0
+
+2024-08-16 10:47:08.789 INFO  [7352] [CControlDelegate::ParseFrameDataFromAddrStr@3740] After parse, global var dataAddr=0x0, dataLen=0
+
+2024-08-16 10:47:08.789 INFO  [7352] [CControlDelegate::ParseFrameDataFromAddrStr@3759] After parse, solution config dataAddr=0x0, dataLen=0
+
+2024-08-16 10:47:08.789 INFO  [7352] [CControlDelegate::ParseFrameDataFromAddrStr@3813] [time] Parse module data used 0.029ms
+
+2024-08-16 10:47:08.789 INFO  [7352] [CControlDelegate::AsyncLoadSolutionFromFile@1936] [Load Solution] Load module data
+
+2024-08-16 10:47:08.789 INFO  [20608] [CControlDelegate::PrepareModuleData@3872] Start FormatCompatibleDataFileName 
+
+2024-08-16 10:47:08.789 INFO  [6024] [CControlDelegate::PrepareModuleData@3872] Start FormatCompatibleDataFileName 
+
+2024-08-16 10:47:08.789 INFO  [6024] [CControlDelegate::PrepareModuleData@3874] End FormatCompatibleDataFileName 
+
+2024-08-16 10:47:08.789 INFO  [20608] [CControlDelegate::PrepareModuleData@3874] End FormatCompatibleDataFileName 
+
+2024-08-16 10:47:08.789 INFO  [6024] [CControlDelegate::PrepareModuleData@3880] [Module(1, IMVSCircleEdgeInspModu, 圆弧边缘缺陷检测1)]:  Load module data, file path=1-IMVSCircleEdgeInspModu.mdata
+
+2024-08-16 10:47:08.789 INFO  [20608] [CControlDelegate::PrepareModuleData@3880] [Module(0, ImageSourceModule, 图像源1)]:  Load module data, file path=0-ImageSourceModule.mdata
+
+2024-08-16 10:47:08.789 INFO  [20888] [CControlDelegate::PrepareModuleData@3872] Start FormatCompatibleDataFileName 
+
+2024-08-16 10:47:08.789 INFO  [20608] [CControlDelegate::PrepareModuleData@3883] End ReadModuleDataFromCache 
+
+2024-08-16 10:47:08.789 INFO  [6024] [CControlDelegate::PrepareModuleData@3883] End ReadModuleDataFromCache 
+
+2024-08-16 10:47:08.789 INFO  [20888] [CControlDelegate::PrepareModuleData@3874] End FormatCompatibleDataFileName 
+
+2024-08-16 10:47:08.789 INFO  [20888] [CControlDelegate::PrepareModuleData@3880] [Module(3, CalculatorModule, 计数)]:  Load module data, file path=3-CalculatorModule.mdata
+
+2024-08-16 10:47:08.789 INFO  [20888] [CControlDelegate::PrepareModuleData@3883] End ReadModuleDataFromCache 
+
+2024-08-16 10:47:08.789 INFO  [3636] [CControlDelegate::PrepareModuleData@3872] Start FormatCompatibleDataFileName 
+
+2024-08-16 10:47:08.789 INFO  [9180] [CControlDelegate::PrepareModuleData@3872] Start FormatCompatibleDataFileName 
+
+2024-08-16 10:47:08.789 INFO  [3636] [CControlDelegate::PrepareModuleData@3874] End FormatCompatibleDataFileName 
+
+2024-08-16 10:47:08.789 INFO  [9180] [CControlDelegate::PrepareModuleData@3874] End FormatCompatibleDataFileName 
+
+2024-08-16 10:47:08.789 INFO  [3636] [CControlDelegate::PrepareModuleData@3880] [Module(4, CalculatorModule, 合格率)]:  Load module data, file path=4-CalculatorModule.mdata
+
+2024-08-16 10:47:08.789 INFO  [9180] [CControlDelegate::PrepareModuleData@3880] [Module(2, IfModule, 条件检测1)]:  Load module data, file path=2-IfModule.mdata
+
+2024-08-16 10:47:08.789 INFO  [9180] [CControlDelegate::PrepareModuleData@3883] End ReadModuleDataFromCache 
+
+2024-08-16 10:47:08.789 INFO  [3636] [CControlDelegate::PrepareModuleData@3883] End ReadModuleDataFromCache 
+
+2024-08-16 10:47:08.789 ERROR [20608] [CControlDelegate::SetBinaryData@820] Did not find the module node, moduleId=-1
+
+2024-08-16 10:47:08.789 INFO  [9180] [CControlDelegate::LoadModuleData@2535] [Module(2, IfModule, 条件检测1)]:  LoadModuleData used 0.069ms
+
+2024-08-16 10:47:08.789 INFO  [9180] [CControlDelegate::LoadModuleData@2571] [Module(2, IfModule, 条件检测1)]:  Load module data finished, error code=[frame=0x00000000, module=0x00000000]
+
+2024-08-16 10:47:08.789 INFO  [20608] [CControlDelegate::LoadModuleData@2535] [Module(0, ImageSourceModule, 图像源1)]:  LoadModuleData used 0.264ms
+
+2024-08-16 10:47:08.789 INFO  [20608] [CControlDelegate::LoadModuleData@2571] [Module(0, ImageSourceModule, 图像源1)]:  Load module data finished, error code=[frame=0x00000000, module=0x00000000]
+
+2024-08-16 10:47:08.789 INFO  [20888] [CControlDelegate::LoadModuleData@2535] [Module(3, CalculatorModule, 计数)]:  LoadModuleData used 0.272ms
+
+2024-08-16 10:47:08.789 INFO  [20888] [CControlDelegate::LoadModuleData@2571] [Module(3, CalculatorModule, 计数)]:  Load module data finished, error code=[frame=0x00000000, module=0x00000000]
+
+2024-08-16 10:47:08.789 INFO  [3636] [CControlDelegate::LoadModuleData@2535] [Module(4, CalculatorModule, 合格率)]:  LoadModuleData used 0.511ms
+
+2024-08-16 10:47:08.789 INFO  [3636] [CControlDelegate::LoadModuleData@2571] [Module(4, CalculatorModule, 合格率)]:  Load module data finished, error code=[frame=0x00000000, module=0x00000000]
+
+2024-08-16 10:47:08.791 INFO  [6024] [CControlDelegate::LoadModuleData@2535] [Module(1, IMVSCircleEdgeInspModu, 圆弧边缘缺陷检测1)]:  LoadModuleData used 0.701ms
+
+2024-08-16 10:47:08.791 INFO  [6024] [CControlDelegate::LoadModuleData@2571] [Module(1, IMVSCircleEdgeInspModu, 圆弧边缘缺陷检测1)]:  Load module data finished, error code=[frame=0x00000000, module=0x00000000]
+
+2024-08-16 10:47:08.791 INFO  [7352] [CControlDelegate::AsyncLoadSolutionFromFile@2002] [Load Solution] Loading solution data used 1.190 ms
+
+2024-08-16 10:47:08.791 INFO  [7352] [CRunningPolicy::SetProcedureRunningPolicy@60] Running policy mode=1, ensure time stability is false
+
+2024-08-16 10:47:08.791 INFO  [7352] [CRunningPolicy::SetProcedureRunningPolicy@60] Running policy mode=1, ensure time stability is false
+
+2024-08-16 10:47:08.791 INFO  [7352] [CRunningPolicy::ReadPolicyInfoFromMem@317] Procedure running policy -->
+high speed
+
+
+2024-08-16 10:47:08.791 INFO  [7352] [CControlDelegate::LoadRunningPolicyFromMem@5863]  Running policy data len=16
+
+2024-08-16 10:47:08.791 INFO  [7352] [CGlobalVarBindingMgr::ReadBindingInfoFromMem@392] there contains 0 module's binding info
+
+2024-08-16 10:47:08.791 INFO  [7352] [CControlDelegate::LoadGlobalVarBindingFromMem@5977]  Global var binding data len=8
+
+2024-08-16 10:47:08.791 INFO  [7352] [CControlDelegate::LoadModuleParamBindingDataFromMem@7676]  Module param binding data len=2
+
+2024-08-16 10:47:08.791 INFO  [7352] [CControlDelegate::AsyncLoadSolutionFromFile@2046] [Load Solution][Async End] Loading solution data finished, error code=0x00000000
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_ConnectModule@684] VM_M_ConnectModule(srcId=0, dstId=1)
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_ConnectModule@704] return code: 0x00000000
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_ConnectModule@684] VM_M_ConnectModule(srcId=1, dstId=2)
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_ConnectModule@704] return code: 0x00000000
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_ConnectModule@684] VM_M_ConnectModule(srcId=2, dstId=3)
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_ConnectModule@704] return code: 0x00000000
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_ConnectModule@684] VM_M_ConnectModule(srcId=3, dstId=4)
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_ConnectModule@704] return code: 0x00000000
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_SubScribe@747] Subscribe detail: number=10
+Index:0
+Src var: module id=1, var name=InImage
+Dst Var: variable value: module id=0, var name=Image
+variable index: all
+Index:1
+Src var: module id=1, var name=InImageWidth
+Dst Var: variable value: module id=0, var name=Width
+variable index: all
+Index:2
+Src var: module id=1, var name=InImageHeight
+Dst Var: variable value: module id=0, var name=Height
+variable index: all
+Index:3
+Src var: module id=1, var name=InImagePixelFormat
+Dst Var: variable value: module id=0, var name=PixelFormat
+variable index: all
+Index:4
+Src var: module id=2, var name=%int0%
+Dst Var: constant, value=1
+Index:5
+Src var: module id=3, var name=%Q2FsY3VsYXRvcklucHV0MA==%
+Dst Var: variable value: module id=2, var name=NIfResult
+variable index: all
+Index:6
+Src var: module id=4, var name=%Q2FsY3VsYXRvcklucHV0MA==%
+Dst Var: variable value: module id=3, var name=%n%
+variable index: all
+Index:7
+Src var: module id=4, var name=%Q2FsY3VsYXRvcklucHV0MQ==%
+Dst Var: variable value: module id=3, var nam
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_SubScribe@766] return code: 0x00000000
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_SetLoadSolutionState@1153] VM_M_SetLoadSolutionState(nLoadState=0)
+
+2024-08-16 10:47:08.951 INFO  [15424] [VM_M_SetLoadSolutionState@1157] return code: 0x00000000
+
+2024-08-16 10:47:10.415 INFO  [20600] [VM_M_QueryModuleRunningState@2665] VM_M_QueryModuleRunningState(nArrySize=5)
+
+2024-08-16 10:47:13.780 INFO  [5284] [VM_M_GetProcedureRunningParam@931] VM_M_GetProcedureRunningParam(procedureId=10000)
+
+2024-08-16 10:47:13.780 INFO  [5284] [VM_M_GetProcedureRunningParam@936] running interval=100, running continuously=0, stopWhenNG=0, waitTime=0, flag=0x00000000
+
+2024-08-16 10:47:13.780 INFO  [5284] [VM_M_GetProcedureRunningParam@938] return code: 0x00000000
+
+2024-08-16 10:47:13.780 INFO  [5284] [VM_M_RunProcedureOnce@823] [Run once]VM_M_RunProcedureOnce(procedureId=10999, triggerCmd=)
+
+2024-08-16 10:47:13.781 INFO  [5284] [CTopoDataMgr::UpdateLoopTopology@923] Loop list for updating, number=0
+
+2024-08-16 10:47:13.781 INFO  [5284] [VM_M_RunProcedureOnce@827] return code: 0x00000000
+
+2024-08-16 10:47:13.781 INFO  [20508] [CProcedure::DoWork@340] [Run][Begin] Procedure[10000],Continuously[0]
+
+2024-08-16 10:47:13.781 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=busy, time=0.000, stopAction=0, executeCount=1, cache=0
+
+2024-08-16 10:47:13.832 INFO  [17856] [CModuleRstCache::ReAllocPbBuffer@1059] Try to allocate memory for pb, module id=0, size=526
+
+2024-08-16 10:47:13.837 INFO  [17856] [CModuleRstCache::ReAllocPbBuffer@1059] Try to allocate memory for pb, module id=1, size=14859
+
+2024-08-16 10:47:13.837 INFO  [17856] [CModuleRstCache::ReAllocPbBuffer@1059] Try to allocate memory for pb, module id=2, size=294
+
+2024-08-16 10:47:13.838 INFO  [17856] [CModuleRstCache::ReAllocPbBuffer@1059] Try to allocate memory for pb, module id=3, size=230
+
+2024-08-16 10:47:13.838 INFO  [17856] [CModuleRstCache::ReAllocPbBuffer@1059] Try to allocate memory for pb, module id=4, size=262
+
+2024-08-16 10:47:13.838 INFO  [20508] [CModuleRstCache::ReAllocPbBuffer@1059] Try to allocate memory for pb, module id=10000, size=117
+
+2024-08-16 10:47:13.845 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 12.626
+
+2024-08-16 10:47:13.845 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=0
+
+2024-08-16 10:47:13.847 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 2.156
+
+2024-08-16 10:47:13.847 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=1
+
+2024-08-16 10:47:13.847 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=2
+
+2024-08-16 10:47:13.847 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=3
+
+2024-08-16 10:47:13.847 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=4
+
+2024-08-16 10:47:13.848 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=free, time=44.949, stopAction=0, executeCount=1, cache=0
+
+2024-08-16 10:47:13.850 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=stopped, time=0.000, stopAction=1, executeCount=1, cache=0
+
+2024-08-16 10:47:13.855 INFO  [20508] [CProcedure::DoWork@491] [Run][End] Procedure[10000]
+
+2024-08-16 10:47:15.322 INFO  [4088] [VM_M_GetProcedureRunningParam@931] VM_M_GetProcedureRunningParam(procedureId=10000)
+
+2024-08-16 10:47:15.322 INFO  [4088] [VM_M_GetProcedureRunningParam@936] running interval=100, running continuously=0, stopWhenNG=0, waitTime=0, flag=0x00000000
+
+2024-08-16 10:47:15.322 INFO  [4088] [VM_M_GetProcedureRunningParam@938] return code: 0x00000000
+
+2024-08-16 10:47:15.322 INFO  [4088] [VM_M_RunProcedureOnce@823] [Run once]VM_M_RunProcedureOnce(procedureId=10999, triggerCmd=)
+
+2024-08-16 10:47:15.322 INFO  [4088] [VM_M_RunProcedureOnce@827] return code: 0x00000000
+
+2024-08-16 10:47:15.322 INFO  [20508] [CProcedure::DoWork@340] [Run][Begin] Procedure[10000],Continuously[0]
+
+2024-08-16 10:47:15.323 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=busy, time=0.000, stopAction=0, executeCount=2, cache=0
+
+2024-08-16 10:47:15.361 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.313
+
+2024-08-16 10:47:15.361 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=0
+
+2024-08-16 10:47:15.365 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.236
+
+2024-08-16 10:47:15.365 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=1
+
+2024-08-16 10:47:15.365 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.176
+
+2024-08-16 10:47:15.365 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=2
+
+2024-08-16 10:47:15.365 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=3
+
+2024-08-16 10:47:15.365 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=4
+
+2024-08-16 10:47:15.365 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=free, time=42.258, stopAction=0, executeCount=2, cache=0
+
+2024-08-16 10:47:15.365 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=stopped, time=0.000, stopAction=1, executeCount=2, cache=0
+
+2024-08-16 10:47:15.367 INFO  [20508] [CProcedure::DoWork@491] [Run][End] Procedure[10000]
+
+2024-08-16 10:47:16.242 INFO  [20972] [VM_M_GetProcedureRunningParam@931] VM_M_GetProcedureRunningParam(procedureId=10000)
+
+2024-08-16 10:47:16.242 INFO  [20972] [VM_M_GetProcedureRunningParam@936] running interval=100, running continuously=0, stopWhenNG=0, waitTime=0, flag=0x00000000
+
+2024-08-16 10:47:16.242 INFO  [20972] [VM_M_GetProcedureRunningParam@938] return code: 0x00000000
+
+2024-08-16 10:47:16.242 INFO  [20972] [VM_M_RunProcedureOnce@823] [Run once]VM_M_RunProcedureOnce(procedureId=10999, triggerCmd=)
+
+2024-08-16 10:47:16.242 INFO  [20972] [VM_M_RunProcedureOnce@827] return code: 0x00000000
+
+2024-08-16 10:47:16.242 INFO  [20508] [CProcedure::DoWork@340] [Run][Begin] Procedure[10000],Continuously[0]
+
+2024-08-16 10:47:16.242 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=busy, time=0.000, stopAction=0, executeCount=3, cache=0
+
+2024-08-16 10:47:16.281 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.232
+
+2024-08-16 10:47:16.281 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=0
+
+2024-08-16 10:47:16.285 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.224
+
+2024-08-16 10:47:16.285 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=1
+
+2024-08-16 10:47:16.285 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.168
+
+2024-08-16 10:47:16.285 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=2
+
+2024-08-16 10:47:16.285 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=3
+
+2024-08-16 10:47:16.285 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=4
+
+2024-08-16 10:47:16.285 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=free, time=42.408, stopAction=0, executeCount=3, cache=0
+
+2024-08-16 10:47:16.285 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=stopped, time=0.000, stopAction=1, executeCount=3, cache=0
+
+2024-08-16 10:47:16.286 INFO  [20508] [CProcedure::DoWork@491] [Run][End] Procedure[10000]
+
+2024-08-16 10:47:16.930 INFO  [4088] [VM_M_GetProcedureRunningParam@931] VM_M_GetProcedureRunningParam(procedureId=10000)
+
+2024-08-16 10:47:16.930 INFO  [4088] [VM_M_GetProcedureRunningParam@936] running interval=100, running continuously=0, stopWhenNG=0, waitTime=0, flag=0x00000000
+
+2024-08-16 10:47:16.930 INFO  [4088] [VM_M_GetProcedureRunningParam@938] return code: 0x00000000
+
+2024-08-16 10:47:16.930 INFO  [4088] [VM_M_RunProcedureOnce@823] [Run once]VM_M_RunProcedureOnce(procedureId=10999, triggerCmd=)
+
+2024-08-16 10:47:16.930 INFO  [4088] [VM_M_RunProcedureOnce@827] return code: 0x00000000
+
+2024-08-16 10:47:16.930 INFO  [20508] [CProcedure::DoWork@340] [Run][Begin] Procedure[10000],Continuously[0]
+
+2024-08-16 10:47:16.930 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=busy, time=0.000, stopAction=0, executeCount=4, cache=0
+
+2024-08-16 10:47:16.969 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.302
+
+2024-08-16 10:47:16.969 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=0
+
+2024-08-16 10:47:16.972 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.272
+
+2024-08-16 10:47:16.972 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=1
+
+2024-08-16 10:47:16.972 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.170
+
+2024-08-16 10:47:16.972 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=2
+
+2024-08-16 10:47:16.972 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=3
+
+2024-08-16 10:47:16.972 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=4
+
+2024-08-16 10:47:16.972 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=free, time=41.730, stopAction=0, executeCount=4, cache=0
+
+2024-08-16 10:47:16.972 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=stopped, time=0.000, stopAction=1, executeCount=4, cache=0
+
+2024-08-16 10:47:16.972 INFO  [20508] [CProcedure::DoWork@491] [Run][End] Procedure[10000]
+
+2024-08-16 10:47:17.666 INFO  [18152] [VM_M_GetProcedureRunningParam@931] VM_M_GetProcedureRunningParam(procedureId=10000)
+
+2024-08-16 10:47:17.666 INFO  [18152] [VM_M_GetProcedureRunningParam@936] running interval=100, running continuously=0, stopWhenNG=0, waitTime=0, flag=0x00000000
+
+2024-08-16 10:47:17.666 INFO  [18152] [VM_M_GetProcedureRunningParam@938] return code: 0x00000000
+
+2024-08-16 10:47:17.666 INFO  [18152] [VM_M_RunProcedureOnce@823] [Run once]VM_M_RunProcedureOnce(procedureId=10999, triggerCmd=)
+
+2024-08-16 10:47:17.666 INFO  [18152] [VM_M_RunProcedureOnce@827] return code: 0x00000000
+
+2024-08-16 10:47:17.666 INFO  [20508] [CProcedure::DoWork@340] [Run][Begin] Procedure[10000],Continuously[0]
+
+2024-08-16 10:47:17.666 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=busy, time=0.000, stopAction=0, executeCount=5, cache=0
+
+2024-08-16 10:47:17.704 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.269
+
+2024-08-16 10:47:17.704 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=0
+
+2024-08-16 10:47:17.707 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.307
+
+2024-08-16 10:47:17.707 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=1
+
+2024-08-16 10:47:17.707 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.172
+
+2024-08-16 10:47:17.707 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=2
+
+2024-08-16 10:47:17.707 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=3
+
+2024-08-16 10:47:17.707 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=4
+
+2024-08-16 10:47:17.707 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=free, time=40.706, stopAction=0, executeCount=5, cache=0
+
+2024-08-16 10:47:17.707 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=stopped, time=0.000, stopAction=1, executeCount=5, cache=0
+
+2024-08-16 10:47:17.707 INFO  [20508] [CProcedure::DoWork@491] [Run][End] Procedure[10000]
+
+2024-08-16 10:47:21.755 INFO  [4088] [VM_M_GetProcedureRunningParam@931] VM_M_GetProcedureRunningParam(procedureId=10000)
+
+2024-08-16 10:47:21.755 INFO  [4088] [VM_M_GetProcedureRunningParam@936] running interval=100, running continuously=0, stopWhenNG=0, waitTime=0, flag=0x00000000
+
+2024-08-16 10:47:21.755 INFO  [4088] [VM_M_GetProcedureRunningParam@938] return code: 0x00000000
+
+2024-08-16 10:47:21.755 INFO  [4088] [VM_M_RunProcedureOnce@823] [Run once]VM_M_RunProcedureOnce(procedureId=10999, triggerCmd=)
+
+2024-08-16 10:47:21.755 INFO  [4088] [VM_M_RunProcedureOnce@827] return code: 0x00000000
+
+2024-08-16 10:47:21.755 INFO  [20508] [CProcedure::DoWork@340] [Run][Begin] Procedure[10000],Continuously[0]
+
+2024-08-16 10:47:21.755 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=busy, time=0.000, stopAction=0, executeCount=6, cache=0
+
+2024-08-16 10:47:21.791 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.285
+
+2024-08-16 10:47:21.791 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=0
+
+2024-08-16 10:47:21.795 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.324
+
+2024-08-16 10:47:21.795 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=1
+
+2024-08-16 10:47:21.795 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@444] Call result callback, used time 0.175
+
+2024-08-16 10:47:21.795 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=2
+
+2024-08-16 10:47:21.795 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=3
+
+2024-08-16 10:47:21.795 INFO  [21052] [CModuleRstDispatcher::DoBatchDispatchWork@470] Report result finish, module id=4
+
+2024-08-16 10:47:21.795 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=free, time=39.774, stopAction=0, executeCount=6, cache=0
+
+2024-08-16 10:47:21.795 INFO  [20508] [CProcedure::ReportProcedureStatus@568] Report procedure status, id=10000, status=stopped, time=0.000, stopAction=1, executeCount=6, cache=0
+
+2024-08-16 10:47:21.795 INFO  [20508] [CProcedure::DoWork@491] [Run][End] Procedure[10000]
+
+2024-08-16 10:47:25.286 INFO  [18152] [VM_M_UnInitialize@200] [Deinit][Begin]
+
+2024-08-16 10:47:25.286 INFO  [18152] [VM_M_UnInitialize@201] [Deinit] ControlDelegate
+
+2024-08-16 10:47:25.286 INFO  [18152] [CProcedure::WaitDoWorkFinish@132] Procedure 10000 work finish
+
+2024-08-16 10:47:25.286 INFO  [18152] [CProcedure::WaitDoWorkFinish@132] Procedure 10999 work finish
+
+2024-08-16 10:47:25.286 INFO  [18152] [CProcedure::WaitDoWorkFinish@132] Procedure 100000 work finish
+
+2024-08-16 10:47:25.286 INFO  [18152] [CTopoDataMgr::CleanUp@232] Delete procedure [10000, 流程1]
+
+2024-08-16 10:47:25.286 INFO  [18152] [CProcedure::WaitDoWorkFinish@132] Procedure 10000 work finish
+
+2024-08-16 10:47:25.286 INFO  [18152] [CTopoDataMgr::DeleteProcedure@143] Module[0] parent node : [0,图像源1], [10000,流程1]
+
+2024-08-16 10:47:25.286 INFO  [18152] [CTopoDataMgr::DeleteProcedure@143] Module[1] parent node : [1,圆弧边缘缺陷检测1], [10000,流程1]
+
+2024-08-16 10:47:25.286 INFO  [18152] [CTopoDataMgr::DeleteProcedure@143] Module[2] parent node : [2,条件检测1], [10000,流程1]
+
+2024-08-16 10:47:25.286 INFO  [18152] [CTopoDataMgr::DeleteProcedure@143] Module[3] parent node : [3,计数], [10000,流程1]
+
+2024-08-16 10:47:25.286 INFO  [18152] [CTopoDataMgr::DeleteProcedure@143] Module[4] parent node : [4,合格率], [10000,流程1]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CConcurrentThreadPoolImpl::ShutDown@130] [ThreadPool] thread shutdown Start
+
+2024-08-16 10:47:25.287 INFO  [18152] [CConcurrentThreadPoolImpl::ShutDown@194] [ThreadPool] thread shutdown End
+
+2024-08-16 10:47:25.287 INFO  [18152] [CTopoDataMgr::CleanUp@232] Delete procedure [10999, #Global#]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CProcedure::WaitDoWorkFinish@132] Procedure 10999 work finish
+
+2024-08-16 10:47:25.287 INFO  [18152] [CTopoDataMgr::CleanUp@232] Delete procedure [100000, #ProcedureThatGroupBelongTo#]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CProcedure::WaitDoWorkFinish@132] Procedure 100000 work finish
+
+2024-08-16 10:47:25.287 INFO  [18152] [VM_M_UnInitialize@205] [Deinit] ModuleLoader
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@239] Unload module[0] begin
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@257] Call user implemented destroymodule for module[0]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@288] Destroy module[0] finish, destroy: 0.043ms, name[ImageSourceModule]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@304] Unload module[0] finish
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@239] Unload module[1] begin
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@257] Call user implemented destroymodule for module[1]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@288] Destroy module[1] finish, destroy: 0.178ms, name[IMVSCircleEdgeInspModu]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@304] Unload module[1] finish
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@239] Unload module[2] begin
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@257] Call user implemented destroymodule for module[2]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@288] Destroy module[2] finish, destroy: 0.002ms, name[IfModule]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@304] Unload module[2] finish
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@239] Unload module[3] begin
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@257] Call user implemented destroymodule for module[3]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@288] Destroy module[3] finish, destroy: 0.010ms, name[CalculatorModule]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@304] Unload module[3] finish
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@239] Unload module[4] begin
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@257] Call user implemented destroymodule for module[4]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@288] Destroy module[4] finish, destroy: 0.008ms, name[CalculatorModule]
+
+2024-08-16 10:47:25.287 INFO  [18152] [CModuleLoader::Unload@304] Unload module[4] finish
+
+2024-08-16 10:47:25.287 INFO  [18152] [VM_M_UnInitialize@207] [Deinit] PreLoadResource
+
+2024-08-16 10:47:25.287 INFO  [18152] [VM_M_UnInitialize@209] [Deinit] ThreadPool
+
+2024-08-16 10:47:25.287 INFO  [18152] [CConcurrentThreadPoolImpl::ShutDown@130] [ThreadPool] thread shutdown Start
+
+2024-08-16 10:47:25.287 WARN  [20508] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [9400] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [7748] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [7352] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [10944] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 INFO  [20508] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [17]
+
+2024-08-16 10:47:25.287 WARN  [21316] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [16972] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [20580] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 INFO  [9400] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [16]
+
+2024-08-16 10:47:25.287 INFO  [7748] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [15]
+
+2024-08-16 10:47:25.287 INFO  [7352] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [14]
+
+2024-08-16 10:47:25.287 INFO  [10944] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [13]
+
+2024-08-16 10:47:25.287 WARN  [16156] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 INFO  [21316] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [12]
+
+2024-08-16 10:47:25.287 INFO  [16972] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [11]
+
+2024-08-16 10:47:25.287 WARN  [3048] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 INFO  [20580] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [10]
+
+2024-08-16 10:47:25.287 WARN  [20536] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [19720] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [1272] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [4900] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 INFO  [16156] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [9]
+
+2024-08-16 10:47:25.287 WARN  [20104] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [2772] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 WARN  [20456] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.287 INFO  [3048] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [8]
+
+2024-08-16 10:47:25.287 INFO  [20536] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [7]
+
+2024-08-16 10:47:25.287 INFO  [19720] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [6]
+
+2024-08-16 10:47:25.287 INFO  [1272] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [5]
+
+2024-08-16 10:47:25.287 INFO  [4900] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [5]
+
+2024-08-16 10:47:25.287 INFO  [20104] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [3]
+
+2024-08-16 10:47:25.287 INFO  [2772] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [2]
+
+2024-08-16 10:47:25.287 INFO  [20456] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [2]
+
+2024-08-16 10:47:25.293 INFO  [18152] [CConcurrentThreadPoolImpl::ShutDown@194] [ThreadPool] thread shutdown End
+
+2024-08-16 10:47:25.293 INFO  [18152] [CConcurrentThreadPoolImpl::ShutDown@130] [ThreadPool] thread shutdown Start
+
+2024-08-16 10:47:25.293 WARN  [17856] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.293 WARN  [9684] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.293 WARN  [20688] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.293 WARN  [20888] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.293 WARN  [20608] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.293 WARN  [3636] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.293 WARN  [6024] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.293 INFO  [17856] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [8]
+
+2024-08-16 10:47:25.293 INFO  [9684] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [7]
+
+2024-08-16 10:47:25.293 INFO  [20688] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [6]
+
+2024-08-16 10:47:25.293 INFO  [20888] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [6]
+
+2024-08-16 10:47:25.293 INFO  [3636] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [6]
+
+2024-08-16 10:47:25.293 INFO  [20608] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [6]
+
+2024-08-16 10:47:25.293 INFO  [6024] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [5]
+
+2024-08-16 10:47:25.293 WARN  [9180] [CConcurrentThreadPoolImpl::DoWork@243] recv signal SIG_SHUTDOWN=====!!!!
+
+2024-08-16 10:47:25.293 INFO  [9180] [CConcurrentThreadPoolImpl::DoWork@254] [ThreadPool] Thread stop, curNum = [1]
+
+2024-08-16 10:47:25.296 INFO  [18152] [CConcurrentThreadPoolImpl::ShutDown@194] [ThreadPool] thread shutdown End
+
+2024-08-16 10:47:25.296 INFO  [18152] [VM_M_UnInitialize@211] [Deinit] LogLevelWatcher
+
+2024-08-16 10:47:25.297 INFO  [18152] [CLogLevelWatcher::Stop@85] Watch log level thread exit normally
+
+2024-08-16 10:47:25.297 INFO  [18152] [VM_M_UnInitialize@213] [Deinit] ModuleRstDispatcher
+
+2024-08-16 10:47:25.297 INFO  [18152] [VM_M_UnInitialize@215] [Deinit] MemPoolForProcess
+
+2024-08-16 10:47:25.297 INFO  [18152] [VM_M_UnInitialize@217] [Deinit] GlobalVarRWLock
+
+2024-08-16 10:47:25.297 INFO  [18152] [VM_M_UnInitialize@219] [Deinit] ModulePathResolver
+
+2024-08-16 10:47:25.297 INFO  [18152] [VM_M_UnInitialize@221] [Deinit] CallbackMgr
+
+2024-08-16 10:47:25.297 INFO  [18152] [VM_M_UnInitialize@224] [Deinit][End]
+

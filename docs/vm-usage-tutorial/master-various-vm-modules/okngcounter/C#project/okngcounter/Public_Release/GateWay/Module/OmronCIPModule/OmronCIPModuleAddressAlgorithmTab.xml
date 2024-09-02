@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmTabRoot>
+  <IsFullScreen>True</IsFullScreen>
+  <Tabs>
+    <Tab Name="通信配置">
+      <Categorys>        
+		<CategoryNoHead Name="Tab_Com Param">
+          <Items>
+			 <Integer Name="Slot">
+              <MinValue>0</MinValue>
+              <MaxValue>256</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>RunParam_Slot Num</Description>
+              <DisplayName>RunParam_Slot Num</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+			 <Enumeration Name="IntDataType">
+              <Description>RunParam_IntDataType</Description>
+              <DisplayName>RunParam_IntDataType</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>1</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <EnumEntrys>
+                <EnumEntry Name="INT16">
+                  <Description>INT16</Description>
+                  <DisplayName>INT16</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="UINT16">
+                  <Description>UINT16</Description>
+                  <DisplayName>UINT16</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+				<EnumEntry Name="INT32">
+                  <Description>INT32</Description>
+                  <DisplayName>INT32</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x3</Value>
+                </EnumEntry>
+				<EnumEntry Name="UINT32">
+                  <Description>UINT32</Description>
+                  <DisplayName>UINT32</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x4</Value>
+                </EnumEntry>
+               </EnumEntrys>
+              </Enumeration>
+			 <String Name="TagName">
+              <MaxLen>64</MaxLen>
+              <Description>RunParam_Communication Address</Description>
+              <DisplayName>RunParam_Communication Address</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <CurValue>TAG1</CurValue>
+              <DefaultValue>TAG1</DefaultValue>
+            </String>
+		     
+			 <Integer Name="OverTime">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>200</CurValue>
+              <DefaultValue>200</DefaultValue>
+              <Description>RunParam_Timeout</Description>
+              <DisplayName>RunParam_Timeout</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>			 
+			 <Boolean Name="PollEnable">
+                <AlgorithmIndex>0</AlgorithmIndex>
+                <CurValue>False</CurValue>
+				<DefaultValue>False</DefaultValue>
+				<Description>RunParam_Polling</Description>
+				<DisplayName>RunParam_Polling</DisplayName>
+				<Visibility>Beginner</Visibility>
+				<AccessMode>RW</AccessMode>
+			 </Boolean>
+			 <Boolean Name="Upload">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>True</CurValue>
+              <DefaultValue>True</DefaultValue>
+              <Description>UploadTip</Description>
+              <DisplayName>Upload</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+            </Boolean>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+  </Tabs>
+</AlgorithmTabRoot>

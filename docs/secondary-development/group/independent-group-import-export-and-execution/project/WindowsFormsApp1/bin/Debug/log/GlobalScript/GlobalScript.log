@@ -1,0 +1,360 @@
+﻿2024-08-26 14:10:12.316 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 14:10:17.763 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 14:10:17.825 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 14:10:19.795 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 14:10:19:795 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 14:10:20.178 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 14:10:20.178 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 14:10:20.179 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 14:12:30.345 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 14:12:35.430 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 14:12:35.452 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 14:12:35.732 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 14:12:35:732 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 14:12:35.894 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 14:12:35.894 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 14:12:35.895 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 14:13:22.370 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 14:13:27.508 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 14:13:27.519 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 14:13:27.819 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 14:13:27:819 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 14:13:27.970 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 14:13:27.970 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 14:13:27.971 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 14:14:29.626 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 14:14:34.713 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 14:14:34.825 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 14:14:35.121 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 14:14:35:121 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 14:14:35.602 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 14:14:35.603 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 14:14:35.603 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 14:18:53.233 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 14:18:58.316 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 14:18:58.373 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 14:18:58.673 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 14:18:58:673 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 14:18:58.827 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 14:18:58.828 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 14:18:58.828 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 14:31:30.340 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 14:31:35.423 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 14:31:35.450 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 14:31:36.296 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 14:31:36:296 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 14:31:36.440 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 14:31:36.441 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 14:31:36.441 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 14:37:52.790 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 14:37:57.932 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 14:37:58.040 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 14:37:58.379 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 14:37:58:379 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 14:37:58.849 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 14:37:58.849 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 14:37:58.850 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 14:53:16.810 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 14:53:21.943 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 14:53:22.070 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 14:53:22.385 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 14:53:22:385 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 14:53:22.919 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 14:53:22.919 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 14:53:22.921 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 15:00:02.860 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 15:00:07.974 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 15:00:07.987 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 15:00:08.279 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 15:00:08:279 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 15:00:08.442 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 15:00:08.442 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 15:00:08.442 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 15:04:47.820 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 15:04:52.895 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 15:04:52.920 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 15:04:53.291 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 15:04:53:291 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 15:04:53.455 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 15:04:53.456 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 15:04:53.456 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 15:19:08.091 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 15:19:13.215 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 15:19:13.263 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 15:19:13.579 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 15:19:13:579 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 15:19:13.840 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 15:19:13.840 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 15:19:13.841 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 15:21:45.359 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 15:21:50.432 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 15:21:50.443 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 15:21:51.289 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 15:21:51:289 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 15:21:51.442 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 15:21:51.442 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 15:21:51.443 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 15:22:29.912 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 15:22:35.038 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 15:22:35.051 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 15:22:35.345 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 15:22:35:345 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 15:22:35.498 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 15:22:35.499 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 15:22:35.499 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 15:30:04.331 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 15:30:09.460 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 15:30:09.471 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 15:30:09.757 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 15:30:09:757 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 15:30:09.920 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 15:30:09.920 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 15:30:09.920 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 15:42:34.122 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 15:42:39.220 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 15:42:39.233 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 15:42:39.514 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 15:42:39:514 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 15:42:39.675 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 15:42:39.675 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 15:42:39.676 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 16:21:44.926 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 16:21:50.037 INFO  [6] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 16:21:50.048 INFO  [6] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 16:21:50.356 INFO  [6] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 16:21:50:356 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 16:21:50.514 INFO  [6] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 16:21:50.515 INFO  [6] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 16:21:50.515 INFO  [6] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 16:46:24.018 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 16:46:29.156 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 16:46:29.170 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 16:46:29.491 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 16:46:29:491 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 16:46:29.662 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 16:46:29.662 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 16:46:29.663 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 16:52:35.975 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 16:52:41.086 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 16:52:41.100 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 16:52:41.487 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 16:52:41:487 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 16:52:41.649 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 16:52:41.650 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 16:52:41.650 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 16:55:38.409 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 16:55:43.527 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 16:55:43.539 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 16:55:43.856 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 16:55:43:856 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 16:55:44.010 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 16:55:44.011 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 16:55:44.011 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 16:57:12.343 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 16:57:17.437 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 16:57:17.474 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 16:57:17.813 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 16:57:17:813 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 16:57:18.637 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 16:57:18.637 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 16:57:18.638 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 16:59:34.380 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 16:59:39.525 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 16:59:39.537 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 16:59:39.890 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 16:59:39:890 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 16:59:40.202 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 16:59:40.203 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 16:59:40.203 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 16:59:48.664 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 16:59:53.787 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 16:59:53.889 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 16:59:54.228 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 16:59:54:228 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 16:59:54.384 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 16:59:54.385 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 16:59:54.386 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 17:00:54.632 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 17:00:59.761 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 17:00:59.779 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 17:01:00.101 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 17:01:00:101 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 17:01:00.268 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 17:01:00.268 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 17:01:00.269 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+
+2024-08-26 17:04:24.971 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-26 17:04:30.093 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript begin
+
+2024-08-26 17:04:30.107 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-26 17:04:30.450 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-26 17:04:30:450 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-26 17:04:30.630 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-26 17:04:30.631 INFO  [3] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-26 17:04:30.631 INFO  [3] [VM.GlobalScript.Support.GlobalManager::objLoadDefaultScriptTime_Elapsed@0] Load default globalScript end
+

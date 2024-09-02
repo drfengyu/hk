@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GlobalVariableModuleCs</name>
+    </assembly>
+    <members>
+        <member name="M:GlobalVariableModuleCs.GlobalVariableModuleTool.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:GlobalVariableModuleCs.GlobalVariableModuleTool.#ctor(System.Object)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:GlobalVariableModuleCs.GlobalVariableModuleTool.SetGlobalVar(System.String,System.String)">
+            <summary>
+            CH: 设置全局变量 | EN：Set global var
+            </summary>
+        </member>
+        <member name="M:GlobalVariableModuleCs.GlobalVariableModuleTool.GetGlobalVar(System.String)">
+            <summary>
+            CH: 获取全局变量 | EN：Get global var
+            </summary>
+        </member>
+        <member name="M:GlobalVariableModuleCs.GlobalVariableModuleTool.GetAllGlobalVar">
+            <summary>
+            CH: 获取所有全局变量 | EN：Get all global var
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:GlobalVariableModuleCs.GlobalVarInfo.bCommEnable">
+            <summary>
+            通信初始化 标志位
+            </summary>
+        </member>
+        <member name="F:GlobalVariableModuleCs.GlobalVarInfo.strValueName">
+            <summary>
+            全局变量名称
+            </summary>
+        </member>
+        <member name="F:GlobalVariableModuleCs.GlobalVarInfo.strValueType">
+            <summary>
+            变量类型 string, int, float
+            </summary>
+        </member>
+        <member name="F:GlobalVariableModuleCs.GlobalVarInfo.strValue">
+            <summary>
+            全局变量值
+            </summary>
+        </member>
+        <member name="F:GlobalVariableModuleCs.GlobalVarInfo.strRemark">
+            <summary>
+            全局变量注释信息
+            </summary>
+        </member>
+    </members>
+</doc>

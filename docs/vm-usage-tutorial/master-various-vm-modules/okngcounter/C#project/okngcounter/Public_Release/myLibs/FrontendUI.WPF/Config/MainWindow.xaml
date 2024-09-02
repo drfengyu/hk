@@ -1,0 +1,18 @@
+﻿<Controls:BaseWindow x:Class="${StandardNamespace}.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:VM.Controls;assembly=VM.Controls"
+		xmlns:Lang ="clr-namespace:Apps.Localization;assembly=Apps.Localization"
+		xmlns:Color="clr-namespace:Apps.ColorFun;assembly=Apps.ColorFun"
+		xmlns:controls="clr-namespace:VMControls.WPF.Release.Front;assembly=VMControls.WPF.Release" x:Name="PlatformSDKForm" ResizeMode="CanMinimize" MinButtonVisibility="Visible" MaxButtonVisibility="Visible" AllowsTransparency="False" ShowInTaskbar="True"
+		Title="运行界面" BorderBrush="#FF212121" SizeAble="False" Height="568" Width="726" Loaded="Window_Loaded" Closing="Window_Closing">
+		<Controls:BaseWindow.Resources>
+			<ResourceDictionary>
+				<BooleanToVisibilityConverter x:Key="bool2VisibilityConverter" />
+				<ResourceDictionary.MergedDictionaries>
+					<x:Static Member="Color:ColorThemesResourceDictionary.Instance"/>
+					<x:Static Member="Lang:LocalizationResourceDictionary.Instance"/>
+				</ResourceDictionary.MergedDictionaries>
+			</ResourceDictionary>
+		</Controls:BaseWindow.Resources>	
+</Controls:BaseWindow>

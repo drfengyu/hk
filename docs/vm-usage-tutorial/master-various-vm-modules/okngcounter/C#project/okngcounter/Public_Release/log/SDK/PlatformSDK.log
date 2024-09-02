@@ -1,0 +1,840 @@
+2024-08-16 10:47:05.801 INFO  [20600] [CServerManager::InitLog@35965] [Init] [Begin]======================================== V4.3.0 Build Jun  3 2023 11:01:25 Start Print Log ========================================
+
+2024-08-16 10:47:05.801 INFO  [20600] [CClientManager::CM_CreateHandle@6619] [Init] begin
+
+2024-08-16 10:47:05.801 INFO  [20600] [CClientManager::Init@5333] [Init] begin.
+
+2024-08-16 10:47:05.801 INFO  [20600] [CClientManager::Init@5355] [Init] end.nRet[0]
+
+2024-08-16 10:47:05.801 INFO  [20600] [CServerManager::SM_SP_LoadLib@377] [Init] start
+
+2024-08-16 10:47:05.801 INFO  [20600] [CServerManager::SM_SP_LoadLib@471] [Init] SDK: SM_SP_LoadLib Load Server Lib. Path: [C:\Program Files\VisionMaster4.3.0\Applications\PublicFile\x64\..\..\Server\PlatformManager.dll]
+
+2024-08-16 10:47:05.801 INFO  [12488] [DoStartServerApp@29] Begin
+
+2024-08-16 10:47:05.801 INFO  [12488] [CClientManager::StartAndRegisterServerApp@253] Server app path[C:\Program Files\VisionMaster4.3.0\Applications\ServerApp\vServerApp.exe]
+
+2024-08-16 10:47:05.808 INFO  [12488] [CClientManager::CheckCurrentServerApp@172] vServerApp path [C:\Program Files\VisionMaster4.3.0\Applications\ServerApp\vServerApp.exe]
+
+2024-08-16 10:47:05.808 INFO  [12488] [CClientManager::CheckCurrentServerApp@201] vServerApp is found
+
+2024-08-16 10:47:05.808 INFO  [12488] [CClientManager::RegisterOnServerApp@56] RegisterOnServerApp success i[0].
+
+2024-08-16 10:47:05.832 INFO  [20600] [CServerManager::SM_SP_LoadLib@561] [Init] end
+
+2024-08-16 10:47:05.832 INFO  [20600] [CGScriptManager::GM_SP_UnLoadLib@130] start
+
+2024-08-16 10:47:05.832 INFO  [20600] [CGScriptManager::GM_SP_UnLoadLib@150] end
+
+2024-08-16 10:47:05.832 INFO  [20600] [CGScriptManager::GM_SP_LoadLib@34] start
+
+2024-08-16 10:47:05.833 INFO  [20600] [CGScriptManager::GM_SP_LoadLib@123] end
+
+2024-08-16 10:47:05.834 INFO  [20600] [CServerManager::SM_SP_InitGLobalScript@25157] [Init] start
+
+2024-08-16 10:47:05.834 INFO  [20600] [CGScriptManager::GM_SP_GScriptInit@156] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CGScriptManager::GM_SP_GScriptInit@177] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_InitGLobalScript@25175] [Init] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_Init@912] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::DeInit@24189] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::DeInitServerLib@692] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerSetMsgCallback@772] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerSetMsgCallback@786] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerSetModuleDataCallback@812] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerSetModuleDataCallback@826] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerSetRunResCallback@792] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerSetRunResCallback@806] end
+
+2024-08-16 10:47:06.111 ERROR [20600] [CServerManager::DeInitServerLib@711] SDK: DeInitServerLib SM_SP_ServerSetRunResCallback fail. nRet = [e000000a]
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerDeInit@752] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerDeInit@766] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::DeInitServerLib@726] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::StopHeartPair@26188] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::StopHeartPair@26196] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::DeInitReadSendBuffer@24280] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::DeInitReadSendBuffer@24290] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::DeInit@24243] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::InitReadSendBuffer@24249] [Init] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::DeInitReadSendBuffer@24280] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::DeInitReadSendBuffer@24290] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::InitReadSendBuffer@24274] [Init] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_Init@946] SDK: InitReadSendBuffer success.pstPlatformBasicInfo->nRepIp[0x7f000001],nport[53067]
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_Init@965] SDK: GetAdapterInfo success. Info:[127.0.0.1]
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::InitServerLib@598] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerSetMsgCallback@772] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerSetMsgCallback@786] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::InitServerLib@608] SDK: InitServerLib SM_SP_ServerSetMsgCallback success.
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerSetModuleDataCallback@812] start
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerSetModuleDataCallback@826] end
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::InitServerLib@616] SDK: InitServerLib SM_SP_ServerSetModuleDataCallback success.
+
+2024-08-16 10:47:06.111 INFO  [20600] [CServerManager::SM_SP_ServerInit@732] start
+
+2024-08-16 10:47:06.131 INFO  [12488] [CClientManager::CheckCurrentServerApp@172] vServerApp path [C:\Program Files\VisionMaster4.3.0\Applications\ServerApp\vServerApp.exe]
+
+2024-08-16 10:47:06.131 INFO  [12488] [CClientManager::CheckCurrentServerApp@201] vServerApp is found
+
+2024-08-16 10:47:06.446 INFO  [12488] [CClientManager::CheckCurrentServerApp@172] vServerApp path [C:\Program Files\VisionMaster4.3.0\Applications\ServerApp\vServerApp.exe]
+
+2024-08-16 10:47:06.446 INFO  [12488] [CClientManager::CheckCurrentServerApp@201] vServerApp is found
+
+2024-08-16 10:47:06.761 INFO  [12488] [CClientManager::CheckCurrentServerApp@172] vServerApp path [C:\Program Files\VisionMaster4.3.0\Applications\ServerApp\vServerApp.exe]
+
+2024-08-16 10:47:06.761 INFO  [12488] [CClientManager::CheckCurrentServerApp@201] vServerApp is found
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::SM_SP_ServerInit@746] end
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::InitServerLib@634] SDK: InitServerLib SM_SP_ServerInit success.
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::SM_SP_ServerSetRunResCallback@792] start
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::SM_SP_ServerSetRunResCallback@806] end
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::InitServerLib@642] SDK: InitServerLib SM_SP_ServerSetRunResCallback success.
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::SM_SP_ServerSetGlobalScriptCallback@832] start
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::SM_SP_ServerSetGlobalScriptCallback@846] end
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::InitServerLib@650] SDK: GM_SP_GScriptInit SM_SP_ServerSetGlobalScriptCallback success.
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::InitServerLib@652] end
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::SM_Init@1008] SDK: InitServerLib success.
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::SM_MakeServerReportDongleInfo@36532] start.
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::SM_MakeServerReportDongleInfo@36583] end
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::SM_Init@1142] end
+
+2024-08-16 10:47:06.965 INFO  [20600] [CServerManager::SM_GetProcedureReentrant@22105] start.
+
+2024-08-16 10:47:06.966 INFO  [20600] [CServerManager::SM_GetProcedureReentrant@22135] SDK: SM_GetProcedureReentrant nRecvBufLen:[229]
+
+2024-08-16 10:47:06.966 INFO  [20600] [CServerManager::SM_GetProcedureReentrant@22181] end.
+
+2024-08-16 10:47:06.966 INFO  [20600] [CClientManager::CM_CreateHandle@6812] [Init] [End] end
+
+2024-08-16 10:47:06.973 INFO  [12040] [CServerManager::HeartPairThreadProcess@26213] start
+
+2024-08-16 10:47:06.988 INFO  [20600] [CServerManager::SM_RegisterOutputPlatformInfoCallBack@1148] start
+
+2024-08-16 10:47:06.988 INFO  [20600] [CServerManager::SM_RegisterOutputPlatformInfoCallBack@1177] end
+
+2024-08-16 10:47:07.080 INFO  [12488] [CClientManager::CheckCurrentServerApp@172] vServerApp path [C:\Program Files\VisionMaster4.3.0\Applications\ServerApp\vServerApp.exe]
+
+2024-08-16 10:47:07.080 INFO  [12488] [CClientManager::CheckCurrentServerApp@201] vServerApp is found
+
+2024-08-16 10:47:07.395 INFO  [12488] [CClientManager::CheckCurrentServerApp@172] vServerApp path [C:\Program Files\VisionMaster4.3.0\Applications\ServerApp\vServerApp.exe]
+
+2024-08-16 10:47:07.395 INFO  [12488] [CClientManager::CheckCurrentServerApp@201] vServerApp is found
+
+2024-08-16 10:47:07.710 INFO  [12488] [CClientManager::CheckCurrentServerApp@172] vServerApp path [C:\Program Files\VisionMaster4.3.0\Applications\ServerApp\vServerApp.exe]
+
+2024-08-16 10:47:07.710 INFO  [12488] [CClientManager::CheckCurrentServerApp@201] vServerApp is found
+
+2024-08-16 10:47:08.025 INFO  [12488] [CClientManager::CheckCurrentServerApp@172] vServerApp path [C:\Program Files\VisionMaster4.3.0\Applications\ServerApp\vServerApp.exe]
+
+2024-08-16 10:47:08.025 INFO  [12488] [CClientManager::CheckCurrentServerApp@201] vServerApp is found
+
+2024-08-16 10:47:08.344 INFO  [12488] [CClientManager::CheckCurrentServerApp@172] vServerApp path [C:\Program Files\VisionMaster4.3.0\Applications\ServerApp\vServerApp.exe]
+
+2024-08-16 10:47:08.344 INFO  [12488] [CClientManager::CheckCurrentServerApp@201] vServerApp is found
+
+2024-08-16 10:47:08.344 INFO  [12488] [CClientManager::StartAndRegisterServerApp@293] Start App end.
+
+2024-08-16 10:47:08.344 INFO  [12488] [DoStartServerApp@38] End
+
+2024-08-16 10:47:08.676 INFO  [20600] [CServerManager::SM_GetAllProcessList@5493] start
+
+2024-08-16 10:47:08.676 ERROR [20600] [CServerManager::SendAndRecvCommand@27540] SDK: SendAndRecvCommand SendAndRecvCommandEx failed. nRet = [e0000316]
+
+2024-08-16 10:47:08.676 ERROR [20600] [CServerManager::SM_GetAllProcessList@5523] SDK: SendAndRecvCommand fail. nRet = [e0000316]
+
+2024-08-16 10:47:08.676 ERROR [20600] [CServerManager::SM_GetAllProcessList@5605] catch... nRet = [e0000316]
+
+2024-08-16 10:47:08.677 INFO  [20600] [CClientManager::PF_GetErrorMsg@770] begin.
+
+2024-08-16 10:47:08.677 INFO  [20600] [CClientManager::PF_GetErrorMsg@1668] end.
+
+2024-08-16 10:47:08.678 INFO  [20600] [CServerManager::SM_GetAllGlobalModule@17159] start.
+
+2024-08-16 10:47:08.678 WARN  [20600] [CServerManager::SM_GetAllGlobalModule@17212] SDK: Module list is null.
+
+2024-08-16 10:47:08.678 INFO  [20600] [CServerManager::SM_GetAllGlobalModule@17265] end.
+
+2024-08-16 10:47:08.694 INFO  [20600] [CServerManager::SM_CheckSolution@247] start
+
+2024-08-16 10:47:08.708 INFO  [20600] [CServerManager::SM_CheckSolution@302] end
+
+2024-08-16 10:47:08.719 INFO  [20600] [CServerManager::SM_CheckSolution@247] start
+
+2024-08-16 10:47:08.720 INFO  [20600] [CServerManager::SM_CheckSolution@302] end
+
+2024-08-16 10:47:08.722 INFO  [20600] [CServerManager::SM_LoadSolution@2149] [Load Solution] begin
+
+2024-08-16 10:47:08.722 INFO  [20600] [CServerManager::SM_LoadSolution@2288] [Load Solution] end
+
+2024-08-16 10:47:08.722 INFO  [15424] [CServerManager::ParseLoadSolBeginInfo@28754] [Load Solution] [Asyn Begin] SDK: Callback load solution start information start.
+
+2024-08-16 10:47:08.731 INFO  [15424] [CServerManager::ParseLoadSolBeginInfo@28771] [Load Solution] SDK: Callback load solution start information end. ClientType:[0] Path:[G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\okngcounter\C#project\okngcounter\Public_Release\Solution\release.sol]
+
+2024-08-16 10:47:08.732 INFO  [15424] [CServerManager::ParseLoadSolProgressInfo@28953] [Load Solution] SDK: Cb load solution process:[15]
+
+2024-08-16 10:47:08.732 INFO  [15424] [CGScriptManager::GM_SP_GScripMsgDeal@205] start
+
+2024-08-16 10:47:08.738 INFO  [15424] [CGScriptManager::GM_SP_GScripMsgDeal@219] end
+
+2024-08-16 10:47:08.783 INFO  [15424] [CServerManager::ParseLoadSolProgressInfo@28953] [Load Solution] SDK: Cb load solution process:[30]
+
+2024-08-16 10:47:08.784 INFO  [1968] [CServerManager::ParseGlobalProcessObjectInfo@33058] SDK: Cb global and process object information start.
+
+2024-08-16 10:47:08.787 INFO  [15424] [CServerManager::ParseLoadSolProgressInfo@28953] [Load Solution] SDK: Cb load solution process:[50]
+
+2024-08-16 10:47:08.788 INFO  [1968] [CServerManager::ParseGlobalProcessObjectInfo@33072] SDK: Cb global and process object information end.
+
+2024-08-16 10:47:08.791 INFO  [15424] [CGScriptManager::GM_SP_GScripMsgDeal@205] start
+
+2024-08-16 10:47:08.951 INFO  [15424] [CGScriptManager::GM_SP_GScripMsgDeal@219] end
+
+2024-08-16 10:47:08.951 INFO  [15424] [CServerManager::ParseLoadSolProgressInfo@28953] [Load Solution] SDK: Cb load solution process:[75]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CServerManager::ParseLoadSolProgressInfo@28953] [Load Solution] SDK: Cb load solution process:[85]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CServerManager::ParseLoadSolProgressInfo@28953] [Load Solution] SDK: Cb load solution process:[90]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CServerManager::ParseLoadSolProgressInfo@28953] [Load Solution] SDK: Cb load solution process:[100]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CServerManager::ParseLoadSolEndInfo@28822] [Load Solution] SDK: Callback load solution end information start. nClientType:[0]; nStatus:[0]
+
+2024-08-16 10:47:08.954 INFO  [20600] [CServerManager::SM_GetAllProcessList@5493] start
+
+2024-08-16 10:47:08.954 INFO  [20600] [CServerManager::SM_GetAllProcessList@5609] end
+
+2024-08-16 10:47:08.954 INFO  [15424] [CClientManager::PF_GetSolutionPath@8832] begin.
+
+2024-08-16 10:47:08.954 INFO  [15424] [CServerManager::SM_GetSolutionPath@22206] start.
+
+2024-08-16 10:47:08.954 INFO  [15424] [CServerManager::SM_GetSolutionPath@22294] end.
+
+2024-08-16 10:47:08.954 INFO  [15424] [CClientManager::PF_GetSolutionPath@8867] end.
+
+2024-08-16 10:47:08.963 INFO  [15424] [CServerManager::SM_SetNoneReportModuleResult@14424] start.
+
+2024-08-16 10:47:08.963 INFO  [15424] [CServerManager::SM_SetNoneReportModuleResult@14447] end.
+
+2024-08-16 10:47:08.963 INFO  [15424] [CServerManager::ParseLoadSolEndInfo@28835] [Load Solution] SDK: Callback load solution end information end.
+
+2024-08-16 10:47:08.963 WARN  [15424] [VisionMasterSDK::Utils::RemoveDirRecursive@759] Deleting Directory[]
+
+2024-08-16 10:47:08.963 INFO  [15424] [CGScriptManager::GM_SP_GScripMsgDeal@205] start
+
+2024-08-16 10:47:08.964 INFO  [18152] [CServerManager::SM_RegisterResultSDKCallBack@6747] start
+
+2024-08-16 10:47:08.964 INFO  [18152] [CServerManager::SM_RegisterResultSDKCallBack@6774] end
+
+2024-08-16 10:47:08.964 INFO  [15424] [CGScriptManager::GM_SP_GScripMsgDeal@219] end
+
+2024-08-16 10:47:08.965 INFO  [15424] [CServerManager::ParseExecuteAfterLoadInfo@30528] [Load Solution] SDK: Callback execute state after load info start.
+
+2024-08-16 10:47:08.965 INFO  [15424] [CServerManager::ParseExecuteAfterLoadInfo@30545] [Load Solution] [Asyn End] SDK: Callback execute state after load info end. State:[0]
+
+2024-08-16 10:47:09.292 INFO  [18152] [CClientManager::PF_GetAllProcessList@4406] begin.
+
+2024-08-16 10:47:09.292 INFO  [18152] [CServerManager::SM_GetAllProcessList@5493] start
+
+2024-08-16 10:47:09.292 INFO  [18152] [CServerManager::SM_GetAllProcessList@5609] end
+
+2024-08-16 10:47:09.292 INFO  [18152] [CClientManager::PF_GetAllProcessList@4462] end.
+
+2024-08-16 10:47:09.845 ERROR [20600] [CServerManager::SM_GetUIParamValueByKey@13480] SDK: SM_GetUIParamValueByKey SM_SP_ServerGetBinaryData failed. nRet = [e0000001]
+
+2024-08-16 10:47:09.857 INFO  [20600] [CServerManager::SM_GetAllGlobalModule@17159] start.
+
+2024-08-16 10:47:09.858 WARN  [20600] [CServerManager::SM_GetAllGlobalModule@17212] SDK: Module list is null.
+
+2024-08-16 10:47:09.858 INFO  [20600] [CServerManager::SM_GetAllGlobalModule@17265] end.
+
+2024-08-16 10:47:09.859 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17339] start.
+
+2024-08-16 10:47:09.859 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17398] SDK: SM_FuzzyQueryUIParamValue name:[SourceIndex], nRecvBufLen:[10]
+
+2024-08-16 10:47:09.859 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17569] end.
+
+2024-08-16 10:47:09.860 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:09.860 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:09.860 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17339] start.
+
+2024-08-16 10:47:09.860 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17398] SDK: SM_FuzzyQueryUIParamValue name:[TargetIndex], nRecvBufLen:[10]
+
+2024-08-16 10:47:09.860 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17569] end.
+
+2024-08-16 10:47:09.860 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:09.860 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:09.860 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17339] start.
+
+2024-08-16 10:47:09.860 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17398] SDK: SM_FuzzyQueryUIParamValue name:[Position], nRecvBufLen:[0]
+
+2024-08-16 10:47:09.860 ERROR [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17431] SDK: SM_FuzzyQueryUIParamValue SM_SP_ServerGetBinaryData failed. nRet = [e0000001]
+
+2024-08-16 10:47:09.860 ERROR [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17469] catch... nRet = [e0000001]
+
+2024-08-16 10:47:09.864 INFO  [20600] [CServerManager::SM_GetFirstLayerModuleTree@13866] start.
+
+2024-08-16 10:47:09.864 INFO  [20600] [CServerManager::SM_GetFirstLayerModuleTree@13965] end.
+
+2024-08-16 10:47:10.415 INFO  [20600] [CServerManager::SM_QueryModuleRunningState@14564] start.
+
+2024-08-16 10:47:10.415 INFO  [20600] [CServerManager::SM_QueryModuleRunningState@14574] SDK: SM_QueryModuleRunningState nModuleNum:[5]
+
+2024-08-16 10:47:10.416 INFO  [20600] [CServerManager::SM_QueryModuleRunningState@14617] SDK: SM_QueryModuleRunningState nRecvBufLen:[1522]
+
+2024-08-16 10:47:10.416 INFO  [20600] [CServerManager::SM_QueryModuleRunningState@14692] end.
+
+2024-08-16 10:47:10.416 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:10.416 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:10.417 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17339] start.
+
+2024-08-16 10:47:10.417 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17398] SDK: SM_FuzzyQueryUIParamValue name:[SourceIndex], nRecvBufLen:[177]
+
+2024-08-16 10:47:10.417 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17569] end.
+
+2024-08-16 10:47:10.418 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:10.418 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:10.418 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17339] start.
+
+2024-08-16 10:47:10.418 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17398] SDK: SM_FuzzyQueryUIParamValue name:[TargetIndex], nRecvBufLen:[177]
+
+2024-08-16 10:47:10.418 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17569] end.
+
+2024-08-16 10:47:10.418 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:10.418 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:10.419 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17339] start.
+
+2024-08-16 10:47:10.419 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17398] SDK: SM_FuzzyQueryUIParamValue name:[Position], nRecvBufLen:[190]
+
+2024-08-16 10:47:10.419 INFO  [20600] [CServerManager::SM_FuzzyQueryUIParamValue@17569] end.
+
+2024-08-16 10:47:10.419 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:10.419 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:10.420 INFO  [20600] [CServerManager::SM_GetMultiModuEnableState@6223] start
+
+2024-08-16 10:47:10.420 INFO  [20600] [CServerManager::SM_GetMultiModuEnableState@6343] end
+
+2024-08-16 10:47:10.470 ERROR [20600] [CServerManager::SM_GetUIParamValueByKey@13480] SDK: SM_GetUIParamValueByKey SM_SP_ServerGetBinaryData failed. nRet = [e0000001]
+
+2024-08-16 10:47:10.474 INFO  [20600] [CServerManager::SM_GetUIParamValueByObject@13616] start.
+
+2024-08-16 10:47:10.474 INFO  [20600] [CServerManager::SM_GetUIParamValueByObject@13648] SDK: SM_GetUIParamValueByObject ID:[0], nRecvBufLen:[165]
+
+2024-08-16 10:47:10.474 INFO  [20600] [CServerManager::SM_GetUIParamValueByObject@13860] end.
+
+2024-08-16 10:47:10.476 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:10.476 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:10.484 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8406] start ModuId=[0]
+
+2024-08-16 10:47:10.484 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4762] start
+
+2024-08-16 10:47:10.484 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4789] SDK: SM_GetBinaryData Name:[DynamicOutData]; nRecvBufLen: [1763]
+
+2024-08-16 10:47:10.484 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4886] end
+
+2024-08-16 10:47:10.484 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8533] stBinaryLength.nBinaryLength:[1763]
+
+2024-08-16 10:47:10.484 INFO  [20600] [CClientManager::GetIoNum@8118] start
+
+2024-08-16 10:47:10.484 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8542] GetIoNum:[9]
+
+2024-08-16 10:47:10.484 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8587] end
+
+2024-08-16 10:47:10.495 INFO  [20600] [CClientManager::CM_GetModuInputIOInfo@8211] start ModuId=[0]
+
+2024-08-16 10:47:10.495 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4762] start
+
+2024-08-16 10:47:10.495 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4789] SDK: SM_GetBinaryData Name:[DynamicInData]; nRecvBufLen: [566]
+
+2024-08-16 10:47:10.495 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4886] end
+
+2024-08-16 10:47:10.495 INFO  [20600] [CClientManager::CM_GetModuInputIOInfo@8343] stBinaryLength.nBinaryLength:[566]
+
+2024-08-16 10:47:10.495 INFO  [20600] [CClientManager::GetIoNum@8118] start
+
+2024-08-16 10:47:10.495 INFO  [20600] [CClientManager::CM_GetModuInputIOInfo@8352] GetIoNum:[5]
+
+2024-08-16 10:47:10.495 INFO  [20600] [CClientManager::CM_GetModuInputIOInfo@8400] end
+
+2024-08-16 10:47:10.504 INFO  [20600] [CServerManager::SM_SetReportModuleResult@14309] start.
+
+2024-08-16 10:47:10.504 INFO  [20600] [CServerManager::SM_SetReportModuleResult@14342] end.
+
+2024-08-16 10:47:10.515 ERROR [20600] [CServerManager::SM_GetUIParamValueByKey@13480] SDK: SM_GetUIParamValueByKey SM_SP_ServerGetBinaryData failed. nRet = [e0000001]
+
+2024-08-16 10:47:10.515 INFO  [20600] [CServerManager::SM_GetUIParamValueByObject@13616] start.
+
+2024-08-16 10:47:10.515 INFO  [20600] [CServerManager::SM_GetUIParamValueByObject@13648] SDK: SM_GetUIParamValueByObject ID:[1], nRecvBufLen:[341]
+
+2024-08-16 10:47:10.515 INFO  [20600] [CServerManager::SM_GetUIParamValueByObject@13860] end.
+
+2024-08-16 10:47:10.515 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:10.515 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:10.517 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8406] start ModuId=[1]
+
+2024-08-16 10:47:10.517 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4762] start
+
+2024-08-16 10:47:10.517 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4789] SDK: SM_GetBinaryData Name:[DynamicOutData]; nRecvBufLen: [8272]
+
+2024-08-16 10:47:10.517 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4886] end
+
+2024-08-16 10:47:10.517 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8533] stBinaryLength.nBinaryLength:[8272]
+
+2024-08-16 10:47:10.517 INFO  [20600] [CClientManager::GetIoNum@8118] start
+
+2024-08-16 10:47:10.517 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8542] GetIoNum:[20]
+
+2024-08-16 10:47:10.517 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8587] end
+
+2024-08-16 10:47:10.518 INFO  [20600] [CClientManager::CM_GetModuInputIOInfo@8211] start ModuId=[1]
+
+2024-08-16 10:47:10.518 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4762] start
+
+2024-08-16 10:47:10.518 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4789] SDK: SM_GetBinaryData Name:[DynamicInData]; nRecvBufLen: [3530]
+
+2024-08-16 10:47:10.518 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4886] end
+
+2024-08-16 10:47:10.518 INFO  [20600] [CClientManager::CM_GetModuInputIOInfo@8343] stBinaryLength.nBinaryLength:[3530]
+
+2024-08-16 10:47:10.518 INFO  [20600] [CClientManager::GetIoNum@8118] start
+
+2024-08-16 10:47:10.518 INFO  [20600] [CClientManager::CM_GetModuInputIOInfo@8352] GetIoNum:[4]
+
+2024-08-16 10:47:10.518 INFO  [20600] [CClientManager::CM_GetModuInputIOInfo@8400] end
+
+2024-08-16 10:47:10.522 INFO  [20600] [CServerManager::SM_SetReportModuleResult@14309] start.
+
+2024-08-16 10:47:10.522 INFO  [20600] [CServerManager::SM_SetReportModuleResult@14342] end.
+
+2024-08-16 10:47:10.531 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8406] start ModuId=[2]
+
+2024-08-16 10:47:10.531 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4762] start
+
+2024-08-16 10:47:10.531 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4789] SDK: SM_GetBinaryData Name:[DynamicOutData]; nRecvBufLen: [3280]
+
+2024-08-16 10:47:10.531 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4886] end
+
+2024-08-16 10:47:10.531 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8533] stBinaryLength.nBinaryLength:[3280]
+
+2024-08-16 10:47:10.531 INFO  [20600] [CClientManager::GetIoNum@8118] start
+
+2024-08-16 10:47:10.531 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8542] GetIoNum:[10]
+
+2024-08-16 10:47:10.531 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8587] end
+
+2024-08-16 10:47:10.539 INFO  [20600] [CServerManager::SM_SetReportModuleResult@14309] start.
+
+2024-08-16 10:47:10.539 INFO  [20600] [CServerManager::SM_SetReportModuleResult@14342] end.
+
+2024-08-16 10:47:10.546 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8406] start ModuId=[3]
+
+2024-08-16 10:47:10.546 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4762] start
+
+2024-08-16 10:47:10.546 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4789] SDK: SM_GetBinaryData Name:[DynamicOutData]; nRecvBufLen: [2657]
+
+2024-08-16 10:47:10.546 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4886] end
+
+2024-08-16 10:47:10.546 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8533] stBinaryLength.nBinaryLength:[2657]
+
+2024-08-16 10:47:10.546 INFO  [20600] [CClientManager::GetIoNum@8118] start
+
+2024-08-16 10:47:10.546 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8542] GetIoNum:[8]
+
+2024-08-16 10:47:10.546 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8587] end
+
+2024-08-16 10:47:10.549 INFO  [20600] [CServerManager::SM_SetReportModuleResult@14309] start.
+
+2024-08-16 10:47:10.550 INFO  [20600] [CServerManager::SM_SetReportModuleResult@14342] end.
+
+2024-08-16 10:47:10.552 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8406] start ModuId=[4]
+
+2024-08-16 10:47:10.552 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4762] start
+
+2024-08-16 10:47:10.552 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4789] SDK: SM_GetBinaryData Name:[DynamicOutData]; nRecvBufLen: [2662]
+
+2024-08-16 10:47:10.552 INFO  [20600] [CServerManager::SM_GetBinaryDataEx@4886] end
+
+2024-08-16 10:47:10.552 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8533] stBinaryLength.nBinaryLength:[2662]
+
+2024-08-16 10:47:10.552 INFO  [20600] [CClientManager::GetIoNum@8118] start
+
+2024-08-16 10:47:10.552 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8542] GetIoNum:[8]
+
+2024-08-16 10:47:10.552 INFO  [20600] [CClientManager::CM_GetModuOutputIOInfo@8587] end
+
+2024-08-16 10:47:10.552 INFO  [20600] [CServerManager::SM_SetReportModuleResult@14309] start.
+
+2024-08-16 10:47:10.553 INFO  [20600] [CServerManager::SM_SetReportModuleResult@14342] end.
+
+2024-08-16 10:47:13.763 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:13.764 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:13.764 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:13.764 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:13.764 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:13.764 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:13.764 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:13.764 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:13.764 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:13.764 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:13.764 INFO  [18152] [CServerManager::SM_ExecuteOnce4GlobalScript@7078] [Solution run once] begin
+
+2024-08-16 10:47:13.765 INFO  [18152] [CGScriptManager::GM_SP_GScripMsgDeal@205] start
+
+2024-08-16 10:47:13.766 INFO  [18152] [CGScriptManager::GM_SP_GScripMsgDeal@219] end
+
+2024-08-16 10:47:13.766 INFO  [18152] [CServerManager::SM_ExecuteOnce4GlobalScript@7101] [Solution run once] end
+
+2024-08-16 10:47:13.780 INFO  [5284] [CClientManager::PF_ExecuteOnce@3802] [Run by SDK] [Begin]
+
+2024-08-16 10:47:13.780 INFO  [5284] [CServerManager::SM_ExecuteOnce@1570] start
+
+2024-08-16 10:47:13.781 INFO  [5284] [CServerManager::SM_ExecuteOnce@1604] end
+
+2024-08-16 10:47:13.781 INFO  [5284] [CClientManager::PF_ExecuteOnce@3825] [Run by SDK] [End]
+
+2024-08-16 10:47:13.793 INFO  [20508] [CServerManager::ParseOutputResForSP@31495] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[1], BatchID:[1]
+
+2024-08-16 10:47:13.846 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8211] start ModuId=[2]
+
+2024-08-16 10:47:13.846 INFO  [21052] [CServerManager::SM_GetBinaryDataEx@4762] start
+
+2024-08-16 10:47:13.846 INFO  [21052] [CServerManager::SM_GetBinaryDataEx@4789] SDK: SM_GetBinaryData Name:[DynamicInData]; nRecvBufLen: [488]
+
+2024-08-16 10:47:13.846 INFO  [21052] [CServerManager::SM_GetBinaryDataEx@4886] end
+
+2024-08-16 10:47:13.846 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8343] stBinaryLength.nBinaryLength:[488]
+
+2024-08-16 10:47:13.846 INFO  [21052] [CClientManager::GetIoNum@8118] start
+
+2024-08-16 10:47:13.846 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8352] GetIoNum:[1]
+
+2024-08-16 10:47:13.846 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8400] end
+
+2024-08-16 10:47:13.846 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8211] start ModuId=[3]
+
+2024-08-16 10:47:13.846 INFO  [21052] [CServerManager::SM_GetBinaryDataEx@4762] start
+
+2024-08-16 10:47:13.846 INFO  [21052] [CServerManager::SM_GetBinaryDataEx@4789] SDK: SM_GetBinaryData Name:[DynamicInData]; nRecvBufLen: [508]
+
+2024-08-16 10:47:13.846 INFO  [21052] [CServerManager::SM_GetBinaryDataEx@4886] end
+
+2024-08-16 10:47:13.846 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8343] stBinaryLength.nBinaryLength:[508]
+
+2024-08-16 10:47:13.846 INFO  [21052] [CClientManager::GetIoNum@8118] start
+
+2024-08-16 10:47:13.846 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8352] GetIoNum:[1]
+
+2024-08-16 10:47:13.846 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8400] end
+
+2024-08-16 10:47:13.847 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8211] start ModuId=[4]
+
+2024-08-16 10:47:13.847 INFO  [21052] [CServerManager::SM_GetBinaryDataEx@4762] start
+
+2024-08-16 10:47:13.847 INFO  [21052] [CServerManager::SM_GetBinaryDataEx@4789] SDK: SM_GetBinaryData Name:[DynamicInData]; nRecvBufLen: [1462]
+
+2024-08-16 10:47:13.847 INFO  [21052] [CServerManager::SM_GetBinaryDataEx@4886] end
+
+2024-08-16 10:47:13.847 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8343] stBinaryLength.nBinaryLength:[1462]
+
+2024-08-16 10:47:13.847 INFO  [21052] [CClientManager::GetIoNum@8118] start
+
+2024-08-16 10:47:13.847 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8352] GetIoNum:[4]
+
+2024-08-16 10:47:13.847 INFO  [21052] [CClientManager::CM_GetModuInputIOInfo@8400] end
+
+2024-08-16 10:47:13.850 INFO  [20508] [CServerManager::ParseOutputResForSP@31693] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[0], BatchID:[1], ProcessTime:[44.949402]
+
+2024-08-16 10:47:13.855 INFO  [20508] [CServerManager::ParseOutputResForSP@31731] SDK: Callback procedure stop execute info end. nProcessID:[10000]; nStatus:[0]; m_nStopIndex:[1]
+
+2024-08-16 10:47:13.855 INFO  [20508] [CServerManager::ParseOutputResForSP@31774] SDK: Cb stop execute info end. nProcessID:[10000]; nStatus:[0]; nStopAction:[1]
+
+2024-08-16 10:47:13.910 INFO  [20600] [CServerManager::SM_GetMultiModuleSubscribe@17007] start.
+
+2024-08-16 10:47:13.910 INFO  [20600] [CServerManager::SM_GetMultiModuleSubscribe@17153] end.
+
+2024-08-16 10:47:13.911 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19722] start
+
+2024-08-16 10:47:13.911 INFO  [20600] [CServerManager::SM_ReleaseDynamicMemory@19871] end
+
+2024-08-16 10:47:15.320 INFO  [18152] [CServerManager::SM_ExecuteOnce4GlobalScript@7078] [Solution run once] begin
+
+2024-08-16 10:47:15.320 INFO  [18152] [CGScriptManager::GM_SP_GScripMsgDeal@205] start
+
+2024-08-16 10:47:15.321 INFO  [18152] [CGScriptManager::GM_SP_GScripMsgDeal@219] end
+
+2024-08-16 10:47:15.321 INFO  [18152] [CServerManager::SM_ExecuteOnce4GlobalScript@7101] [Solution run once] end
+
+2024-08-16 10:47:15.322 INFO  [4088] [CClientManager::PF_ExecuteOnce@3802] [Run by SDK] [Begin]
+
+2024-08-16 10:47:15.322 INFO  [4088] [CServerManager::SM_ExecuteOnce@1570] start
+
+2024-08-16 10:47:15.322 INFO  [4088] [CServerManager::SM_ExecuteOnce@1604] end
+
+2024-08-16 10:47:15.323 INFO  [4088] [CClientManager::PF_ExecuteOnce@3825] [Run by SDK] [End]
+
+2024-08-16 10:47:15.323 INFO  [20508] [CServerManager::ParseOutputResForSP@31495] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[1], BatchID:[2]
+
+2024-08-16 10:47:15.365 INFO  [20508] [CServerManager::ParseOutputResForSP@31693] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[0], BatchID:[2], ProcessTime:[42.257599]
+
+2024-08-16 10:47:15.367 INFO  [20508] [CServerManager::ParseOutputResForSP@31731] SDK: Callback procedure stop execute info end. nProcessID:[10000]; nStatus:[0]; m_nStopIndex:[2]
+
+2024-08-16 10:47:15.367 INFO  [20508] [CServerManager::ParseOutputResForSP@31774] SDK: Cb stop execute info end. nProcessID:[10000]; nStatus:[0]; nStopAction:[1]
+
+2024-08-16 10:47:16.240 INFO  [4088] [CServerManager::SM_ExecuteOnce4GlobalScript@7078] [Solution run once] begin
+
+2024-08-16 10:47:16.240 INFO  [4088] [CGScriptManager::GM_SP_GScripMsgDeal@205] start
+
+2024-08-16 10:47:16.241 INFO  [4088] [CGScriptManager::GM_SP_GScripMsgDeal@219] end
+
+2024-08-16 10:47:16.241 INFO  [4088] [CServerManager::SM_ExecuteOnce4GlobalScript@7101] [Solution run once] end
+
+2024-08-16 10:47:16.242 INFO  [20972] [CClientManager::PF_ExecuteOnce@3802] [Run by SDK] [Begin]
+
+2024-08-16 10:47:16.242 INFO  [20972] [CServerManager::SM_ExecuteOnce@1570] start
+
+2024-08-16 10:47:16.242 INFO  [20972] [CServerManager::SM_ExecuteOnce@1604] end
+
+2024-08-16 10:47:16.242 INFO  [20972] [CClientManager::PF_ExecuteOnce@3825] [Run by SDK] [End]
+
+2024-08-16 10:47:16.243 INFO  [20508] [CServerManager::ParseOutputResForSP@31495] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[1], BatchID:[3]
+
+2024-08-16 10:47:16.285 INFO  [20508] [CServerManager::ParseOutputResForSP@31693] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[0], BatchID:[3], ProcessTime:[42.407799]
+
+2024-08-16 10:47:16.286 INFO  [20508] [CServerManager::ParseOutputResForSP@31731] SDK: Callback procedure stop execute info end. nProcessID:[10000]; nStatus:[0]; m_nStopIndex:[3]
+
+2024-08-16 10:47:16.286 INFO  [20508] [CServerManager::ParseOutputResForSP@31774] SDK: Cb stop execute info end. nProcessID:[10000]; nStatus:[0]; nStopAction:[1]
+
+2024-08-16 10:47:16.928 INFO  [18152] [CServerManager::SM_ExecuteOnce4GlobalScript@7078] [Solution run once] begin
+
+2024-08-16 10:47:16.928 INFO  [18152] [CGScriptManager::GM_SP_GScripMsgDeal@205] start
+
+2024-08-16 10:47:16.928 INFO  [18152] [CGScriptManager::GM_SP_GScripMsgDeal@219] end
+
+2024-08-16 10:47:16.928 INFO  [18152] [CServerManager::SM_ExecuteOnce4GlobalScript@7101] [Solution run once] end
+
+2024-08-16 10:47:16.929 INFO  [4088] [CClientManager::PF_ExecuteOnce@3802] [Run by SDK] [Begin]
+
+2024-08-16 10:47:16.929 INFO  [4088] [CServerManager::SM_ExecuteOnce@1570] start
+
+2024-08-16 10:47:16.930 INFO  [4088] [CServerManager::SM_ExecuteOnce@1604] end
+
+2024-08-16 10:47:16.930 INFO  [4088] [CClientManager::PF_ExecuteOnce@3825] [Run by SDK] [End]
+
+2024-08-16 10:47:16.930 INFO  [20508] [CServerManager::ParseOutputResForSP@31495] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[1], BatchID:[4]
+
+2024-08-16 10:47:16.972 INFO  [20508] [CServerManager::ParseOutputResForSP@31693] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[0], BatchID:[4], ProcessTime:[41.730301]
+
+2024-08-16 10:47:16.972 INFO  [20508] [CServerManager::ParseOutputResForSP@31731] SDK: Callback procedure stop execute info end. nProcessID:[10000]; nStatus:[0]; m_nStopIndex:[4]
+
+2024-08-16 10:47:16.972 INFO  [20508] [CServerManager::ParseOutputResForSP@31774] SDK: Cb stop execute info end. nProcessID:[10000]; nStatus:[0]; nStopAction:[1]
+
+2024-08-16 10:47:17.663 INFO  [5284] [CServerManager::SM_ExecuteOnce4GlobalScript@7078] [Solution run once] begin
+
+2024-08-16 10:47:17.663 INFO  [5284] [CGScriptManager::GM_SP_GScripMsgDeal@205] start
+
+2024-08-16 10:47:17.664 INFO  [5284] [CGScriptManager::GM_SP_GScripMsgDeal@219] end
+
+2024-08-16 10:47:17.664 INFO  [5284] [CServerManager::SM_ExecuteOnce4GlobalScript@7101] [Solution run once] end
+
+2024-08-16 10:47:17.666 INFO  [18152] [CClientManager::PF_ExecuteOnce@3802] [Run by SDK] [Begin]
+
+2024-08-16 10:47:17.666 INFO  [18152] [CServerManager::SM_ExecuteOnce@1570] start
+
+2024-08-16 10:47:17.666 INFO  [18152] [CServerManager::SM_ExecuteOnce@1604] end
+
+2024-08-16 10:47:17.666 INFO  [18152] [CClientManager::PF_ExecuteOnce@3825] [Run by SDK] [End]
+
+2024-08-16 10:47:17.666 INFO  [20508] [CServerManager::ParseOutputResForSP@31495] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[1], BatchID:[5]
+
+2024-08-16 10:47:17.707 INFO  [20508] [CServerManager::ParseOutputResForSP@31693] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[0], BatchID:[5], ProcessTime:[40.706299]
+
+2024-08-16 10:47:17.707 INFO  [20508] [CServerManager::ParseOutputResForSP@31731] SDK: Callback procedure stop execute info end. nProcessID:[10000]; nStatus:[0]; m_nStopIndex:[5]
+
+2024-08-16 10:47:17.707 INFO  [20508] [CServerManager::ParseOutputResForSP@31774] SDK: Cb stop execute info end. nProcessID:[10000]; nStatus:[0]; nStopAction:[1]
+
+2024-08-16 10:47:21.752 INFO  [18152] [CServerManager::SM_ExecuteOnce4GlobalScript@7078] [Solution run once] begin
+
+2024-08-16 10:47:21.752 INFO  [18152] [CGScriptManager::GM_SP_GScripMsgDeal@205] start
+
+2024-08-16 10:47:21.753 INFO  [18152] [CGScriptManager::GM_SP_GScripMsgDeal@219] end
+
+2024-08-16 10:47:21.753 INFO  [18152] [CServerManager::SM_ExecuteOnce4GlobalScript@7101] [Solution run once] end
+
+2024-08-16 10:47:21.755 INFO  [4088] [CClientManager::PF_ExecuteOnce@3802] [Run by SDK] [Begin]
+
+2024-08-16 10:47:21.755 INFO  [4088] [CServerManager::SM_ExecuteOnce@1570] start
+
+2024-08-16 10:47:21.755 INFO  [4088] [CServerManager::SM_ExecuteOnce@1604] end
+
+2024-08-16 10:47:21.755 INFO  [4088] [CClientManager::PF_ExecuteOnce@3825] [Run by SDK] [End]
+
+2024-08-16 10:47:21.755 INFO  [20508] [CServerManager::ParseOutputResForSP@31495] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[1], BatchID:[6]
+
+2024-08-16 10:47:21.795 INFO  [20508] [CServerManager::ParseOutputResForSP@31693] SDK: Callback work state info. ProcessID:[10000] , WorkStatus:[0], BatchID:[6], ProcessTime:[39.774101]
+
+2024-08-16 10:47:21.795 INFO  [20508] [CServerManager::ParseOutputResForSP@31731] SDK: Callback procedure stop execute info end. nProcessID:[10000]; nStatus:[0]; m_nStopIndex:[6]
+
+2024-08-16 10:47:21.795 INFO  [20508] [CServerManager::ParseOutputResForSP@31774] SDK: Cb stop execute info end. nProcessID:[10000]; nStatus:[0]; nStopAction:[1]
+
+2024-08-16 10:47:25.239 INFO  [20600] [CServerManager::SM_GetSolModifyInfo@17271] start.
+
+2024-08-16 10:47:25.239 INFO  [20600] [CServerManager::SM_GetSolModifyInfo@17333] end.
+
+2024-08-16 10:47:25.240 INFO  [18152] [CServerManager::StopCallback@24159] start
+
+2024-08-16 10:47:25.240 INFO  [18152] [CServerManager::ResetServerCallback@658] start
+
+2024-08-16 10:47:25.240 INFO  [18152] [CServerManager::SM_SP_ServerSetMsgCallback@772] start
+
+2024-08-16 10:47:25.240 INFO  [18152] [CServerManager::SM_SP_ServerSetMsgCallback@786] end
+
+2024-08-16 10:47:25.240 INFO  [18152] [CServerManager::SM_SP_ServerSetModuleDataCallback@812] start
+
+2024-08-16 10:47:25.240 INFO  [18152] [CServerManager::SM_SP_ServerSetModuleDataCallback@826] end
+
+2024-08-16 10:47:25.240 INFO  [18152] [CServerManager::SM_SP_ServerSetRunResCallback@792] start
+
+2024-08-16 10:47:25.240 INFO  [18152] [CServerManager::SM_SP_ServerSetRunResCallback@806] end
+
+2024-08-16 10:47:25.240 INFO  [18152] [CServerManager::ResetServerCallback@686] end
+
+2024-08-16 10:47:25.240 INFO  [18152] [CServerManager::StopHeartPair@26188] start
+
+2024-08-16 10:47:25.286 INFO  [12040] [CServerManager::HeartPairThreadProcess@26756] SDK: The heart process is normally disconnected.
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::StopHeartPair@26196] end
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::StopCallback@24184] end
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::SM_SetTakeoverType@5819] start, nTakeoverType = [0]
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::SM_SetTakeoverType@5831] end
+
+2024-08-16 10:47:25.286 INFO  [18152] [CClientManager::PF_DestroyHandle@1800] [Deinit] [Begin] begin
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::DeInit@24189] start
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::DeInitServerLib@692] start
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::SM_SP_ServerSetMsgCallback@772] start
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::SM_SP_ServerSetMsgCallback@786] end
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::SM_SP_ServerSetModuleDataCallback@812] start
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::SM_SP_ServerSetModuleDataCallback@826] end
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::SM_SP_ServerSetRunResCallback@792] start
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::SM_SP_ServerSetRunResCallback@806] end
+
+2024-08-16 10:47:25.286 INFO  [18152] [CServerManager::SM_SP_ServerDeInit@752] start
+
+2024-08-16 10:47:25.646 INFO  [18152] [CServerManager::SM_SP_ServerDeInit@766] end
+
+2024-08-16 10:47:25.646 INFO  [18152] [CServerManager::DeInitServerLib@726] end
+
+2024-08-16 10:47:25.646 INFO  [18152] [CServerManager::StopHeartPair@26188] start
+
+2024-08-16 10:47:25.646 INFO  [18152] [CServerManager::StopHeartPair@26196] end
+
+2024-08-16 10:47:25.646 INFO  [18152] [CServerManager::DeInitReadSendBuffer@24280] start
+
+2024-08-16 10:47:25.646 INFO  [18152] [CServerManager::DeInitReadSendBuffer@24290] end
+
+2024-08-16 10:47:25.646 INFO  [18152] [CServerManager::DeInit@24243] end
+
+2024-08-16 10:47:25.646 INFO  [18152] [CGScriptManager::DeInit@248] start
+
+2024-08-16 10:47:25.646 INFO  [18152] [CGScriptManager::GM_SP_GScriptSetMsgCallBack@225] start
+
+2024-08-16 10:47:25.646 INFO  [18152] [CGScriptManager::GM_SP_GScriptSetMsgCallBack@238] end
+
+2024-08-16 10:47:25.646 INFO  [18152] [CGScriptManager::GM_SP_GScripDeInit@185] start
+
+2024-08-16 10:47:25.651 INFO  [18152] [CServerManager::SM_RegisterResultSDKCallBack@6747] start
+
+2024-08-16 10:47:25.651 INFO  [18152] [CServerManager::SM_RegisterResultSDKCallBack@6774] end
+
+2024-08-16 10:47:25.652 INFO  [18152] [CGScriptManager::GM_SP_GScripDeInit@199] end
+
+2024-08-16 10:47:25.652 INFO  [18152] [CGScriptManager::DeInit@264] end
+
+2024-08-16 10:47:25.652 INFO  [18152] [CServerManager::SM_SP_UnloadLib@567] [Deinit] start
+
+2024-08-16 10:47:25.653 INFO  [18152] [CServerManager::SM_SP_UnloadLib@592] [Deinit] end
+
+2024-08-16 10:47:25.653 INFO  [18152] [CGScriptManager::GM_SP_UnLoadLib@130] start
+
+2024-08-16 10:47:25.653 INFO  [18152] [CGScriptManager::GM_SP_UnLoadLib@150] end
+
+2024-08-16 10:47:25.653 INFO  [18152] [CClientManager::StopServerAppThread@319] [Deinit] Stop register server app thread
+
+2024-08-16 10:47:25.653 INFO  [18152] [CClientManager::PF_DestroyHandle@1847] [Deinit] [End] end
+

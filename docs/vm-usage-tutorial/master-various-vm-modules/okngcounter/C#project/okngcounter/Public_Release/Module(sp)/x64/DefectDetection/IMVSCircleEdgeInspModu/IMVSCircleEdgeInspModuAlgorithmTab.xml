@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlgorithmTabRoot>
+  <Tabs>
+    <Tab Name="Tab_Basic Params">
+      <Categorys>
+        <GroupLinkItem Name="ImageSourceGroup">
+          <LinkName>ImageSourceGroup</LinkName>
+        </GroupLinkItem>
+        <Category Name="InputAnnulus" CanTriggerRun = "TRUE">
+          <Items>
+            <Boolean Name="StandardInput">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>标准输入</Description>
+              <DisplayName>标准输入</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <MultiTrigger>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>True</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>True</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>InputWay2</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+                <MultiTrigger>
+                  <LogicCondition>or</LogicCondition>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>False</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>False</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Circle</TargetName>
+                      <OperationName>SetValueNullOperaion</OperationName>
+                      <OperationParams>CurValue</OperationParams>
+                    </Setter>
+                    <Setter>
+                      <TargetName>CenterPointX</TargetName>
+                      <OperationName>SetValueNullOperaion</OperationName>
+                      <OperationParams>CurValue</OperationParams>
+                    </Setter>
+                    <Setter>
+                      <TargetName>CenterPointY</TargetName>
+                      <OperationName>SetValueNullOperaion</OperationName>
+                      <OperationParams>CurValue</OperationParams>
+                    </Setter>
+                    <Setter>
+                      <TargetName>InnerRadius</TargetName>
+                      <OperationName>SetValueNullOperaion</OperationName>
+                      <OperationParams>CurValue</OperationParams>
+                    </Setter>
+                    <Setter>
+                      <TargetName>OuterRadius</TargetName>
+                      <OperationName>SetValueNullOperaion</OperationName>
+                      <OperationParams>CurValue</OperationParams>
+                    </Setter>
+                    <Setter>
+                      <TargetName>StartAngle</TargetName>
+                      <OperationName>SetValueNullOperaion</OperationName>
+                      <OperationParams>CurValue</OperationParams>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AngleExtend</TargetName>
+                      <OperationName>SetValueNullOperaion</OperationName>
+                      <OperationParams>CurValue</OperationParams>
+                    </Setter>
+                    <Setter>
+                      <TargetName>FitParamExpand</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                      <OperationParams>True</OperationParams>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+              </Triggers>
+            </Boolean>
+            <RadioSelecter Name="InputWay2">
+              <Description>Input Mode</Description>
+              <DisplayName>Input Mode</DisplayName>
+              <AccessMode>O</AccessMode>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <CustomVisible>False</CustomVisible>
+              <EnumEntrys>
+                <EnumEntry>
+                  <DisplayName>RunParam_By Circle</DisplayName>
+                  <Value>0x0</Value>
+                </EnumEntry>
+                <EnumEntry>
+                  <DisplayName>RunParam_By Parameter</DisplayName>
+                  <Value>0x1</Value>
+                </EnumEntry>
+              </EnumEntrys>
+              <Triggers>
+                <MultiTrigger>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>0</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>True</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Circle</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Circle</TargetName>
+                      <OperationName>DoInitOperaion</OperationName>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+                <MultiTrigger>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>1</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>True</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>CenterPointX</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>CenterPointY</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>InnerRadius</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>OuterRadius</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>StartAngle</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AngleExtend</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>CenterPointX</TargetName>
+                      <OperationName>DoInitOperaion</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>CenterPointY</TargetName>
+                      <OperationName>DoInitOperaion</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>InnerRadius</TargetName>
+                      <OperationName>DoInitOperaion</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>OuterRadius</TargetName>
+                      <OperationName>DoInitOperaion</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>StartAngle</TargetName>
+                      <OperationName>DoInitOperaion</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AngleExtend</TargetName>
+                      <OperationName>DoInitOperaion</OperationName>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+              </Triggers>
+            </RadioSelecter>
+            <ButtonSelecter Name="Circle">
+              <Description>Circle</Description>
+              <DisplayName>Circle</DisplayName>
+              <AccessMode>O</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <DropOpenSetter>
+                <TargetName>EnumEntrys</TargetName>
+                <OperationName>GetFrontCombinationTreeOperation</OperationName>
+                <OperationParams>ROIANNULUS</OperationParams>
+              </DropOpenSetter>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <OperationName>SetCombinationSourceOperation</OperationName>
+                      <OperationParams>InputAnnulus</OperationParams>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <Initers>
+                <Setter>
+                  <TargetName>CurValue</TargetName>
+                  <OperationName>GetSelectedCombinationOperation</OperationName>
+                  <OperationParams>InputAnnulus</OperationParams>
+                </Setter>
+              </Initers>
+            </ButtonSelecter>
+            <ButtonSelecter Name="CenterPointX">
+              <Description>Circular Annulus Center X</Description>
+              <DisplayName>Circular Annulus Center X</DisplayName>
+              <AccessMode>O</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <DropOpenSetter>
+                <TargetName>EnumEntrys</TargetName>
+                <OperationName>GetFrontFilterTreeOperation</OperationName>
+                <OperationParams>float</OperationParams>
+              </DropOpenSetter>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <OperationName>SetFilterSourceOperation</OperationName>
+                      <OperationParams>AnnulusCenterX</OperationParams>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <Initers>
+                <Setter>
+                  <TargetName>CurValue</TargetName>
+                  <OperationName>GetSelectedFilterOperation</OperationName>
+                  <OperationParams>AnnulusCenterX</OperationParams>
+                </Setter>
+              </Initers>
+            </ButtonSelecter>
+            <ButtonSelecter Name="CenterPointY">
+              <Description>Circular Annulus Center Y</Description>
+              <DisplayName>Circular Annulus Center Y</DisplayName>
+              <AccessMode>O</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <DropOpenSetter>
+                <TargetName>EnumEntrys</TargetName>
+                <OperationName>GetFrontFilterTreeOperation</OperationName>
+                <OperationParams>float</OperationParams>
+              </DropOpenSetter>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <OperationName>SetFilterSourceOperation</OperationName>
+                      <OperationParams>AnnulusCenterY</OperationParams>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <Initers>
+                <Setter>
+                  <TargetName>CurValue</TargetName>
+                  <OperationName>GetSelectedFilterOperation</OperationName>
+                  <OperationParams>AnnulusCenterY</OperationParams>
+                </Setter>
+              </Initers>
+            </ButtonSelecter>
+            <ButtonSelecter Name="InnerRadius">
+              <Description>InnerRadius</Description>
+              <DisplayName>InnerRadius</DisplayName>
+              <AccessMode>O</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <DropOpenSetter>
+                <TargetName>EnumEntrys</TargetName>
+                <OperationName>GetFrontFilterTreeOperation</OperationName>
+                <OperationParams>float</OperationParams>
+              </DropOpenSetter>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <OperationName>SetFilterSourceOperation</OperationName>
+                      <OperationParams>AnnulusInnerRadius</OperationParams>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <Initers>
+                <Setter>
+                  <TargetName>CurValue</TargetName>
+                  <OperationName>GetSelectedFilterOperation</OperationName>
+                  <OperationParams>AnnulusInnerRadius</OperationParams>
+                </Setter>
+              </Initers>
+            </ButtonSelecter>
+            <ButtonSelecter Name="OuterRadius">
+              <Description>OuterRadius</Description>
+              <DisplayName>OuterRadius</DisplayName>
+              <AccessMode>O</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <DropOpenSetter>
+                <TargetName>EnumEntrys</TargetName>
+                <OperationName>GetFrontFilterTreeOperation</OperationName>
+                <OperationParams>float</OperationParams>
+              </DropOpenSetter>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <OperationName>SetFilterSourceOperation</OperationName>
+                      <OperationParams>AnnulusOuterRadius</OperationParams>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <Initers>
+                <Setter>
+                  <TargetName>CurValue</TargetName>
+                  <OperationName>GetSelectedFilterOperation</OperationName>
+                  <OperationParams>AnnulusOuterRadius</OperationParams>
+                </Setter>
+              </Initers>
+            </ButtonSelecter>
+            <ButtonSelecter Name="StartAngle">
+              <Description>Angle Start</Description>
+              <DisplayName>Angle Start</DisplayName>
+              <AccessMode>O</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <DropOpenSetter>
+                <TargetName>EnumEntrys</TargetName>
+                <OperationName>GetFrontFilterTreeOperation</OperationName>
+                <OperationParams>float</OperationParams>
+              </DropOpenSetter>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <OperationName>SetFilterSourceOperation</OperationName>
+                      <OperationParams>AnnulusStartAngle</OperationParams>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <Initers>
+                <Setter>
+                  <TargetName>CurValue</TargetName>
+                  <OperationName>GetSelectedFilterOperation</OperationName>
+                  <OperationParams>AnnulusStartAngle</OperationParams>
+                </Setter>
+              </Initers>
+            </ButtonSelecter>
+            <ButtonSelecter Name="AngleExtend">
+              <Description>AngleRange</Description>
+              <DisplayName>AngleRange</DisplayName>
+              <AccessMode>O</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <DropOpenSetter>
+                <TargetName>EnumEntrys</TargetName>
+                <OperationName>GetFrontFilterTreeOperation</OperationName>
+                <OperationParams>float</OperationParams>
+              </DropOpenSetter>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <OperationName>SetFilterSourceOperation</OperationName>
+                      <OperationParams>AnnulusAngleExtend</OperationParams>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <Initers>
+                <Setter>
+                  <TargetName>CurValue</TargetName>
+                  <OperationName>GetSelectedFilterOperation</OperationName>
+                  <OperationParams>AnnulusAngleExtend</OperationParams>
+                </Setter>
+              </Initers>
+            </ButtonSelecter>
+          </Items>
+        </Category>
+        <Category Name="Tab_ROI Area" CanTriggerRun = "TRUE">
+          <Items>
+            <GroupLinkItem Name="RoiSelectGroup">
+              <LinkName>RoiSelectGroup3</LinkName>
+            </GroupLinkItem>
+            <ROISelecter Name="RoiType">
+              <Description>Shape</Description>
+              <DisplayName>Shape</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <FullScreenEnable>False</FullScreenEnable>
+              <CustomVisible>False</CustomVisible>
+              <SelectType>Single</SelectType>
+              <ROISelection>SectorRing Sector</ROISelection>
+            </ROISelecter>
+            <GroupLinkItem Name="InheritWayGroup">
+              <LinkName>InheritWayGroup3</LinkName>
+            </GroupLinkItem>
+            <GroupLinkItem Name="ExternROITypeGroup">
+              <LinkName>ExternROITypeGroup</LinkName>
+            </GroupLinkItem>
+            <GroupLinkItem Name="AssistGroup">
+              <LinkName>AssistGroup</LinkName>
+            </GroupLinkItem>
+          </Items>
+        </Category>
+      </Categorys>
+    </Tab>
+    <Tab Name="Tab_Run Params">
+      <Categorys>
+        <Category Name="Tab_Run Params" CanTriggerRun = "TRUE">
+          <Items>
+            <Enumeration Name="FindMode">
+              <Description>Edge Type</Description>
+              <DisplayName>Edge Type</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0201</AlgorithmIndex>
+              <CurValue>0x2</CurValue>
+              <DefaultValue>0x2</DefaultValue>
+              <EnumEntrys>
+                <EnumEntry Name="Best">
+                  <Description>RunParam_Max</Description>
+                  <DisplayName>RunParam_Max</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="First">
+                  <Description>Fisrt Edge</Description>
+                  <DisplayName>First Edge</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+                <EnumEntry Name="Last">
+                  <Description>RunParam_Last</Description>
+                  <DisplayName>RunParam_Last</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x3</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </Enumeration>
+            <Enumeration Name="EdgePolarity">
+              <Description>EdgePolarity</Description>
+              <DisplayName>EdgePolarity</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0202</AlgorithmIndex>
+              <CurValue>0x3</CurValue>
+              <DefaultValue>0x3</DefaultValue>
+              <EnumEntrys>
+                <EnumEntry Name="B2W">
+                  <Description>Dark to Light.</Description>
+                  <DisplayName>Dark to Light</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="W2B">
+                  <Description>Light to Dark.</Description>
+                  <DisplayName>Light to Dark</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+                <EnumEntry Name="All">
+                  <Description>RunParam_Both</Description>
+                  <DisplayName>RunParam_Both</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x3</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </Enumeration>
+            <Integer Name="HalfKernelSize">
+              <Description>KernelSize</Description>
+              <DisplayName>KernelSize</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0203</AlgorithmIndex>
+              <CurValue>0x1</CurValue>
+              <DefaultValue>0x1</DefaultValue>
+              <MinValue>0x1</MinValue>
+              <MaxValue>50</MaxValue>
+              <IncValue>0x1</IncValue>
+            </Integer>
+            <Integer Name="EdgeStrength">
+              <Description>EdgeThreshold</Description>
+              <DisplayName>EdgeThreshold</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0204</AlgorithmIndex>
+              <CurValue>0x19</CurValue>
+              <DefaultValue>0x19</DefaultValue>
+              <MinValue>0x1</MinValue>
+              <MaxValue>0xff</MaxValue>
+              <IncValue>0x1</IncValue>
+            </Integer>
+            <Integer Name="CaliperHeight">
+              <Description>CaliperHeight</Description>
+              <DisplayName>CaliperHeight</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0206</AlgorithmIndex>
+              <CurValue>50</CurValue>
+              <DefaultValue>50</DefaultValue>
+              <MinValue>0x1</MinValue>
+              <MaxValue>1500</MaxValue>
+              <IncValue>0x1</IncValue>
+            </Integer>
+            <Integer Name="CaliperWidth">
+              <Description>CaliperWidth</Description>
+              <DisplayName>CaliperWidth</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0207</AlgorithmIndex>
+              <CurValue>0x5</CurValue>
+              <DefaultValue>0x5</DefaultValue>
+              <MinValue>0x1</MinValue>
+              <MaxValue>500</MaxValue>
+              <IncValue>0x1</IncValue>
+            </Integer>
+            <Integer Name="CaliperDistTraj">
+              <Description>Caliper Spacing</Description>
+              <DisplayName>Caliper Spacing</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0205</AlgorithmIndex>
+              <CurValue>0x5</CurValue>
+              <DefaultValue>0x5</DefaultValue>
+              <MinValue>0x1</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IncValue>0x1</IncValue>
+            </Integer>
+          </Items>
+        </Category>
+        <Category Name="缺陷参数" CanTriggerRun = "TRUE">
+          <Items>
+            <Enumeration Name="FlawPolarityEnable">
+              <Description>Defect Polarity</Description>
+              <DisplayName>Defect Polarity</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0208</AlgorithmIndex>
+              <CurValue>0x0</CurValue>
+              <DefaultValue>0x0</DefaultValue>
+              <EnumEntrys>
+                <EnumEntry Name="All">
+                  <Description>轨迹两侧缺陷</Description>
+                  <DisplayName>轨迹两侧缺陷</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x0</Value>
+                </EnumEntry>
+                <EnumEntry Name="RightBottom">
+                  <Description>轨迹右侧缺陷</Description>
+                  <DisplayName>轨迹右侧缺陷</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="LeftTop">
+                  <Description>轨迹左侧缺陷</Description>
+                  <DisplayName>轨迹左侧缺陷</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </Enumeration>
+            <Integer Name="RoughMinDis">
+              <Description>RunParam_RoughMinDis</Description>
+              <DisplayName>RunParam_RoughMinDis</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x020B</AlgorithmIndex>
+              <CurValue>5</CurValue>
+              <DefaultValue>5</DefaultValue>
+              <MinValue>0</MinValue>
+              <MaxValue>10000</MaxValue>
+              <IncValue>0x1</IncValue>
+            </Integer>
+            <Boolean Name="SizeEnable">
+              <AlgorithmIndex>0x0209</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>Defect Size Enable</Description>
+              <DisplayName>Defect Size Enable</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>False</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>RoughMinSize</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </Boolean>
+            <Integer Name="RoughMinSize">
+              <Description>RunParam_RoughMinSize</Description>
+              <DisplayName>RunParam_RoughMinSize</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x020D</AlgorithmIndex>
+              <CurValue>5</CurValue>
+              <DefaultValue>5</DefaultValue>
+              <MinValue>0</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>0x1</IncValue>
+            </Integer>
+            <Boolean Name="AreaEnable">
+              <AlgorithmIndex>0x020A</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>Defect Area Enable</Description>
+              <DisplayName>Defect Area Enable</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>False</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>RoughMinArea</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </Boolean>
+            <Integer Name="RoughMinArea">
+              <Description>RunParam_RoughMinArea</Description>
+              <DisplayName>RunParam_RoughMinArea</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x020F</AlgorithmIndex>
+              <CurValue>5</CurValue>
+              <DefaultValue>5</DefaultValue>
+              <MinValue>0</MinValue>
+              <MaxValue>1000000</MaxValue>
+              <IncValue>0x1</IncValue>
+            </Integer>
+            <Expand Name="FitParamExpand">
+              <CurValue>False</CurValue>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <MultiTrigger>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>True</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>True</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>CircleCaliperNum</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>FitRejectNum</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>FitRejectDist</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>TrackDistTol</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+              </Triggers>
+            </Expand>
+            <Integer Name="CircleCaliperNum">
+              <Description>Caliper Number</Description>
+              <DisplayName>Caliper Number</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0213</AlgorithmIndex>
+              <CurValue>20</CurValue>
+              <DefaultValue>20</DefaultValue>
+              <MinValue>3</MinValue>
+              <MaxValue>1000</MaxValue>
+              <IncValue>0x1</IncValue>
+              <CustomVisible>False</CustomVisible>
+            </Integer>
+            <Integer Name="FitRejectNum">
+              <Description>Number of Points to remove</Description>
+              <DisplayName>Number of Points to remove</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0214</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <MinValue>0</MinValue>
+              <MaxValue>997</MaxValue>
+              <IncValue>0x1</IncValue>
+              <CustomVisible>False</CustomVisible>
+            </Integer>
+            <Integer Name="FitRejectDist">
+              <Description>Threshold to Remove</Description>
+              <DisplayName>Threshold to Remove</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0215</AlgorithmIndex>
+              <CurValue>20</CurValue>
+              <DefaultValue>20</DefaultValue>
+              <MinValue>1</MinValue>
+              <MaxValue>15000</MaxValue>
+              <IncValue>0x1</IncValue>
+              <CustomVisible>False</CustomVisible>
+            </Integer>
+            <Integer Name="TrackDistTol">
+              <Description>RunParam_TrackDistTol</Description>
+              <DisplayName>RunParam_TrackDistTol</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0216</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <IncValue>0x1</IncValue>
+              <CustomVisible>False</CustomVisible>
+            </Integer>
+          </Items>
+        </Category>
+      </Categorys>
+    </Tab>
+    <Tab Name="ResultShow">
+      <Categorys>
+        <Category Name="Tab_Image Display">
+          <Items>
+            <ImageViewConfig Name="SensorFiled">
+              <Description>ROI</Description>
+              <DisplayName>ROI</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <BrigdgeSetter>
+                <TargetName>BridgeObj</TargetName>
+                <OperationName>GetDisplayObjectOperation</OperationName>
+                <OperationParams>ROI</OperationParams>
+              </BrigdgeSetter>
+            </ImageViewConfig>
+            <ImageViewConfig Name="FlawResult">
+              <Description>Defect Result</Description>
+              <DisplayName>Defect Result</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <BrigdgeSetter>
+                <TargetName>BridgeObj</TargetName>
+                <OperationName>GetDisplayObjectOperation</OperationName>
+                <OperationParams>Edge Defect Result</OperationParams>
+              </BrigdgeSetter>
+            </ImageViewConfig>
+            <ImageViewConfig Name="EdgeLocation">
+              <Description>EdgePoint</Description>
+              <DisplayName>EdgePoint</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <BrigdgeSetter>
+                <TargetName>BridgeObj</TargetName>
+                <OperationName>GetDisplayObjectOperation</OperationName>
+                <OperationParams>EdgePoint</OperationParams>
+              </BrigdgeSetter>
+            </ImageViewConfig>
+            <ImageViewConfig Name="StandardCircle">
+              <Description>前置输入的标准圆</Description>
+              <DisplayName>StandardCircle</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <BrigdgeSetter>
+                <TargetName>BridgeObj</TargetName>
+                <OperationName>GetDisplayObjectOperation</OperationName>
+                <OperationParams>StandardCircleResult</OperationParams>
+              </BrigdgeSetter>
+            </ImageViewConfig>
+            <ImageViewConfig Name="ResutlText">
+              <Description>Text</Description>
+              <DisplayName>RunParam_Text</DisplayName>
+              <AccessMode>O</AccessMode>
+              <PanVisible>False</PanVisible>
+              <BrigdgeSetter>
+                <TargetName>BridgeObj</TargetName>
+                <OperationName>GetDisplayObjectOperation</OperationName>
+                <OperationParams>Show Text</OperationParams>
+              </BrigdgeSetter>
+            </ImageViewConfig>
+            <ImageViewConfig Name="BlindZone">
+              <Description>ExternROI</Description>
+              <DisplayName>ExternROI</DisplayName>
+              <PanVisible>True</PanVisible>
+              <AccessMode>O</AccessMode>
+              <BrigdgeSetter>
+                <TargetName>BridgeObj</TargetName>
+                <OperationName>GetDisplayObjectOperation</OperationName>
+                <OperationParams>ExternROI</OperationParams>
+              </BrigdgeSetter>
+            </ImageViewConfig>
+          </Items>
+        </Category>
+        <GroupLinkItem Name="TextDisplayGroup">
+          <LinkName>TextDisplayGroup</LinkName>
+        </GroupLinkItem>
+      </Categorys>
+    </Tab>
+  </Tabs>
+  <BottomExcuteButtonsLeft>
+    <Button_ResetAlgoParams Name="Button_ResetAlgoParams">
+      <AccessMode>O</AccessMode>
+    </Button_ResetAlgoParams>
+  </BottomExcuteButtonsLeft>
+  <BottomExcuteButtons>
+    <GroupLinkItem Name="BottomCommandGroup">
+      <LinkName>BottomCommandGroup</LinkName>
+    </GroupLinkItem>
+  </BottomExcuteButtons>
+</AlgorithmTabRoot>

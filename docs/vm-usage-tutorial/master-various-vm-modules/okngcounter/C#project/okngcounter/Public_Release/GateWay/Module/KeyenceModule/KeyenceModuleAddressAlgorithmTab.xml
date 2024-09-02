@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmTabRoot>
+  <IsFullScreen>True</IsFullScreen>
+  <Tabs>
+    <Tab Name="通信设置">
+      <Categorys>        
+		<CategoryNoHead Name="Tab_Com Param">
+          <Items>
+			 <!-- <Enumeration Name="OrderType">
+              <Description>OrderType</Description>
+              <DisplayName>RunParam_OrderType</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>1</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <EnumEntrys>
+                <EnumEntry Name="RD">
+                  <Description>RD</Description>
+                  <DisplayName>RD</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="RDS">
+                  <Description>RDS</Description>
+                  <DisplayName>RDS</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+				<EnumEntry Name="WR">
+                  <Description>WR</Description>
+                  <DisplayName>WR</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x3</Value>
+                </EnumEntry>
+				<EnumEntry Name="WRS">
+                  <Description>WRS</Description>
+                  <DisplayName>WRS</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x4</Value>
+                </EnumEntry>
+               </EnumEntrys>
+              </Enumeration> -->
+			 <Enumeration Name="IntDataType">
+              <Description>RunParam_IntDataType</Description>
+              <DisplayName>RunParam_IntDataType</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>1</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <EnumEntrys>
+                <EnumEntry Name="16bit">
+                  <Description>16bit</Description>
+                  <DisplayName>16bit</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="32bit">
+                  <Description>32bit</Description>
+                  <DisplayName>32bit</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+               </EnumEntrys>
+              </Enumeration>
+			 <Enumeration Name="SoftElementType">
+              <Description>RunParam_SoftElementType</Description>
+              <DisplayName>RunParam_SoftElementType</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>1</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <EnumEntrys>
+                <EnumEntry Name="DType">
+                  <Description>D</Description>
+                  <DisplayName>D</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <!-- <EnumEntry Name="MType">
+                  <Description>M</Description>
+                  <DisplayName>M</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+				<EnumEntry Name="XType">
+                  <Description>X</Description>
+                  <DisplayName>X</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x3</Value>
+                </EnumEntry>
+				<EnumEntry Name="YType">
+                  <Description>Y</Description>
+                  <DisplayName>Y</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x4</Value>
+                </EnumEntry> -->
+               </EnumEntrys>
+              </Enumeration>
+			 <Integer Name="SoftElementAddress">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>100</CurValue>
+              <DefaultValue>100</DefaultValue>
+              <Description>RunParam_Soft Address</Description>
+              <DisplayName>RunParam_Soft Address</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+			 <Integer Name="SoftElementNum">
+              <MinValue>1</MinValue>
+              <MaxValue>128</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>2</CurValue>
+              <DefaultValue>2</DefaultValue>
+              <Description>RunParam_Soft Component Points</Description>
+              <DisplayName>RunParam_Soft Component Points</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+		     
+			 <Integer Name="OverTime">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>200</CurValue>
+              <DefaultValue>200</DefaultValue>
+              <Description>RunParam_Timeout</Description>
+              <DisplayName>RunParam_Timeout</DisplayName>
+              <Visibility>False</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>		
+<!-- 			 <EnumEntryAdr Name="AssociatedAddress">
+				<Description>RunParam_AssociateAddress</Description>
+				<DisplayName>RunParam_AssociateAddress</DisplayName>
+				<Visibility>Beginner</Visibility>
+				<AccessMode>RW</AccessMode>
+				<AlgorithmIndex>0</AlgorithmIndex>
+				<CurValue>0</CurValue>
+				<DefaultValue>0</DefaultValue>
+				<CustomVisible>True</CustomVisible>
+				<SupportChangeEnable>True</SupportChangeEnable>
+			 </EnumEntryAdr>	 -->			 
+			 <Boolean Name="PollEnable">
+                <AlgorithmIndex>0</AlgorithmIndex>
+                <CurValue>False</CurValue>
+				<DefaultValue>False</DefaultValue>
+				<Description>RunParam_Polling</Description>
+				<DisplayName>RunParam_Polling</DisplayName>
+				<Visibility>Beginner</Visibility>
+				<AccessMode>RW</AccessMode>
+			 </Boolean>
+			 <Boolean Name="Upload">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>True</CurValue>
+              <DefaultValue>True</DefaultValue>
+              <Description>UploadTip</Description>
+              <DisplayName>Upload</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+            </Boolean>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+  </Tabs>
+</AlgorithmTabRoot>

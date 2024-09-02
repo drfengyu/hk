@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IMVSGroupCs</name>
+    </assembly>
+    <members>
+        <member name="T:IMVSGroupCs.IMVSGroupTool">
+            <summary>
+            CH: 组合模块 | EN: Group Module
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.#ctor(System.Object)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="P:IMVSGroupCs.IMVSGroupTool.ModuResult">
+            <summary>
+            CH: 模块结果对象 | EN: Module Result Object
+            </summary>
+        </member>
+        <member name="P:IMVSGroupCs.IMVSGroupTool.ModuParams">
+            <summary>
+            CH: 模块参数对象 | EN: Module Param Object
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.Run">
+            <summary>
+            自执行一次（只支持独立Group）
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.GetAllModuleList">
+            <summary>
+            获取所有模块信息列表
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.DisableGroup">
+            <summary>
+            禁用Group
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.EnableGroup">
+            <summary>
+            启用Group
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.LoadGroup(System.String,System.String)">
+            <summary>
+            导入独立Group
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.ExportGroup(System.String,System.String)">
+            <summary>
+            保存Group至文件 (不支持导出方案中Group相关的连接订阅信息)
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.LoadIndependentGroup(System.String,System.String)">
+            <summary>
+            CH: 导入独立Group | EN: load independent group
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.DestroyGroup">
+            <summary>
+            CH: 销毁独立Group | EN: destory independent group
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.GetInputParamList">
+            <summary>
+            获取输入参数列表
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.GetOutputParamList">
+            <summary>
+            获取输出参数列表
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.IMVSGroupTool.JudgeSpecifyChar(System.String,System.String,System.String@)">
+            <summary>
+            判断指定字符
+            </summary>
+        </member>
+        <member name="P:IMVSGroupCs.IMVSGroupTool.IsDynamicModu">
+            <summary>
+            内部使用
+            </summary>
+        </member>
+        <member name="T:IMVSGroupCs.GroupParam">
+            <summary>
+            CH: 组合模块 | EN: Group Module
+            </summary>
+        </member>
+        <member name="P:IMVSGroupCs.GroupParam.EnableLoop">
+            <summary>
+            CH: 循环使能 | EN: Loop Enable
+            </summary>
+        </member>
+        <member name="P:IMVSGroupCs.GroupParam.LoopTimeGap">
+            <summary>
+            CH: 循环间隔(ms) | EN: Cycle Time(ms)
+            </summary>
+        </member>
+        <member name="P:IMVSGroupCs.GroupParam.EnableBreak">
+            <summary>
+            CH: 中断循环 | EN: Break Loop
+            </summary>
+        </member>
+        <member name="P:IMVSGroupCs.GroupParam.DataType">
+            <summary>
+            CH: 数据类型 | EN: Data Type
+            </summary>
+        </member>
+        <member name="F:IMVSGroupCs.GroupParam.DataTypeEnum.Int">
+            <summary>
+            CH: int | EN: int
+            </summary>
+        </member>
+        <member name="F:IMVSGroupCs.GroupParam.DataTypeEnum.Float">
+            <summary>
+            CH: float | EN: float
+            </summary>
+        </member>
+        <member name="F:IMVSGroupCs.GroupParam.DataTypeEnum.String">
+            <summary>
+            CH: string | EN: string
+            </summary>
+        </member>
+        <member name="P:IMVSGroupCs.GroupParam.CmpType">
+            <summary>
+            CH: 比较运算 | EN: Compare Operate
+            </summary>
+        </member>
+        <member name="F:IMVSGroupCs.GroupParam.CmpTypeEnum.GT">
+            <summary>
+            %>%
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:IMVSGroupCs.GroupParam.CmpTypeEnum.LT" -->
+        <member name="F:IMVSGroupCs.GroupParam.CmpTypeEnum.EQ">
+            <summary>
+            %=%
+            </summary>
+        </member>
+        <member name="F:IMVSGroupCs.GroupParam.CmpTypeEnum.NE">
+            <summary>
+            %!=%
+            </summary>
+        </member>
+        <member name="F:IMVSGroupCs.GroupParam.CmpTypeEnum.GE">
+            <summary>
+            %>=%
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:IMVSGroupCs.GroupParam.CmpTypeEnum.LE" -->
+        <member name="M:IMVSGroupCs.GroupParam.#ctor(System.UInt32)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.#ctor(System.UInt32,VM.Core.VmModule)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputImage(VM.PlatformSDKCS.InputImageData)">
+            <summary>
+            设置动态输入图像数据,弃用,推荐(SetInputImage_V2(String strParamName, ImageBaseData stImageData))
+            </summary>
+            <param name="stImageData">InputImageData类型数据</param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputString(System.String,VM.PlatformSDKCS.InputStringData[])">
+            <summary>
+            设置String数据(仅当次执行起效)
+            </summary>
+            <param name="strName"></param>
+            <param name="astStrData"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputInt(System.String,System.Int32[])">
+            <summary>
+            设置Int数据(仅当次执行起效)
+            </summary>
+            <param name="strName"></param>
+            <param name="anIntVal"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputFloat(System.String,System.Single[])">
+            <summary>
+            设置Float数据(仅当次执行起效)
+            </summary>
+            <param name="strName"></param>
+            <param name="anFloatVal"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputImage_V2(System.String,VM.PlatformSDKCS.ImageBaseData)">
+            <summary>
+            设置动态输入图像数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stImageData"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputBox(System.String,System.Collections.Generic.List{VM.PlatformSDKCS.RectBox})">
+            <summary>
+            设置动态输入矩形框数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stRoiBox"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputAnnulus(System.String,System.Collections.Generic.List{VM.PlatformSDKCS.Annulus})">
+            <summary>
+            设置动态输入圆环ROI数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stAnnulus"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputCircle(System.String,System.Collections.Generic.List{VM.PlatformSDKCS.Circle})">
+            <summary>
+            设置动态输入圆形数据(仅当次执行起效)(弃用)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stCircle"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputLine(System.String,System.Collections.Generic.List{VM.PlatformSDKCS.Line})">
+            <summary>
+            设置动态输入线型数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stLine"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputPoint(System.String,System.Collections.Generic.List{VM.PlatformSDKCS.PointF})">
+            <summary>
+            设置动态输入点型数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stPointF"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputFixture(System.String,VM.PlatformSDKCS.Fixture)">
+            <summary>
+            设置动态输入位置修正数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stFixture"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputRect(System.String,System.Collections.Generic.List{VM.PlatformSDKCS.RectF})">
+            <summary>
+            设置动态输入矩形数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stRectF"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputClassInfo(System.String,System.Collections.Generic.List{VM.PlatformSDKCS.ClassInfo})">
+            <summary>
+            设置动态输入类别信息数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stClassInfo"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputPixelImage(System.String,VM.PlatformSDKCS.PixelImage)">
+            <summary>
+            设置动态输入像素图像数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stPixelImage"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputPolygon(System.String,System.Collections.Generic.List{VM.PlatformSDKCS.Polygon})">
+            <summary>
+            设置动态输入多边形数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stPolygon"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputPosture(System.String,System.Collections.Generic.List{VM.PlatformSDKCS.Posture})">
+            <summary>
+            设置动态输入位姿数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stPosture"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.SetInputEllipse(System.String,System.Collections.Generic.List{VM.PlatformSDKCS.Ellipse})">
+            <summary>
+            设置动态输入椭圆形数据(仅当次执行起效)
+            </summary>
+            <param name="strParamName"></param>
+            <param name="stEllipse"></param>
+        </member>
+        <member name="M:IMVSGroupCs.GroupParam.GetAllInputNameInfo">
+            <summary>
+            获取所有输出名称信息（CONTOURPOINTS、POINTSET、小写的image,这三种类型不支持）
+            </summary>
+        </member>
+        <member name="T:IMVSGroupCs.GroupResult">
+            <summary>
+            CH: 组合模块 | EN: Group Module
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.#ctor(System.UInt32)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.#ctor(System.UInt32,VM.Core.VmModule)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="P:IMVSGroupCs.GroupResult.ModuStatus">
+            <summary>
+            CH: 模块状态 | EN: ModuStatus
+            </summary>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputInt(System.String)">
+            <summary>
+            获取整型输出(结果为空时nValueNum为0且pIntVal和nReserved为null)
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputFloat(System.String)">
+            <summary>
+            获取浮点型输出(结果为空时nValueNum为0且pFloatVal和nReserved为null)
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputString(System.String)">
+            <summary>
+            获取字符串型输出(结果为空时nValueNum为0且astStringVal和nReserved为null)
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns>字符串型结果</returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputImage(System.String)">
+            <summary>
+            获取图像型输出(结果为空时nDataLen为0且pData和nReserved为null),弃用,推荐(GetOutputImageV2(string strParam))
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputPointset(System.String)">
+            <summary>
+            获取点集型输出
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputByteArray(System.String)">
+            <summary>
+            获取二进制数据型输出(结果为空时strValue为null)
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputImageV2(System.String)">
+            <summary>
+            获取图像结果（整个图像）
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputPointArray(System.String)">
+            <summary>
+            获取点输出集合
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputLineArray(System.String)">
+            <summary>
+            获取直线输出集合
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputCircleArray(System.String)">
+            <summary>
+            获取圆输出集合(弃用)
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputBoxArray(System.String)">
+            <summary>
+            获取带角度矩形输出集合
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputRectArray(System.String)">
+            <summary>
+            获取无角度矩形(浮点型)输出集合
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputFixtureArray(System.String)">
+            <summary>
+            获取位置修正输出集合
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputAnnulusArray(System.String)">
+            <summary>
+            获取圆环输出集合
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputClassInfoArray(System.String)">
+            <summary>
+            获取类别信息输出集合
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputPixelImage(System.String)">
+            <summary>
+            获取带类别信息的图(界面可根据类别信息将灰度图显示成彩图)
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputPostureArray(System.String)">
+            <summary>
+            获取位姿集合
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputPolygonArray(System.String)">
+            <summary>
+            获取多边形输出集合
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetOutputEllipseArray(System.String)">
+            <summary>
+            获取椭圆输出集合
+            </summary>
+            <param name="strParam">参数名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:IMVSGroupCs.GroupResult.GetAllOutputNameInfo">
+            <summary>
+            获取所有输出名称信息（CONTOURPOINTS、POINTSET、小写的image,这三种类型不支持）
+            </summary>
+            <param name="strParam"></param>
+            <returns></returns>
+        </member>
+        <member name="F:IMVSGroupCs.GroupResult.m_nModuleId">
+            <summary>
+            模块ID
+            </summary>
+        </member>
+    </members>
+</doc>

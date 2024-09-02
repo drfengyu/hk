@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommManagerModuleCs</name>
+    </assembly>
+    <members>
+        <member name="M:CommManagerModuleCs.CommManagerModuleTool.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:CommManagerModuleCs.CommManagerModuleTool.#ctor(System.Object)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:CommManagerModuleCs.CommManagerModuleTool.SetString(System.Int32,System.String,System.Int32)">
+            <summary>
+            CH: 设置字符串型数据 | EN: Set string data
+            </summary>
+        </member>
+        <member name="M:CommManagerModuleCs.CommManagerModuleTool.SetInt(System.Int32,System.Int32[],System.Int32)">
+            <summary>
+            CH: 设置整型数据 | EN: Set int data
+            </summary>
+        </member>
+        <member name="M:CommManagerModuleCs.CommManagerModuleTool.SetFloat(System.Int32,System.Single[],System.Int32)">
+            <summary>
+            CH: 设置浮点型数据 | EN : Set float data
+            </summary>
+        </member>
+        <member name="M:CommManagerModuleCs.CommManagerModuleTool.SetBytes(System.Int32,System.Byte[],System.Int32)">
+            <summary>
+            CH: 设置二进制型数据 | EN: Set byte data
+            </summary>
+        </member>
+        <member name="M:CommManagerModuleCs.CommManagerModuleTool.GetReadData(System.Int32,System.Byte[]@,System.Int32,System.Int32)">
+            <summary>
+            CH: 获取读取数据 | EN: Get receive data
+            </summary>
+        </member>
+        <member name="M:CommManagerModuleCs.CommManagerModuleTool.bIsDeviceConnect(System.Int32)">
+            <summary>
+            CH: 通信设备是否处于连接状态 | EN: Device is connected
+            </summary>
+            <param name="nDeviceId">CH: 设备ID | EN: Device ID</param>
+            <returns>CH: 连接状态：true, 断开状态：false | EN: Connected: true, Disconnected: false</returns>
+        </member>
+        <member name="M:CommManagerModuleCs.CommManagerModuleTool.GetParamValue(System.Int32,System.String,System.Int32)">
+            <summary>
+            CH: 获取指定参数的参数值 | EN: Get param value
+            </summary>
+            <param name="nDeviceId">CH: 设备ID | EN: Device ID</param>
+            <param name="nAddressId">CH: 设备地址| EN: Device address</param>
+            <param name="strParamName">CH: 参数名| EN: param name</param>
+            <returns>CH: 参数值 | EN: param value</returns>
+        </member>
+        <member name="M:CommManagerModuleCs.CommManagerModuleTool.SetParamValue(System.Int32,System.String,System.String,System.Int32)">
+            <summary>
+            CH: 设置指定参数的参数值 | EN: Set param value
+            </summary>
+            <param name="nDeviceId">CH: 设备ID | EN: Device ID</param>
+            <param name="nAddressId">CH: 设备地址| EN: Device address</param>
+            <param name="strParamName">CH: 参数名| EN: param name</param>
+            <param name="strValue">CH: 参数值 | EN: param value</param>
+        </member>
+    </members>
+</doc>

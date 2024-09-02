@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlgorithmTabRoot>
+  <Tabs>
+    <Tab Name="Tab_Run Params"></Tab>
+  </Tabs>
+  <BottomExcuteButtons>
+    <BottomCommand>
+      <Description>Confirm</Description>
+      <DisplayName>Confirm</DisplayName>
+      <AccessMode>O</AccessMode>
+      <CommandSetter>
+        <OperationName>ExcuteMethodOperation</OperationName>
+        <OperationParams>CloseParamsTabControl</OperationParams>
+      </CommandSetter>
+    </BottomCommand>
+  </BottomExcuteButtons>
+</AlgorithmTabRoot>

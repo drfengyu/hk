@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Display" okcolor="#7cfc00" ngcolor="#ff0000">
+      <Items>
+        <Object Name="Show Input Image" Type="image" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="1" IsDisplay="true">
+          <Features>
+            <Feature Name="Image" Mapping="InImage" Value="{0}" />
+            <Feature Name="Height" Mapping="InImageHeight" Value="0" />
+            <Feature Name="Width" Mapping="InImageWidth" Value="0" />
+            <Feature Name="PixelFormat" Value="0" Mapping="InImagePixelFormat" />
+          </Features>
+        </Object>
+        <Object Name="StandardCircleResult" Type="circle" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="1" IsDisplay="true">
+          <Features>
+            <Feature Name="CenterX" Mapping="StandardCircleCenterX" Value="0" />
+            <Feature Name="CenterY" Mapping="StandardCircleCenterY" Value="0" />
+            <Feature Name="MajorRadius" Mapping="StandardCircleRadius" Value="0" />
+            <Feature Name="MinorRadius" Mapping="StandardCircleRadius" Value="0" />
+            <Feature Name="Tips" Value="CircleSite:Center({0},{1}) Radius={2}" Mapping="StandardCircleCenterX,StandardCircleCenterY,StandardCircleRadius" />
+            <Feature Name="Status" Value="0" Mapping="ModuStatus" />
+          </Features>
+        </Object>
+        <Object Name="Edge Defect Result" Type="rect" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true">
+          <Features>
+            <Feature Name="CenterX" Mapping="FlawCenterX" Value="0" ArrayMatch="true" />
+            <Feature Name="CenterY" Mapping="FlawCenterY" Value="0" ArrayMatch="true" />
+            <Feature Name="Width" Mapping="FlawWidth" Value="0" ArrayMatch="true" />
+            <Feature Name="Height" Mapping="FlawHeight" Value="0" ArrayMatch="true" />
+            <Feature Name="Angle" Mapping="FlawAngle" Value="0" ArrayMatch="true" />
+            <Feature Name="Tips" Value="Defect Position: Center Point=({0}, {1}) Width={2} Height={3} Angle {4} Defect Length={5} Defect Area={6} Caliper Range=({7}, {8}) Defect Type={9}" Mapping="FlawCenterX,FlawCenterY,FlawWidth,FlawHeight,FlawAngle,DefectSize,DefectArea,CaliperStart,CaliperEnd,DefectType" ArrayMatch="true" />
+            <Feature Name="Status" Value="1" Mapping="ModuStatus" ArrayMatch="true" />
+            <Feature Name="Num" value="0" Mapping="FlawNum" />
+          </Features>
+        </Object>
+        <Object Name="ROI" Type="rect" okcolor="#0000ff" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true" highLightEnable="false">
+          <Features>
+            <Feature Name="CenterX" Mapping="DetectCenterX" Value="0" />
+            <Feature Name="CenterY" Mapping="DetectCenterY" Value="0" />
+            <Feature Name="Width" Mapping="DetectWidth" Value="0" />
+            <Feature Name="Height" Mapping="DetectHeight" Value="0" />
+            <Feature Name="Angle" Value="0" Mapping="DetectAngle" />
+            <Feature Name="Tips" Value="CenterX:{0},CenterY:{1} Width:{2} Height:{3} Angle:{4}" Mapping="DetectCenterX,DetectCenterY,DetectWidth,DetectHeight,DetectAngle" />
+            <Feature Name="Status" Value="1" Mapping="ModuStatus" />
+          </Features>
+        </Object>
+        <Object Name="EdgePoint" Type="micropoint" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="1" IsDisplay="true">
+          <Features>
+            <Feature Name="CenterX" Mapping="EdgePointX" Value="0" ArrayMatch="true" />
+            <Feature Name="CenterY" Mapping="EdgePointY" Value="0" ArrayMatch="true" />
+            <Feature Name="Tips" Value="Edge Cross Point:({0},{1})" Mapping="EdgePointX,EdgePointY" ArrayMatch="true" />
+            <Feature Name="Status" Value="0" Mapping="EdgePointStatus" ArrayMatch="true" />
+            <Feature Name="Num" Value="0" Mapping="EdgePointNum" />
+          </Features>
+        </Object>
+        <Object Name="Show Text" Type="text" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" IsDisplay="true">
+          <Features>
+            <Feature Name="PositionX" Mapping="NULL" Value="0" />
+            <Feature Name="PositionY" Mapping="NULL" Value="0" />
+            <Feature Name="FontSize" Mapping="NULL" Value="10" />
+            <Feature Name="Angle" Mapping="NULL" Value="0" />
+            <Feature Name="Content" Value="Center: ({0}, {1}), Width: {2}, Height: {3}, Angle: {4}" Mapping="FlawCenterX,FlawCenterY,FlawWidth,FlawHeight,FlawAngle" />
+            <Feature Name="Tips" Value="Center: ({0}, {1}); Width: {2}; Height: {3}; Angle: {4};" Mapping="FlawCenterX,FlawCenterY,FlawWidth,FlawHeight,FlawAngle" />
+            <Feature Name="Status" Value="0" Mapping="ModuStatus" ArrayMatch="true" />
+          </Features>
+        </Object>
+        <Object Name="Data Record" Type="datarecord" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true">
+          <Features>
+            <Feature Name="Content" Value="Module Status:{0} Defect Amount: {1}" Mapping="ModuStatus,FlawNum" />
+            <Feature Name="Num" Value="1" Mapping="NULL" />
+          </Features>
+        </Object>
+        <Object Name="Data Record" Type="datarecord" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true">
+          <Features>
+            <Feature Name="Content" Value="FlawResult{ID}:CenterPoint({0},{1}) Width({2}) Height({3}) Angle({4})" Mapping="FlawCenterX,FlawCenterY,FlawWidth,FlawHeight,FlawAngle" ArrayMatch="true" />
+            <Feature Name="Num" Value="0" Mapping="MatchNum" />
+          </Features>
+        </Object>
+        <Object Name="Result List" Type="datalist" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true">
+          <Features>
+            <Feature Name="Colume" Value="FlawCenterX,FlawCenterY,FlawWidth,FlawHeight,FlawAngle,DefectSize,DefectArea,DefectType" Mapping="NULL" ArrayMatch="true" />
+            <Feature Name="Num" Value="0" Mapping="FlawNum" />
+          </Features>
+        </Object>
+        <Object Name="ExternROI" Type="polygon" okcolor="#0000ff" ngcolor="#ff0000" hotcolor="#66ff00" opacity="0.5" linetype="1" linewidth="2" IsDisplay="true" highLightEnable="false">
+          <Features>
+            <Feature Name="PointNum" Mapping="BlindPolygonPointNum" Value="0" />
+            <Feature Name="PointXArray" Mapping="BlindPolygonPointsX" Value="NULL" Type="Array" />
+            <Feature Name="PointYArray" Mapping="BlindPolygonPointsY" Value="NULL" Type="Array" />
+            <Feature Name="FillColor" Mapping="NULL" Value="#FF5400" />
+            <Feature Name="Status" Value="1" Mapping="ModuStatus" />
+          </Features>
+        </Object>
+      </Items>
+    </Category>
+  </Categorys>
+</ParamRoot>

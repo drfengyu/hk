@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmTabRoot>
+  <IsFullScreen>True</IsFullScreen>
+  <Tabs>
+    <Tab Name="通信配置">
+      <Categorys>        
+		<CategoryNoHead Name="Tab_Com Param">
+		  <CustomVisible>False</CustomVisible>
+          <Items>
+		 <IPString Name="HostIP">
+              <CurValue>127.0.0.1</CurValue>
+              <DefaultValue>127.0.0.1</DefaultValue>
+              <Description>RunParam_Local IP</Description>
+              <DisplayName>RunParam_Local IP</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+         </IPString>
+		 <Integer Name="HostPort">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>7930</CurValue>
+              <DefaultValue>7930</DefaultValue>
+              <Description>Tab_Local Port</Description>
+              <DisplayName>Tab_Local Port</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+         </Integer>
+         <IPString Name="TargetIP">
+              <CurValue>127.0.0.1</CurValue>
+              <DefaultValue>127.0.0.1</DefaultValue>
+              <Description>RunParam_Target IP</Description>
+              <DisplayName>RunParam_Target IP</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+         </IPString>
+		 <Integer Name="TargetPort">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>7920</CurValue>
+              <DefaultValue>7920</DefaultValue>
+              <Description>RunParam_Target Port</Description>
+              <DisplayName>RunParam_Target Port</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+         </Integer>
+		 <Boolean Name="Upload">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>True</CurValue>
+              <DefaultValue>True</DefaultValue>
+              <Description>UploadTip</Description>
+              <DisplayName>Upload</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+            </Boolean>
+			<Boolean Name="ReConnectState">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>RunParam_AutoReconnect</Description>
+              <DisplayName>RunParam_AutoReconnect</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+            </Boolean>
+		    <Boolean Name="EndCodeEnable">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>RunParam_End Char</Description>
+              <DisplayName>RunParam_End Char</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+			  <Triggers>
+				<Trigger>
+				  <Property>CurValue</Property>
+                  <Value>True</Value>
+                    <Setters>
+                        <Setter>
+                          <TargetName>EndCode</TargetName>
+                          <OperationName>VisibleOperation</OperationName>
+                        </Setter>
+                    </Setters>
+				</Trigger>
+			  </Triggers>
+            </Boolean>
+			
+		    <EndChar Name="EndCode">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+			  <MaxLen>32</MaxLen>
+              <Description>RunParam_End Char</Description>
+              <DisplayName>RunParam_End Char</DisplayName>
+              <Visibility>Beginner</Visibility>
+			  <CustomVisible>False</CustomVisible>
+              <AccessMode>RW</AccessMode>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+            </EndChar>		
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+  </Tabs>
+</AlgorithmTabRoot>

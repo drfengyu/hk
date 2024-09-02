@@ -1,0 +1,870 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VMControls.Winform.Release</name>
+    </assembly>
+    <members>
+        <member name="F:VMControls.Winform.Release.ExportControl.BooleanParamControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.BooleanParamControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.BooleanParamControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.CalculatorParamControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.CalculatorParamControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.CalculatorParamControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.CommandButton.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.CommandButton.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.CommandButton.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.ConditionalLightControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.ConditionalLightControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.ConditionalLightControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.Controller.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.Controller.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.Controller.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.GroupBox.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.GroupBox.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.GroupBox.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.ImageControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.ImageControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.ImageControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.Label.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.Label.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.Label.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.MultiImageControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.MultiImageControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.MultiImageControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.NumbericParamControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.NumbericParamControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.NumbericParamControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.OKNGControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.OKNGControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.OKNGControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.PicBox.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.PicBox.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.PicBox.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.Root.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.Root.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.SignalStatusLightControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.SignalStatusLightControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.SignalStatusLightControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.StringParamControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.StringParamControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.StringParamControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.SubWindow.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.SubWindow.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.SubWindow.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.Tab.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            绘制控件的背景。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.Tab.PaintTransparentBackground(System.Drawing.Graphics,System.Drawing.Rectangle)">
+            <summary>
+            TabContorl 背景色设置
+            </summary>
+        </member>
+        <member name="P:VMControls.Winform.Release.ExportControl.TabColumnItem.TabItemForeground">
+            <summary>
+            字体色
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.TableControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.TableControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.TableControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.ExportControl.WorkStatusControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.WorkStatusControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.ExportControl.WorkStatusControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmFrontendControl.LoadFrontendSource">
+            <summary>
+            加载运行界面
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmFrontendControl.AutoChangeSize">
+            <summary>
+            主动自适应大小
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmFrontendControl.SetParamTabEditable(System.Boolean)">
+            <summary>
+            流程、Group运行参数页中的添加、删除、编辑按钮是否可见
+            </summary>
+            <param name="isEditable">是否可见 true:按钮可见,false:按钮不可见</param>
+        </member>
+        <member name="F:VMControls.Winform.Release.VmFrontendControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmFrontendControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmFrontendControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.VmGlobalToolControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmGlobalToolControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmGlobalToolControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmMainViewConfigControl.BindSingleProcedure(System.String)">
+            <summary>
+            根据流程名称绑定单流程
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmMainViewConfigControl.BindMultiProcedure">
+            <summary>
+            绑定多流程
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmMainViewConfigControl.VMControls#Interface#IBindSomeProcedures#BindSomeProcedures(System.Collections.Generic.List{System.String})">
+            <summary>
+            绑定部分流程
+            </summary>
+            <param name="nameList"></param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmMainViewConfigControl.LockWorkArea">
+            <summary>
+            锁定工作区
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmMainViewConfigControl.UnlockWorkArea">
+            <summary>
+            解除锁定工作区
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmMainViewConfigControl.SetParamTabEditable(System.Boolean)">
+            <summary>
+            流程、Group运行参数页中的添加、删除、编辑按钮是否可见
+            </summary>
+            <param name="isEditable">是否可见 true:按钮可见,false:按钮不可见</param>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmMainViewConfigControl.WinformHandle">
+            <summary>
+            Winform窗口句柄
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.VmMainViewConfigControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmMainViewConfigControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmMainViewConfigControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmParamsConfigWithRenderControl.ModuleSource">
+            <summary>
+            数据源模块
+            </summary>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmParamsConfigWithRenderControl.ROIVisible">
+            <summary>
+            是否显示ROI
+            </summary>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmParamsConfigWithRenderControl.CoordinateInfoVisible">
+            <summary>
+            是否显示坐标信息
+            </summary>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmParamsConfigWithRenderControl.MultiImageButtonVisible">
+            <summary>
+            多画面切换按钮是否可见
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.DrawShape(System.Object)">
+            <summary>
+            绘制图形（立刻绘制）
+            传入图形可使用VMControls.WPF中名称以Ex结尾的图形结构体
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.AddShape(System.Object)">
+            <summary>
+            添加图形（在下次刷新渲染时自动绘制）
+            传入图形可使用VMControls.WPF中名称以Ex结尾的图形结构体
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.EnlargeView(System.Int32)">
+            <summary>
+            放大视图，双画面显示时可指定操作某个画面，默认为右侧输出画面，index从左到右为0，1
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.ShrinkView(System.Int32)">
+            <summary>
+            缩小视图，双画面显示时可指定操作某个画面，默认为右侧输出画面，index从左到右为0，1
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.InitView(System.Int32)">
+            <summary>
+            还原视图，双画面显示时可指定操作某个画面，默认为右侧输出画面，index从左到右为0，1
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.ClearDisplayView(System.Int32)">
+            <summary>
+            清空渲染显示区域（包括图像和图形），双画面显示时可指定操作某个画面，默认为右侧输出画面，index从左到右为0，1
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.SaveOriginalImage(System.String,System.Int32)">
+            <summary>
+            保存原图，双画面显示时可指定操作某个画面，默认为右侧输出画面，index从左到右为0，1
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.SaveOriginalImage(System.String,System.Int32,System.Int32)">
+            <summary>
+            保存原图，双画面显示时可指定操作某个画面，默认为右侧输出画面，index从左到右为0，1，jpgQuality范围[1,100]，数值越大质量越高，默认值95
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.SaveRenderedImage(System.String)">
+            <summary>
+            保存渲染图
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.SaveRenderedImage(System.String,System.Int32)">
+            <summary>
+            保存渲染图，jpgQuality范围[1,100]，数值越大质量越高，默认值95
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.SetBackground(System.String)">
+            <summary>
+            设置控件背景
+            参数为尺寸小于100*100的图像绝对路径或#+16进制数表示的颜色字符串
+            </summary>
+            <param name="value">尺寸小于100*100的图像绝对路径或#+16进制数表示的颜色字符串</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.SetRenderInterval(System.Int32)">
+            <summary>
+            设置渲染间隔(ms)，用于减低渲染频率。设置后，执行结束触发渲染时先校验距离上一次渲染的时间是否已超过设置的间隔时间，已超过则正常渲染，未超过则跳过此次渲染
+            </summary>
+            <param name="millseconds"></param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.ChangeImageComboBoxVisibility(System.Boolean)">
+            <summary>
+            控制图层选择控件显示隐藏
+            </summary>
+            <param name="flag"></param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.GetSelectedImageDisplayName(System.Int32)">
+            <summary>
+            获取当前选中图像名称，双画面显示时可指定获取某个画面，默认为右侧输出画面，index从左到右为0，1
+            </summary>
+        </member>
+        <member name="E:VMControls.Winform.Release.VmParamsConfigWithRenderControl.OnSelectedImageChanged">
+            <summary>
+            当前选中图像改变事件，双画面显示时Index表示画面序号，从左到右为0，1
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.SetRenderCondition(VMControls.RenderInterface.RenderSatus)">
+            <summary>
+            设置渲染条件：当设置条件status和模块状态值一致时才刷新
+            </summary>
+            <param name="status"></param>
+        </member>
+        <member name="E:VMControls.Winform.Release.VmParamsConfigWithRenderControl.OnMouseLeftButtonDownPixelChanged">
+            <summary>
+            鼠标左键点击位置像素坐标事件
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.SetParamTabEditable(System.Boolean)">
+            <summary>
+            流程、Group运行参数页中的添加、删除、编辑按钮是否可见
+            </summary>
+            <param name="isEditable">是否可见 true:按钮可见,false:按钮不可见</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.SetMultiImageButtonVisible(System.Boolean)">
+            <summary>
+            多画面切换按钮是否可见
+            </summary>
+            <param name="isVisible">是否按钮显示</param>
+        </member>
+        <member name="F:VMControls.Winform.Release.VmParamsConfigWithRenderControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigWithRenderControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmParamsWithRenderForm.ModuleSource">
+            <summary>
+            数据源模块
+            </summary>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmParamsWithRenderForm.ROIVisible">
+            <summary>
+            是否显示ROI
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsWithRenderForm.SetParamTabEditable(System.Boolean)">
+            <summary>
+            流程、Group运行参数页中的添加、删除、编辑按钮是否可见
+            </summary>
+            <param name="isEditable">是否可见 true:按钮可见,false:按钮不可见</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsWithRenderForm.SetMultiImageButtonVisible(System.Boolean)">
+            <summary>
+            多画面切换按钮是否可见
+            </summary>
+            <param name="isVisible">是否按钮显示</param>
+        </member>
+        <member name="F:VMControls.Winform.Release.VmParamsWithRenderForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsWithRenderForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsWithRenderForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmProcedureConfigControl.BindSingleProcedure(System.String)">
+            <summary>
+            根据流程名称绑定单流程
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmProcedureConfigControl.BindMultiProcedure">
+            <summary>
+            绑定多流程
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmProcedureConfigControl.VMControls#Interface#IBindSomeProcedures#BindSomeProcedures(System.Collections.Generic.List{System.String})">
+            <summary>
+            绑定部分流程
+            </summary>
+            <param name="nameList"></param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmProcedureConfigControl.LockWorkArea">
+            <summary>
+            锁定工作区
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmProcedureConfigControl.UnlockWorkArea">
+            <summary>
+            解除锁定工作区
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmProcedureConfigControl.SetParamTabEditable(System.Boolean)">
+            <summary>
+            流程、Group运行参数页中的添加、删除、编辑按钮是否可见
+            </summary>
+            <param name="isEditable">是否可见 true:按钮可见,false:按钮不可见</param>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmProcedureConfigControl.WinformHandle">
+            <summary>
+            Winform窗口句柄
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.VmProcedureConfigControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmProcedureConfigControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmProcedureConfigControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigControl.UpdateAllItem">
+            <summary>
+            更新所有项
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigControl.UpdataTab(System.Int32)">
+            <summary>
+            更新Tab页
+            </summary>
+            <param name="index">页序号</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigControl.SetParamTabEditable(System.Boolean)">
+            <summary>
+            流程、Group运行参数页中的添加、删除、编辑按钮是否可见
+            </summary>
+            <param name="isEditable">是否可见 true:按钮可见,false:按钮不可见</param>
+        </member>
+        <member name="F:VMControls.Winform.Release.VmParamsConfigControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmParamsConfigControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:VMControls.Winform.Release.VmRealTimeAcqControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRealTimeAcqControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRealTimeAcqControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmRenderControl.ModuleSource">
+            <summary>
+            数据源模块
+            </summary>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmRenderControl.CoordinateInfoVisible">
+            <summary>
+            是否显示坐标信息
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.DrawShape(System.Object)">
+            <summary>
+            绘制图形（立刻绘制）
+            传入图形可使用VMControls.WPF中名称以Ex结尾的图形结构体
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.AddShape(System.Object)">
+            <summary>
+            添加图形（在下次刷新渲染时自动绘制）
+            传入图形可使用VMControls.WPF中名称以Ex结尾的图形结构体
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.EnlargeView">
+            <summary>
+            放大视图
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.ShrinkView">
+            <summary>
+            缩小视图
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.InitView">
+            <summary>
+            还原视图
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.ClearDisplayView">
+            <summary>
+            清空渲染显示区域（包括图像和图形）
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.SaveOriginalImage(System.String)">
+            <summary>
+            保存原图
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.SaveOriginalImage(System.String,System.Int32)">
+            <summary>
+            保存原图，jpgQuality范围[1,100]，数值越大质量越高，默认值95
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.SaveRenderedImage(System.String)">
+            <summary>
+            保存渲染图
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.SaveRenderedImage(System.String,System.Int32)">
+            <summary>
+            保存渲染图，jpgQuality范围[1,100]，数值越大质量越高，默认值95
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.SetBackground(System.String)">
+            <summary>
+            设置控件背景
+            参数为尺寸小于100*100的图像绝对路径或#+16进制数表示的颜色字符串
+            </summary>
+            <param name="value">尺寸小于100*100的图像绝对路径或#+16进制数表示的颜色字符串</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.SetRenderInterval(System.Int32)">
+            <summary>
+            设置渲染间隔(ms)，用于减低渲染频率。设置后，执行结束触发渲染时先校验距离上一次渲染的时间是否已超过设置的间隔时间，已超过则正常渲染，未超过则跳过此次渲染
+            </summary>
+            <param name="millseconds"></param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.ChangeImageComboBoxVisibility(System.Boolean)">
+            <summary>
+            控制图层选择控件显示隐藏
+            </summary>
+            <param name="flag"></param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.GetSelectedImageDisplayName">
+            <summary>
+            获取当前选中图像名称
+            </summary>
+        </member>
+        <member name="E:VMControls.Winform.Release.VmRenderControl.OnSelectedImageChanged">
+            <summary>
+            当前选中图像改变事件
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.SetRenderCondition(VMControls.RenderInterface.RenderSatus)">
+            <summary>
+            设置渲染条件：当设置条件status和模块状态值一致时才刷新
+            </summary>
+            <param name="status"></param>
+        </member>
+        <member name="E:VMControls.Winform.Release.VmRenderControl.OnMouseLeftButtonDownPixelChanged">
+            <summary>
+            鼠标左键点击位置像素坐标事件
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.ConvertColor(System.Byte,System.Byte,System.Byte)">
+            <summary>
+            将rgb格式的颜色转换为渲染控件可接受的数值，每个参数范围均为0-255
+            </summary>
+            <param name="bR"></param>
+            <param name="bG"></param>
+            <param name="bB"></param>
+            <returns></returns>
+        </member>
+        <member name="F:VMControls.Winform.Release.VmRenderControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmRenderControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:VMControls.Winform.Release.VmSingleModuleSetConfigControl.ModuleSource">
+            <summary>
+            数据源模块
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmSingleModuleSetConfigControl.SetParamTabEditable(System.Boolean)">
+            <summary>
+            流程、Group运行参数页中的添加、删除、编辑按钮是否可见
+            </summary>
+            <param name="isEditable">是否可见 true:按钮可见,false:按钮不可见</param>
+        </member>
+        <member name="F:VMControls.Winform.Release.VmSingleModuleSetConfigControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmSingleModuleSetConfigControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:VMControls.Winform.Release.VmSingleModuleSetConfigControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+    </members>
+</doc>

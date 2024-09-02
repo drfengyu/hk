@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Display" okcolor="#7cfc00" ngcolor="#ff0000">
+    </Category>
+  </Categorys>
+</ParamRoot>

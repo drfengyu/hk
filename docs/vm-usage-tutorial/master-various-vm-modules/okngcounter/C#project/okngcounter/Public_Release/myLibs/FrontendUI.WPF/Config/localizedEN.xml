@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMappingItem>
+  <MappingItem Category="property_displayname" Name="Width" Display="Width" />
+  <MappingItem Category="property_displayname" Name="Height" Display="Height" />
+  <MappingItem Category="property_displayname" Name="Size" Display="Size" />
+  <MappingItem Category="property_displayname" Name="Background" Display="Background" />
+  <MappingItem Category="property_displayname" Name="Margin" Display="Margin" />
+  <MappingItem Category="property_displayname" Name="Foreground" Display="Font Corlor" />
+  <MappingItem Category="property_displayname" Name="Header" Display="Header" />
+  <MappingItem Category="property_displayname" Name="Font" Display="Font" />
+  <MappingItem Category="property_displayname" Name="BorderThickness" Display="Border Thickness" />
+  <MappingItem Category="property_displayname" Name="BorderBrush" Display="Border Color" />
+  <MappingItem Category="property_displayname" Name="ImageData" Display="Image Source" />
+  <MappingItem Category="property_displayname" Name="ShowCross" Display="Guides"/>
+  <MappingItem Category="property_displayname" Name="ColumnName" Display="Column" />
+  <MappingItem Category="property_displayname" Name="CrossThickness" Display="Thickness"/>
+  <MappingItem Category="property_displayname" Name="CrossBrush" Display="Brush"/>
+  <MappingItem Category="property_displayname" Name="HorizontalOffset" Display="HorizontalOffset"/>
+  <MappingItem Category="property_displayname" Name="VerticalOffset" Display="VerticalOffset"/>
+  <MappingItem Category="property_displayname" Name="CornerRadius" Display="Corner Radius" />
+  <MappingItem Category="property_displayname" Name="ValueType" Display="Data Type" />
+  <MappingItem Category="property_displayname" Name="BindingPath" Display="Data Source"/>
+  <MappingItem Category="property_displayname" Name="BindGlobalVariable" Display="Bind Global Variable"/>
+  <MappingItem Category="property_displayname" Name="ButtonColor" Display="Button Color"/>
+  <MappingItem Category="property_displayname" Name="IconColor" Display="Icon Color"/>
+  <MappingItem Category="property_displayname" Name="Format" Display="Format String"/>
+  <MappingItem Category="property_displayname" Name="Text" Display="Text"/>
+  <MappingItem Category="property_displayname" Name="ShowIcon" Display="ShowIcon"/>
+  <MappingItem Category="property_displayname" Name="Stretch" Display="Stretch"/>
+  <MappingItem Category="property_displayname" Name="Title" Display="Title"/>
+  <MappingItem Category="property_displayname" Name="HeaderBrush" Display="Header Color"/>
+  <MappingItem Category="property_displayname" Name="BusyBackColor" Display="Background"/>
+  <MappingItem Category="property_displayname" Name="BusyForeColor" Display="Foreground"/>
+  <MappingItem Category="property_displayname" Name="FreeBackColor" Display="Background"/>
+  <MappingItem Category="property_displayname" Name="FreeForeColor" Display="Foreground"/>
+  <MappingItem Category="property_displayname" Name="OKFont" Display="Font"/>
+  <MappingItem Category="property_displayname" Name="OKContent" Display="Content"/>
+  <MappingItem Category="property_displayname" Name="OKBorderThickness" Display="Border Thickness"/>
+  <MappingItem Category="property_displayname" Name="OKBorderColor" Display="Border Color"/>
+  <MappingItem Category="property_displayname" Name="OKBackColor" Display="Background"/>
+  <MappingItem Category="property_displayname" Name="OKForeColor" Display="Font Color"/>
+  <MappingItem Category="property_displayname" Name="NGFont" Display="Font"/>
+  <MappingItem Category="property_displayname" Name="NGContent" Display="Content"/>
+  <MappingItem Category="property_displayname" Name="NGBorderThickness" Display="Border Thickness"/>
+  <MappingItem Category="property_displayname" Name="NGBorderColor" Display="Border Color"/>
+  <MappingItem Category="property_displayname" Name="NGForeColor" Display="Font Color"/>
+  <MappingItem Category="property_displayname" Name="NGBackColor" Display="Background"/>
+  <MappingItem Category="property_displayname" Name="CommandType" Display="Param Type"/>
+  <MappingItem Category="property_displayname" Name="GraphicsBinding" Display="Graphics"/>
+  <MappingItem Category="property_displayname" Name="ColumnCout" Display="Column Num"/>
+  <MappingItem Category="property_displayname" Name="RowCount" Display="Row Num"/>
+  <MappingItem Category="property_displayname" Name="Columns" Display="Colum Binding"/>
+  <MappingItem Category="property_displayname" Name="ParamType" Display="Param Type"/>
+  <MappingItem Category="property_displayname" Name="FitSize" Display="Self Adaption"/>
+  <MappingItem Category="property_displayname" Name="Document" Display="Surface Doc"/>
+  <MappingItem Category="property_displayname" Name="SubWindowPassword" Display="Password"/>
+  <MappingItem Category="property_displayname" Name="ShowTitle" Display="Header Menu"/>
+  <MappingItem Category="property_category" Name="ImageData" Display="Image" />
+  <MappingItem Category="property_category" Name="Width" Display="Surface" />
+  <MappingItem Category="property_category" Name="Size" Display="LayOut" />
+  <MappingItem Category="property_category" Name="BorderBrush" Display="Surface" />
+  <MappingItem Category="property_category" Name="BorderThickness" Display="Surface" />
+  <MappingItem Category="property_category" Name="Height" Display="Surface" />
+  <MappingItem Category="property_category" Name="Background" Display="Surface" />
+  <MappingItem Category="property_category" Name="Font" Display="Surface" />
+  <MappingItem Category="property_category" Name="Header" Display="Surface" />
+  <MappingItem Category="property_category" Name="CornerRadius" Display="Surface" />
+  <MappingItem Category="property_category" Name="Margin" Display="LayOut"/>
+  <MappingItem Category="property_category" Name="ValueType" Display="Data Binding"/>
+  <MappingItem Category="property_category" Name="BindingPath" Display="Data Binding"/>
+  <MappingItem Category="property_category" Name="BindGlobalVariable" Display="Data Binding"/>
+  <MappingItem Category="property_category" Name="ButtonColor" Display="Surface"/>
+  <MappingItem Category="property_category" Name="IconColor" Display="Surface"/>
+  <MappingItem Category="property_category" Name="Format" Display="Data Binding"/>
+  <MappingItem Category="property_category" Name="Text" Display="Surface"/>
+  <MappingItem Category="property_category" Name="ShowIcon" Display="Surface"/>
+  <MappingItem Category="property_category" Name="Stretch" Display="Image"/>
+  <MappingItem Category="property_category" Name="ShowCross" Display="Guides"/>
+  <MappingItem Category="property_category" Name="CrossThickness" Display="Guides"/>
+  <MappingItem Category="property_category" Name="CrossBrush" Display="Guides"/>
+  <MappingItem Category="property_category" Name="HorizontalOffset" Display="Guides"/>
+  <MappingItem Category="property_category" Name="VerticalOffset" Display="Guides"/>
+  <MappingItem Category="property_category" Name="Title" Display="Surface"/>
+  <MappingItem Category="property_category" Name="HeaderBrush" Display="Surface"/>
+  <MappingItem Category="property_category" Name="BusyBackColor" Display="Style Busy"/>
+  <MappingItem Category="property_category" Name="BusyForeColor" Display="Style Busy"/>
+  <MappingItem Category="property_category" Name="FreeBackColor" Display="Style Free"/>
+  <MappingItem Category="property_category" Name="FreeForeColor" Display="Style Free"/>
+  <MappingItem Category="property_category" Name="OKFont" Display="Style OK"/>
+  <MappingItem Category="property_category" Name="OKContent" Display="Style OK"/>
+  <MappingItem Category="property_category" Name="OKBorderThickness" Display="Style OK"/>
+  <MappingItem Category="property_category" Name="OKBorderColor" Display="Style OK"/>
+  <MappingItem Category="property_category" Name="OKBackColor" Display="Style OK"/>
+  <MappingItem Category="property_category" Name="OKForeColor" Display="Style OK"/>
+  <MappingItem Category="property_category" Name="NGFont" Display="Style NG"/>
+  <MappingItem Category="property_category" Name="NGContent" Display="Style NG"/>
+  <MappingItem Category="property_category" Name="NGBorderThickness" Display="Style NG"/>
+  <MappingItem Category="property_category" Name="NGBorderColor" Display="Style NG"/>
+  <MappingItem Category="property_category" Name="NGForeColor" Display="Style NG"/>
+  <MappingItem Category="property_category" Name="NGBackColor" Display="Style NG"/>
+  <MappingItem Category="property_category" Name="CommandType" Display="Data Binding"/>
+  <MappingItem Category="property_category" Name="GraphicsBinding" Display="Data Binding"/>
+  <MappingItem Category="property_category" Name="ParamType" Display="Data Binding"/>
+  <MappingItem Category="property_category" Name="ColumnCout" Display="Grid"/>
+  <MappingItem Category="property_category" Name="RowCount" Display="Table"/>
+  <MappingItem Category="property_category" Name="Columns" Display="Table"/>
+  <MappingItem Category="property_category" Name="FitSize" Display="LayOut"/>
+  <MappingItem Category="property_category" Name="Document" Display="Design"/>
+  <MappingItem Category="property_category" Name="SubWindowPassword" Display="Design"/>
+  <MappingItem Category="property_category" Name="ShowTitle" Display="Surface"/>
+  <MappingItem Category="property_category" Name="Foreground" Display="Surface" />
+</ArrayOfMappingItem>

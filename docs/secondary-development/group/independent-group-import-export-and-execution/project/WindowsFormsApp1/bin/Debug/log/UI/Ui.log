@@ -1,0 +1,1856 @@
+﻿Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-8460-,2024-08-26 14:09:19.390 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-8460-,2024-08-26 14:09:23.933 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-30060-,2024-08-26 14:10:10.052 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-30060-,2024-08-26 14:10:10.435 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-23604-,2024-08-26 14:12:28.353 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-23604-,2024-08-26 14:12:28.867 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-18440-,2024-08-26 14:13:20.358 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-18440-,2024-08-26 14:13:20.867 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-24164-,2024-08-26 14:14:27.772 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-24164-,2024-08-26 14:14:28.170 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:18:51.204 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:18:51.720 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.505 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.514 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.521 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.525 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.663 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.665 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.799 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.846 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.846 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.900 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.913 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.914 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:21.955 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块1,key为IsReady
+
+Level：ERROR MSG：ProcessID-18220-,2024-08-26 14:19:22.083 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:22.170 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:22.172 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:22.174 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:22.174 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:22.178 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:22.179 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:22.179 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:19:22.180 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.612 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.613 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.613 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.613 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.613 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.614 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.614 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.618 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.648 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为IsReady
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.673 [1] [UserData::get_Item] 获取userdata模块ID名为110004 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.675 [1] [UserData::get_Item] 获取userdata模块ID名为110005 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.676 [1] [UserData::get_Item] 获取userdata模块ID名为110006 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.676 [1] [UserData::get_Item] 获取userdata模块ID名为110007 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.677 [1] [UserData::get_Item] 获取userdata模块ID名为110004 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.677 [1] [UserData::get_Item] 获取userdata模块ID名为110004 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.677 [1] [UserData::get_Item] 获取userdata模块ID名为110005 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:21:51.677 [1] [UserData::get_Item] 获取userdata模块ID名为110006 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:22:26.992 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：ProcessID-18220-,2024-08-26 14:22:40.469 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:28.493 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:28.866 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.764 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.771 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.778 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.783 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.911 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.912 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.937 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.951 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.952 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.960 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.973 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:38.973 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:39.014 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-26852-,2024-08-26 14:31:39.135 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:39.220 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:39.221 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:39.223 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:39.223 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:39.227 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:39.228 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:39.228 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:39.229 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-26852-,2024-08-26 14:31:42.412 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:37:51.197 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:37:51.520 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.722 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.729 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.736 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.740 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.841 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.842 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.865 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.878 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.879 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.888 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.901 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.902 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:01.939 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-684-,2024-08-26 14:38:02.066 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:02.152 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:02.154 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:02.155 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:02.156 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:02.160 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:02.161 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:02.161 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:02.162 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:04.057 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-684-,2024-08-26 14:38:04.190 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:15.223 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:15.543 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:29.828 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:29.835 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:29.843 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:29.847 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:29.954 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:29.955 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:29.977 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:29.990 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:29.991 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:29.999 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.012 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.013 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.054 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-15736-,2024-08-26 14:53:30.177 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.266 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.268 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.270 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.272 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.276 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.277 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.278 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:30.279 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:33.322 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-15736-,2024-08-26 14:53:33.423 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-6000-,2024-08-26 15:00:01.256 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-6000-,2024-08-26 15:00:01.622 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:04:46.166 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:04:46.544 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:47.891 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:47.898 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:47.905 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:47.910 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:48.020 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:48.021 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:48.046 [1] [VmModule::PreAddModuleTo] Add module:Image Source1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:48.676 [1] [VmModule::PreAddModuleTo] Add module:Fast Match1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:48.761 [1] [VmModule::PreAddModuleTo] Add module:Circle Fit1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:48.852 [1] [VmModule::PreAddModuleTo] Add module:Circle Search1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:48.866 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:48.866 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:48.898 [1] [UserData::get_Item] 获取userdata模块ID名为101000 Group Module1,key为IsReady
+
+Level：ERROR MSG：ProcessID-22412-,2024-08-26 15:05:49.027 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:49.118 [1] [UserData::get_Item] 获取userdata模块ID名为110000 Image Source1,key为IsReady
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:49.120 [1] [UserData::get_Item] 获取userdata模块ID名为110001 Fast Match1,key为IsReady
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:49.122 [1] [UserData::get_Item] 获取userdata模块ID名为110002 Circle Fit1,key为IsReady
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:49.122 [1] [UserData::get_Item] 获取userdata模块ID名为110003 Circle Search1,key为IsReady
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:49.126 [1] [UserData::get_Item] 获取userdata模块ID名为110000 Image Source1,key为PathPointsFast Match1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:49.127 [1] [UserData::get_Item] 获取userdata模块ID名为110001 Fast Match1,key为PathPointsCircle Fit1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:49.128 [1] [UserData::get_Item] 获取userdata模块ID名为110002 Circle Fit1,key为PathPointsCircle Search1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:56.165 [1] [UserData::get_Item] 获取userdata模块ID名为101000 Group Module1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:56.168 [1] [UserData::get_Item] 获取userdata模块ID名为101000 Group Module1,key为DynamicObject_%OutputImage%_[Child]
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:56.289 [1] [UserData::get_Item] 获取userdata模块ID名为101000 Group Module1,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:05:56.378 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.518 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.518 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.519 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.529 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.529 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.538 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.539 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.539 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.551 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为IsReady
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.577 [1] [UserData::get_Item] 获取userdata模块ID名为110004 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.579 [1] [UserData::get_Item] 获取userdata模块ID名为110005 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.581 [1] [UserData::get_Item] 获取userdata模块ID名为110006 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.581 [1] [UserData::get_Item] 获取userdata模块ID名为110007 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.582 [1] [UserData::get_Item] 获取userdata模块ID名为110004 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.582 [1] [UserData::get_Item] 获取userdata模块ID名为110004 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.582 [1] [UserData::get_Item] 获取userdata模块ID名为110005 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:12.583 [1] [UserData::get_Item] 获取userdata模块ID名为110006 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:16.388 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:16.391 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:16.414 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:16.463 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:16.471 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为RunParamIndexListName
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:16.472 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为ParamGroupNamesList
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:16.473 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为ParamGroupIDsList
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:16.479 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:16.683 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:24.048 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为ObjectExternInfos_%输出图像%
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:24.100 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为RelateIO_%输出图像%
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:58.255 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为RelateIO_%角度%
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:17:58.259 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:18:01.393 [1] [UserData::get_Item] 获取userdata模块ID名为110004 图像源1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:18:01.413 [1] [UserData::get_Item] 获取userdata模块ID名为110005 直线查找1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:18:01.419 [1] [UserData::get_Item] 获取userdata模块ID名为110006 直线查找2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:18:01.441 [1] [UserData::get_Item] 获取userdata模块ID名为110007 线线测量1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:18:05.023 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为ObjectExternInfos_%角度%
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:18:09.995 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-22412-,2024-08-26 15:18:10.016 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:06.542 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:06.864 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.404 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.411 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.420 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.426 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.537 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.538 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.566 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.578 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.578 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.588 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.600 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.601 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.632 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-27304-,2024-08-26 15:19:15.755 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.841 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.843 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.845 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.846 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.849 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.850 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.851 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:15.851 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:18.243 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:18.246 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:18.276 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:18.342 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:18.371 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RunParamIndexListName
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:18.372 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupNamesList
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:18.373 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupIDsList
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:18.379 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:18.545 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:26.696 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像%
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:19:26.744 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像%
+
+Level：INFO  MSG：ProcessID-27304-,2024-08-26 15:21:34.204 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:43.728 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:44.114 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.336 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.343 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.350 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.355 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.465 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.466 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.856 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.868 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.868 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.878 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.890 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.891 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:52.921 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-22536-,2024-08-26 15:21:53.044 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:53.132 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:53.134 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:53.135 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:53.136 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:53.140 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:53.140 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:53.141 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:53.141 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:56.346 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:56.348 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像%_[Child]
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:56.462 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-22536-,2024-08-26 15:21:56.512 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:28.361 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:28.672 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.138 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.146 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.154 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.158 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.276 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.276 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.300 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.311 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.311 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.321 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.333 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.334 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.372 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-29784-,2024-08-26 15:22:38.496 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.579 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.581 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.582 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.582 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.586 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.587 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.587 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:38.588 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:43.492 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:43.496 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像%_[Child]
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:43.607 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:22:43.658 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:17.442 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:17.445 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:17.470 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:17.541 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:17.542 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:17.550 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RunParamIndexListName
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:17.552 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupNamesList
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:17.553 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupIDsList
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:17.559 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:17.724 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:19.054 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:32.569 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:32.572 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%角度%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:32.574 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:33.811 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:33.817 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:33.827 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:33.833 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:36.920 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%角度%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:40.107 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:40.110 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:40.112 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:44.235 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%直线%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:46.586 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:46.589 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线0%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:46.591 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:50.714 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%直线0%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:23:55.964 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:24:13.068 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:24:13.068 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:24:13.071 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:24:13.071 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:24:13.071 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:24:13.072 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:24:13.072 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:24:13.072 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:24:13.215 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 15:26:27.202 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:02.780 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:03.092 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.659 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.665 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.673 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.677 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.784 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.786 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.817 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.828 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.828 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.837 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.850 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.851 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:19.881 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-1240-,2024-08-26 15:30:20.009 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:20.086 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:20.089 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:20.090 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:20.091 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:20.094 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:20.095 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:20.096 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:20.096 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:21.840 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:21.843 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像%_[Child]
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:21.846 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%角度%_[Child]
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:21.846 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线%_[Child]
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:21.846 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线0%_[Child]
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:21.961 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-1240-,2024-08-26 15:30:22.022 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:32.601 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:32.914 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.783 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.790 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.800 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.805 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.909 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.910 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.935 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.946 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.946 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.956 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.969 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:42.970 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:43.012 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-30384-,2024-08-26 15:42:43.133 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:43.220 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:43.222 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:43.224 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:43.224 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:43.228 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:43.229 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:43.230 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:43.230 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.659 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.662 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像%_[Child]
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.663 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%角度%_[Child]
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.663 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线%_[Child]
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.663 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线0%_[Child]
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.791 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.850 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.876 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.885 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.887 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-30384-,2024-08-26 15:42:45.909 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-23092-,2024-08-26 16:21:42.787 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-23092-,2024-08-26 16:21:43.632 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:46:22.419 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:46:22.750 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:41.976 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:41.983 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:41.990 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:41.995 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.107 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.108 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.133 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.144 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.144 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.154 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.168 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.169 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.210 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-26936-,2024-08-26 16:47:42.330 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.428 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.429 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.431 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.431 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.435 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.436 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.436 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:42.437 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:49.944 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:49.948 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像%_[Child]
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:49.950 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%角度%_[Child]
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:49.950 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线%_[Child]
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:49.951 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线0%_[Child]
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:50.072 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:47:50.148 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：ComName：RoiType
+
+Level：INFO  MSG：ComName：ExternRoiType
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:08.689 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:08.691 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:08.711 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:08.801 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:08.805 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为Param.RoiSelect
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:08.818 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为Param.InheritWay
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:08.819 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为Param.SelectWay
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:08.828 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:09.117 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:14.140 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@RejectNum
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:14.182 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@RayNum
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:14.211 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@KernelSize
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:14.231 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@EdgeStrength
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.218 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.226 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.234 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@RejectDist
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.235 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@RegionWidth
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.235 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@FitPointsLimitLow
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.235 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@FitPointsLimitHigh
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.235 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@AngleLimitLow
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.236 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@AngleLimitHigh
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.236 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@ScoreLimitLow
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.236 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为@ScoreLimitHigh
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.250 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为UnReadyModuleNames
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:34.322 [1] [VmModule::Dispose] Delete module:图像源1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.814 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.814 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.817 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.835 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.835 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.836 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.836 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.836 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.836 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.837 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.837 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.845 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RunParamIndexListName
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.847 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupNamesList
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.848 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupIDsList
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:39.849 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:40.017 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.458 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.468 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.472 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.502 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.508 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.512 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.531 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.531 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%角度%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.532 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.532 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:44.532 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:56.271 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:56.282 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:57.939 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:57.956 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:57.962 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:57.967 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:57.972 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:57.975 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:57.975 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:59.239 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:48:59.244 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:08.938 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:08.969 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:08.975 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:08.982 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:08.988 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:08.992 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:08.993 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:09.614 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:09.619 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:11.448 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:11.465 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:11.481 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:11.500 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:11.520 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:11.533 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:11.534 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:12.398 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:12.418 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:33.230 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:33.243 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:33.272 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:33.286 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:33.299 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:33.306 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:33.307 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像0%
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:48.978 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:48.979 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:48.979 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:48.979 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:48.979 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:48.980 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:48.980 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:48.980 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:48.997 [1] [UserData::get_Item] 获取userdata模块ID名为101001 组合模块1,key为IsReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:49.030 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:49.031 [1] [UserData::get_Item] 获取userdata模块ID名为110004 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:49.032 [1] [UserData::get_Item] 获取userdata模块ID名为110005 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:49.032 [1] [UserData::get_Item] 获取userdata模块ID名为110006 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:49.033 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:49.033 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:49.034 [1] [UserData::get_Item] 获取userdata模块ID名为110004 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:49.034 [1] [UserData::get_Item] 获取userdata模块ID名为110005 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:51.476 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:51.476 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:51.479 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:51.508 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:51.641 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为@PathCache
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:51.682 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为@InitialSN
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:51.706 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为@Interval
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:51.787 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:51.998 [21] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为CheckItemParamReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:51.998 [20] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为CheckItemParamReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:52.000 [20] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为CheckItemParamReady
+
+Level：INFO  MSG：ProcessID-26936-,2024-08-26 16:49:52.000 [21] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为CheckItemParamReady
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:34.342 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:34.668 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:44.987 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:44.994 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.004 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.010 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.128 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.129 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.155 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.167 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.167 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.177 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.194 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.195 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.239 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-21460-,2024-08-26 16:52:45.366 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.447 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.449 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.450 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.451 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.455 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找1
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.456 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为PathPoints直线查找2
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.457 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:45.457 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:50.450 [1] [UserData::get_Item] 获取userdata模块ID名为110000 图像源1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:50.481 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:50.482 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像%_[Child]
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:50.483 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%角度%_[Child]
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:50.484 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线%_[Child]
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:50.484 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线0%_[Child]
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:50.512 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:50.536 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为UnReadyModuleNames
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:50.646 [1] [VmModule::Dispose] Delete module:图像源1
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.550 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.552 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.583 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.656 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.657 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.658 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.658 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.658 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.659 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.659 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.659 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.665 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RunParamIndexListName
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.667 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupNamesList
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.667 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupIDsList
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.673 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:53.872 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:57.819 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像0%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:57.830 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:57.830 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%角度%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:57.831 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:57.831 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线0%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:52:57.831 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像0%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:05.249 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:05.262 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:05.273 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:16.541 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：ComName：RoiType
+
+Level：INFO  MSG：ComName：ExternRoiType
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:35.932 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:35.933 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:35.944 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:35.971 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:35.975 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为Param.RoiSelect
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:35.990 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为Param.InheritWay
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:35.991 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为Param.SelectWay
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:35.996 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:36.233 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ComName：RoiType
+
+Level：INFO  MSG：ComName：ExternRoiType
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:45.163 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:45.163 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:45.166 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:45.199 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:45.202 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为Param.RoiSelect
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:45.204 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为Param.InheritWay
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:45.205 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为Param.SelectWay
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:45.209 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:45.416 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:51.378 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为@RejectNum
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:51.441 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为@RayNum
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:51.461 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为@KernelSize
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:53:51.485 [1] [UserData::get_Item] 获取userdata模块ID名为110002 直线查找2,key为@EdgeStrength
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:07.418 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：ComName：RoiType
+
+Level：ERROR MSG：应用程序中的错误。
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:25.818 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:25.819 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:25.822 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:25.856 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:25.859 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为Param.InputWay
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:25.860 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为Param.InputWay2
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:25.939 [1] [UserData::get_Item] 获取userdata模块ID名为110003 线线测量1,key为Param.SelectWay
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:25.942 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:26.114 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:32.908 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：ComName：RoiType
+
+Level：INFO  MSG：ComName：ExternRoiType
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:48.202 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:48.203 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:48.205 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:48.206 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为Param.RoiSelect
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:48.207 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为Param.InheritWay
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:48.208 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找1,key为Param.SelectWay
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:48.210 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:48.430 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:53.541 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-21460-,2024-08-26 16:54:53.577 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:36.736 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:37.127 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.225 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.233 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.240 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.245 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.348 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.349 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.364 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.364 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.374 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.388 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.389 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.433 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-29784-,2024-08-26 16:55:48.558 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.653 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.655 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.656 [1] [UserData::get_Item] 获取userdata模块ID名为110002 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.660 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:48.661 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.072 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.075 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.101 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.243 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.247 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像%_[Child]
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.249 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%角度%_[Child]
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.249 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线%_[Child]
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.249 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线0%_[Child]
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.250 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像0%_[Child]
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.281 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.282 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.282 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.282 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.283 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.283 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.283 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.283 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.283 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像0%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.284 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像0%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.290 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RunParamIndexListName
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.292 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupNamesList
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.293 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupIDsList
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.301 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.452 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.453 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%角度%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.453 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.454 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线0%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.454 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像0%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:55:54.518 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:56:39.014 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ObjectExternInfos_%输出图像%
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:56:44.787 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:56:51.315 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-29784-,2024-08-26 16:56:51.370 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:10.701 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:11.082 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.623 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.630 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.639 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.645 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.753 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.754 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.768 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.768 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.778 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.790 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.791 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:21.820 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-21852-,2024-08-26 16:57:21.942 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:22.028 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:22.030 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:22.031 [1] [UserData::get_Item] 获取userdata模块ID名为110002 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:22.034 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:57:22.034 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.704 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.707 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.739 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.873 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.875 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%角度%_[Child]
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.877 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线%_[Child]
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.877 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线0%_[Child]
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.877 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像0%_[Child]
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.903 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.903 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.904 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.904 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.904 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.904 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.905 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像0%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.905 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像0%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.910 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RunParamIndexListName
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.912 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupNamesList
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.913 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupIDsList
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:11.921 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:12.055 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%角度%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:12.056 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:12.056 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线0%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:12.057 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像0%
+
+Level：INFO  MSG：ProcessID-21852-,2024-08-26 16:58:12.126 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-8228-,2024-08-26 16:59:32.691 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-8228-,2024-08-26 16:59:33.100 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:47.012 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:47.390 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.621 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.632 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.640 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.644 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.767 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.767 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.781 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.782 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.792 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.807 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.808 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:55.847 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-11204-,2024-08-26 16:59:55.977 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:56.062 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:56.064 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:56.064 [1] [UserData::get_Item] 获取userdata模块ID名为110002 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:56.068 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 16:59:56.069 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 17:00:16.047 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 17:00:16.050 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%角度%_[Child]
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 17:00:16.051 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线%_[Child]
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 17:00:16.051 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线0%_[Child]
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 17:00:16.052 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像0%_[Child]
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 17:00:16.175 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 17:00:16.235 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：ProcessID-11204-,2024-08-26 17:00:31.114 [1] [IMVSGroup::ExportFile] Export group path: G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\file\直线查找.gro
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:00:52.975 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:00:53.364 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.147 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.155 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.164 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.170 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.281 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.283 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.297 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.298 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.308 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.322 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.323 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.367 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-29764-,2024-08-26 17:01:03.488 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.559 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.561 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.562 [1] [UserData::get_Item] 获取userdata模块ID名为110002 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.565 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:01:03.566 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ComName：RoiType
+
+Level：INFO  MSG：ComName：ExternRoiType
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:04.166 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:04.168 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:04.204 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:04.337 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:04.357 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为Param.RoiSelect
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:04.372 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为Param.InheritWay
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:04.374 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为Param.SelectWay
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:04.382 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:04.713 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ComName：RoiType
+
+Level：ERROR MSG：应用程序中的错误。
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:34.304 [1] [UserData::get_Item] 获取userdata模块ID名为110002 线线测量1,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:34.304 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:34.308 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:34.338 [1] [UserData::get_Item] 获取userdata模块ID名为110002 线线测量1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:34.341 [1] [UserData::get_Item] 获取userdata模块ID名为110002 线线测量1,key为Param.InputWay
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:34.342 [1] [UserData::get_Item] 获取userdata模块ID名为110002 线线测量1,key为Param.InputWay2
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:34.423 [1] [UserData::get_Item] 获取userdata模块ID名为110002 线线测量1,key为Param.SelectWay
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:34.426 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:02:34.605 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.747 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ConfigAvailable
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.747 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl start.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.750 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value start.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.764 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.765 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%角度%_[Child]
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.767 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线%_[Child]
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.767 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线0%_[Child]
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.768 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像0%_[Child]
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.792 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.793 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%角度%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.793 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.794 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.794 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.794 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%直线0%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.795 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像0%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.795 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为OriSelectedObj_%输出图像0%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.800 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RunParamIndexListName
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.801 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupNamesList
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.802 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为ParamGroupIDsList
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.803 [1] [ProcedureConfigControl::OpenParamsTabControl] ParamsConfig value end.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.911 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%角度%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.912 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.912 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%直线0%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.912 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为RelateIO_%输出图像0%
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:03:01.967 [1] [ProcedureConfigControl::OpenParamsTabControl] OpenParamsTabControl end.
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:04:09.249 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-29764-,2024-08-26 17:04:09.287 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:23.242 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:23.667 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.357 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.365 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.373 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取前
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.378 [1] [VmModuleBaseDecorator::.cctor] ------yytest----------displaytype获取后
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.488 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.489 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.501 [1] [VmModule::PreAddModuleTo] Add module:直线查找1
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.501 [1] [VmModule::PreAddModuleTo] Add module:直线查找2
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.510 [1] [VmModule::PreAddModuleTo] Add module:线线测量1
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.525 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.525 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.565 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为IsReady
+
+Level：ERROR MSG：ProcessID-13540-,2024-08-26 17:04:39.688 [1] [VmModule::get_IsLoadFailed] 流程100000 Get IsForbidden Error: IMVS_EC_MODULE_NOT_FOUND:No functional module!
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.771 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为IsReady
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.773 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找2,key为IsReady
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.774 [1] [UserData::get_Item] 获取userdata模块ID名为110002 线线测量1,key为IsReady
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.778 [1] [UserData::get_Item] 获取userdata模块ID名为110000 直线查找1,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:04:39.779 [1] [UserData::get_Item] 获取userdata模块ID名为110001 直线查找2,key为PathPoints线线测量1
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:05:17.786 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:05:17.789 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%角度%_[Child]
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:05:17.790 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线%_[Child]
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:05:17.791 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%直线0%_[Child]
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:05:17.791 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为DynamicObject_%输出图像0%_[Child]
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:05:17.921 [1] [UserData::get_Item] 获取userdata模块ID名为101000 组合模块2,key为CheckedImages
+
+Level：INFO  MSG：ProcessID-13540-,2024-08-26 17:05:17.973 [1] [RenderControlBase::OnModuleSourceChanged] VmRenderControl Binding Process [100000]
+

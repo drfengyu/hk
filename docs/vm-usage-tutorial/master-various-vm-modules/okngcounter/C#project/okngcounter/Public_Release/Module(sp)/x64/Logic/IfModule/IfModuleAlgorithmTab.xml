@@ -1,0 +1,3959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlgorithmTabRoot>
+  <ZHCustomTabWidth>582</ZHCustomTabWidth>
+  <ENCustomTabWidth>582</ENCustomTabWidth>
+  <Tabs>
+    <Tab Name="Tab_Basic Params">
+      <Categorys>
+        <Category Name="Tab_Judge Method">
+          <Items>
+            <Enumeration_IfModule Name="LogicalMode">
+              <Description></Description>
+              <DisplayName></DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0000</AlgorithmIndex>
+              <CurValue>0x1</CurValue>
+              <DefaultValue>0x1</DefaultValue>
+              <EnumEntrys>
+                <EnumEntry Name="And">
+                  <Description>All</Description>
+                  <DisplayName>All</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="Or">
+                  <Description>Any</Description>
+                  <DisplayName>Any</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </Enumeration_IfModule>
+          </Items>
+        </Category>
+        <CategoryNoHead Name="Tab_Judge Condition">
+          <Items>
+            <HeadBar Name="ListHead">
+              <AccessMode>O</AccessMode>
+              <EnumEntrys>
+                <HeadItem>
+                  <DisplayName>Lang_Name</DisplayName>
+                  <Width>60</Width>
+                </HeadItem>
+                <HeadItem>
+                  <DisplayName>RunParam_Conditioned</DisplayName>
+                  <Width>140</Width>
+                </HeadItem>
+                <HeadItem>
+                  <DisplayName>RunParam_Valid Value Range</DisplayName>
+                  <Width>200</Width>
+                </HeadItem>
+              </EnumEntrys>
+            </HeadBar>
+            <!--float型-->
+            <!-- <RangeConditionF Name="Range1">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float1</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float1</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin1">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax1">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range2">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float2</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float2</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin2" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax2" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range3">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float3</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float3</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin3" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax3" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range4">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float4</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float4</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin4" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax4" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range5">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float5</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float5</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin5" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax5" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range6">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float6</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float6</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin6" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax6" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range7">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float7</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float7</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin7" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax7" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range8">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float8</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float8</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin8" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax8" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range9">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float9</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float9</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin9" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax9" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range10">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float10</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float10</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin10" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax10" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range11">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float11</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float11</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin11" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax11" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range12">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float12</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float12</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin12" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax12" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range13">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float13</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float13</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin13" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax13" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range14">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float14</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float14</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin14" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax14" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range15">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float15</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float15</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin15" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax15" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range16">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float16</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float16</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin16" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax16" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range17">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float17</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float17</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin17" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax17" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range18">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float18</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float18</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin18" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax18" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range19">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float19</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float19</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin19" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax19" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range20">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float20</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float20</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin20" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax20" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range21">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float21</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float21</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin21" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax21" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range22">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float22</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float22</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin22" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax22" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range23">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float23</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float23</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin23" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax23" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range24">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float24</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float24</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin24" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax24" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range25">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float25</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float25</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin25" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax25" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range26">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float26</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float26</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin26" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax26" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range27">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float27</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float27</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin27" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax27" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range28">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float28</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float28</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin28" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax28" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range29">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float29</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float29</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin29" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax29" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range30">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float30</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float30</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin30" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax30" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range31">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float31</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float31</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin31" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax31" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range32">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-100000</MinValue>
+              <MaxValue>100000</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>float</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>float32</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>float32</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="floatMin32" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="floatMax32" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-100000</MinValue>
+                  <MaxValue>100000</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>-->
+            <!--int型-->
+            <!-- <RangeConditionF Name="Range33">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int1</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int1</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin1" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax1" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range34">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int2</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int2</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin2" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax2" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range35">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int3</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int3</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin3" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax3" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range36">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int4</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int4</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin4" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax4" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range37">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int5</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int5</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin5" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax5" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range38">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int6</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int6</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin6" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax6" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range39">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int7</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int7</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin7" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax7" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range40">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int8</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int8</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin8" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax8" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range41">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int9</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int9</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin9" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax9" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range42">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int10</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int10</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin10" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax10" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range43">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int11</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int11</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin11" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax11" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range44">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int12</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int12</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin12" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax12" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range45">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int13</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int13</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin13" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax13" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range46">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int14</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int14</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin14" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax14" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range47">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int15</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int15</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin15" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax15" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range48">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int16</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int16</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin16" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax16" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range49">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int17</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int17</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin17" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax17" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range50">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int18</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int18</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin18" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax18" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range51">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int19</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int19</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin19" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax19" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range52">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int20</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int20</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin20" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax20" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range53">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int21</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int21</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin21" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax21" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range54">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int22</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int22</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin22" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax22" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range55">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int23</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int23</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin23" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax23" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range56">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int24</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int24</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin24" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax24" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range57">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int25</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int25</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin25" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax25" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range58">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int26</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int26</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin26" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax26" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range59">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int27</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int27</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin27" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax27" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range60">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int28</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int28</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin28" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax28" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range61">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int29</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int29</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin29" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax29" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range62">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int30</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int30</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin30" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax30" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range63">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int31</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int31</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin31" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax31" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <RangeConditionF Name="Range64">
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0001</AlgorithmIndex>
+              <MinValue>-999999999</MinValue>
+              <MaxValue>999999999</MaxValue>
+              <IncValue>1</IncValue>
+              <CustomVisible>False</CustomVisible>
+              <InnerButtonSelecter>
+                <DropOpenSetter>
+                  <TargetName>EnumEntrys</TargetName>
+                  <OperationName>GetFrontFilterTreeOperation</OperationName>
+                  <OperationParams>int</OperationParams>
+                </DropOpenSetter>
+                <Triggers>
+                  <Trigger>
+                    <Property>CurValue</Property>
+                    <Setters>
+                      <Setter>
+                        <OperationName>SetFilterSourceOperation</OperationName>
+                        <OperationParams>int32</OperationParams>
+                      </Setter>
+                    </Setters>
+                  </Trigger>
+                </Triggers>
+                <Initers>
+                  <Setter>
+                    <TargetName>CurValue</TargetName>
+                    <OperationName>GetSelectedFilterOperation</OperationName>
+                    <OperationParams>int32</OperationParams>
+                  </Setter>
+                </Initers>
+              </InnerButtonSelecter>
+              <Floats>
+                <Float Name="intMin32" NameSpace="Standard">
+                  <Description>Valid Min Value</Description>
+                  <DisplayName>Valid Min Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0001</AlgorithmIndex>
+                  <CurValue>1</CurValue>
+                  <DefaultValue>1</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+                <Float Name="intMax32" NameSpace="Standard">
+                  <Description>Valid Max Value</Description>
+                  <DisplayName>Valid Max Value</DisplayName>
+                  <Visibility>Beginner</Visibility>
+                  <AccessMode>RW</AccessMode>
+                  <AlgorithmIndex>0x0002</AlgorithmIndex>
+                  <CurValue>1000</CurValue>
+                  <DefaultValue>1000</DefaultValue>
+                  <MinValue>-999999999</MinValue>
+                  <MaxValue>999999999</MaxValue>
+                  <IncValue>1</IncValue>
+                </Float>
+              </Floats>
+            </RangeConditionF>
+            <AddButton_If Name="AddButton">
+              <Visibility>Beginner</Visibility>
+			  <Margin>10,0</Margin>
+              <AccessMode>O</AccessMode>
+              <MaxCount>32</MaxCount>
+              <RelateItems>
+                                Range1,Range2,Range3,Range4,Range5,Range6,Range7,Range8,Range9,Range10,
+                                Range11,Range12,Range13,Range14,Range15,Range16,Range17,Range18,Range19,Range20,
+                                Range21,Range22,Range23,Range24,Range25,Range26,Range27,Range28,Range29,Range30,
+                                Range31,Range32,Range33,Range34,Range35,Range36,Range37,Range38,Range39,Range40,
+                                Range41,Range42,Range43,Range44,Range45,Range46,Range47,Range48,Range49,Range50,
+                                Range51,Range52,Range53,Range54,Range55,Range56,Range57,Range58,Range59,Range60,
+                                Range61,Range62,Range63,Range64
+                            </RelateItems>
+              <RelateValues>
+                                float,float,float,float,float,float,float,float,
+                                float,float,float,float,float,float,float,float,
+                                float,float,float,float,float,float,float,float,
+                                float,float,float,float,float,float,float,float,
+                                int,int,int,int,int,int,int,int,
+                                int,int,int,int,int,int,int,int,
+                                int,int,int,int,int,int,int,int,
+                                int,int,int,int,int,int,int,int
+                            </RelateValues>
+              <EnumEntrys>
+                <EnumEntry>
+                  <DisplayName>int</DisplayName>
+                  <StrValue>int</StrValue>
+                </EnumEntry>
+                <EnumEntry>
+                  <DisplayName>float</DisplayName>
+                  <StrValue>float</StrValue>
+                </EnumEntry>
+              </EnumEntrys>
+            </AddButton_If>-->
+            <ButtonSelecter_RangeConF Name="RangeConFFields">
+              <Description>Data Set Field List</Description>
+              <DisplayName>Data Set Field List</DisplayName>
+              <AccessMode>O</AccessMode>
+              <DecimalDigits>3</DecimalDigits>
+              <CustomVisible>True</CustomVisible>
+              <BrigdgeSetter>
+                <TargetName>BridgeObj</TargetName>
+                <OperationName>GetCategoryOperation</OperationName>
+                <OperationParams>Input</OperationParams>
+              </BrigdgeSetter>
+            </ButtonSelecter_RangeConF>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+    <Tab Name="ResultShow">
+      <Categorys>
+        <GroupLinkItem Name="TextDisplayGroup">
+          <LinkName>TextDisplayGroup</LinkName>
+        </GroupLinkItem>
+      </Categorys>
+    </Tab>
+  </Tabs>
+  <BottomExcuteButtons>
+    <GroupLinkItem Name="BottomCommandGroup">
+      <LinkName>BottomCommandGroup</LinkName>
+    </GroupLinkItem>
+  </BottomExcuteButtons>
+</AlgorithmTabRoot>

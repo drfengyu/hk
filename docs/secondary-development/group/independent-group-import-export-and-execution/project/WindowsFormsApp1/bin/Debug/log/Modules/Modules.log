@@ -1,0 +1,150 @@
+2024-08-26 14:19:21.076 ERROR [27868] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM18220ImgSrcTemp
+
+
+2024-08-26 14:19:21.076 ERROR [27868] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 14:19:21.076 ERROR [27868] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 14:19:21.076 ERROR [27868] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 14:21:51.588 ERROR [27868] [ImageSourceModule] [ModuId:110004] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM18220ImgSrcTemp
+
+
+2024-08-26 14:21:51.588 ERROR [27868] [ImageSourceModule] [ModuId:110004] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 14:21:51.588 ERROR [27868] [ImageSourceModule] [ModuId:110004] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 14:21:51.588 ERROR [27868] [ImageSourceModule] [ModuId:110004] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 14:22:27.413 ERROR [10476] [ImageSourceModule] [ModuId:110004] [CMyAlgorithmManager::SaveModuleData@2592] pstSaveInfo->struModuleData.pszAttachmentsDir == G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\WindowsFormsApp1\bin\Debug\ServerExportFile\GroupFile\ModuleAttachments
+
+
+2024-08-26 14:22:42.507 ERROR [10476] [ImageSourceModule] [ModuId:110004] [CMyAlgorithmManager::SaveModuleData@2592] pstSaveInfo->struModuleData.pszAttachmentsDir == G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\WindowsFormsApp1\bin\Debug\ServerExportFile\GroupFile\ModuleAttachments
+
+
+2024-08-26 14:31:38.715 ERROR [24464] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM26852ImgSrcTemp
+
+
+2024-08-26 14:31:38.715 ERROR [24464] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 14:31:38.715 ERROR [24464] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 14:31:38.715 ERROR [24464] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 14:31:42.781 ERROR [16452] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SaveModuleData@2592] pstSaveInfo->struModuleData.pszAttachmentsDir == G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\WindowsFormsApp1\bin\Debug\ServerExportFile\GroupFile\ModuleAttachments
+
+
+2024-08-26 14:38:01.672 ERROR [21556] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM684ImgSrcTemp
+
+
+2024-08-26 14:38:01.673 ERROR [21556] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 14:38:01.673 ERROR [21556] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 14:38:01.673 ERROR [21556] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 14:53:29.771 ERROR [14032] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM15736ImgSrcTemp
+
+
+2024-08-26 14:53:29.771 ERROR [14032] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 14:53:29.771 ERROR [14032] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 14:53:29.771 ERROR [14032] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 15:05:47.834 ERROR [23300] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM22412ImgSrcTemp
+
+
+2024-08-26 15:05:47.834 ERROR [23300] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 15:05:47.834 ERROR [23300] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 15:05:47.834 ERROR [23300] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 15:17:12.490 ERROR [30208] [ImageSourceModule] [ModuId:110004] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM22412ImgSrcTemp
+
+
+2024-08-26 15:17:12.490 ERROR [30208] [ImageSourceModule] [ModuId:110004] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 15:17:12.490 ERROR [30208] [ImageSourceModule] [ModuId:110004] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 15:17:12.490 ERROR [30208] [ImageSourceModule] [ModuId:110004] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 15:19:15.357 ERROR [23172] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM27304ImgSrcTemp
+
+
+2024-08-26 15:19:15.357 ERROR [23172] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 15:19:15.357 ERROR [23172] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 15:19:15.357 ERROR [23172] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 15:21:52.279 ERROR [23644] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM22536ImgSrcTemp
+
+
+2024-08-26 15:21:52.279 ERROR [23644] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 15:21:52.279 ERROR [23644] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 15:21:52.279 ERROR [23644] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 15:22:38.089 ERROR [14712] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM29784ImgSrcTemp
+
+
+2024-08-26 15:22:38.089 ERROR [14712] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 15:22:38.089 ERROR [14712] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 15:22:38.089 ERROR [14712] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 15:23:56.455 ERROR [17348] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SaveModuleData@2592] pstSaveInfo->struModuleData.pszAttachmentsDir == G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\WindowsFormsApp1\bin\Debug\ServerExportFile\GroupFile\ModuleAttachments
+
+
+2024-08-26 15:26:27.661 ERROR [17348] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SaveModuleData@2592] pstSaveInfo->struModuleData.pszAttachmentsDir == G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\group\independent-group-import-export-and-execution\project\WindowsFormsApp1\bin\Debug\ServerExportFile\GroupFile\ModuleAttachments
+
+
+2024-08-26 15:30:19.610 ERROR [24420] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM1240ImgSrcTemp
+
+
+2024-08-26 15:30:19.611 ERROR [24420] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 15:30:19.611 ERROR [24420] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 15:30:19.611 ERROR [24420] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 15:42:42.732 ERROR [28572] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM30384ImgSrcTemp
+
+
+2024-08-26 15:42:42.732 ERROR [28572] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 15:42:42.732 ERROR [28572] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 15:42:42.732 ERROR [28572] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 16:47:41.859 ERROR [29060] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM26936ImgSrcTemp
+
+
+2024-08-26 16:47:41.859 ERROR [29060] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 16:47:41.859 ERROR [29060] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 16:47:41.859 ERROR [29060] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 16:49:48.927 ERROR [29060] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM26936ImgSrcTemp
+
+
+2024-08-26 16:49:48.927 ERROR [29060] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 16:49:48.927 ERROR [29060] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 16:49:48.927 ERROR [29060] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-26 16:52:44.931 ERROR [9244] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM21460ImgSrcTemp
+
+
+2024-08-26 16:52:44.932 ERROR [9244] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-26 16:52:44.932 ERROR [9244] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-26 16:52:44.932 ERROR [9244] [ImageSourceModule] [ModuId:110000] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+

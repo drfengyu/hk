@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Base">
+      <Items>
+        <Bool Name="IsLoalModule" NameSpace="Standard">
+          <CurValue>0</CurValue>
+        </Bool>
+        <String Name="ServerRepAddress" NameSpace="Standard">
+          <CurValue>tcp://127.0.0.1:5555</CurValue>
+        </String>
+        <String Name="ModuleName" NameSpace="Standard">
+          <CurValue>CalculatorModule</CurValue>
+        </String>
+        <String Name="ModuleDisplayName" NameSpace="Standard">
+          <CurValue>CalculatorModule</CurValue>
+        </String>
+        <String Name="ModuleHelp">
+          <CurValue>Reserve</CurValue>
+        </String>
+        <Integer Name="ModuleViewMode" NameSpace="Standard">
+          <CurValue>1</CurValue>
+        </Integer>
+      </Items>
+    </Category>
+    <Category Name="Input">
+      <Items>
+        <!-- <Filter Name="InputVariable1" IsArray="false" ValueType="float" IsForce="false" IsShow="true" /> -->
+      </Items>
+    </Category>
+    <Category Name="Output">
+      <Items>
+        <Filter Name="%var0%" IsArray="false" ValueType="float" IsForce="false" />
+        <Filter Name="ResultShow" IsArray="false" ValueType="string" IsForce="true" />
+        <Filter Name="ModuStatus" ValueType="int" IsForce="true" />
+      </Items>
+    </Category>
+  </Categorys>
+</ParamRoot>

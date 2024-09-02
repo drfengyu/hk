@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ToolBoxItemData>
+    <name>ImageSourceModule</name>
+	<priority>0</priority>
+	<displayType>IMAGE</displayType>
+	<toolTip>ImageSourceModule</toolTip>
+</ToolBoxItemData>

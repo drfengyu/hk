@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImageCollectIKModuCs</name>
+    </assembly>
+    <members>
+        <member name="M:ImageCollectIKModuCs.ImageCollectIKModuTool.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:ImageCollectIKModuCs.ImageCollectIKModuTool.#ctor(System.Object)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+    </members>
+</doc>

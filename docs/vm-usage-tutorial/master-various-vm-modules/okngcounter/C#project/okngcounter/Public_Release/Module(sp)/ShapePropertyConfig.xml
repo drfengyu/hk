@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShapePropertyConfigRoot>
+ <Items>  
+   <Tab Name="default">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>
+			</GroupLinkItem>			
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab> 
+   <Tab Name="circle">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>
+			</GroupLinkItem>
+			<GroupLinkItem Name="StrokeThicknessDisplayGroup">
+			  <LinkName>StrokeThicknessDisplayGroup</LinkName>
+			</GroupLinkItem>
+			<BoolConfig Name="Target Solid Circle">
+              <Description>Target Solid Circle</Description>
+              <DisplayName>Target Solid Circle</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>O</AccessMode>
+			  <PropertyName>IsFill</PropertyName>
+              <BrigdgeSetter>
+				<TargetName>BridgeObj</TargetName>
+				<OperationName>GetObjectParentOperation</OperationName>
+			  </BrigdgeSetter>
+            </BoolConfig>
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab>
+   <Tab Name="point">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>
+			</GroupLinkItem>
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab>
+   <Tab Name="microPoint">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>
+			</GroupLinkItem>
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab>
+   <Tab Name="rect">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>
+			</GroupLinkItem>
+			<GroupLinkItem Name="StrokeThicknessDisplayGroup">
+			  <LinkName>StrokeThicknessDisplayGroup</LinkName>
+			</GroupLinkItem>
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab>
+   <Tab Name="line">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>
+			</GroupLinkItem>
+			<GroupLinkItem Name="StrokeThicknessDisplayGroup">
+			  <LinkName>StrokeThicknessDisplayGroup</LinkName>
+			</GroupLinkItem>
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab>
+   <Tab Name="outlinepoint">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>
+			</GroupLinkItem>
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab>
+   
+   <Tab Name="polygon">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>
+			</GroupLinkItem>
+			<GroupLinkItem Name="StrokeThicknessDisplayGroup">
+			  <LinkName>StrokeThicknessDisplayGroup</LinkName>
+			</GroupLinkItem>
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab>
+   
+   <Tab Name="annularsector">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>
+			</GroupLinkItem>
+			<GroupLinkItem Name="StrokeThicknessDisplayGroup">
+			  <LinkName>StrokeThicknessDisplayGroup</LinkName>
+			</GroupLinkItem>
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab>
+   <Tab Name="ellipse">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>
+			</GroupLinkItem>
+			<GroupLinkItem Name="StrokeThicknessDisplayGroup">
+			  <LinkName>StrokeThicknessDisplayGroup</LinkName>
+			</GroupLinkItem>
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab>
+   
+   
+   
+   <Tab Name="text">
+     <Categorys>
+	   <Category>
+	      <Items>
+			<GroupLinkItem Name="ColorDisplayGroup">
+			  <LinkName>ColorDisplayGroup</LinkName>			  
+			</GroupLinkItem>
+			<FloatConfig Name="CharacterSize" NameSpace="Standard">
+					<Description>字号</Description>
+					<DisplayName>字号</DisplayName>
+					<Visibility>Beginner</Visibility>
+					<AccessMode>O</AccessMode>
+					<MinValue>6</MinValue>
+					<MaxValue>72</MaxValue>
+					<IncValue>1</IncValue>
+					<PropertyName>Value</PropertyName>
+					<BrigdgeSetter>
+						<TargetName>BridgeObj</TargetName>
+						<OperationName>GetFeatureParentOperation</OperationName>
+						<OperationParams>FontSize</OperationParams>
+					</BrigdgeSetter>
+			</FloatConfig>	
+			<ButtonSelecter Name="PositionX">
+				<Description>位置X</Description>
+				<DisplayName>位置X</DisplayName>
+				<Visibility>Beginner</Visibility>
+				<AccessMode>O</AccessMode>
+				<DropOpenSetter>
+					<TargetName>EnumEntrys</TargetName>
+					<OperationName>GetInsideAndSelfInputFilterTreeOperation</OperationName>
+					<OperationParams>int;float</OperationParams>
+				</DropOpenSetter>
+				<Triggers>
+					<Trigger>
+						<Property>CurValue</Property>
+						<Setters>
+							<Setter>
+								<OperationName>SetFeatureRelatedIOOperation</OperationName>
+								<OperationParams>PositionX;int;float</OperationParams>
+							</Setter>																				
+						</Setters>
+					</Trigger>								
+				</Triggers>
+				<Initers>
+					<Setter>
+						<TargetName>CurValue</TargetName>
+						<OperationName>GetFeatureRelatedIOOperation</OperationName>
+						<OperationParams>PositionX</OperationParams>
+					</Setter>
+				</Initers>
+			</ButtonSelecter>
+			<ButtonSelecter Name="PositionY">
+				<Description>位置Y</Description>
+				<DisplayName>位置Y</DisplayName>
+				<Visibility>Beginner</Visibility>
+				<AccessMode>O</AccessMode>
+				<DropOpenSetter>
+					<TargetName>EnumEntrys</TargetName>
+					<OperationName>GetInsideAndSelfInputFilterTreeOperation</OperationName>
+					<OperationParams>int;float</OperationParams>
+				</DropOpenSetter>
+				<Triggers>
+					<Trigger>
+						<Property>CurValue</Property>
+						<Setters>
+							<Setter>
+								<OperationName>SetFeatureRelatedIOOperation</OperationName>
+								<OperationParams>PositionY;int;float</OperationParams>
+							</Setter>										
+						</Setters>
+					</Trigger>
+				</Triggers>
+				<Initers>
+					<Setter>
+						<TargetName>CurValue</TargetName>
+						<OperationName>GetFeatureRelatedIOOperation</OperationName>
+						<OperationParams>PositionY</OperationParams>
+					</Setter>
+				</Initers>
+			</ButtonSelecter>   
+		  </Items>
+		</Category>
+	  </Categorys>
+   </Tab>
+ </Items>
+</ShapePropertyConfigRoot>

@@ -1,0 +1,820 @@
+2024-08-23 09:51:41.010 INFO  [24352] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[000002157BB8D010]
+
+2024-08-23 09:51:41.010 INFO  [24352] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[000002157BB8D010],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 09:51:41.010 INFO  [24352] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 09:51:41.010 DEBUG [24352] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 09:51:41.025 INFO  [24352] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 09:51:41.025 INFO  [24352] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 09:51:41.025 INFO  [24352] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 09:51:41.025 INFO  [24352] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 09:51:41.025 INFO  [24352] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 09:51:41.025 INFO  [24352] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 09:51:41.025 INFO  [24352] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 09:51:41.025 INFO  [24352] [CMQCommResponse::CMQCommResponse@12] create response server,this[000002157BC83910]
+
+2024-08-23 09:51:41.025 INFO  [24352] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[000002157BC83910,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 09:51:41.025 INFO  [24352] [Listen@110] Start Listen Port 10001---socketfd[8248]-[0000000000002038]
+
+2024-08-23 09:51:41.025 INFO  [24352] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 09:51:41.033 INFO  [24352] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[000002157BE0DB30]
+
+2024-08-23 09:51:41.033 INFO  [24352] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[000002157BE0DB30]
+
+2024-08-23 09:51:41.033 INFO  [24352] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[000002157BC83910]
+
+2024-08-23 09:51:41.033 DEBUG [24352] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 09:51:41.033 DEBUG [24352] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 09:51:41.033 DEBUG [24352] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 09:51:41.033 DEBUG [24352] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 09:51:41.033 INFO  [24352] [CMQCommPublish::CMQCommPublish@11] create publish server,this[000002157BC7B830]
+
+2024-08-23 09:51:41.033 INFO  [24352] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[000002157BC7B830,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 09:51:41.033 INFO  [24352] [Listen@110] Start Listen Port 10002---socketfd[8396]-[00000000000020CC]
+
+2024-08-23 09:51:41.033 INFO  [24352] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 09:51:41.033 DEBUG [24352] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 09:51:41.033 DEBUG [24352] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 09:51:41.033 DEBUG [24352] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 10:04:45.548 INFO  [24708] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[00000220F8C47030]
+
+2024-08-23 10:04:45.548 INFO  [24708] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[00000220F8C47030],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 10:04:45.548 INFO  [24708] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 10:04:45.548 DEBUG [24708] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 10:04:45.565 INFO  [24708] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 10:04:45.565 INFO  [24708] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 10:04:45.565 INFO  [24708] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 10:04:45.565 INFO  [24708] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 10:04:45.565 INFO  [24708] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 10:04:45.565 INFO  [24708] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 10:04:45.565 INFO  [24708] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 10:04:45.565 INFO  [24708] [CMQCommResponse::CMQCommResponse@12] create response server,this[00000220F8B415B0]
+
+2024-08-23 10:04:45.565 INFO  [24708] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[00000220F8B415B0,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 10:04:45.566 INFO  [24708] [Listen@110] Start Listen Port 10001---socketfd[8008]-[0000000000001F48]
+
+2024-08-23 10:04:45.566 INFO  [24708] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 10:04:45.573 INFO  [24708] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[00000220F8D6D5D0]
+
+2024-08-23 10:04:45.573 INFO  [24708] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[00000220F8D6D5D0]
+
+2024-08-23 10:04:45.573 INFO  [24708] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[00000220F8B415B0]
+
+2024-08-23 10:04:45.573 DEBUG [24708] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 10:04:45.573 DEBUG [24708] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 10:04:45.573 DEBUG [24708] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 10:04:45.573 DEBUG [24708] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 10:04:45.573 INFO  [24708] [CMQCommPublish::CMQCommPublish@11] create publish server,this[0000022094920220]
+
+2024-08-23 10:04:45.573 INFO  [24708] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[0000022094920220,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 10:04:45.573 INFO  [24708] [Listen@110] Start Listen Port 10002---socketfd[7988]-[0000000000001F34]
+
+2024-08-23 10:04:45.573 INFO  [24708] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 10:04:45.573 DEBUG [24708] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 10:04:45.573 DEBUG [24708] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 10:04:45.573 DEBUG [24708] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 10:05:34.234 WARN  [20788] [CMQCommBaseServer::StopListen@232] stop listen addr[tcp://0.0.0.0:10001],socket handle[8008],this[00000220F8B415B0]
+
+2024-08-23 10:05:34.234 DEBUG [20788] [CloseSocket@140] Close Listen Port,Handle 0000000000001F48
+
+2024-08-23 10:05:34.234 INFO  [24332] [CMQServerListenMgr::DoAccept@193] exit accpet ----hSocketHandle[8008]
+
+2024-08-23 10:05:34.255 INFO  [20788] [CMQCommResponse::~CMQCommResponse@18] call ~CMQCommResponse(), this[00000220F8B415B0]
+
+2024-08-23 10:05:34.255 INFO  [20788] [CMQCommResponse::~CMQCommResponse@26] call ~CMQCommResponse(), this[00000220F8B415B0]--end
+
+2024-08-23 10:05:34.255 INFO  [20788] [CMQCommBaseServer::~CMQCommBaseServer@135] call ~CMQCommBaseServer() this[00000220F8B415B0],mqType[4]--inter
+
+2024-08-23 10:05:34.255 INFO  [20788] [CMQCommBaseServer::~CMQCommBaseServer@151] call ~CMQCommBaseServer() this[00000220F8B415B0],mqType[4]--end
+
+2024-08-23 10:05:34.255 DEBUG [20788] [CMemPool::PushMemToPool@197] Push buff to Pool,iIndex[2]---lst num[499],this[00000220F8FAF150]
+
+2024-08-23 10:05:34.255 WARN  [20788] [CMQCommBaseServer::StopListen@232] stop listen addr[tcp://0.0.0.0:10002],socket handle[7988],this[0000022094920220]
+
+2024-08-23 10:05:34.255 DEBUG [20788] [CloseSocket@140] Close Listen Port,Handle 0000000000001F34
+
+2024-08-23 10:05:34.255 INFO  [25588] [CMQServerListenMgr::DoAccept@193] exit accpet ----hSocketHandle[7988]
+
+2024-08-23 10:05:34.276 INFO  [20788] [CMQCommPublish::~CMQCommPublish@17] call ~CMQCommPublish(), this[0000022094920220]
+
+2024-08-23 10:05:34.276 INFO  [20788] [CMQCommPublish::~CMQCommPublish@25] call ~CMQCommPublish(), this[0000022094920220]---end
+
+2024-08-23 10:05:34.276 INFO  [20788] [CMQCommBaseServer::~CMQCommBaseServer@135] call ~CMQCommBaseServer() this[0000022094920220],mqType[2]--inter
+
+2024-08-23 10:05:34.276 INFO  [20788] [CMQCommBaseServer::~CMQCommBaseServer@151] call ~CMQCommBaseServer() this[0000022094920220],mqType[2]--end
+
+2024-08-23 10:05:34.276 DEBUG [20788] [CMemPool::PushMemToPool@197] Push buff to Pool,iIndex[2]---lst num[500],this[00000220F8FAF150]
+
+2024-08-23 10:05:34.687 INFO  [20788] [CTimerProxy::Unregister@73] Unegister timer event,Handle[0]
+
+2024-08-23 10:05:34.688 INFO  [20788] [CTimerProxy::Unregister@78] erase timer event,Handle[0] succ!!!
+
+2024-08-23 10:05:34.688 INFO  [20788] [CTimerProxy::Unregister@86] Unegister timer event,Handle[0]---end
+
+2024-08-23 10:05:34.688 INFO  [20788] [CCommFactory::DeinitSpdLog@226] ------calll Spdlog_DeInit
+
+2024-08-23 13:25:20.678 INFO  [8968] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[000001BCD2BC60E0]
+
+2024-08-23 13:25:20.678 INFO  [8968] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[000001BCD2BC60E0],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 13:25:20.678 INFO  [8968] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 13:25:20.679 DEBUG [8968] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:25:20.695 INFO  [8968] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 13:25:20.695 INFO  [8968] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 13:25:20.695 INFO  [8968] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 13:25:20.695 INFO  [8968] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 13:25:20.695 INFO  [8968] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 13:25:20.695 INFO  [8968] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 13:25:20.695 INFO  [8968] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 13:25:20.695 INFO  [8968] [CMQCommResponse::CMQCommResponse@12] create response server,this[000001BCD2D57B30]
+
+2024-08-23 13:25:20.695 INFO  [8968] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[000001BCD2D57B30,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 13:25:20.696 INFO  [8968] [Listen@110] Start Listen Port 10001---socketfd[7848]-[0000000000001EA8]
+
+2024-08-23 13:25:20.696 INFO  [8968] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 13:25:20.703 INFO  [8968] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[000001BCCC9FF7F0]
+
+2024-08-23 13:25:20.703 INFO  [8968] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[000001BCCC9FF7F0]
+
+2024-08-23 13:25:20.703 INFO  [8968] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[000001BCD2D57B30]
+
+2024-08-23 13:25:20.703 DEBUG [8968] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:25:20.703 DEBUG [8968] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:25:20.703 DEBUG [8968] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:25:20.703 DEBUG [8968] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:25:20.703 INFO  [8968] [CMQCommPublish::CMQCommPublish@11] create publish server,this[000001BCD2D818E0]
+
+2024-08-23 13:25:20.703 INFO  [8968] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[000001BCD2D818E0,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 13:25:20.703 INFO  [8968] [Listen@110] Start Listen Port 10002---socketfd[7924]-[0000000000001EF4]
+
+2024-08-23 13:25:20.703 INFO  [8968] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 13:25:20.703 DEBUG [8968] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:25:20.703 DEBUG [8968] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:25:20.703 DEBUG [8968] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:38:01.788 INFO  [21016] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[00000195F5098C30]
+
+2024-08-23 13:38:01.788 INFO  [21016] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[00000195F5098C30],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 13:38:01.788 INFO  [21016] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 13:38:01.788 DEBUG [21016] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:38:01.801 INFO  [21016] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 13:38:01.801 INFO  [21016] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 13:38:01.801 INFO  [21016] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 13:38:01.801 INFO  [21016] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 13:38:01.801 INFO  [21016] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 13:38:01.801 INFO  [21016] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 13:38:01.801 INFO  [21016] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 13:38:01.801 INFO  [21016] [CMQCommResponse::CMQCommResponse@12] create response server,this[00000195F502D380]
+
+2024-08-23 13:38:01.801 INFO  [21016] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[00000195F502D380,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 13:38:01.801 INFO  [21016] [Listen@110] Start Listen Port 10001---socketfd[7628]-[0000000000001DCC]
+
+2024-08-23 13:38:01.801 INFO  [21016] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 13:38:01.808 INFO  [21016] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[00000195F4FBA080]
+
+2024-08-23 13:38:01.808 INFO  [21016] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[00000195F4FBA080]
+
+2024-08-23 13:38:01.808 INFO  [21016] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[00000195F502D380]
+
+2024-08-23 13:38:01.808 DEBUG [21016] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:38:01.808 DEBUG [21016] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:38:01.808 DEBUG [21016] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:38:01.808 DEBUG [21016] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:38:01.808 INFO  [21016] [CMQCommPublish::CMQCommPublish@11] create publish server,this[00000195F52F0570]
+
+2024-08-23 13:38:01.808 INFO  [21016] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[00000195F52F0570,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 13:38:01.808 INFO  [21016] [Listen@110] Start Listen Port 10002---socketfd[8820]-[0000000000002274]
+
+2024-08-23 13:38:01.808 INFO  [21016] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 13:38:01.809 DEBUG [21016] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:38:01.809 DEBUG [21016] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:38:01.809 DEBUG [21016] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:41:46.886 INFO  [23204] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[000001F4DF1026C0]
+
+2024-08-23 13:41:46.886 INFO  [23204] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[000001F4DF1026C0],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 13:41:46.887 INFO  [23204] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 13:41:46.887 DEBUG [23204] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:41:46.908 INFO  [23204] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 13:41:46.908 INFO  [23204] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 13:41:46.908 INFO  [23204] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 13:41:46.908 INFO  [23204] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 13:41:46.908 INFO  [23204] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 13:41:46.908 INFO  [23204] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 13:41:46.908 INFO  [23204] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 13:41:46.908 INFO  [23204] [CMQCommResponse::CMQCommResponse@12] create response server,this[000001F483AC0570]
+
+2024-08-23 13:41:46.908 INFO  [23204] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[000001F483AC0570,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 13:41:46.909 INFO  [23204] [Listen@110] Start Listen Port 10001---socketfd[6944]-[0000000000001B20]
+
+2024-08-23 13:41:46.909 INFO  [23204] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 13:41:46.920 INFO  [23204] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[000001F4DF1B5180]
+
+2024-08-23 13:41:46.920 INFO  [23204] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[000001F4DF1B5180]
+
+2024-08-23 13:41:46.920 INFO  [23204] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[000001F483AC0570]
+
+2024-08-23 13:41:46.920 DEBUG [23204] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:41:46.920 DEBUG [23204] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:41:46.920 DEBUG [23204] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:41:46.920 DEBUG [23204] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:41:46.920 INFO  [23204] [CMQCommPublish::CMQCommPublish@11] create publish server,this[000001F4DECC6B00]
+
+2024-08-23 13:41:46.920 INFO  [23204] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[000001F4DECC6B00,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 13:41:46.920 INFO  [23204] [Listen@110] Start Listen Port 10002---socketfd[8464]-[0000000000002110]
+
+2024-08-23 13:41:46.920 INFO  [23204] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 13:41:46.921 DEBUG [23204] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:41:46.921 DEBUG [23204] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:41:46.921 DEBUG [23204] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:45:36.029 INFO  [17216] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[000001D0C6314580]
+
+2024-08-23 13:45:36.029 INFO  [17216] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[000001D0C6314580],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 13:45:36.029 INFO  [17216] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 13:45:36.029 DEBUG [17216] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:45:36.044 INFO  [17216] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 13:45:36.044 INFO  [17216] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 13:45:36.044 INFO  [17216] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 13:45:36.044 INFO  [17216] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 13:45:36.044 INFO  [17216] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 13:45:36.044 INFO  [17216] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 13:45:36.044 INFO  [17216] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 13:45:36.044 INFO  [17216] [CMQCommResponse::CMQCommResponse@12] create response server,this[000001D0C65D8560]
+
+2024-08-23 13:45:36.044 INFO  [17216] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[000001D0C65D8560,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 13:45:36.044 INFO  [17216] [Listen@110] Start Listen Port 10001---socketfd[8732]-[000000000000221C]
+
+2024-08-23 13:45:36.044 INFO  [17216] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 13:45:36.051 INFO  [17216] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[000001D0C63A43C0]
+
+2024-08-23 13:45:36.051 INFO  [17216] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[000001D0C63A43C0]
+
+2024-08-23 13:45:36.051 INFO  [17216] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[000001D0C65D8560]
+
+2024-08-23 13:45:36.051 DEBUG [17216] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:45:36.051 DEBUG [17216] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:45:36.051 DEBUG [17216] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:45:36.051 DEBUG [17216] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:45:36.052 INFO  [17216] [CMQCommPublish::CMQCommPublish@11] create publish server,this[000001D0C6543350]
+
+2024-08-23 13:45:36.052 INFO  [17216] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[000001D0C6543350,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 13:45:36.052 INFO  [17216] [Listen@110] Start Listen Port 10002---socketfd[8772]-[0000000000002244]
+
+2024-08-23 13:45:36.052 INFO  [17216] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 13:45:36.052 DEBUG [17216] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:45:36.052 DEBUG [17216] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:45:36.052 DEBUG [17216] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:47:42.441 WARN  [18280] [CMQCommBaseServer::StopListen@232] stop listen addr[tcp://0.0.0.0:10001],socket handle[8732],this[000001D0C65D8560]
+
+2024-08-23 13:47:42.441 DEBUG [18280] [CloseSocket@140] Close Listen Port,Handle 000000000000221C
+
+2024-08-23 13:47:42.441 INFO  [10652] [CMQServerListenMgr::DoAccept@193] exit accpet ----hSocketHandle[8732]
+
+2024-08-23 13:47:42.462 INFO  [18280] [CMQCommResponse::~CMQCommResponse@18] call ~CMQCommResponse(), this[000001D0C65D8560]
+
+2024-08-23 13:47:42.462 INFO  [18280] [CMQCommResponse::~CMQCommResponse@26] call ~CMQCommResponse(), this[000001D0C65D8560]--end
+
+2024-08-23 13:47:42.462 INFO  [18280] [CMQCommBaseServer::~CMQCommBaseServer@135] call ~CMQCommBaseServer() this[000001D0C65D8560],mqType[4]--inter
+
+2024-08-23 13:47:42.462 INFO  [18280] [CMQCommBaseServer::~CMQCommBaseServer@151] call ~CMQCommBaseServer() this[000001D0C65D8560],mqType[4]--end
+
+2024-08-23 13:47:42.462 DEBUG [18280] [CMemPool::PushMemToPool@197] Push buff to Pool,iIndex[2]---lst num[499],this[000001D0C67AFB80]
+
+2024-08-23 13:47:42.462 WARN  [18280] [CMQCommBaseServer::StopListen@232] stop listen addr[tcp://0.0.0.0:10002],socket handle[8772],this[000001D0C6543350]
+
+2024-08-23 13:47:42.462 DEBUG [18280] [CloseSocket@140] Close Listen Port,Handle 0000000000002244
+
+2024-08-23 13:47:42.462 INFO  [24004] [CMQServerListenMgr::DoAccept@193] exit accpet ----hSocketHandle[8772]
+
+2024-08-23 13:47:42.483 INFO  [18280] [CMQCommPublish::~CMQCommPublish@17] call ~CMQCommPublish(), this[000001D0C6543350]
+
+2024-08-23 13:47:42.483 INFO  [18280] [CMQCommPublish::~CMQCommPublish@25] call ~CMQCommPublish(), this[000001D0C6543350]---end
+
+2024-08-23 13:47:42.483 INFO  [18280] [CMQCommBaseServer::~CMQCommBaseServer@135] call ~CMQCommBaseServer() this[000001D0C6543350],mqType[2]--inter
+
+2024-08-23 13:47:42.483 INFO  [18280] [CMQCommBaseServer::~CMQCommBaseServer@151] call ~CMQCommBaseServer() this[000001D0C6543350],mqType[2]--end
+
+2024-08-23 13:47:42.483 DEBUG [18280] [CMemPool::PushMemToPool@197] Push buff to Pool,iIndex[2]---lst num[500],this[000001D0C67AFB80]
+
+2024-08-23 13:47:43.004 INFO  [18280] [CTimerProxy::Unregister@73] Unegister timer event,Handle[0]
+
+2024-08-23 13:47:43.004 INFO  [18280] [CTimerProxy::Unregister@78] erase timer event,Handle[0] succ!!!
+
+2024-08-23 13:47:43.004 INFO  [18280] [CTimerProxy::Unregister@86] Unegister timer event,Handle[0]---end
+
+2024-08-23 13:47:43.004 INFO  [18280] [CCommFactory::DeinitSpdLog@226] ------calll Spdlog_DeInit
+
+2024-08-23 13:48:19.153 INFO  [27916] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[000002104678A120]
+
+2024-08-23 13:48:19.153 INFO  [27916] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[000002104678A120],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 13:48:19.153 INFO  [27916] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 13:48:19.153 DEBUG [27916] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:48:19.168 INFO  [27916] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 13:48:19.168 INFO  [27916] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 13:48:19.168 INFO  [27916] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 13:48:19.168 INFO  [27916] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 13:48:19.168 INFO  [27916] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 13:48:19.168 INFO  [27916] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 13:48:19.168 INFO  [27916] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 13:48:19.168 INFO  [27916] [CMQCommResponse::CMQCommResponse@12] create response server,this[00000210467231E0]
+
+2024-08-23 13:48:19.168 INFO  [27916] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[00000210467231E0,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 13:48:19.168 INFO  [27916] [Listen@110] Start Listen Port 10001---socketfd[7752]-[0000000000001E48]
+
+2024-08-23 13:48:19.168 INFO  [27916] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 13:48:19.176 INFO  [27916] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[000002104619AA70]
+
+2024-08-23 13:48:19.176 INFO  [27916] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[000002104619AA70]
+
+2024-08-23 13:48:19.176 INFO  [27916] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[00000210467231E0]
+
+2024-08-23 13:48:19.176 DEBUG [27916] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:48:19.176 DEBUG [27916] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:48:19.176 DEBUG [27916] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:48:19.176 DEBUG [27916] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:48:19.176 INFO  [27916] [CMQCommPublish::CMQCommPublish@11] create publish server,this[0000021046B2C750]
+
+2024-08-23 13:48:19.176 INFO  [27916] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[0000021046B2C750,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 13:48:19.176 INFO  [27916] [Listen@110] Start Listen Port 10002---socketfd[8052]-[0000000000001F74]
+
+2024-08-23 13:48:19.176 INFO  [27916] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 13:48:19.176 DEBUG [27916] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:48:19.176 DEBUG [27916] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:48:19.176 DEBUG [27916] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:49:40.925 WARN  [11552] [CMQCommBaseServer::StopListen@232] stop listen addr[tcp://0.0.0.0:10001],socket handle[7752],this[00000210467231E0]
+
+2024-08-23 13:49:40.925 DEBUG [11552] [CloseSocket@140] Close Listen Port,Handle 0000000000001E48
+
+2024-08-23 13:49:40.926 INFO  [22256] [CMQServerListenMgr::DoAccept@193] exit accpet ----hSocketHandle[7752]
+
+2024-08-23 13:49:40.947 INFO  [11552] [CMQCommResponse::~CMQCommResponse@18] call ~CMQCommResponse(), this[00000210467231E0]
+
+2024-08-23 13:49:40.947 INFO  [11552] [CMQCommResponse::~CMQCommResponse@26] call ~CMQCommResponse(), this[00000210467231E0]--end
+
+2024-08-23 13:49:40.947 INFO  [11552] [CMQCommBaseServer::~CMQCommBaseServer@135] call ~CMQCommBaseServer() this[00000210467231E0],mqType[4]--inter
+
+2024-08-23 13:49:40.947 INFO  [11552] [CMQCommBaseServer::~CMQCommBaseServer@151] call ~CMQCommBaseServer() this[00000210467231E0],mqType[4]--end
+
+2024-08-23 13:49:40.947 DEBUG [11552] [CMemPool::PushMemToPool@197] Push buff to Pool,iIndex[2]---lst num[499],this[0000021046B26E50]
+
+2024-08-23 13:49:40.947 WARN  [11552] [CMQCommBaseServer::StopListen@232] stop listen addr[tcp://0.0.0.0:10002],socket handle[8052],this[0000021046B2C750]
+
+2024-08-23 13:49:40.947 DEBUG [11552] [CloseSocket@140] Close Listen Port,Handle 0000000000001F74
+
+2024-08-23 13:49:40.947 INFO  [20744] [CMQServerListenMgr::DoAccept@193] exit accpet ----hSocketHandle[8052]
+
+2024-08-23 13:49:40.968 INFO  [11552] [CMQCommPublish::~CMQCommPublish@17] call ~CMQCommPublish(), this[0000021046B2C750]
+
+2024-08-23 13:49:40.968 INFO  [11552] [CMQCommPublish::~CMQCommPublish@25] call ~CMQCommPublish(), this[0000021046B2C750]---end
+
+2024-08-23 13:49:40.968 INFO  [11552] [CMQCommBaseServer::~CMQCommBaseServer@135] call ~CMQCommBaseServer() this[0000021046B2C750],mqType[2]--inter
+
+2024-08-23 13:49:40.968 INFO  [11552] [CMQCommBaseServer::~CMQCommBaseServer@151] call ~CMQCommBaseServer() this[0000021046B2C750],mqType[2]--end
+
+2024-08-23 13:49:40.968 DEBUG [11552] [CMemPool::PushMemToPool@197] Push buff to Pool,iIndex[2]---lst num[500],this[0000021046B26E50]
+
+2024-08-23 13:49:41.361 INFO  [11552] [CTimerProxy::Unregister@73] Unegister timer event,Handle[0]
+
+2024-08-23 13:49:41.361 INFO  [11552] [CTimerProxy::Unregister@78] erase timer event,Handle[0] succ!!!
+
+2024-08-23 13:49:41.361 INFO  [11552] [CTimerProxy::Unregister@86] Unegister timer event,Handle[0]---end
+
+2024-08-23 13:49:41.361 INFO  [11552] [CCommFactory::DeinitSpdLog@226] ------calll Spdlog_DeInit
+
+2024-08-23 13:51:54.838 INFO  [26872] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[000001FAE2BD8020]
+
+2024-08-23 13:51:54.838 INFO  [26872] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[000001FAE2BD8020],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 13:51:54.838 INFO  [26872] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 13:51:54.838 DEBUG [26872] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:51:54.854 INFO  [26872] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 13:51:54.854 INFO  [26872] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 13:51:54.854 INFO  [26872] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 13:51:54.854 INFO  [26872] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 13:51:54.854 INFO  [26872] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 13:51:54.854 INFO  [26872] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 13:51:54.854 INFO  [26872] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 13:51:54.854 INFO  [26872] [CMQCommResponse::CMQCommResponse@12] create response server,this[000001FAE2B8F170]
+
+2024-08-23 13:51:54.854 INFO  [26872] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[000001FAE2B8F170,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 13:51:54.854 INFO  [26872] [Listen@110] Start Listen Port 10001---socketfd[8028]-[0000000000001F5C]
+
+2024-08-23 13:51:54.854 INFO  [26872] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 13:51:54.862 INFO  [26872] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[000001FAE2F19AA0]
+
+2024-08-23 13:51:54.862 INFO  [26872] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[000001FAE2F19AA0]
+
+2024-08-23 13:51:54.862 INFO  [26872] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[000001FAE2B8F170]
+
+2024-08-23 13:51:54.862 DEBUG [26872] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:51:54.862 DEBUG [26872] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:51:54.862 DEBUG [26872] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:51:54.862 DEBUG [26872] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:51:54.862 INFO  [26872] [CMQCommPublish::CMQCommPublish@11] create publish server,this[000001FADA038390]
+
+2024-08-23 13:51:54.862 INFO  [26872] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[000001FADA038390,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 13:51:54.862 INFO  [26872] [Listen@110] Start Listen Port 10002---socketfd[8408]-[00000000000020D8]
+
+2024-08-23 13:51:54.862 INFO  [26872] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 13:51:54.862 DEBUG [26872] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:51:54.862 DEBUG [26872] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:51:54.862 DEBUG [26872] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:54:51.532 INFO  [25344] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[000002C6A1FF83D0]
+
+2024-08-23 13:54:51.532 INFO  [25344] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[000002C6A1FF83D0],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 13:54:51.532 INFO  [25344] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 13:54:51.532 DEBUG [25344] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:54:51.547 INFO  [25344] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 13:54:51.547 INFO  [25344] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 13:54:51.547 INFO  [25344] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 13:54:51.547 INFO  [25344] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 13:54:51.547 INFO  [25344] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 13:54:51.547 INFO  [25344] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 13:54:51.547 INFO  [25344] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 13:54:51.547 INFO  [25344] [CMQCommResponse::CMQCommResponse@12] create response server,this[000002C6A2341280]
+
+2024-08-23 13:54:51.547 INFO  [25344] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[000002C6A2341280,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 13:54:51.548 INFO  [25344] [Listen@110] Start Listen Port 10001---socketfd[8552]-[0000000000002168]
+
+2024-08-23 13:54:51.548 INFO  [25344] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 13:54:51.555 INFO  [25344] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[000002C69BB5D260]
+
+2024-08-23 13:54:51.555 INFO  [25344] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[000002C69BB5D260]
+
+2024-08-23 13:54:51.555 INFO  [25344] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[000002C6A2341280]
+
+2024-08-23 13:54:51.555 DEBUG [25344] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:54:51.555 DEBUG [25344] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:54:51.555 DEBUG [25344] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 13:54:51.555 DEBUG [25344] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 13:54:51.555 INFO  [25344] [CMQCommPublish::CMQCommPublish@11] create publish server,this[000002C6A2383650]
+
+2024-08-23 13:54:51.555 INFO  [25344] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[000002C6A2383650,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 13:54:51.555 INFO  [25344] [Listen@110] Start Listen Port 10002---socketfd[8280]-[0000000000002058]
+
+2024-08-23 13:54:51.555 INFO  [25344] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 13:54:51.555 DEBUG [25344] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 13:54:51.556 DEBUG [25344] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 13:54:51.556 DEBUG [25344] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 14:02:04.553 INFO  [27548] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[0000027DBB8D6BD0]
+
+2024-08-23 14:02:04.553 INFO  [27548] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[0000027DBB8D6BD0],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 14:02:04.553 INFO  [27548] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 14:02:04.553 DEBUG [27548] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 14:02:04.568 INFO  [27548] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 14:02:04.568 INFO  [27548] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 14:02:04.568 INFO  [27548] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 14:02:04.568 INFO  [27548] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 14:02:04.568 INFO  [27548] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 14:02:04.568 INFO  [27548] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 14:02:04.568 INFO  [27548] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 14:02:04.568 INFO  [27548] [CMQCommResponse::CMQCommResponse@12] create response server,this[0000027DBB876140]
+
+2024-08-23 14:02:04.568 INFO  [27548] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[0000027DBB876140,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 14:02:04.568 INFO  [27548] [Listen@110] Start Listen Port 10001---socketfd[8024]-[0000000000001F58]
+
+2024-08-23 14:02:04.568 INFO  [27548] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 14:02:04.576 INFO  [27548] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[0000027DBBBCE6A0]
+
+2024-08-23 14:02:04.576 INFO  [27548] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[0000027DBBBCE6A0]
+
+2024-08-23 14:02:04.576 INFO  [27548] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[0000027DBB876140]
+
+2024-08-23 14:02:04.576 DEBUG [27548] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 14:02:04.576 DEBUG [27548] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 14:02:04.576 DEBUG [27548] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 14:02:04.576 DEBUG [27548] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 14:02:04.576 INFO  [27548] [CMQCommPublish::CMQCommPublish@11] create publish server,this[0000027DBBC5D2C0]
+
+2024-08-23 14:02:04.576 INFO  [27548] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[0000027DBBC5D2C0,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 14:02:04.576 INFO  [27548] [Listen@110] Start Listen Port 10002---socketfd[8432]-[00000000000020F0]
+
+2024-08-23 14:02:04.576 INFO  [27548] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 14:02:04.576 DEBUG [27548] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 14:02:04.576 DEBUG [27548] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 14:02:04.576 DEBUG [27548] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 14:11:26.598 INFO  [24596] [CTimerProxy::Regitser@64] Register timer event,Handle[0],pUserData[0000026D51CEBDD0]
+
+2024-08-23 14:11:26.598 INFO  [24596] [CCommFactory::SetLogPath@83] set log---call register timer,timer id[0],this[0000026D51CEBDD0],pLogPath[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\log/GateWay],m_enumDefultLogLevel[1]
+
+2024-08-23 14:11:26.598 INFO  [24596] [CCommFactory::UpdateLogPath@236] current Path[G]
+
+2024-08-23 14:11:26.599 DEBUG [24596] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 14:11:26.612 INFO  [24596] [CMemPool::CMemPool@23] index i[0]---size[1024]
+
+2024-08-23 14:11:26.612 INFO  [24596] [CMemPool::CMemPool@23] index i[1]---size[2048]
+
+2024-08-23 14:11:26.612 INFO  [24596] [CMemPool::CMemPool@23] index i[2]---size[10240]
+
+2024-08-23 14:11:26.612 INFO  [24596] [CMemPool::CMemPool@23] index i[3]---size[65536]
+
+2024-08-23 14:11:26.612 INFO  [24596] [CMemPool::CMemPool@23] index i[4]---size[524288]
+
+2024-08-23 14:11:26.612 INFO  [24596] [CMemPool::CMemPool@23] index i[5]---size[1048576]
+
+2024-08-23 14:11:26.612 INFO  [24596] [CMemPool::CMemPool@23] index i[6]---size[2097152]
+
+2024-08-23 14:11:26.612 INFO  [24596] [CMQCommResponse::CMQCommResponse@12] create response server,this[0000026D51CF8830]
+
+2024-08-23 14:11:26.613 INFO  [24596] [CMQCommBaseServer::StartListen@155] mq server work as [4],this[0000026D51CF8830,pAddr[tcp://0.0.0.0:10001]
+
+2024-08-23 14:11:26.613 INFO  [24596] [Listen@110] Start Listen Port 10001---socketfd[7048]-[0000000000001B88]
+
+2024-08-23 14:11:26.613 INFO  [24596] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10001] succ!!!
+
+2024-08-23 14:11:26.619 INFO  [24596] [CTimerProxy::Regitser@64] Register timer event,Handle[1],pUserData[0000026D51EA9350]
+
+2024-08-23 14:11:26.619 INFO  [24596] [CMQServerListenMgr::RegitserHeartBeatTimer@204] call register heart beat check ,----timer id[1],server[0000026D51EA9350]
+
+2024-08-23 14:11:26.619 INFO  [24596] [CMQCommResponse::StartListen@35] start response server listen  succ[tcp://0.0.0.0:10001],this[0000026D51CF8830]
+
+2024-08-23 14:11:26.620 DEBUG [24596] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 14:11:26.620 DEBUG [24596] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 14:11:26.620 DEBUG [24596] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 14:11:26.620 DEBUG [24596] [CMQCommBase::CMQCommBase@274] nnnnloadLog: Get work path is[G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug].
+
+
+2024-08-23 14:11:26.620 INFO  [24596] [CMQCommPublish::CMQCommPublish@11] create publish server,this[0000026D51EA84F0]
+
+2024-08-23 14:11:26.620 INFO  [24596] [CMQCommBaseServer::StartListen@155] mq server work as [2],this[0000026D51EA84F0,pAddr[tcp://0.0.0.0:10002]
+
+2024-08-23 14:11:26.620 INFO  [24596] [Listen@110] Start Listen Port 10002---socketfd[7784]-[0000000000001E68]
+
+2024-08-23 14:11:26.620 INFO  [24596] [CMQCommBaseServer::StartListen@189] start server listen addr [0.0.0.0:10002] succ!!!
+
+2024-08-23 14:11:26.620 DEBUG [24596] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[0],ret[0]
+
+2024-08-23 14:11:26.620 DEBUG [24596] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[1],ret[0]
+
+2024-08-23 14:11:26.620 DEBUG [24596] [CMQCommBase::SetSocketOpt@369] Set Socket Opt cmd[2],ret[0]
+
+2024-08-23 14:14:52.941 WARN  [11504] [CMQCommBaseServer::StopListen@232] stop listen addr[tcp://0.0.0.0:10001],socket handle[7048],this[0000026D51CF8830]
+
+2024-08-23 14:14:52.941 DEBUG [11504] [CloseSocket@140] Close Listen Port,Handle 0000000000001B88
+
+2024-08-23 14:14:52.941 INFO  [28228] [CMQServerListenMgr::DoAccept@193] exit accpet ----hSocketHandle[7048]
+
+2024-08-23 14:14:52.963 INFO  [11504] [CMQCommResponse::~CMQCommResponse@18] call ~CMQCommResponse(), this[0000026D51CF8830]
+
+2024-08-23 14:14:52.963 INFO  [11504] [CMQCommResponse::~CMQCommResponse@26] call ~CMQCommResponse(), this[0000026D51CF8830]--end
+
+2024-08-23 14:14:52.963 INFO  [11504] [CMQCommBaseServer::~CMQCommBaseServer@135] call ~CMQCommBaseServer() this[0000026D51CF8830],mqType[4]--inter
+
+2024-08-23 14:14:52.963 INFO  [11504] [CMQCommBaseServer::~CMQCommBaseServer@151] call ~CMQCommBaseServer() this[0000026D51CF8830],mqType[4]--end
+
+2024-08-23 14:14:52.963 DEBUG [11504] [CMemPool::PushMemToPool@197] Push buff to Pool,iIndex[2]---lst num[499],this[0000026D5210A3E0]
+
+2024-08-23 14:14:52.963 WARN  [11504] [CMQCommBaseServer::StopListen@232] stop listen addr[tcp://0.0.0.0:10002],socket handle[7784],this[0000026D51EA84F0]
+
+2024-08-23 14:14:52.963 DEBUG [11504] [CloseSocket@140] Close Listen Port,Handle 0000000000001E68
+
+2024-08-23 14:14:52.963 INFO  [20636] [CMQServerListenMgr::DoAccept@193] exit accpet ----hSocketHandle[7784]
+
+2024-08-23 14:14:52.984 INFO  [11504] [CMQCommPublish::~CMQCommPublish@17] call ~CMQCommPublish(), this[0000026D51EA84F0]
+
+2024-08-23 14:14:52.984 INFO  [11504] [CMQCommPublish::~CMQCommPublish@25] call ~CMQCommPublish(), this[0000026D51EA84F0]---end
+
+2024-08-23 14:14:52.984 INFO  [11504] [CMQCommBaseServer::~CMQCommBaseServer@135] call ~CMQCommBaseServer() this[0000026D51EA84F0],mqType[2]--inter
+
+2024-08-23 14:14:52.984 INFO  [11504] [CMQCommBaseServer::~CMQCommBaseServer@151] call ~CMQCommBaseServer() this[0000026D51EA84F0],mqType[2]--end
+
+2024-08-23 14:14:52.984 DEBUG [11504] [CMemPool::PushMemToPool@197] Push buff to Pool,iIndex[2]---lst num[500],this[0000026D5210A3E0]
+
+2024-08-23 14:14:53.350 INFO  [11504] [CTimerProxy::Unregister@73] Unegister timer event,Handle[0]
+
+2024-08-23 14:14:53.350 INFO  [11504] [CTimerProxy::Unregister@78] erase timer event,Handle[0] succ!!!
+
+2024-08-23 14:14:53.350 INFO  [11504] [CTimerProxy::Unregister@86] Unegister timer event,Handle[0]---end
+
+2024-08-23 14:14:53.350 INFO  [11504] [CCommFactory::DeinitSpdLog@226] ------calll Spdlog_DeInit
+

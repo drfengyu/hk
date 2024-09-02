@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamList>
+	<ParamItem>
+		<Name>ReConnectState</Name>
+		<DefaultValue>flase</DefaultValue>
+		<Description>true：打开重连使能，flase：关闭重连使能</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>DisplayName</Name>
+		<DefaultValue>Mitsubishi PLC</DefaultValue>
+		<Description>显示名称</Description>
+	</ParamItem>
+<!-- 	<ParamItem>
+		<Name>Protocol</Name>
+		<DefaultValue>1</DefaultValue>
+		<Description>通信协议，整型，从1开始顺序传递，MC\</Description>
+	</ParamItem> -->
+	<ParamItem>
+		<Name>Communicationmode</Name>
+		<DefaultValue>1</DefaultValue>
+		<Description>通信方式，可选择TCPCLIENT TCPSERVER UDP SERIAL，根据头文件定义的设备枚举类型传值，不同的通信方式会导致对应的参数生效</Description>
+	</ParamItem>
+	
+	<!-- TCPCLIENT TCPSERVER UDP 共用参数 -->
+	<ParamItem>
+		<Name>HostIP</Name>
+		<DefaultValue></DefaultValue>
+		<Description>主机ip</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>HostPort</Name>
+		<DefaultValue>0</DefaultValue>
+		<Description>主机port</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>TargetIP</Name>
+		<DefaultValue>127.0.0.1</DefaultValue>
+		<Description>目标ip</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>TargetPort</Name>
+		<DefaultValue>7920</DefaultValue>
+		<Description>目标port</Description>
+	</ParamItem>
+	<!-- TCPCLIENT TCPSERVER UDP 共用参数 -->
+	<ParamItem>
+		<Name>ComPort</Name>
+		<DefaultValue>1</DefaultValue>
+		<Description></Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>Baudrate</Name>
+		<DefaultValue>9600</DefaultValue>
+		<Description></Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>DataBits</Name>
+		<DefaultValue>8</DefaultValue>
+		<Description></Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>Parity</Name>
+		<DefaultValue>0</DefaultValue>
+		<Description></Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>StopBits</Name>
+		<DefaultValue>0</DefaultValue>
+		<Description></Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>PollTime</Name>
+		<DefaultValue>10</DefaultValue>
+		<Description></Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>ConnectState</Name>
+		<DefaultValue>true</DefaultValue>
+		<Description>true：打开连接，flase：关闭连接</Description>
+	</ParamItem>
+</ParamList>

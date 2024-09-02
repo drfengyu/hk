@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Base">
+      <Items>
+        <String Name="ServerRepAddress">
+          <CurValue>tcp://127.0.0.1:5555</CurValue>
+        </String>
+        <String Name="ModuleName">
+          <CurValue>GlobalTriggerModule</CurValue>
+        </String>
+        <Bool Name="IsLoalModule">
+          <CurValue>0</CurValue>
+        </Bool>
+        <Integer Name="ModuleAccess">
+          <CurValue>1</CurValue>
+        </Integer>
+        <Integer Name="ModuleType">
+          <CurValue>8</CurValue>
+        </Integer>
+        <String Name="ModuleDisplayName">
+          <CurValue>GlobalTriggerModule</CurValue>
+        </String>
+        <String Name="ModuleHelp">
+          <CurValue>Reserve</CurValue>
+        </String>
+      </Items>
+    </Category>
+    <Category Name="Input"></Category>
+    <Category Name="Output"></Category>
+    <Category Name="Display" okcolor="#7cfc00" ngcolor="#ff0000"></Category>
+    <Category Name="TransmitInfo"></Category>
+  </Categorys>
+</ParamRoot>

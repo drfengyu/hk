@@ -1,0 +1,2393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlgorithmTabRoot>
+  <Tabs>
+    <Tab Name="Tab_Common Params">
+      <Categorys>
+        <Category Name="Tab_Camera Connect">
+          <Items>
+            <BooleanBx Name="UseGenTL">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>GenTL相机</Description>
+              <DisplayName>GenTL相机</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>True</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>True</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>GenTLPath</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>RealTimeImgAcqCmd</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Type</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <!-- <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>CameraName</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger> -->
+              </Triggers>
+            </BooleanBx>
+            <OpenFileForCameraDialog Name="GenTLPath">
+              <Description>选择Cti文件</Description>
+              <DisplayName>选择Cti文件</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+              <CustomVisible>False</CustomVisible>
+              <FileOption>
+                <IsMultiselect>false</IsMultiselect>
+                <FilterName>cti|*.cti</FilterName>
+              </FileOption>
+            </OpenFileForCameraDialog>
+            <RadioSelecter Name="Type">
+              <Description>TypeSelect</Description>
+              <DisplayName>TypeSelect</DisplayName>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <AccessMode>RW</AccessMode>
+              <EnumEntrys>
+                <EnumEntry>
+                  <DisplayName>Enum</DisplayName>
+                  <Value>0x0</Value>
+                </EnumEntry>
+                <EnumEntry>
+                  <DisplayName>Cross-NetSegment IP</DisplayName>
+                  <Value>0x1</Value>
+                </EnumEntry>
+              </EnumEntrys>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>0</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>CameraIP</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ConnectIP</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AutoConnect</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>LocalIP</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>CameraName</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>1</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>CameraName</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>RealTimeImgAcqCmd</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>UseGenTL</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </RadioSelecter>
+            <EnumerationLxN Name="CameraName">
+              <AlgorithmIndex>0x00000000</AlgorithmIndex>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>568036810</DefaultValue>
+              <Description>Connected Cameras in Current LAN, including GIGE Area Scan and Line Scan Camera, or USB Connected U3V Camera</Description>
+              <DisplayName>RunParam_Choose Camera</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>CameraType</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ManufacturerName</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <!-- <Setter>
+                      <TargetName>CameraJack</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter> -->
+                  </Setters>
+                </Trigger>
+				<Trigger>
+                  <Property>CurValue</Property>
+                  <Value>0</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>SaveParams</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+				  </Setters>
+				 </Trigger>
+              </Triggers>
+            </EnumerationLxN>
+            <EnumerationIP Name="LocalIP">
+              <Description>Local IP</Description>
+              <DisplayName>Local IP</DisplayName>
+              <CurValue></CurValue>
+              <AccessMode>RW</AccessMode>
+            </EnumerationIP>
+            <IPString Name="CameraIP">
+              <Description>RunParam_CameraIP</Description>
+              <DisplayName>RunParam_CameraIP</DisplayName>
+              <CurValue></CurValue>
+              <AccessMode>RW</AccessMode>
+            </IPString>
+            <BooleanLx Name="ConnectIP">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>ConnectCamera</Description>
+              <DisplayName>ConnectCamera</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>True</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>CameraType</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ManufacturerName</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>CameraIP</TargetName>
+                      <OperationName>DisEnableOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </BooleanLx>
+            <Boolean Name="AutoConnect">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>RunParam_AutoReconnect</Description>
+              <DisplayName>RunParam_AutoReconnect</DisplayName>
+              <AccessMode>RW</AccessMode>
+            </Boolean>
+            <!--<Boolean Name="CloseCache" NameSpace="Standard">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>close real time picture cache.</Description>
+              <DisplayName>CloseCache</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+			  
+			   <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+				  <Value>False</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ImageCacheNum</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                
+              </Triggers>
+			  
+            </Boolean>-->
+            <Integer Name="ImageCacheNum">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>1</MinValue>
+              <MaxValue>100</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>50</CurValue>
+              <DefaultValue>50</DefaultValue>
+              <Unit>数</Unit>
+              <Description>ImageCacheNum</Description>
+              <DisplayName>ImageCacheNum</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <SubscribeVisible>False</SubscribeVisible>
+            </Integer>
+            <CommandWithTip Name="RealTimeImgAcqCmd">
+              <Description>Tip_RealTimeImgAcq</Description>
+              <DisplayName>RealTimeImgAcq</DisplayName>
+              <CustomVisible>True</CustomVisible>
+              <CurValue>cmd</CurValue>
+              <DefaultValue>cmd</DefaultValue>
+              <CommandSetter>
+                <OperationName>ExcuteMethodOperation</OperationName>
+                <OperationParams>DoCameraPreview</OperationParams>
+                <TargetName>RealTimeImgAcq</TargetName>
+              </CommandSetter>
+            </CommandWithTip>
+            <CameraPreview Name="RealTimeImgAcq">
+              <Description>Real-time image acquisition</Description>
+              <DisplayName>RunParam_RealTimeImgAcq</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue>cmd</CurValue>
+              <DefaultValue>cmd</DefaultValue>
+              <CustomVisible>False</CustomVisible>
+            </CameraPreview>
+            <String Name="CameraType">
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+              <Description></Description>
+              <DisplayName></DisplayName>
+              <CustomVisible>False</CustomVisible>
+              <AccessMode>RO</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>MV-CL</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>AcquisitionLineRate</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ResultingLineRate</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AcquisitionFrameRate</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>PreampGain</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Gain</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>GainAuto</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <TargetName>ExposureAuto</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AutoGainLowerLimit</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AutoGainUpperLimit</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <TargetName>TriggerSelector</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>MV-SI</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>LineSelector_Smart</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>FlashEnable</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>LightMode</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>LineSource</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>GainAuto</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <TargetName>ExposureAuto</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AutoGainLowerLimit</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AutoGainUpperLimit</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>GammaEnable</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>GammaSelector</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Gamma_Smart</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>MV-CH|MV-CA|MV-CE|MV-CB|MV-CL|MV-CU|MV-CS</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>LineSelector</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>LineMode</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+				<Trigger>
+                  <Property>CurValue</Property>
+                  <Value>MV-CH250-9</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>LineSelector</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>LineMode</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <TargetName>PreampGain_CH250</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <TargetName>GainAuto</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <TargetName>ExposureAuto</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <TargetName>AutoGainLowerLimit</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <TargetName>AutoGainUpperLimit</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <TargetName>Gain</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+					<Setter>
+                      <TargetName>Gain_CH250</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+					<Setter>
+						<TargetName>Gain_CH250</TargetName>
+						<OperationName>DisEnableOperation</OperationName>
+					</Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </String>
+            <String Name="ManufacturerName">
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+              <Description></Description>
+              <DisplayName></DisplayName>
+              <CustomVisible>False</CustomVisible>
+              <AccessMode>RO</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>Basler</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>AcquisitionFrameRate</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ExposureTime</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Gain</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AutoGainLowerLimit</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AutoGainUpperLimit</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>TriggerDelay</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>TriggerSource</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>TriggerSource_Basler</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AcquisitionFrameRateAbs</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ExposureTimeAbs</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>GainRaw</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AutoGainRawLowerLimit</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AutoGainRawUpperLimit</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ResultingFrameRateAbs</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>TriggerDelayAbs</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>Manufacturer PGR Info</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>GammaEnabled</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>GammaEnable</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </String>
+            <!-- <String Name="CameraJack" NameSpace="Standard">
+              <CurValue>
+              </CurValue>
+              <DefaultValue>
+              </DefaultValue>
+              <Description>
+              </Description>
+              <DisplayName>
+              </DisplayName>
+              <Visibility>Beginner</Visibility>
+              <CustomVisible>False</CustomVisible>
+              <AccessMode>RO</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>1</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>RealTimeImgAcqCmd</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+				  </Setters>
+				</Trigger>
+              </Triggers>
+			 <SubscribeVisible>False</SubscribeVisible>
+            </String> -->
+            <Integer Name="ReconnectTime">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0</MinValue>
+              <MaxValue>10000</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Unit>数</Unit>
+              <Description>The Duration of attempting to reconnect for a disconnected Camera(unit:s)</Description>
+              <DisplayName>RunParam_Reconnect Time</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <SubscribeVisible>False</SubscribeVisible>
+            </Integer>
+            <Integer Name="SoftTriggerWaitTime" NameSpace="Standard">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>1</MinValue>
+              <MaxValue>10</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>2</CurValue>
+              <DefaultValue>2</DefaultValue>
+              <Unit>数</Unit>
+              <Description>The Duration of waitting for soft trigger time(unit:s)</Description>
+              <DisplayName>RunParam_SoftTriggerWaitTime</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+			  <SubscribeVisible>False</SubscribeVisible>
+            </Integer>
+            <Command Name="SaveParams">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>SaveCameraParams</Description>
+              <DisplayName>SaveCameraParams</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>true</CustomVisible>
+            </Command>
+          </Items>
+        </Category>
+        <Category Name="Tab_Trigger">
+          <Items>
+		  <EnumerationBx Name="TriggerSelector">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>7</DefaultValue>
+              <Description>Selects the type of trigger to configure.</Description>
+              <DisplayName>RunParam_Trigger Selector</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+			  <CustomVisible>False</CustomVisible>
+              <EnumEntrys>
+                <EnumEntry Name="AcquisitionStart">
+                  <Description>AcquisitionStart</Description>
+                  <DisplayName>AcquisitionStart</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="AcquisitionEnd">
+                  <Description>AcquisitionEnd</Description>
+                  <DisplayName>AcquisitionEnd</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+                <EnumEntry Name="AcquisitionActive">
+                  <Description>AcquisitionActive</Description>
+                  <DisplayName>AcquisitionActive</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+                <EnumEntry Name="FrameStart">
+                  <Description>FrameStart</Description>
+                  <DisplayName>FrameStart</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>3</Value>
+                </EnumEntry>
+                <EnumEntry Name="FrameEnd">
+                  <Description>FrameEnd</Description>
+                  <DisplayName>FrameEnd</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>4</Value>
+                </EnumEntry>
+				<EnumEntry Name="FrameActive">
+                  <Description>FrameActive</Description>
+                  <DisplayName>FrameActive</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>5</Value>
+                </EnumEntry>
+                <EnumEntry Name="FrameBurstStart">
+                  <Description>FrameBurstStart</Description>
+                  <DisplayName>FrameBurstStart</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>6</Value>
+                </EnumEntry>
+                <EnumEntry Name="FrameBurstEnd">
+                  <Description>FrameBurstEnd</Description>
+                  <DisplayName>FrameBurstEnd</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>7</Value>
+                </EnumEntry>
+				<EnumEntry Name="FrameBurstActive">
+                  <Description>FrameBurstActive</Description>
+                  <DisplayName>FrameBurstActive</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>8</Value>
+                </EnumEntry>
+				<EnumEntry Name="LineStart">
+                  <Description>LineStart</Description>
+                  <DisplayName>LineStart</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>9</Value>
+                </EnumEntry>
+				<EnumEntry Name="ExposureStart">
+                  <Description>ExposureStart</Description>
+                  <DisplayName>ExposureStart</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>10</Value>
+                </EnumEntry>
+				<EnumEntry Name="ExposureEnd">
+                  <Description>ExposureEnd</Description>
+                  <DisplayName>ExposureEnd</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>11</Value>
+                </EnumEntry>
+				<EnumEntry Name="ExposureActive">
+                  <Description>ExposureActive</Description>
+                  <DisplayName>ExposureActive</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>12</Value>
+                </EnumEntry>
+             </EnumEntrys>
+			 <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>TriggerSource</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+				  </Setters>
+				 </Trigger>
+			 </Triggers>
+            </EnumerationBx>
+			<EnumerationBx Name="TriggerMode" NameSpace="Standard">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Trigger mode of Current Camera</Description>
+              <DisplayName>TriggerMode</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <EnumEntrys>
+                <EnumEntry Name="Off" NameSpace="Standard">
+                  <Description>Off</Description>
+                  <DisplayName>Off</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="On" NameSpace="Standard">
+                  <Description>On</Description>
+                  <DisplayName>On</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </EnumerationBx>
+            <EnumerationBx Name="TriggerSource">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>7</DefaultValue>
+              <Description>Trigger of Current Camera</Description>
+              <DisplayName>RunParam_Trigger Source</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <EnumEntrys>
+                <EnumEntry Name="LINE0">
+                  <Description>LINE0</Description>
+                  <DisplayName>LINE0</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE1">
+                  <Description>LINE1</Description>
+                  <DisplayName>LINE1</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE2">
+                  <Description>LINE2</Description>
+                  <DisplayName>LINE2</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE3">
+                  <Description>LINE3</Description>
+                  <DisplayName>LINE3</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>3</Value>
+                </EnumEntry>
+                <EnumEntry Name="SOFTWARE">
+                  <Description>SOFTWARE</Description>
+                  <DisplayName>SOFTWARE</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>7</Value>
+                </EnumEntry>
+				<EnumEntry Name="Counter0">
+                  <Description>Counter0</Description>
+                  <DisplayName>Counter0</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>4</Value>
+                </EnumEntry>
+				<EnumEntry Name="Line4">
+                  <Description>Line4</Description>
+                  <DisplayName>Line4</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>5</Value>
+                </EnumEntry>
+				<EnumEntry Name="EncoderModuleOut">
+                  <Description>EncoderModuleOut</Description>
+                  <DisplayName>EncoderModuleOut</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>6</Value>
+                </EnumEntry>
+				<EnumEntry Name="FrequencyConverter">
+                  <Description>FrequencyConverter</Description>
+                  <DisplayName>FrequencyConverter</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>8</Value>
+                </EnumEntry>
+    			<EnumEntry Name="Anyway" NameSpace="Standard">
+                  <Description>Anyway</Description>
+                  <DisplayName>Anyway</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>13</Value>
+                </EnumEntry>
+				<EnumEntry Name="Line2In" NameSpace="Standard">
+                  <Description>Line2In</Description>
+                  <DisplayName>Line2In</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>14</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </EnumerationBx>
+            <EnumerationBx Name="TriggerSource_Basler">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Trigger of Current Camera</Description>
+              <DisplayName>RunParam_Trigger Source</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <EnumEntrys>
+                <EnumEntry Name="LINE1">
+                  <Description>LINE1</Description>
+                  <DisplayName>LINE1</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE2">
+                  <Description>LINE2</Description>
+                  <DisplayName>LINE2</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE3">
+                  <Description>LINE3</Description>
+                  <DisplayName>LINE3</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>3</Value>
+                </EnumEntry>
+                <EnumEntry Name="SOFTWARE">
+                  <Description>SOFTWARE</Description>
+                  <DisplayName>SOFTWARE</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </EnumerationBx>
+            <FloatBx Name="TriggerDelay">
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <CurValue>3.5</CurValue>
+              <DefaultValue>3.5</DefaultValue>
+              <Description>Trigger Delay</Description>
+              <DisplayName>RunParam_Trigger Delay</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <FloatBx Name="TriggerDelayAbs">
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <CurValue>3.5</CurValue>
+              <DefaultValue>3.5</DefaultValue>
+              <Description>Trigger Delay</Description>
+              <DisplayName>RunParam_Trigger Delay</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+          </Items>
+        </Category>
+		<Category Name="Tab_Image Params">
+          <Items>
+            <IntegerBx Name="Width">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000000</MaxValue>
+              <IncValue>0x00000004</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <Unit>数</Unit>
+              <Description>Width of Current Camera</Description>
+              <DisplayName>Width</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+            <IntegerBx Name="Height">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000000</MaxValue>
+              <IncValue>0x00000002</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>442</DefaultValue>
+              <Unit>数</Unit>
+              <Description>Height of Current Camera</Description>
+              <DisplayName>Height</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+            <EnumerationBx Name="PixelFormat">
+              <Description>Pixel Format</Description>
+              <DisplayName>Pixel Format</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <EnumEntrys>
+                <EnumEntry Name="Mono 8">
+                  <Description>Mono 8</Description>
+                  <DisplayName>Mono 8</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17301505</Value>
+                </EnumEntry>
+                <EnumEntry Name="Mono 10">
+                  <Description>Mono 10</Description>
+                  <DisplayName>Mono 10</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17825795</Value>
+                </EnumEntry>
+                <EnumEntry Name="Mono 10 Packed">
+                  <Description>Mono 10 Packed</Description>
+                  <DisplayName>Mono 10 Packed</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17563652</Value>
+                </EnumEntry>
+                <EnumEntry Name="Mono 12">
+                  <Description>Mono 12</Description>
+                  <DisplayName>Mono 12</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17825797</Value>
+                </EnumEntry>
+                <EnumEntry Name="Mono 12 Packed">
+                  <Description>Mono 12 Packed</Description>
+                  <DisplayName>Mono 12 Packed</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17563654</Value>
+                </EnumEntry>
+                <EnumEntry Name="RGB 8">
+                  <Description>RGB 8</Description>
+                  <DisplayName>RGB 8</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>35127316</Value>
+                </EnumEntry>
+                <EnumEntry Name="BGR 8">
+                  <Description>BGR 8</Description>
+                  <DisplayName>BGR 8</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>35127317</Value>
+                </EnumEntry>
+				<EnumEntry Name="Bayer GR 8">
+                  <Description>Bayer GR 8</Description>
+                  <DisplayName>Bayer GR 8</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17301512</Value>
+                </EnumEntry>
+                <EnumEntry Name="Bayer RG 8">
+                  <Description>Bayer RG 8</Description>
+                  <DisplayName>Bayer RG 8</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17301513</Value>
+                </EnumEntry>
+				<EnumEntry Name="Bayer GB 8">
+                  <Description>Bayer GB 8</Description>
+                  <DisplayName>Bayer GB 8</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17301514</Value>
+                </EnumEntry>
+				<EnumEntry Name="Bayer BG 8">
+                  <Description>Bayer BG 8</Description>
+                  <DisplayName>Bayer BG 8</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17301515</Value>
+                </EnumEntry>
+				<EnumEntry Name="Bayer GR 10">
+                  <Description>Bayer GR 10</Description>
+                  <DisplayName>Bayer GR 10</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17825804</Value>
+                </EnumEntry>
+                <EnumEntry Name="Bayer RG 10">
+                  <Description>Bayer RG 10</Description>
+                  <DisplayName>Bayer RG 10</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17825805</Value>
+                </EnumEntry>
+				<EnumEntry Name="Bayer GB 10">
+                  <Description>Bayer GB 10</Description>
+                  <DisplayName>Bayer GB 10</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17825806</Value>
+                </EnumEntry>
+				<EnumEntry Name="Bayer BG 10">
+                  <Description>Bayer BG 10</Description>
+                  <DisplayName>Bayer BG 10</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17825807</Value>
+                </EnumEntry>
+				<EnumEntry Name="Bayer GR 12">
+                  <Description>Bayer GR 12</Description>
+                  <DisplayName>Bayer GR 12</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17825808</Value>
+                </EnumEntry>
+                <EnumEntry Name="Bayer RG 12">
+                  <Description>Bayer RG 12</Description>
+                  <DisplayName>Bayer RG 12</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17825809</Value>
+                </EnumEntry>
+				<EnumEntry Name="Bayer GB 12">
+                  <Description>Bayer GB 12</Description>
+                  <DisplayName>Bayer GB 12</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17825810</Value>
+                </EnumEntry>
+				<EnumEntry Name="Bayer BG 12">
+                  <Description>Bayer BG 12</Description>
+                  <DisplayName>Bayer BG 12</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17825811</Value>
+                </EnumEntry>
+                <EnumEntry Name="Bayer RG 10 Packed">
+                  <Description>Bayer RG 10 Packed</Description>
+                  <DisplayName>Bayer RG 10 Packed</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17563687</Value>
+                </EnumEntry>
+                <EnumEntry Name="Bayer RG 12 Packed">
+                  <Description>Bayer RG 12 Packed</Description>
+                  <DisplayName>Bayer RG 12 Packed</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>17563691</Value>
+                </EnumEntry>
+                <EnumEntry Name="YUV 411 Packed">
+                  <Description>YUV 411 Packed</Description>
+                  <DisplayName>YUV 411 Packed</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>34340894</Value>
+                </EnumEntry>
+                <EnumEntry Name="YUV 422 Packed">
+                  <Description>YUV 422 Packed</Description>
+                  <DisplayName>YUV 422 Packed</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>34603039</Value>
+                </EnumEntry>
+                <EnumEntry Name="YUV 422(YUYV) Packed">
+                  <Description>YUV 422(YUYV) Packed</Description>
+                  <DisplayName>YUV 422(YUYV) Packed</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>34603058</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </EnumerationBx>
+            <FloatBx Name="AcquisitionFrameRate">
+              <MinValue>0</MinValue>
+              <MaxValue>2000</MaxValue>
+              <CurValue>53.907162</CurValue>
+              <DefaultValue>53.907162</DefaultValue>
+              <Description>Set Fps of Current Camera</Description>
+              <DisplayName>RunParam_Fps</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <FloatBx Name="AcquisitionFrameRateAbs">
+              <MinValue>0</MinValue>
+              <MaxValue>2000</MaxValue>
+              <CurValue>53.907162</CurValue>
+              <DefaultValue>53.907162</DefaultValue>
+              <Description>Set Fps of Current Camera</Description>
+              <DisplayName>RunParam_Fps</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRateAbs</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <StringBx Name="ResultingFrameRate">
+              <CurValue>53.907162</CurValue>
+              <DefaultValue>53.907162</DefaultValue>
+              <Description>Actual Fps of Current Camera</Description>
+              <DisplayName>RunParam_Actual Fps</DisplayName>
+              <AccessMode>RO</AccessMode>
+              <SubscribeVisible>False</SubscribeVisible>
+            </StringBx>
+            <StringBx Name="ResultingFrameRateAbs">
+              <CurValue>53.907162</CurValue>
+              <DefaultValue>53.907162</DefaultValue>
+              <Description>Actual Fps of Current Camera</Description>
+              <DisplayName>RunParam_Actual Fps</DisplayName>
+              <AccessMode>RO</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </StringBx>
+            <EnumerationBx Name="ExposureAuto">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Represent Exposure Mode, including Continuous Mode, Once Mode and Off Mode</Description>
+              <DisplayName>RunParam_Exposure Mode</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ExposureAuto</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+				  <Value>2</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ExposureTime</TargetName>
+                      <OperationName>DisEnableOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <EnumEntrys>
+                <EnumEntry Name="OFF">
+                  <Description>OFF</Description>
+                  <DisplayName>OFF</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="ONCE">
+                  <Description>ONCE</Description>
+                  <DisplayName>ONCE</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+                <EnumEntry Name="CONTINUOUS">
+                  <Description>CONTINUOUS</Description>
+                  <DisplayName>CONTINUOUS</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </EnumerationBx>
+			<FloatBx Name="ExposureTime">
+              <MinValue>0</MinValue>
+              <MaxValue>0</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Exposure Time of Current Camera(unit:ms)</Description>
+              <DisplayName>ExposureTimeInput</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <FloatBx Name="ExposureTimeAbs">
+              <MinValue>0</MinValue>
+              <MaxValue>0</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Exposure Time of Current Camera(unit:ms)</Description>
+              <DisplayName>ExposureTimeInput</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRateAbs</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+          </Items>
+        </Category>
+        <Category Name="Tab_Gain">
+          <Items>
+            <FloatBx Name="Gain">
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <CurValue>3.5</CurValue>
+              <DefaultValue>3.5</DefaultValue>
+              <Description>Gain of Current Camera</Description>
+              <DisplayName>Tab_Gain</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+			<FloatBx Name="Gain_CH250">
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <CurValue>3.5</CurValue>
+              <DefaultValue>3.5</DefaultValue>
+              <Description>Gain of Current Camera</Description>
+              <DisplayName>Tab_Gain</DisplayName>
+              <AccessMode>RW</AccessMode>
+			  <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <EnumerationGain Name="PreampGain">
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Gain of Current Camera</Description>
+              <DisplayName>Tab_Gain</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </EnumerationGain>
+			<EnumerationBx Name="PreampGain_CH250">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Gain Level of Current Camera</Description>
+              <DisplayName>Tab_Gain_Level</DisplayName>
+              <AccessMode>RW</AccessMode>
+			  <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+              <EnumEntrys>
+                <EnumEntry Name="PGA 2.5x">
+                  <Description>PGA 2.5x</Description>
+                  <DisplayName>PGA 2.5x</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>3</Value>
+                </EnumEntry>
+                <EnumEntry Name="PGA 3.0x">
+                  <Description>PGA 3.0x</Description>
+                  <DisplayName>PGA 3.0x</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>4</Value>
+                </EnumEntry>
+                <EnumEntry Name="PGA 3.5x">
+                  <Description>PGA 3.5x</Description>
+                  <DisplayName>PGA 3.5x</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>5</Value>
+                </EnumEntry>
+				<EnumEntry Name="PGA 4.0x">
+                  <Description>PGA 4.0x</Description>
+                  <DisplayName>PGA 4.0x</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>6</Value>
+                </EnumEntry>
+				<EnumEntry Name="PGA 4.5x">
+                  <Description>PGA 4.5x</Description>
+                  <DisplayName>PGA 4.5x</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>7</Value>
+                </EnumEntry>
+				<EnumEntry Name="PGA 5.0x">
+                  <Description>PGA 5.0x</Description>
+                  <DisplayName>PGA 5.0x</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>8</Value>
+                </EnumEntry>
+              </EnumEntrys>
+			  <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Gain_CH250</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+				  </Setters>
+				 </Trigger>
+				 </Triggers>
+            </EnumerationBx>
+            <EnumerationBx Name="GainAuto">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Represent Gain Mode, including Continuous Mode, Once Mode and Off Mode</Description>
+              <DisplayName>RunParam_Gain Mode</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>GainAuto</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+				<Trigger>
+                  <Property>CurValue</Property>
+				  <Value>2</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Gain</TargetName>
+                      <OperationName>DisEnableOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <EnumEntrys>
+                <EnumEntry Name="OFF">
+                  <Description>OFF</Description>
+                  <DisplayName>OFF</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="ONCE">
+                  <Description>ONCE</Description>
+                  <DisplayName>ONCE</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+                <EnumEntry Name="CONTINUOUS">
+                  <Description>CONTINUOUS</Description>
+                  <DisplayName>CONTINUOUS</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </EnumerationBx>
+            <FloatBx Name="AutoGainLowerLimit">
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Min Gain Value in Auto Gain Mode</Description>
+              <DisplayName>RunParam_Min Gain</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>AutoGainUpperLimit</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <FloatBx Name="AutoGainUpperLimit">
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Max Gain Value in Auto Gain Mode</Description>
+              <DisplayName>RunParam_Max Gain</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>AutoGainLowerLimit</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <FloatBx Name="GainRaw">
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <CurValue>3.5</CurValue>
+              <DefaultValue>3.5</DefaultValue>
+              <Description>Gain of Current Camera</Description>
+              <DisplayName>Tab_Gain</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <FloatBx Name="AutoGainRawLowerLimit">
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Min Gain Value in Auto Gain Mode</Description>
+              <DisplayName>RunParam_Min Gain</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>AutoGainRawUpperLimit</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <FloatBx Name="AutoGainRawUpperLimit">
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Max Gain Value in Auto Gain Mode</Description>
+              <DisplayName>RunParam_Max Gain</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>AutoGainRawLowerLimit</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+          </Items>
+        </Category>
+        <Category Name="Gamma">
+          <Items>
+            <BooleanBx Name="GammaEnable">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>True</DefaultValue>
+              <Description>Gamma Enable</Description>
+              <DisplayName>RunParam_Gamma Enable</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>False</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>GammaSelector</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </BooleanBx>
+            <BooleanBx Name="GammaEnabled">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>True</DefaultValue>
+              <Description>Gamma Enable</Description>
+              <DisplayName>RunParam_Gamma Enable</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>False</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Gamma</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </BooleanBx>
+            <FloatBx Name="Gamma">
+              <MinValue>0</MinValue>
+              <MaxValue>10</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Gamma of Current Camera</Description>
+              <DisplayName>Gamma</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <FloatBx Name="Gamma_Smart">
+              <MinValue>0</MinValue>
+              <MaxValue>10</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Gamma of Current Camera</Description>
+              <DisplayName>Gamma</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <EnumerationBx Name="GammaSelector">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>1</DefaultValue>
+              <Description>Gamma Selector</Description>
+              <DisplayName>Selector</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Gamma</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <MultiTrigger>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>1</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>True</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Gamma</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+              </Triggers>
+              <EnumEntrys>
+                <EnumEntry Name="USER">
+                  <Description>USER</Description>
+                  <DisplayName>USER</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+                <EnumEntry Name="SRGB">
+                  <Description>SRGB</Description>
+                  <DisplayName>SRGB</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </EnumerationBx>
+          </Items>
+        </Category>
+        <Category Name="DalsaCamera">
+          <Items>
+            <IntegerBx Name="AcquisitionLineRate">
+              <MinValue>0</MinValue>
+              <MaxValue>100</MaxValue>
+              <CurValue>100</CurValue>
+              <DefaultValue>100</DefaultValue>
+              <Description>Line rate setting opened (line scan camera parameter)</Description>
+              <DisplayName>RunParam_Hsf</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingLineRate</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+            <StringBx Name="ResultingLineRate">
+              <CurValue>100</CurValue>
+              <DefaultValue>100</DefaultValue>
+              <Description>Line rate opened (line scan camera parameter)</Description>
+              <DisplayName>RunParam_Actual Frequency</DisplayName>
+              <AccessMode>RO</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </StringBx>
+          </Items>
+        </Category>
+        <Category Name="Tab_Run Params">
+          <Items>
+            <Enumeration Name="CameraMold">
+              <Description>Camera Type</Description>
+              <DisplayName>Camera Type</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0x1</CurValue>
+              <DefaultValue>0x1</DefaultValue>
+              <EnumEntrys>
+                <EnumEntry Name="CommonCamera">
+                  <Description>StandardAerialCamera</Description>
+                  <DisplayName>StandardAerialCamera</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="SmartCamera">
+                  <Description>SmartCamera</Description>
+                  <DisplayName>SmartCamera</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+                <EnumEntry Name="DalsaCamera">
+                  <Description>DalsaCamera</Description>
+                  <DisplayName>DalsaCamera</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>3</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </Enumeration>
+            <Enumeration Name="IOEnableElectricalLevel">
+              <Description>IO Actvie Level, Active-High or Active-Low</Description>
+              <DisplayName>RunParam_Active Level</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0x2</CurValue>
+              <DefaultValue>0x2</DefaultValue>
+              <EnumEntrys>
+                <EnumEntry Name="High">
+                  <Description>Active High</Description>
+                  <DisplayName>Active High</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="Low">
+                  <Description>Active Low</Description>
+                  <DisplayName>Active Low</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </Enumeration>
+          </Items>
+        </Category>
+		
+      </Categorys>
+    </Tab>
+    <Tab Name="Tab_DeviceControl">
+      <Categorys>       
+        <Category Name="IO控制">
+          <Items>
+            <!-- 工业相机IO参数 -->
+            <EnumerationBx Name="LineSelector">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>当前IO选择项</Description>
+              <DisplayName>IO选择项</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <EnumEntrys>
+                <EnumEntry Name="LINE0">
+                  <Description>LINE0</Description>
+                  <DisplayName>LINE0</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE1">
+                  <Description>LINE1</Description>
+                  <DisplayName>LINE1</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE2">
+                  <Description>LINE2</Description>
+                  <DisplayName>LINE2</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE3">
+                  <Description>LINE3</Description>
+                  <DisplayName>LINE3</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>3</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE4">
+                  <Description>LINE4</Description>
+                  <DisplayName>LINE4</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>4</Value>
+                </EnumEntry>
+              </EnumEntrys>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>LineMode</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>LineInverter</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </EnumerationBx>
+            <EnumerationBx Name="LineMode">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>当前IO模式</Description>
+              <DisplayName>IO模式</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <EnumEntrys>
+                <EnumEntry Name="Input">
+                  <Description>Input</Description>
+                  <DisplayName>Input</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="Strobe">
+                  <Description>Strobe</Description>
+                  <DisplayName>Strobe</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>8</Value>
+                </EnumEntry>
+              </EnumEntrys>
+              <Triggers>
+                <MultiTrigger>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>8</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>True</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>LineInverter</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>TriggerSource</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </EnumerationBx>
+            <!-- 智能相机IO参数 LineInverter与工业相机共用 -->
+            <EnumerationBx Name="LineSelector_Smart">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>IO输出选择器</Description>
+              <DisplayName>IO输出选择器</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <EnumEntrys>
+                <EnumEntry Name="LINE0">
+                  <Description>LINE0</Description>
+                  <DisplayName>LINE0</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE1">
+                  <Description>LINE1</Description>
+                  <DisplayName>LINE1</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE2">
+                  <Description>LINE2</Description>
+                  <DisplayName>LINE2</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE3">
+                  <Description>LINE3</Description>
+                  <DisplayName>LINE3</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>3</Value>
+                </EnumEntry>
+                <EnumEntry Name="LINE4">
+                  <Description>LINE4</Description>
+                  <DisplayName>LINE4</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>4</Value>
+                </EnumEntry>
+              </EnumEntrys>
+              <Triggers>
+                <MultiTrigger>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>0</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>True</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Strobe0Delay</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe0PulseWidth</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+                <MultiTrigger>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>1</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>True</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Strobe1Delay</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe1PulseWidth</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+                <MultiTrigger>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>2</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>True</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Strobe2Delay</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe2PulseWidth</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>0</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Strobe0Delay</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe0PulseWidth</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>1</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Strobe1Delay</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe1PulseWidth</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>2</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Strobe2Delay</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe2PulseWidth</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>LineSource</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>LineInverter</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </EnumerationBx>
+            <EnumerationBx Name="LineSource">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>IO输出源</Description>
+              <DisplayName>IO输出源</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <EnumEntrys>
+                <EnumEntry Name="OFF">
+                  <Description>OFF</Description>
+                  <DisplayName>OFF</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="SOFTWARETRIGGER">
+                  <Description>SOFTWARETRIGGER</Description>
+                  <DisplayName>SOFTWARETRIGGER</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>10</Value>
+                </EnumEntry>
+              </EnumEntrys>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>Strobe0Delay</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe1Delay</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe2Delay</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe0PulseWidth</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe1PulseWidth</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Strobe2PulseWidth</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>10</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>LineInverter</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>TriggerSoftware1</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </EnumerationBx>
+            <BooleanBx Name="LineInverter">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>反相输出,控制高低电平的输出</Description>
+              <DisplayName>反相输出</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+            </BooleanBx>
+            <Command Name="TriggerSoftware1">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>电平触发</Description>
+              <DisplayName>电平触发</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+            </Command>
+            <IntegerBx Name="Strobe0Delay">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000000</MaxValue>
+              <IncValue>0x00000001</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <Unit>数</Unit>
+              <Description>当触发条件到来后，设置延迟多久输出(设置前需启用对应输出源,仅对Line 0输出有效,单位微秒)</Description>
+              <DisplayName>输出延迟</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+            <IntegerBx Name="Strobe1Delay">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000000</MaxValue>
+              <IncValue>0x00000001</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <Unit>数</Unit>
+              <Description>当触发条件到来后，设置延迟多久输出(设置前需启用对应输出源,仅对Line 1输出有效,单位微秒)</Description>
+              <DisplayName>输出延迟</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+            <IntegerBx Name="Strobe2Delay">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000000</MaxValue>
+              <IncValue>0x00000001</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <Unit>数</Unit>
+              <Description>当触发条件到来后，设置延迟多久输出(设置前需启用对应输出源,仅对Line 2输出有效,单位微秒)</Description>
+              <DisplayName>输出延迟</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+            <IntegerBx Name="Strobe0PulseWidth">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000000</MaxValue>
+              <IncValue>0x00000001</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <Unit>数</Unit>
+              <Description>当触发条件到来后，设置输出持续时间(设置前需启用对应输出源,仅对Line 0输出有效,单位微秒)</Description>
+              <DisplayName>RunParam_Duration</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+            <IntegerBx Name="Strobe1PulseWidth">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000000</MaxValue>
+              <IncValue>0x00000001</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <Unit>数</Unit>
+              <Description>当触发条件到来后，设置输出持续时间(设置前需启用对应输出源,仅对Line 1输出有效,单位微秒)</Description>
+              <DisplayName>RunParam_Duration</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+            <IntegerBx Name="Strobe2PulseWidth">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000000</MaxValue>
+              <IncValue>0x00000001</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <Unit>数</Unit>
+              <Description>当触发条件到来后，设置输出持续时间(设置前需启用对应输出源,仅对Line 2输出有效,单位微秒)</Description>
+              <DisplayName>RunParam_Duration</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+          </Items>
+        </Category>
+        <Category Name="光源控制">
+          <Items>
+            <BooleanBx Name="FlashEnable">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>True</DefaultValue>
+              <Description>光源调节使能</Description>
+              <DisplayName>光源使能</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>False</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>FlashTime</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>FlashAhead</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>LightMode</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>FlashTime</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>FlashDelay</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>FlashAhead</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </BooleanBx>
+            <EnumerationBx Name="LightMode">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>表示光源模式</Description>
+              <DisplayName>光源模式</DisplayName>
+              <CustomVisible>False</CustomVisible>
+              <AccessMode>RW</AccessMode>
+              <EnumEntrys>
+                <EnumEntry Name="Strobe">
+                  <Description>Strobe</Description>
+                  <DisplayName>Strobe</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="Constant">
+                  <Description>Constant</Description>
+                  <DisplayName>Constant</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+              </EnumEntrys>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>FlashDelay</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+                <MultiTrigger>
+                  <Conditions>
+                    <Condition>
+                      <Property>CurValue</Property>
+                      <Value>0</Value>
+                    </Condition>
+                    <Condition>
+                      <Property>CustomVisible</Property>
+                      <Value>True</Value>
+                    </Condition>
+                  </Conditions>
+                  <Setters>
+                    <Setter>
+                      <TargetName>FlashDelay</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </MultiTrigger>
+              </Triggers>
+            </EnumerationBx>
+            <IntegerBx Name="FlashTime">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000000</MaxValue>
+              <IncValue>0x00000001</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <CustomVisible>False</CustomVisible>
+              <Unit>数</Unit>
+              <Description>LED光源的持续时间</Description>
+              <DisplayName>光源持续时间</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+            <IntegerBx Name="FlashDelay">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000064</MaxValue>
+              <IncValue>0x00000001</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <Unit>数</Unit>
+              <Description>LED光源的延迟时间</Description>
+              <DisplayName>光源延迟时间</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+            <IntegerBx Name="FlashAhead">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>0x00000000</MinValue>
+              <MaxValue>0x00000000</MaxValue>
+              <IncValue>0x00000001</IncValue>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0x00000000</DefaultValue>
+              <CustomVisible>False</CustomVisible>
+              <Unit>数</Unit>
+              <Description>LED光源的提前时间</Description>
+              <DisplayName>光源提前时间</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <SubscribeVisible>False</SubscribeVisible>
+            </IntegerBx>
+          </Items>
+        </Category>
+      </Categorys>
+    </Tab>
+    <!-- 	  <Tab Name="Tab_Debug Set">
+		<Categorys>
+			<Category Name="Tab_Debug Set">
+			  <Items>
+				<Enumeration Name="DebugImageSource" NameSpace="Standard">
+				  <AlgorithmIndex>0</AlgorithmIndex>
+				  <CurValue>1</CurValue>
+				  <DefaultValue>1</DefaultValue>
+				  <Description>调试图像来源</Description>
+				  <DisplayName>调试图像来源</DisplayName>
+				  <Visibility>Expert</Visibility>
+				  <CustomVisible>True</CustomVisible>
+				  <AccessMode>RW</AccessMode>
+				  <EnumEntrys>
+					<EnumEntry Name="FileFolder" NameSpace="Standard">
+					  <Description>文件夹</Description>
+					  <DisplayName>文件夹</DisplayName>
+					  <IsImplemented>0x1</IsImplemented>
+					  <Value>0</Value>
+					</EnumEntry>
+					<EnumEntry Name="CameraBuffer" NameSpace="Standard">
+					  <Description>相机缓存</Description>
+					  <DisplayName>相机缓存</DisplayName>
+					  <IsImplemented>0x1</IsImplemented>
+					  <Value>1</Value>
+					</EnumEntry>
+				  </EnumEntrys>
+				  <Triggers>
+					 <MultiTrigger>
+					  <Conditions>
+						<Condition>
+						  <Property>CurValue</Property>
+						  <Value>1</Value>
+						</Condition>
+						<Condition>
+						  <Property>CustomVisible</Property>
+						  <Value>True</Value>
+						</Condition>
+					  </Conditions>
+					  <Setters>
+						<Setter>
+						  <TargetName>DebugImageBufferCount</TargetName>
+						  <OperationName>VisibleOperation</OperationName>
+						</Setter>
+					  </Setters>
+					</MultiTrigger>
+					 <MultiTrigger>
+					  <Conditions>
+						<Condition>
+						  <Property>CurValue</Property>
+						  <Value>0</Value>
+						</Condition>
+						<Condition>
+						  <Property>CustomVisible</Property>
+						  <Value>True</Value>
+						</Condition>
+					  </Conditions>
+					  <Setters>
+						<Setter>
+						  <TargetName>FileFolderName</TargetName>
+						  <OperationName>VisibleOperation</OperationName>
+						</Setter>
+					  </Setters>
+					</MultiTrigger>
+				  </Triggers>
+				</Enumeration>
+				<IntegerBx Name="DebugImageBufferCount" NameSpace="Standard">
+				  <AlgorithmIndex>0</AlgorithmIndex>
+				  <MinValue>0x00000000</MinValue>
+				  <MaxValue>0x00000064</MaxValue>
+				  <IncValue>0x00000001</IncValue>
+				  <CurValue>0x00000000</CurValue>
+				  <DefaultValue>0x00000000</DefaultValue>
+				  <Description>非调试模式时会缓存对应数量的相机图像用于调试模式</Description>
+				  <DisplayName>图像缓存数量</DisplayName>
+				  <Visibility>Beginner</Visibility>
+				  <AccessMode>RW</AccessMode>
+				  <CustomVisible>False</CustomVisible>
+				</IntegerBx>
+				<OpenFolderDialog Name="FileFolderName" NameSpace="Standard">
+				  <CurValue></CurValue>
+				  <DefaultValue></DefaultValue>
+				  <Description>调试图像本地路径</Description>
+				  <DisplayName>调试图像路径</DisplayName>
+				  <Visibility>Beginner</Visibility>
+				  <CustomVisible>False</CustomVisible>
+				  <AccessMode>RW</AccessMode>
+				</OpenFolderDialog>
+				<BooleanBx Name="DebugMode" NameSpace="Standard">
+				  <AlgorithmIndex>0</AlgorithmIndex>
+				  <CurValue>False</CurValue>
+				  <DefaultValue>False</DefaultValue>
+				  <Description>调试模式下会循环执行之前流程中使用的图像(数量等同于配置的调试缓存数量)</Description>
+				  <DisplayName>调试模式</DisplayName>
+				  <Visibility>Expert</Visibility>
+				  <AccessMode>RW</AccessMode>
+				  <Triggers>
+					<Trigger>
+					  <Property>CurValue</Property>
+					  <Value>False</Value>
+					  <Setters>
+						<Setter>
+						  <TargetName>AutoSwitch</TargetName>
+						  <OperationName>HiddenOperation</OperationName>
+						</Setter>
+					  </Setters>
+					</Trigger>
+				  </Triggers>
+				</BooleanBx>
+				<BooleanBx Name="AutoSwitch" NameSpace="Standard">
+				  <AlgorithmIndex>0</AlgorithmIndex>
+				  <CurValue>True</CurValue>
+				  <DefaultValue>True</DefaultValue>
+				  <Description>自动切换缓存的调试图像</Description>
+				  <DisplayName>RunParam_Auto Switch</DisplayName>
+				  <Visibility>Expert</Visibility>
+				  <AccessMode>RW</AccessMode>
+				</BooleanBx>
+			  </Items>
+			</Category>
+		</Categorys>
+	  </Tab> -->
+  </Tabs>
+</AlgorithmTabRoot>

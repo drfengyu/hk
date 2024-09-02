@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmTabRoot>
+  <IsFullScreen>True</IsFullScreen>
+  <Tabs>
+    <Tab Name="通信配置">
+      <Categorys>        
+		<CategoryNoHead Name="Tab_Com Param">
+          <Items>
+			 <Enumeration Name="IntDataType">
+              <Description>RunParam_IntDataType</Description>
+              <DisplayName>RunParam_IntDataType</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>1</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <EnumEntrys>
+                <EnumEntry Name="16bit">
+                  <Description>16bit</Description>
+                  <DisplayName>16bit</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="32bit">
+                  <Description>32bit</Description>
+                  <DisplayName>32bit</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+               </EnumEntrys>
+              </Enumeration>
+
+			  <Integer Name="DB">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>1</CurValue>
+              <DefaultValue>1</DefaultValue>
+              <Description>DB</Description>
+              <DisplayName>DB</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+			 <Integer Name="OffsetNum">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>OffsetNum</Description>
+              <DisplayName>OffsetNum</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+			 <Integer Name="DataLen">
+              <MinValue>0</MinValue>
+              <MaxValue>256</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>10</CurValue>
+              <DefaultValue>10</DefaultValue>
+              <Description>Lang_ByteLength</Description>
+              <DisplayName>Lang_ByteLength</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+			 
+		     
+			 <Integer Name="OverTime">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>200</CurValue>
+              <DefaultValue>200</DefaultValue>
+              <Description>RunParam_Timeout</Description>
+              <DisplayName>RunParam_Timeout</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>		
+			<EnumEntryAdr Name="AssociatedAddress">
+				<Description>RunParam_AssociateAddress</Description>
+				<DisplayName>RunParam_AssociateAddress</DisplayName>
+				<Visibility>Beginner</Visibility>
+				<AccessMode>RW</AccessMode>
+				<AlgorithmIndex>0</AlgorithmIndex>
+				<CurValue>0</CurValue>
+				<DefaultValue>0</DefaultValue>
+				<CustomVisible>True</CustomVisible>
+				<SupportChangeEnable>True</SupportChangeEnable>
+			</EnumEntryAdr>				 
+			 <Boolean Name="PollEnable">
+                <AlgorithmIndex>0</AlgorithmIndex>
+                <CurValue>False</CurValue>
+				<DefaultValue>False</DefaultValue>
+				<Description>RunParam_Polling</Description>
+				<DisplayName>RunParam_Polling</DisplayName>
+				<Visibility>Beginner</Visibility>
+				<AccessMode>RW</AccessMode>
+			 </Boolean>
+			 <Boolean Name="Upload">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>True</CurValue>
+              <DefaultValue>True</DefaultValue>
+              <Description>UploadTip</Description>
+              <DisplayName>Upload</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+            </Boolean>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+  </Tabs>
+</AlgorithmTabRoot>

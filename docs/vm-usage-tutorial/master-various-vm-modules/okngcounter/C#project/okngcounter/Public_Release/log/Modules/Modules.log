@@ -1,0 +1,9 @@
+2024-08-16 10:47:08.789 ERROR [20608] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM1444ImgSrcTemp
+
+
+2024-08-16 10:47:08.789 ERROR [20608] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-16 10:47:08.789 ERROR [20608] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-16 10:47:08.789 ERROR [20608] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+

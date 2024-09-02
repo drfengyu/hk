@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AlgorithmTabRoot>
+  <Tabs>
+    <Tab Name="Tab_Basic Params">
+      <Categorys>
+        <Category Name="Tab_Basic Params">
+          <Items>
+            <EnumerationLx Name="CameraName">
+              <AlgorithmIndex>0x00000000</AlgorithmIndex>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Connected Cameras in Current LAN, including GIGE Area Scan and Line Scan Camera, or USB Connected U3V Camera</Description>
+              <DisplayName>RunParam_Choose Camera</DisplayName>
+              <AccessMode>RW</AccessMode>
+            </EnumerationLx>
+            <!-- 			<Boolean Name="OpenCamera" NameSpace="Standard">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>Tab_Camera Connect</Description>
+              <DisplayName>Tab_Camera Connect</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+            </Boolean> -->
+            <OpenFileForCameraDialog Name="CcfPath">
+              <Description>配置文件</Description>
+              <DisplayName>配置文件</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <MaxFileDirLength>200</MaxFileDirLength>
+              <FileOption>
+                <IsMultiselect>false</IsMultiselect>
+                <FilterName>%.ccf|*.ccf%</FilterName>
+              </FileOption>
+            </OpenFileForCameraDialog>
+            <Integer Name="ImageCacheNum">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <MinValue>1</MinValue>
+              <MaxValue>500</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>100</CurValue>
+              <DefaultValue>100</DefaultValue>
+              <Unit>数</Unit>
+              <Description>相机模块自身可以缓存的图片张数</Description>
+              <DisplayName>缓存张数</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <SubscribeVisible>False</SubscribeVisible>
+            </Integer>
+            <!-- 			<Boolean Name="OutMono8" NameSpace="Standard">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>output mono8 when image is rgb</Description>
+              <DisplayName>RunParam_OutMono8</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+            </Boolean> -->
+          </Items>
+        </Category>
+        <!-- <Category Name="CommConfig">
+          <Items>	
+			<ConfigCommand Name="Config" NameSpace="Standard">
+              <CurValue>cmd</CurValue>
+              <DefaultValue>cmd</DefaultValue>
+              <Description>CommConfig</Description>
+              <DisplayName>CommConfig</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>O</AccessMode>
+            </ConfigCommand>
+			<EnumerationCommunication Name="CommunicationModuleID">
+               <Description>Select Communication Device</Description>
+               <DisplayName>RunParam_Communication Device</DisplayName>
+               <Visibility>Beginner</Visibility>
+               <AccessMode>O</AccessMode>
+               <CurValue>0x0</CurValue>
+               <DefaultValue>0x0</DefaultValue>
+               <ProtocolType>None</ProtocolType>
+             </EnumerationCommunication> 	
+		   </Items>
+		</Category> -->
+      </Categorys>
+    </Tab>
+  </Tabs>
+  <!--     <BottomExcuteButtonsLeft>
+        <Button_ResetAlgoParams Name="Button_ResetAlgoParams">
+            <Visibility>Beginner</Visibility>
+            <AccessMode>O</AccessMode>
+        </Button_ResetAlgoParams>
+    </BottomExcuteButtonsLeft>
+    <BottomExcuteButtons>
+        <GroupLinkItem Name="BottomCommandGroup">
+            <LinkName>BottomCommandGroup</LinkName>
+        </GroupLinkItem>
+    </BottomExcuteButtons> -->
+</AlgorithmTabRoot>

@@ -1,0 +1,40 @@
+﻿  
+  
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.1" />
+  </startup>
+  <appSettings>
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+    <add key="ClientSettingsProvider.ConnectionStringName" value="DefaultConnection" />
+	<!--语言-->
+    <add key="LangSet" value="zh-cn"/>
+	<!--颜色-->
+    <add key="ColorSet" value="1"/>
+    <!--启动服务形式(0代表默认系统服务, 1代表exe方式启动)-->
+    <add key="StartServerByExe" value="1"/>
+	<!--启动客户端形式(0代表默认VM, 1代表二次开发方式启动)-->
+    <add key="StartClientMode" value="0"/>
+    <!--远程Server地址,用于连接不同主机中的server-->
+    <add key="ServerSetting" value="127.0.0.1:5556"/>
+  </appSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" connectionStringName="DefaultConnection" credentialsProvider="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri=""
+             heTimeout="86400" connectionStringName="DefaultConnection" />
+      </providers>
+    </roleManager>
+  </system.web>
+  <connectionStrings>
+    <add name="DefaultConnection" connectionString="Data Source = |SQL/CE|" />
+  </connectionStrings>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <probing privatePath="myLibs;myLibs\Hik.VM.PcUI;myLibs\Hik.VM.GlobalScriptUI;3rdLib\ICSharpCode;3rdLib\MsgPack;3rdLib\MVVM;3rdLib\OpenCv;3rdLib\System;GateWay;PublicFile\x64"/>
+    </assemblyBinding>
+  </runtime>

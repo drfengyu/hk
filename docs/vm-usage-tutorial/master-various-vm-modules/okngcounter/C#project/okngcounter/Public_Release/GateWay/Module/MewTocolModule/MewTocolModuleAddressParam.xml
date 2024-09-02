@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamList>	
+	<!-- 地址相关 -->
+	<ParamItem>
+		<Name>StationNum</Name>
+		<DefaultValue>238</DefaultValue>
+		<Description>站号，整型</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>SoftElementType</Name>
+		<DefaultValue>1</DefaultValue>
+		<Description>软元件类型，整型，从1开始顺序传递，D\M\X\Y</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>IntDataType</Name>
+		<DefaultValue>1</DefaultValue>
+		<Description>数据类型，整型，从1开始顺序传递，16位、32位</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>SoftElementAddress</Name>
+		<DefaultValue>100</DefaultValue>
+		<Description>软元件地址，整型数字，输入</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>SoftElementNum</Name>
+		<DefaultValue>10</DefaultValue>
+		<Description>软元件点数，整型数字，输入,只在读地址时有效</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>PollEnable</Name>
+		<DefaultValue>false</DefaultValue>
+		<Description>轮询使能，true：打开轮询使能，flase：关闭轮询使能</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>OverTime</Name>
+		<DefaultValue>200</DefaultValue>
+		<Description>超时时间，整型 ms</Description>
+	</ParamItem>
+	<ParamItem>
+		<Name>Upload</Name>
+		<DefaultValue>true</DefaultValue>
+		<Description>true：打开数据上传，flase：关闭数据上传</Description>
+	</ParamItem>
+	<!-- 地址相关 -->
+</ParamList>

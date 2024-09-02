@@ -1,0 +1,528 @@
+2024-08-22 13:40:14.758 INFO  [21324] [VM_M_Initialize@54] [Init][Begin]SDK Version: win64 v4.3.0 build Jun  2 2023, 18:19:09
+
+2024-08-22 13:40:14.758 INFO  [21324] [VM_M_Initialize@55] [Init] Log Mode Async
+
+2024-08-22 13:40:14.758 INFO  [21324] [VM_M_Initialize@60] [Init]LoadModuleData path[C:\Users\Fengling\AppData\Local\Temp\VM20384ImgSrcTemp]
+
+2024-08-22 13:40:14.758 INFO  [21324] [VM_M_Initialize@75] [Init]Set the module path: C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64
+
+2024-08-22 13:40:14.758 INFO  [21324] [VM_M_Initialize@87] [Init] CallbackMgr
+
+2024-08-22 13:40:14.758 INFO  [21324] [CShareMemoryResMgr::ReleaseMemoryRes@21] ReleaseMemoryRes start 
+
+2024-08-22 13:40:14.758 INFO  [21324] [VM_M_Initialize@95] [Init] TopoDataMgr
+
+2024-08-22 13:40:14.758 INFO  [21324] [VM_M_Initialize@101] [Init] ThreadPool
+
+2024-08-22 13:40:14.758 INFO  [21324] [CVmThreadPool::Init@26] Processor num is 8
+
+2024-08-22 13:40:14.759 INFO  [20024] [CModulePathResolver::Init@25] CModulePathResolver Init Begin
+
+2024-08-22 13:40:14.760 INFO  [17424] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [1]
+
+2024-08-22 13:40:14.760 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Calculation\CalculatorModule\CalculatorModuleAlgorithm.xml
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@108] [Init] ModuleRstCache
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@115] [Init] ModuleGlobalVarCache
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@122] [Init] UserInputCache
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@129] [Init] ModuleLoader
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@136] [Init] SubscribeMappingMgr
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@143] [Init] ModuleStatusRecord
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@150] [Init] MemPoolForProcess
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@157] [Init] FrameRuntimeInfo
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@164] [Init] ProcedureLinkage
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@171] [Init] ReentrantObjMgr
+
+2024-08-22 13:40:14.760 INFO  [22812] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [2]
+
+2024-08-22 13:40:14.760 INFO  [21324] [CModuleRstDispatcher::PromotePriority@554] Set thread[tid=28] sched param: policy=0, priority=15
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@180] [Init] Singleton
+
+2024-08-22 13:40:14.760 INFO  [21324] [CRunningPolicy::SetProcedureRunningPolicy@60] Running policy mode=1, ensure time stability is false
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@183] [Init] GlobalVarRWLock
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@191] [Init]Module path: C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64, char set=1, version=10, preload=1
+
+2024-08-22 13:40:14.760 INFO  [21324] [VM_M_Initialize@192] [Init][End]Initialize finished, VmVersion=10
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_EnableSharedMemGlobalPrefix@1924] Shared memory global preifx is not enabled
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_EnableReentrant@2603] VM_M_EnableReentrant(enable=false)
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_EnableReentrant@2607] return code: 0x00000000
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_SetBufferNodeNum@2639] VM_M_SetBufferNodeNum(bufferNum=2)
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_SetBufferNodeNum@2643] return code: 0x00000000
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_SetUnsupportReentrantModules@2615] VM_M_SetUnsupportReentrantModules(pData=ImageSourceModule)
+
+2024-08-22 13:40:14.761 INFO  [21324] [CReentrantObjMgr::SetUnsupportReentrantModules@393] Unsupport reenrant module list, size=1:
+
+2024-08-22 13:40:14.761 INFO  [21324] [CReentrantObjMgr::SetUnsupportReentrantModules@396] [0]:ImageSourceModule
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_SetUnsupportReentrantModules@2619] return code: 0x00000000
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_SetReentrantMaxTimes@2627] VM_M_SetReentrantMaxTimes(nMaxTimes=5)
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_SetReentrantMaxTimes@2631] return code: 0x00000000
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_ForceDeepCopyImage@2707] VM_M_ForceDeepCopyImage(force=true)
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_ForceDeepCopyImage@2711] return code: 0x00000000
+
+2024-08-22 13:40:14.761 INFO  [21324] [VM_M_SetExcludeModuleName@2719] SetExcludeModuleName ImageCollectModu
+
+2024-08-22 13:40:14.761 INFO  [23404] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [3]
+
+2024-08-22 13:40:14.761 INFO  [22372] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [4]
+
+2024-08-22 13:40:14.761 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Calculation\IMVSSinglePointAlignModu\IMVSSinglePointAlignModuAlgorithm.xml
+
+2024-08-22 13:40:14.762 INFO  [25596] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [5]
+
+2024-08-22 13:40:14.762 INFO  [25084] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [6]
+
+2024-08-22 13:40:14.763 INFO  [22572] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [7]
+
+2024-08-22 13:40:14.763 INFO  [21036] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [8]
+
+2024-08-22 13:40:14.763 INFO  [18876] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [9]
+
+2024-08-22 13:40:14.764 INFO  [24224] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [10]
+
+2024-08-22 13:40:14.764 INFO  [23420] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [11]
+
+2024-08-22 13:40:14.765 INFO  [20300] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [12]
+
+2024-08-22 13:40:14.765 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Collection\ImageBufferModule\ImageBufferModuleAlgorithm.xml
+
+2024-08-22 13:40:14.765 INFO  [22956] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [13]
+
+2024-08-22 13:40:14.765 INFO  [776] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [14]
+
+2024-08-22 13:40:14.766 INFO  [19836] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [15]
+
+2024-08-22 13:40:14.766 INFO  [13376] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [16]
+
+2024-08-22 13:40:14.767 INFO  [21588] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [1]
+
+2024-08-22 13:40:14.767 INFO  [22900] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [2]
+
+2024-08-22 13:40:14.768 INFO  [22968] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [3]
+
+2024-08-22 13:40:14.768 INFO  [23192] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [4]
+
+2024-08-22 13:40:14.769 INFO  [20836] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [5]
+
+2024-08-22 13:40:14.769 INFO  [22072] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [6]
+
+2024-08-22 13:40:14.769 INFO  [26052] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [7]
+
+2024-08-22 13:40:14.769 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\DefectDetection\IMVSEdgeInspGroupModu\IMVSEdgeInspGroupModuAlgorithm.xml
+
+2024-08-22 13:40:14.770 INFO  [11060] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [8]
+
+2024-08-22 13:40:14.771 INFO  [24308] [DispatchThread@13] Module result dispatcher, tid=28
+
+2024-08-22 13:40:14.773 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\GlobalTriggerModule\GlobalTriggerModuleAlgorithm.xml
+
+2024-08-22 13:40:14.773 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\GlobalVariableModule\GlobalVariableModuleAlgorithm.xml
+
+2024-08-22 13:40:14.774 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\LightControl\LightControlAlgorithm.xml
+
+2024-08-22 13:40:14.774 ERROR [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@98] Open file 'C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\ProcedureModule\ProcedureModuleAlgorithm.xml' failed
+
+2024-08-22 13:40:14.774 ERROR [20024] [CModulePathResolver::Init@92] modulename[ProcedureModule] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\ProcedureModule\ProcedureModuleAlgorithm.xml] can not find
+
+2024-08-22 13:40:14.774 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageGeneration\GeometryCreate\GeometryCreateAlgorithm.xml
+
+2024-08-22 13:40:14.775 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageProcessing\IMVSImageCombineProcessModu\IMVSImageCombineProcessModuAlgorithm.xml
+
+2024-08-22 13:40:14.776 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageProcessing\IMVSImageFixtureModu\IMVSImageFixtureModuAlgorithm.xml
+
+2024-08-22 13:40:14.778 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSAngleBisectorFindModu\IMVSAngleBisectorFindModuAlgorithm.xml
+
+2024-08-22 13:40:14.786 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSMedianLineFindModu\IMVSMedianLineFindModuAlgorithm.xml
+
+2024-08-22 13:40:14.789 ERROR [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@98] Open file 'C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSStringLocationModu\IMVSStringLocationModuAlgorithm.xml' failed
+
+2024-08-22 13:40:14.789 ERROR [20024] [CModulePathResolver::Init@92] modulename[IMVSStringLocationModu] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSStringLocationModu\IMVSStringLocationModuAlgorithm.xml] can not find
+
+2024-08-22 13:40:14.790 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\DataSetModule\DataSetModuleAlgorithm.xml
+
+2024-08-22 13:40:14.790 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\FormatModule\FormatModuleAlgorithm.xml
+
+2024-08-22 13:40:14.790 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\GraphicsSetModule\GraphicsSetModuleAlgorithm.xml
+
+2024-08-22 13:40:14.790 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\IfBranchModule\IfBranchModuleAlgorithm.xml
+
+2024-08-22 13:40:14.791 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\PyShellModule\PyShellModuleAlgorithm.xml
+
+2024-08-22 13:40:14.792 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\ShellModule\ShellModuleAlgorithm.xml
+
+2024-08-22 13:40:14.800 ERROR [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@115] Root element is null
+
+2024-08-22 13:40:14.800 ERROR [20024] [CModulePathResolver::Init@92] modulename[IMVSBoxOverlapCalculationModu] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\SplitCombination\IMVSBoxOverlapCalculationModu\IMVSBoxOverlapCalculationModuAlgorithm.xml] can not find
+
+2024-08-22 13:40:14.801 INFO  [20024] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\SplitCombination\IMVSMultiLabelFilterModu\IMVSMultiLabelFilterModuAlgorithm.xml
+
+2024-08-22 13:40:14.801 INFO  [20024] [CModulePathResolver::Init@111] CModulePathResolver Init End
+
+2024-08-22 13:42:13.724 INFO  [15936] [VM_M_Initialize@54] [Init][Begin]SDK Version: win64 v4.3.0 build Jun  2 2023, 18:19:09
+
+2024-08-22 13:42:13.724 INFO  [15936] [VM_M_Initialize@55] [Init] Log Mode Async
+
+2024-08-22 13:42:13.724 INFO  [15936] [VM_M_Initialize@60] [Init]LoadModuleData path[C:\Users\Fengling\AppData\Local\Temp\VM8156ImgSrcTemp]
+
+2024-08-22 13:42:13.724 INFO  [15936] [VM_M_Initialize@75] [Init]Set the module path: C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64
+
+2024-08-22 13:42:13.725 INFO  [15936] [VM_M_Initialize@87] [Init] CallbackMgr
+
+2024-08-22 13:42:13.725 INFO  [15936] [CShareMemoryResMgr::ReleaseMemoryRes@21] ReleaseMemoryRes start 
+
+2024-08-22 13:42:13.725 INFO  [15936] [VM_M_Initialize@95] [Init] TopoDataMgr
+
+2024-08-22 13:42:13.725 INFO  [15936] [VM_M_Initialize@101] [Init] ThreadPool
+
+2024-08-22 13:42:13.725 INFO  [15936] [CVmThreadPool::Init@26] Processor num is 8
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@108] [Init] ModuleRstCache
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@115] [Init] ModuleGlobalVarCache
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@122] [Init] UserInputCache
+
+2024-08-22 13:42:13.726 INFO  [15016] [CModulePathResolver::Init@25] CModulePathResolver Init Begin
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@129] [Init] ModuleLoader
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@136] [Init] SubscribeMappingMgr
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@143] [Init] ModuleStatusRecord
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@150] [Init] MemPoolForProcess
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@157] [Init] FrameRuntimeInfo
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@164] [Init] ProcedureLinkage
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@171] [Init] ReentrantObjMgr
+
+2024-08-22 13:42:13.726 INFO  [13432] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [1]
+
+2024-08-22 13:42:13.726 INFO  [15936] [CModuleRstDispatcher::PromotePriority@554] Set thread[tid=28] sched param: policy=0, priority=15
+
+2024-08-22 13:42:13.726 INFO  [15936] [VM_M_Initialize@180] [Init] Singleton
+
+2024-08-22 13:42:13.727 INFO  [18100] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [2]
+
+2024-08-22 13:42:13.727 INFO  [15936] [CRunningPolicy::SetProcedureRunningPolicy@60] Running policy mode=1, ensure time stability is false
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_Initialize@183] [Init] GlobalVarRWLock
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_Initialize@191] [Init]Module path: C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64, char set=1, version=10, preload=1
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_Initialize@192] [Init][End]Initialize finished, VmVersion=10
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_EnableSharedMemGlobalPrefix@1924] Shared memory global preifx is not enabled
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_EnableReentrant@2603] VM_M_EnableReentrant(enable=false)
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_EnableReentrant@2607] return code: 0x00000000
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_SetBufferNodeNum@2639] VM_M_SetBufferNodeNum(bufferNum=2)
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_SetBufferNodeNum@2643] return code: 0x00000000
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_SetUnsupportReentrantModules@2615] VM_M_SetUnsupportReentrantModules(pData=ImageSourceModule)
+
+2024-08-22 13:42:13.727 INFO  [15936] [CReentrantObjMgr::SetUnsupportReentrantModules@393] Unsupport reenrant module list, size=1:
+
+2024-08-22 13:42:13.727 INFO  [15936] [CReentrantObjMgr::SetUnsupportReentrantModules@396] [0]:ImageSourceModule
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_SetUnsupportReentrantModules@2619] return code: 0x00000000
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_SetReentrantMaxTimes@2627] VM_M_SetReentrantMaxTimes(nMaxTimes=5)
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_SetReentrantMaxTimes@2631] return code: 0x00000000
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_ForceDeepCopyImage@2707] VM_M_ForceDeepCopyImage(force=true)
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_ForceDeepCopyImage@2711] return code: 0x00000000
+
+2024-08-22 13:42:13.727 INFO  [15936] [VM_M_SetExcludeModuleName@2719] SetExcludeModuleName ImageCollectModu
+
+2024-08-22 13:42:13.727 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Calculation\CalculatorModule\CalculatorModuleAlgorithm.xml
+
+2024-08-22 13:42:13.727 INFO  [4276] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [1]
+
+2024-08-22 13:42:13.728 INFO  [17096] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [2]
+
+2024-08-22 13:42:13.729 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Calculation\IMVSSinglePointAlignModu\IMVSSinglePointAlignModuAlgorithm.xml
+
+2024-08-22 13:42:13.729 INFO  [8520] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [3]
+
+2024-08-22 13:42:13.730 INFO  [24512] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [4]
+
+2024-08-22 13:42:13.730 INFO  [21108] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [5]
+
+2024-08-22 13:42:13.731 INFO  [23068] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [6]
+
+2024-08-22 13:42:13.731 INFO  [11404] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [7]
+
+2024-08-22 13:42:13.731 INFO  [4940] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [8]
+
+2024-08-22 13:42:13.732 INFO  [25192] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [9]
+
+2024-08-22 13:42:13.732 INFO  [24352] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [10]
+
+2024-08-22 13:42:13.732 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Collection\ImageBufferModule\ImageBufferModuleAlgorithm.xml
+
+2024-08-22 13:42:13.733 INFO  [13060] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [11]
+
+2024-08-22 13:42:13.733 INFO  [25472] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [12]
+
+2024-08-22 13:42:13.733 INFO  [8268] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [13]
+
+2024-08-22 13:42:13.734 INFO  [25932] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [14]
+
+2024-08-22 13:42:13.734 INFO  [1028] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [15]
+
+2024-08-22 13:42:13.735 INFO  [24900] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [3]
+
+2024-08-22 13:42:13.735 INFO  [15944] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [4]
+
+2024-08-22 13:42:13.735 INFO  [17080] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [5]
+
+2024-08-22 13:42:13.735 INFO  [25696] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [6]
+
+2024-08-22 13:42:13.736 INFO  [10896] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [7]
+
+2024-08-22 13:42:13.736 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\DefectDetection\IMVSEdgeInspGroupModu\IMVSEdgeInspGroupModuAlgorithm.xml
+
+2024-08-22 13:42:13.736 INFO  [18136] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [8]
+
+2024-08-22 13:42:13.737 INFO  [21624] [DispatchThread@13] Module result dispatcher, tid=28
+
+2024-08-22 13:42:13.738 INFO  [4888] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [16]
+
+2024-08-22 13:42:13.740 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\GlobalTriggerModule\GlobalTriggerModuleAlgorithm.xml
+
+2024-08-22 13:42:13.740 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\GlobalVariableModule\GlobalVariableModuleAlgorithm.xml
+
+2024-08-22 13:42:13.740 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\LightControl\LightControlAlgorithm.xml
+
+2024-08-22 13:42:13.740 ERROR [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@98] Open file 'C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\ProcedureModule\ProcedureModuleAlgorithm.xml' failed
+
+2024-08-22 13:42:13.741 ERROR [15016] [CModulePathResolver::Init@92] modulename[ProcedureModule] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\ProcedureModule\ProcedureModuleAlgorithm.xml] can not find
+
+2024-08-22 13:42:13.741 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageGeneration\GeometryCreate\GeometryCreateAlgorithm.xml
+
+2024-08-22 13:42:13.742 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageProcessing\IMVSImageCombineProcessModu\IMVSImageCombineProcessModuAlgorithm.xml
+
+2024-08-22 13:42:13.743 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageProcessing\IMVSImageFixtureModu\IMVSImageFixtureModuAlgorithm.xml
+
+2024-08-22 13:42:13.745 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSAngleBisectorFindModu\IMVSAngleBisectorFindModuAlgorithm.xml
+
+2024-08-22 13:42:13.750 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSMedianLineFindModu\IMVSMedianLineFindModuAlgorithm.xml
+
+2024-08-22 13:42:13.751 ERROR [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@98] Open file 'C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSStringLocationModu\IMVSStringLocationModuAlgorithm.xml' failed
+
+2024-08-22 13:42:13.751 ERROR [15016] [CModulePathResolver::Init@92] modulename[IMVSStringLocationModu] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSStringLocationModu\IMVSStringLocationModuAlgorithm.xml] can not find
+
+2024-08-22 13:42:13.752 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\DataSetModule\DataSetModuleAlgorithm.xml
+
+2024-08-22 13:42:13.752 INFO  [15016] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy2024-08-22 13:42:38.581 INFO  [13028] [VM_M_Initialize@54] [Init][Begin]SDK Version: win64 v4.3.0 build Jun  2 2023, 18:19:09
+
+2024-08-22 13:42:38.581 INFO  [13028] [VM_M_Initialize@55] [Init] Log Mode Async
+
+2024-08-22 13:42:38.581 INFO  [13028] [VM_M_Initialize@60] [Init]LoadModuleData path[C:\Users\Fengling\AppData\Local\Temp\VM24952ImgSrcTemp]
+
+2024-08-22 13:42:38.581 INFO  [13028] [VM_M_Initialize@75] [Init]Set the module path: C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64
+
+2024-08-22 13:42:38.581 INFO  [13028] [VM_M_Initialize@87] [Init] CallbackMgr
+
+2024-08-22 13:42:38.581 INFO  [13028] [CShareMemoryResMgr::ReleaseMemoryRes@21] ReleaseMemoryRes start 
+
+2024-08-22 13:42:38.581 INFO  [13028] [VM_M_Initialize@95] [Init] TopoDataMgr
+
+2024-08-22 13:42:38.581 INFO  [13028] [VM_M_Initialize@101] [Init] ThreadPool
+
+2024-08-22 13:42:38.581 INFO  [13028] [CVmThreadPool::Init@26] Processor num is 8
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@108] [Init] ModuleRstCache
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@115] [Init] ModuleGlobalVarCache
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@122] [Init] UserInputCache
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@129] [Init] ModuleLoader
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@136] [Init] SubscribeMappingMgr
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@143] [Init] ModuleStatusRecord
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@150] [Init] MemPoolForProcess
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@157] [Init] FrameRuntimeInfo
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@164] [Init] ProcedureLinkage
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@171] [Init] ReentrantObjMgr
+
+2024-08-22 13:42:38.583 INFO  [13028] [CModuleRstDispatcher::PromotePriority@554] Set thread[tid=28] sched param: policy=0, priority=15
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@180] [Init] Singleton
+
+2024-08-22 13:42:38.583 INFO  [13028] [CRunningPolicy::SetProcedureRunningPolicy@60] Running policy mode=1, ensure time stability is false
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@183] [Init] GlobalVarRWLock
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@191] [Init]Module path: C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64, char set=1, version=10, preload=1
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_Initialize@192] [Init][End]Initialize finished, VmVersion=10
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_EnableSharedMemGlobalPrefix@1924] Shared memory global preifx is not enabled
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_EnableReentrant@2603] VM_M_EnableReentrant(enable=false)
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_EnableReentrant@2607] return code: 0x00000000
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_SetBufferNodeNum@2639] VM_M_SetBufferNodeNum(bufferNum=2)
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_SetBufferNodeNum@2643] return code: 0x00000000
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_SetUnsupportReentrantModules@2615] VM_M_SetUnsupportReentrantModules(pData=ImageSourceModule)
+
+2024-08-22 13:42:38.583 INFO  [13028] [CReentrantObjMgr::SetUnsupportReentrantModules@393] Unsupport reenrant module list, size=1:
+
+2024-08-22 13:42:38.583 INFO  [13028] [CReentrantObjMgr::SetUnsupportReentrantModules@396] [0]:ImageSourceModule
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_SetUnsupportReentrantModules@2619] return code: 0x00000000
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_SetReentrantMaxTimes@2627] VM_M_SetReentrantMaxTimes(nMaxTimes=5)
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_SetReentrantMaxTimes@2631] return code: 0x00000000
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_ForceDeepCopyImage@2707] VM_M_ForceDeepCopyImage(force=true)
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_ForceDeepCopyImage@2711] return code: 0x00000000
+
+2024-08-22 13:42:38.583 INFO  [13028] [VM_M_SetExcludeModuleName@2719] SetExcludeModuleName ImageCollectModu
+
+2024-08-22 13:42:38.584 INFO  [17384] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [1]
+
+2024-08-22 13:42:38.585 INFO  [25152] [CModulePathResolver::Init@25] CModulePathResolver Init Begin
+
+2024-08-22 13:42:38.585 INFO  [2756] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [2]
+
+2024-08-22 13:42:38.585 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Calculation\CalculatorModule\CalculatorModuleAlgorithm.xml
+
+2024-08-22 13:42:38.585 INFO  [9124] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [3]
+
+2024-08-22 13:42:38.586 INFO  [13248] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [4]
+
+2024-08-22 13:42:38.586 INFO  [22112] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [5]
+
+2024-08-22 13:42:38.586 INFO  [23212] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [6]
+
+2024-08-22 13:42:38.586 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Calculation\IMVSSinglePointAlignModu\IMVSSinglePointAlignModuAlgorithm.xml
+
+2024-08-22 13:42:38.587 INFO  [21796] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [7]
+
+2024-08-22 13:42:38.587 INFO  [25976] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [8]
+
+2024-08-22 13:42:38.587 INFO  [22404] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [9]
+
+2024-08-22 13:42:38.588 INFO  [22796] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [10]
+
+2024-08-22 13:42:38.588 INFO  [13648] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [11]
+
+2024-08-22 13:42:38.589 INFO  [14432] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [12]
+
+2024-08-22 13:42:38.589 INFO  [22920] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [13]
+
+2024-08-22 13:42:38.589 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Collection\ImageBufferModule\ImageBufferModuleAlgorithm.xml
+
+2024-08-22 13:42:38.589 INFO  [22944] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [14]
+
+2024-08-22 13:42:38.590 INFO  [26144] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [15]
+
+2024-08-22 13:42:38.590 INFO  [6256] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [16]
+
+2024-08-22 13:42:38.590 INFO  [9264] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [1]
+
+2024-08-22 13:42:38.591 INFO  [19024] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [2]
+
+2024-08-22 13:42:38.591 INFO  [22568] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [3]
+
+2024-08-22 13:42:38.592 INFO  [23060] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [4]
+
+2024-08-22 13:42:38.592 INFO  [25768] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [5]
+
+2024-08-22 13:42:38.592 INFO  [22144] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [6]
+
+2024-08-22 13:42:38.593 INFO  [7276] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [7]
+
+2024-08-22 13:42:38.593 INFO  [19028] [CConcurrentThreadPoolImpl::DoWork@200] [ThreadPool] Thread start,curNum = [8]
+
+2024-08-22 13:42:38.593 INFO  [15248] [DispatchThread@13] Module result dispatcher, tid=28
+
+2024-08-22 13:42:38.594 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\DefectDetection\IMVSEdgeInspGroupModu\IMVSEdgeInspGroupModuAlgorithm.xml
+
+2024-08-22 13:42:38.597 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\GlobalTriggerModule\GlobalTriggerModuleAlgorithm.xml
+
+2024-08-22 13:42:38.597 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\GlobalVariableModule\GlobalVariableModuleAlgorithm.xml
+
+2024-08-22 13:42:38.598 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\LightControl\LightControlAlgorithm.xml
+
+2024-08-22 13:42:38.598 ERROR [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@98] Open file 'C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\ProcedureModule\ProcedureModuleAlgorithm.xml' failed
+
+2024-08-22 13:42:38.598 ERROR [25152] [CModulePathResolver::Init@92] modulename[ProcedureModule] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Global\ProcedureModule\ProcedureModuleAlgorithm.xml] can not find
+
+2024-08-22 13:42:38.598 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageGeneration\GeometryCreate\GeometryCreateAlgorithm.xml
+
+2024-08-22 13:42:38.600 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageProcessing\IMVSImageCombineProcessModu\IMVSImageCombineProcessModuAlgorithm.xml
+
+2024-08-22 13:42:38.600 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\ImageProcessing\IMVSImageFixtureModu\IMVSImageFixtureModuAlgorithm.xml
+
+2024-08-22 13:42:38.602 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSAngleBisectorFindModu\IMVSAngleBisectorFindModuAlgorithm.xml
+
+2024-08-22 13:42:38.607 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSMedianLineFindModu\IMVSMedianLineFindModuAlgorithm.xml
+
+2024-08-22 13:42:38.608 ERROR [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@98] Open file 'C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSStringLocationModu\IMVSStringLocationModuAlgorithm.xml' failed
+
+2024-08-22 13:42:38.608 ERROR [25152] [CModulePathResolver::Init@92] modulename[IMVSStringLocationModu] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Location\IMVSStringLocationModu\IMVSStringLocationModuAlgorithm.xml] can not find
+
+2024-08-22 13:42:38.609 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\DataSetModule\DataSetModuleAlgorithm.xml
+
+2024-08-22 13:42:38.609 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\FormatModule\FormatModuleAlgorithm.xml
+
+2024-08-22 13:42:38.610 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\GraphicsSetModule\GraphicsSetModuleAlgorithm.xml
+
+2024-08-22 13:42:38.610 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\IfBranchModule\IfBranchModuleAlgorithm.xml
+
+2024-08-22 13:42:38.610 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\PyShellModule\PyShellModuleAlgorithm.xml
+
+2024-08-22 13:42:38.611 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\Logic\ShellModule\ShellModuleAlgorithm.xml
+
+2024-08-22 13:42:38.615 ERROR [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@115] Root element is null
+
+2024-08-22 13:42:38.615 ERROR [25152] [CModulePathResolver::Init@92] modulename[IMVSBoxOverlapCalculationModu] xmlfile[C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\SplitCombination\IMVSBoxOverlapCalculationModu\IMVSBoxOverlapCalculationModuAlgorithm.xml] can not find
+
+2024-08-22 13:42:38.615 INFO  [25152] [CQueryConfigParam::QueryAlgorithmDefaultConfig@123] This file does not contain any param item element, file=C:\Program Files\VisionMaster4.3.0\Applications\ModuleProxy\x64\..\..\Module(sp)\x64\SplitCombination\IMVSMultiLabelFilterModu\IMVSMultiLabelFilterModuAlgorithm.xml
+
+2024-08-22 13:42:38.616 INFO  [25152] [CModulePathResolver::Init@111] CModulePathResolver Init End
+

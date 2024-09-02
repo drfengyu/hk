@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Base">
+      <Items>
+        <String Name="ServerRepAddress">
+          <CurValue>tcp://127.0.0.1:5555</CurValue>
+        </String>
+        <String Name="ModuleName">
+          <CurValue>GlobalCameraModule</CurValue>
+        </String>
+        <Bool Name="IsLoalModule">
+          <CurValue>0</CurValue>
+        </Bool>
+        <String Name="ModuleDisplayName">
+          <CurValue>GlobalCameraModule</CurValue>
+        </String>
+        <String Name="ModuleHelp">
+          <CurValue>Reserve</CurValue>
+        </String>
+        <String Name="DisplayType">
+          <CurValue>IMAGE_MODULE</CurValue>
+        </String>
+        <String Name="IsSaveTabXml">
+          <CurValue>False</CurValue>
+        </String>
+        <Integer Name="ModuleType">
+          <CurValue>6</CurValue>
+        </Integer>
+      </Items>
+    </Category>
+    <Category Name="Input">
+      <Items>
+        <Filter Name="TriggerString" ValueType="string" IsForce="false" Visible="false"></Filter>
+        <Filter Name="TriggerFilter" ValueType="string" IsForce="false" Visible="false"></Filter>
+        <Filter Name="ExposureTimeInput" StructName="ExposureTimeInput" ValueType="float" IsForce="false"></Filter>
+        <Filter Name="GainInput" StructName="GainInput" ValueType="float" IsForce="false"></Filter>
+      </Items>
+    </Category>
+    <Category Name="Output">
+      <Items>
+        <Combination Name="ImageData" Style="IMAGE" IsArray="false" VisibleInResultTree="false">
+          <Filters>
+            <Filter Name="Image" ValueType="image" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="Width" ValueType="int" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="Height" ValueType="int" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="PixelFormat" ValueType="int" IsForce="true" IsArray="false"></Filter>
+          </Filters>
+        </Combination>
+        <Filter Name="FrameNum" ValueType="int" IsForce="true" IsArray="false" VisibleInResultTree="false"></Filter>
+        <Filter Name="LostFrameCount" ValueType="int" IsForce="true" IsArray="false" VisibleInResultTree="false"></Filter>
+        <Filter Name="LostPacketCount" ValueType="int" IsForce="true" IsArray="false" VisibleInResultTree="false"></Filter>
+        <Filter Name="Port" ValueType="int" IsForce="true" IsArray="false" VisibleInResultTree="false"></Filter>
+      </Items>
+    </Category>
+    <Category Name="TransmitInfo">
+      <Items>
+        <String Name="pubaddress">
+          <CurValue>0</CurValue>
+        </String>
+        <Integer Name="cycleid">
+          <CurValue>0</CurValue>
+        </Integer>
+      </Items>
+    </Category>
+  </Categorys>
+</ParamRoot>

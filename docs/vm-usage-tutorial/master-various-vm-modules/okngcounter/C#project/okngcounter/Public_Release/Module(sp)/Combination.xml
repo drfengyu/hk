@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CombinRoot>
+  <Items>
+	<Combination Name="ImageData" Style="IMAGE" AccessMode="RW">
+	  <Filters>
+		<Filter Name="Image" ValueType="image" IsForce="true" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Filter Name="ImageWidth" ValueType="int" IsForce="true" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Filter Name="ImageHeight" ValueType="int" IsForce="true" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Filter Name="ImagePixelFormat" ValueType="int" IsForce="true" IsShow="true" AccessMode="RO">
+		</Filter>
+	  </Filters>
+	</Combination>
+	
+	<Combination Name="Point" Style="POINT" AccessMode="RW">
+	  <Filters>
+		<Filter Name="pointx" ValueType="float" AutoSubscribe="false" IsForce="false" IsShow="true" AccessMode="RW">
+		</Filter>
+		<Filter Name="pointy" ValueType="float" AutoSubscribe="false" IsForce="false" IsShow="true" AccessMode="RW">
+		</Filter>
+	  </Filters>
+	</Combination>
+	
+	<Combination Name="OutputLine" Style="LINE" AccessMode="RW">
+	  <Filters>
+		<Combination Name="LineStartPoint" Style="POINT" AccessMode="RW">
+		  <Filters>
+			<Filter Name="LineStartPointX" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="LineStartPointY" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+			</Filter>
+		  </Filters>
+		</Combination>
+		<Combination Name="LineEndPoint" Style="POINT" AccessMode="RW">
+		  <Filters>
+			<Filter Name="LineEndPointX" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="LineEndPointY" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+			</Filter>
+		  </Filters>
+		</Combination>
+	  </Filters>
+	</Combination>
+	
+	<Combination Name="InputROI" Style="ROIBOX" AccessMode="RW">
+	  <Filters>
+		<Combination Name="ROI CenterPoint" Style="POINT" AccessMode="RW">
+		  <Filters>
+			<Filter Name="roicenterx" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="roicentery" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+			</Filter>
+		  </Filters>
+		</Combination>
+		<Filter Name="roiwidth" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+		</Filter>
+		<Filter Name="roiheight" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+		</Filter>
+		<Filter Name="roiangle" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+		</Filter>
+	  </Filters>
+	</Combination>
+	
+	<Combination Name="Position Correction Info" Style="FIXTURE" AccessMode="RW">
+	  <Filters>
+		<Combination Name="Fixtured Point" Style="POINT" AccessMode="RW">
+		  <Filters>
+			<Filter Name="FixtureInitPointX" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+			</Filter>
+			<Filter Name="FixtureInitPointY" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+			</Filter>
+		  </Filters>
+		</Combination>
+		<Filter Name="FixtureInitAngle" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Filter Name="FixtureInitScaleX" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Filter Name="FixtureInitScaleY" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Combination Name="Unfixtured Point" Style="POINT" AccessMode="RW">
+		  <Filters>
+			<Filter Name="FixtureRunPointX" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+			</Filter>
+			<Filter Name="FixtureRunPointY" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+			</Filter>
+		  </Filters>
+		</Combination>
+		<Filter Name="FixtureRunAngle" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Filter Name="FixtureRunScaleX" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Filter Name="FixtureRunScaleY" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+		</Filter>
+	  </Filters>
+	</Combination>
+	
+	<Combination Name="Circle" Style="CIRCLE" AccessMode="RW">
+	  <Filters>
+		<Filter Name="radius" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+		</Filter>
+		<Combination Name="Center Point" Style="POINT" AccessMode="RW">
+		  <Filters>
+			<Filter Name="centerx" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="centery" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+			</Filter>
+		  </Filters>
+		</Combination>
+	  </Filters>
+	</Combination>
+
+	<Combination Name="OutputAnnulus" Style="ANNULUS" AccessMode="RW">
+		<Filters>
+			<Filter Name="AnnulusCenterX" StructName="AnnulusCenterX" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="AnnulusCenterY" StructName="AnnulusCenterY" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="AnnulusInnerRadius" StructName="AnnulusInnerRadius" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="AnnulusOuterRadius" StructName="AnnulusOuterRadius" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="AnnulusStartAngle" StructName="AnnulusStartAngle" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="AnnulusAngleExtend" StructName="AnnulusAngleExtend" ValueType="float" IsForce="false" IsShow="true" AccessMode="RW">
+			</Filter>
+		</Filters>
+	</Combination>
+	
+	<Combination Name="ROIAnnulus" Style="ROIANNULUS" AccessMode="RW">
+	  <Filters>
+		<Combination Name="DetectAnnulusCenterPoint" Style="POINT" AccessMode="RO">
+		  <Filters>
+			<Filter Name="DetectAnnulusCenterX" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+			</Filter>
+			<Filter Name="DetectAnnulusCenterY" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+			</Filter>
+		  </Filters>
+		</Combination>
+		<Filter Name="DetectAnnulusInnerRadius" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Filter Name="DetectAnnulusOuterRadius" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Filter Name="DetectAnnulusStartAngle" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+		</Filter>
+		<Filter Name="DetectAnnulusAngleExtend" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO">
+		</Filter>
+	  </Filters>
+	</Combination>
+    
+
+	
+	<Combination Name="ContourPoints" Style="CONTOURPOINTS" AccessMode="RW">
+		<Filters>
+			<Filter Name="ContourInfo" ValueType="pointset" IsForce="false" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="ContourNum" ValueType="int" IsForce="false" IsShow="true" AccessMode="RW" AutoSubscribe="false">
+			</Filter>
+		</Filters>
+	</Combination>
+	
+	<Combination Name="BlobRect" Style="Rect" AccessMode="RW">
+	  <Filters>
+		<Combination Name="RectPoint" Style="POINT" AccessMode="RW">
+		  <Filters>
+			<Filter Name="BlobRectX" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+			</Filter>
+			<Filter Name="BlobRectY" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+			</Filter>
+		  </Filters>
+		</Combination>
+		<Filter Name="BlobRectWidth" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+		</Filter>
+		<Filter Name="BlobRectHeight" ValueType="float" IsForce="true" IsShow="true" AccessMode="RW">
+		</Filter>
+	  </Filters>
+	</Combination>
+	
+	<Combination Name="ClassInfo" Style="CLASSINFO" AccessMode="RW" IsArray="true">
+          <Filters>
+            <Filter Name="ClassName" ValueType="string" IsForce="true" IsShow="true" AccessMode="RW" IsArray="true">
+            </Filter>
+            <Filter Name="GrayValue" ValueType="int" IsForce="true" IsShow="true" AccessMode="RW" IsArray="true">
+            </Filter>
+          </Filters>
+    </Combination>
+	
+	<Combination Name="DebugInfo" Style="DEBUG" AccessMode="RW">
+          <Filters>
+            <Filter Name="DebugInfoState" ValueType="int" IsForce="false" IsShow="false" AccessMode="RW">
+            </Filter>
+            <Filter Name="DebugInfoSize" ValueType="int" IsForce="false" IsShow="false" AccessMode="RW">
+            </Filter>
+            <Filter Name="DebugInfoAddr" ValueType="string" IsForce="false" IsShow="false" AccessMode="RW">
+            </Filter>
+          </Filters>
+    </Combination>
+	
+	<Combination Name="ClassImageInfo" Style="PIXELIMAGE" AccessMode="RW" IsArray="false">
+          <Filters>
+            <Combination Name="ClassImageData" Style="IMAGE" AccessMode="RW" IsArray="false">
+			  <Filters>
+				<Filter Name="ClassImage" ValueType="image" IsForce="true" IsShow="true" AccessMode="RW" IsArray="false">
+				</Filter>
+				<Filter Name="ClassImageWidth" ValueType="int" IsForce="true" IsShow="true" AccessMode="RW" IsArray="false">
+				</Filter>
+				<Filter Name="ClassImageHeight" ValueType="int" IsForce="true" IsShow="true" AccessMode="RW" IsArray="false">
+				</Filter>
+				<Filter Name="ClassImagePixelFormat" ValueType="int" IsForce="true" IsShow="true" AccessMode="RW" IsArray="false">
+				</Filter>
+			  </Filters>
+			</Combination>
+			<Combination Name="ClassInfo" Style="CLASSINFO" AccessMode="RW" IsArray="true">
+			  <Filters>
+				<Filter Name="ClassName" ValueType="string" IsForce="true" IsShow="true" AccessMode="RW" IsArray="true">
+				</Filter>
+				<Filter Name="GrayValue" ValueType="int" IsForce="true" IsShow="true" AccessMode="RW" IsArray="true">
+				</Filter>
+			  </Filters>
+			</Combination>
+          </Filters>
+    </Combination>	
+	
+	<Combination Name="Posture" Style="POSTURE" AccessMode="RW">
+		<Filters>
+			<Combination Name="Point" Style="POINT" AccessMode="RW">
+				<Filters>
+					<Filter Name="X" ValueType="float" AutoSubscribe="false" IsForce="false" IsShow="true" AccessMode="RW">
+					</Filter>
+					<Filter Name="Y" ValueType="float" AutoSubscribe="false" IsForce="false" IsShow="true" AccessMode="RW">
+					</Filter>
+				</Filters>
+			</Combination>
+			<Filter Name="R" ValueType="float" AutoSubscribe="false" IsForce="false" IsShow="true" AccessMode="RW">
+			</Filter>
+		</Filters>	
+	</Combination>
+	
+	<Combination Name="BlindPolygon" Style="ROIPOLYGON" AccessMode="RW" IsArray="true">
+	  <Filters>
+		<Filter Name="BlindPolygonPointNum" ValueType="int" IsForce="false" IsShow="true" AccessMode="RO" IsArray="true">
+		</Filter>
+		<Combination Name="BlindPolygonPoints" Style="POINT" AccessMode="RO" IsArray="true">
+		  <Filters>
+			<Filter Name="BlindPolygonPointsX" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO" IsArray="true">
+			</Filter>
+			<Filter Name="BlindPolygonPointsY" ValueType="float" IsForce="false" IsShow="true" AccessMode="RO" IsArray="true">
+			</Filter>
+		  </Filters>
+		</Combination>
+	  </Filters>
+    </Combination>
+	
+	<Combination Name="Ellipse" Style="ELLIPSE">
+	  <Filters>
+	  <Combination Name="Center Point" Style="POINT">
+		  <Filters>
+			<Filter Name="CenterX" ValueType="float" IsForce="true"></Filter>
+			<Filter Name="CenterY" ValueType="float" IsForce="true"></Filter>
+		  </Filters>
+		</Combination>
+		<Filter Name="MajorRadius" ValueType="float" IsForce="true"></Filter>
+		<Filter Name="MinorRadius" ValueType="float" IsForce="true"></Filter>
+		<Filter Name="Angle" ValueType="float" IsForce="true"></Filter>		
+	  </Filters>
+	</Combination>
+        
+   </Items>	
+</CombinRoot>

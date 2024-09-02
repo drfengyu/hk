@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Display" okcolor="#7cfc00" ngcolor="#ff0000">
+      <Items>
+	    <!--增加这个Object是为了选中没有配置显示项的流程时自动开启流程的结果回调，没有实际意义 by shenhongbin 2022/1/17-->
+        <Object Name="datarecord" Type="datarecord" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true">
+          <Features>
+            <Feature Name="Content" Value="" Mapping="NULL" />
+            <Feature Name="Num" Value="1" Mapping="NULL" />
+          </Features>
+        </Object>
+      </Items>
+    </Category>
+  </Categorys>
+</ParamRoot>

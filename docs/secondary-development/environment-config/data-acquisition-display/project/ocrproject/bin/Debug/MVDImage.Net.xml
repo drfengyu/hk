@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MVDImage.Net</name>
+    </assembly>
+    <members>
+        <member name="T:VisionDesigner.CMvdImage">
+            <summary>
+            Class of image definition
+            </summary>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.IsValidImgDataInfo(System.UInt32,System.UInt32,VisionDesigner.MVD_PIXEL_FORMAT,VisionDesigner.MVD_IMAGE_DATA_INFO)">
+            图像数据是否有效
+            <param name="nWidth">宽</param>
+            <param name="nHeight">高</param>
+            <param name="enPixelFormat">像素类型</param>
+            <param name="stImageData">图像数据</param>
+            <returns>有效返回MVD_OK，无效返回错误码 </returns>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.Init">
+            初始化资源
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.DeInit">
+            销毁资源
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.InitImage(VisionDesigner.CMvdImage)">
+            初始化图像
+            <param name="refCMVDImageNet"></param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.GetImageSize(VisionDesigner.MVD_PIXEL_FORMAT,System.UInt32,System.UInt32)">
+            获取图像标准大小
+            <param name="enPixelFormat">像素格式</param>
+            <param name="nWidth">宽</param>
+            <param name="nHeight">高</param>
+            <returns>图像标准大小</returns>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.GetFileFormat(System.String)">
+            Get file format by file name
+            <param name="sFileName">full file path with name</param>
+            <returns>file format</returns>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.InitImage(System.String)">
+            <summary>
+            Initialize the image instance from local file without changing pixel format
+            </summary>
+            <param name="pcFileName">file name with path</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.InitImage(System.String,VisionDesigner.MVD_PIXEL_FORMAT)">
+            <summary>
+            Initialize the image instance from local file
+            </summary>
+            <param name="pcFileName">file name with path</param>
+            <param name="enPixelFormat">Target pixel format to decode</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.InitImage(System.UInt32,System.UInt32,VisionDesigner.MVD_PIXEL_FORMAT)">
+            <summary>
+            Initialize the image instance with each pixel value of 0
+            </summary>
+            <param name="nWidth">width of the image</param>
+            <param name="nHeight">height of the image</param>
+            <param name="enPixelFormat">pixel format of the image</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.InitImage(System.UInt32,System.UInt32,System.Int32)">
+            <summary>
+            Initialize the image instance with each pixel value of 0
+            </summary>
+            <param name="nWidth">width of the image</param>
+            <param name="nHeight">height of the image</param>
+            <param name="nPixelFormat">pixel format of the image</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.InitImage(System.UInt32,System.UInt32,VisionDesigner.MVD_PIXEL_FORMAT,VisionDesigner.MVD_IMAGE_DATA_INFO)">
+            <summary>
+            Initialize the image instanc from data buffer (No internal copy)
+            </summary>
+            <param name="nWidth">width of the image</param>
+            <param name="nHeight">height of the image</param>
+            <param name="enPixelFormat">pixel format of the image</param>
+            <param name="stImageData">whole data buffer of the image</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.GetImageData(System.Int32)">
+            <summary>
+            Get single channel data of the image
+            </summary>
+            <param name="nIndex">Channel index number (numbered from 0)</param>
+            <returns>data information</returns>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.GetImageData">
+            <summary>
+             Get data information of the whole image
+            </summary>
+            <returns>image data information</returns>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.Clone">
+            <summary>
+            Clone operation
+            </summary>
+            <returns>new object of CMVDImageNet</returns>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.ConvertImagePixelFormat(VisionDesigner.MVD_PIXEL_FORMAT)">
+            <summary>
+            Convert image to the specified pixel format
+            </summary>
+            <param name="enDstPixelFormat">Target pixel format</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.SaveImage(System.String)">
+            <summary>
+            Save Image to file
+            </summary>
+            <param name="pcFileName">file name with path</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.SaveImage(System.String,VisionDesigner.MVD_FILE_FORMAT)">
+            <summary>
+            Save Image to file
+            </summary>
+            <param name="pcFileName">file name with path</param>
+            <param name="nFileFormat">Target file format</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.SaveJpeg(System.UInt32,System.String)">
+            <summary>
+            Save Image to Jpeg file
+            </summary>
+            <param name="nJpegQuality">file quality (0-100)</param>
+            <param name="pcFileName">file name with path</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.SetPixel(System.UInt32,System.UInt32,System.Byte[])">
+            <summary>
+            Update the value of the specified pixel
+            </summary>
+            <param name="nRowId">row of pixel</param>
+            <param name="nColId">column of pixel</param>
+            <param name="pcDstVal">target of pixel value</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.SetPixel(System.Int32,System.Int32,System.Collections.Generic.List{System.Byte})">
+            <summary>
+            Update the value of the specified pixel
+            </summary>
+            <param name="nX">x of pixel</param>
+            <param name="nY">y of pixel</param>
+            <param name="pixelValue">target of pixel value</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.GetPixel(System.Int32,System.Int32)">
+            <summary>
+            Get the value of the specified pixel
+            </summary>
+            <param name="nX">x of pixel</param>
+            <param name="nY">y of pixel</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.ResizeImage(System.UInt32,System.UInt32,VisionDesigner.MVD_IMG_INTERPOLATION_TYPE)">
+            <summary>
+            Scale the image to target size with specified interpolation algorithm
+            </summary>
+            <param name="nDstWidth">target image width</param>
+            <param name="nDstHeight">target image height</param>
+            <param name="enInterpolationType">type of interpolation algorithm</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.ClipImage(System.UInt32,System.UInt32,System.UInt32,System.UInt32)">
+            <summary>
+            Choose rectangle to clip image
+            </summary>
+            <param name="nClipX">the left top x of the rectangle</param>
+            <param name="nClipY">the left top y of the rectangle</param>
+            <param name="nClipWidth">the width of the rectangle</param>
+            <param name="nClipHeight">the height top x of the rectangle</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.RotateImage(VisionDesigner.MVD_IMG_ROTATION_ANGLE)">
+            <summary>
+            Choose angle to rotate image
+            </summary>
+            <param name="enRotationAngle">rotation angle</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.FlipImage(VisionDesigner.MVD_IMG_FLIP_TYPE)">
+            <summary>
+            Choose flip type to flip image
+            </summary>
+            <param name="enFlipType">filp type</param>
+        </member>
+        <member name="M:VisionDesigner.CMvdImage.Dispose">
+            <summary>
+            资源释放
+            </summary>
+        </member>
+        <member name="P:VisionDesigner.CMvdImage.PixelFormat">
+            <summary>
+            像素格式
+            </summary>
+        </member>
+        <member name="P:VisionDesigner.CMvdImage.Height">
+            <summary>
+            图像高
+            </summary>
+        </member>
+        <member name="P:VisionDesigner.CMvdImage.Width">
+            <summary>
+            图像宽
+            </summary>
+        </member>
+        <member name="P:VisionDesigner.CMvdImage.IsEmpty">
+            <summary>
+            图像是否为空.为空时返回true;否则返回false
+            </summary>
+        </member>
+        <member name="P:VisionDesigner.CMvdImage.PrivateData">
+            <summary>
+            私有数据
+            </summary>
+        </member>
+    </members>
+</doc>

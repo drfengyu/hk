@@ -1,0 +1,162 @@
+﻿2024-08-22 10:54:35.336 ERROR [6] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-22 10:56:58.866 INFO  [14] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2482487868528
+
+2024-08-22 10:56:58.868 INFO  [14] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-22 10:58:45.650 INFO  [35] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2482487868528
+
+2024-08-22 10:58:45.651 INFO  [35] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-22 10:58:47.192 INFO  [30] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2482487868528
+
+2024-08-22 10:58:47.194 INFO  [30] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-22 10:59:03.416 INFO  [30] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2482487868528
+
+2024-08-22 10:59:03.417 INFO  [30] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-22 11:35:56.510 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-22 11:37:33.811 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-22 13:13:49.161 ERROR [6] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-22 13:19:36.794 ERROR [8] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-22 14:14:26.316 ERROR [13] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-22 14:15:52.213 ERROR [5] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-22 14:16:16.987 INFO  [5] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2109783765520
+
+2024-08-22 14:16:16.990 INFO  [5] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-22 14:16:55.374 ERROR [5] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-22 14:17:05.904 INFO  [5] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2240311258144
+
+2024-08-22 14:17:05.906 INFO  [5] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-22 15:24:14.696 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-22 15:24:40.620 INFO  [6] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2518199448832
+
+2024-08-22 15:24:40.622 INFO  [6] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-22 15:28:57.502 INFO  [32] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2518199448832
+
+2024-08-22 15:28:57.503 INFO  [32] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-22 15:29:47.631 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-22 15:29:56.360 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:1956046814048
+
+2024-08-22 15:29:56.362 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-22 15:30:28.342 INFO  [18] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:1956046814048
+
+2024-08-22 15:30:28.343 INFO  [18] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-22 15:30:30.359 INFO  [20] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:1956046814048
+
+2024-08-22 15:30:30.360 INFO  [20] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 09:50:42.282 ERROR [6] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 10:03:57.795 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 13:24:57.572 ERROR [4] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 13:37:55.778 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 13:40:38.083 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 13:45:26.540 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 13:48:12.934 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 13:51:49.642 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 13:54:48.515 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 14:02:00.126 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 14:05:08.093 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2738906248384
+
+2024-08-23 14:05:08.096 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 14:11:23.137 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 14:48:59.860 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 15:17:11.132 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:1867822718304
+
+2024-08-23 15:17:11.134 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 16:14:10.657 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 16:14:20.772 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2701341082048
+
+2024-08-23 16:14:20.775 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 16:15:23.146 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 16:15:30.231 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:1702563899696
+
+2024-08-23 16:15:30.233 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 16:23:45.580 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 16:30:36.343 ERROR [5] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 16:37:33.578 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 16:37:41.674 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2730293772928
+
+2024-08-23 16:37:41.677 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 16:50:35.215 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 16:50:48.952 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:1467437286240
+
+2024-08-23 16:50:48.954 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 16:51:00.294 INFO  [16] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:1467437286240
+
+2024-08-23 16:51:00.295 INFO  [16] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 16:57:28.361 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 16:57:38.136 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2359949629392
+
+2024-08-23 16:57:38.138 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 17:10:03.892 INFO  [26] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2359949629392
+
+2024-08-23 17:10:03.893 INFO  [26] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 17:10:47.291 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 17:11:06.074 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:1639307745360
+
+2024-08-23 17:11:06.076 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 17:12:03.530 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 17:12:14.714 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2372747461920
+
+2024-08-23 17:12:14.716 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 17:17:49.727 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 17:17:56.520 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2305089393600
+
+2024-08-23 17:17:56.523 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+
+2024-08-23 17:25:16.378 ERROR [3] [VM.GlobalScript.Methods.PlatformSdkFunction::GetAllProcess@0] IMVS_PF_GetAllProcessList_CS faild
+
+2024-08-23 17:25:30.088 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] m_operateHandle:2160179339648
+
+2024-08-23 17:25:30.090 INFO  [3] [VM.GlobalScript.Methods.UserGlobalMethods::DefaultExecuteProcess@0] IMVS_PF_ExecuteOnce_CS executed
+

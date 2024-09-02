@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IfModuleCs</name>
+    </assembly>
+    <members>
+        <member name="T:IfModuleCs.IfModuleTool">
+            <summary>
+            CH: 条件检测 | EN: If Module
+            </summary>
+        </member>
+        <member name="P:IfModuleCs.IfModuleTool.ModuResult">
+            <summary>
+            CH: 模块结果对象 | EN: Module Result Object
+            </summary>
+        </member>
+        <member name="P:IfModuleCs.IfModuleTool.ModuParams">
+            <summary>
+            CH: 模块参数对象 | EN: Module Param Object
+            </summary>
+        </member>
+        <member name="M:IfModuleCs.IfModuleTool.Run">
+            <summary>
+            CH: 模块自执行 | EN: Module Self Run
+            </summary>
+        </member>
+        <member name="T:IfModuleCs.IfItemParam">
+            <summary>
+            CH: 条件项参数 | EN: Condition Item Param
+            </summary>
+        </member>
+        <member name="P:IfModuleCs.IfItemParam.MaxValue">
+            <summary>
+            CH: 最大值 | EN: Max Value
+            </summary>
+        </member>
+        <member name="P:IfModuleCs.IfItemParam.MinValue">
+            <summary>
+            CH: 最小值 | EN: Min Value
+            </summary>
+        </member>
+        <member name="M:IfModuleCs.IfItemParam.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:IfModuleCs.IfItemParam.#ctor(VM.PlatformSDKCS.ParamItem,VM.PlatformSDKCS.ParamItem)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="T:IfModuleCs.IfParam">
+            <summary>
+            CH: 条件检测 | EN: Condition Detection
+            </summary>
+        </member>
+        <member name="P:IfModuleCs.IfParam.LogicalMode">
+            <summary>
+            CH: 逻辑处理模式 | EN: Logic Processing Mode
+            </summary>
+        </member>
+        <member name="F:IfModuleCs.IfParam.LogicalModeEnum.And">
+            <summary>
+            CH: 全部 | EN: All
+            </summary>
+        </member>
+        <member name="F:IfModuleCs.IfParam.LogicalModeEnum.Or">
+            <summary>
+            CH: 任意 | EN: Any
+            </summary>
+        </member>
+        <member name="M:IfModuleCs.IfParam.GetIfItemParam(System.String)">
+            <summary>
+            CH: 获取条件项参数(最大值/最小值等) | EN: Get Condition Item Param(Max Value/Min Value)
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN: Condition Item Name </param>
+            <returns> CH: 条件项参数 | EN: Condition Item Param </returns>
+        </member>
+        <member name="M:IfModuleCs.IfParam.GetDynamicParam(System.String)">
+            <summary>
+            CH: 获取动态参数项(单例模式) | EN: Get Condition Item Param(Singleton Pattern)
+            CH: 参数名称为"界面变量名_参数用途" 如"int0_Max" | EN: Parameters Name such as "int0_Max"
+            </summary>
+            <param name="strName"> CH: 参数名称 | EN: Parameters Name </param>
+            <returns> CH: 参数项 | EN: Parameters Item </returns>
+        </member>
+        <member name="P:IfModuleCs.IfParam.DynamicParams">
+            <summary>
+            CH: 动态参数集合 | EN: Dynamic Parameters Set
+            </summary>
+        </member>
+        <member name="M:IfModuleCs.IfParam.#ctor(System.UInt32)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="T:IfModuleCs.IfResult">
+            <summary>
+            CH: 条件检测 | EN: Condition Detection
+            </summary>
+        </member>
+        <member name="M:IfModuleCs.IfResult.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="P:IfModuleCs.IfResult.ModuStatus">
+            <summary>
+            CH: 模块状态 | EN: ModuStatus
+            </summary>
+        </member>
+        <member name="P:IfModuleCs.IfResult.StrResult">
+            <summary>
+            CH: 结果（STRING） | EN: StrResult
+            </summary>
+        </member>
+        <member name="P:IfModuleCs.IfResult.NIfResult">
+            <summary>
+            CH: 结果（INT） | EN: nIfResult
+            </summary>
+        </member>
+        <member name="P:IfModuleCs.IfResult.IfItemResult">
+            <summary>
+            CH: 条件项结果 | EN: If Item Result
+            </summary>
+        </member>
+        <member name="P:IfModuleCs.IfResult.IfItemStatus">
+            <summary>
+            CH: 条件项状态 | EN: If Item Status
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IfBranchModuleCs</name>
+    </assembly>
+    <members>
+        <member name="T:IfBranchModuleCs.IfBranchModuleTool">
+            <summary>
+            CH: 条件分支 | EN: Condition-Branch
+            </summary>
+        </member>
+        <member name="P:IfBranchModuleCs.IfBranchModuleTool.ModuResult">
+            <summary>
+            CH: 模块结果对象 | EN: Module Result Object
+            </summary>
+        </member>
+        <member name="P:IfBranchModuleCs.IfBranchModuleTool.ModuParams">
+            <summary>
+            CH: 模块参数对象 | EN: Module Param Object
+            </summary>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchModuleTool.Run">
+            <summary>
+            CH: 模块自执行 | EN: Module Self Run
+            </summary>
+        </member>
+        <member name="T:IfBranchModuleCs.IfBranchParam">
+            <summary>
+            CH: 条件分支 | EN: Condition-Branch
+            </summary>
+        </member>
+        <member name="F:IfBranchModuleCs.IfBranchParam.BranchStateEnum.BranchState_OK">
+            <summary>
+            CH: OK | EN: OK
+            </summary>
+        </member>
+        <member name="F:IfBranchModuleCs.IfBranchParam.BranchStateEnum.BranchState_NG">
+            <summary>
+            CH: NG | EN: NG
+            </summary>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.GetIntMinValue(System.String)">
+            <summary>
+            CH: 获取整型条件项的最小值 | EN: 
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN:  </param>
+            <returns> CH: 条件项最小值 | EN:  </returns>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.SetIntMinValue(System.String,System.Int32)">
+            <summary>
+            CH: 设置整型条件项的最小值 | EN: 
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN:  </param>
+            /// <param name="nMin"> CH: 条件项值 | EN:  </param>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.GetFloatMinValue(System.String)">
+            <summary>
+            CH: 获取浮点条件项的最小值 | EN: 
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN:  </param>
+            <returns> CH: 条件项最小值 | EN:  </returns>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.SetFloatMinValue(System.String,System.Double)">
+            <summary>
+            CH: 设置浮点条件项的最小值 | EN: 
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN:  </param>
+            /// <param name="dMin"> CH: 条件项值 | EN:  </param>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.GetIntMaxValue(System.String)">
+            <summary>
+            CH: 获取整型条件项的最大值 | EN: 
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN:  </param>
+            <returns> CH: 条件项最小值 | EN:  </returns>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.SetIntMaxValue(System.String,System.Int32)">
+            <summary>
+            CH: 设置整型条件项的最大值 | EN: 
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN:  </param>
+            /// <param name="nMax"> CH: 条件项值 | EN:  </param>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.GetFloatMaxValue(System.String)">
+            <summary>
+            CH: 获取浮点条件项的最大值 | EN: 
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN:  </param>
+            <returns> CH: 条件项最小值 | EN:  </returns>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.SetFloatMaxValue(System.String,System.Double)">
+            <summary>
+            CH: 设置浮点条件项的最大值 | EN: 
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN:  </param>
+            /// <param name="dMax"> CH: 条件项值 | EN:  </param>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.GetStateValue(System.String)">
+            <summary>
+            CH: 获取整型条件项的最大值 | EN: 
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN:  </param>
+            <returns> CH: 条件项最小值 | EN:  </returns>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.SetStateValue(System.String,IfBranchModuleCs.IfBranchParam.BranchStateEnum)">
+            <summary>
+            CH: 设置整型条件项的最大值 | EN: 
+            </summary>
+            <param name="strName"> CH: 条件项名称 | EN:  </param>
+            /// <param name="eState"> CH: 条件项中的判断项 | EN:  </param>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchParam.#ctor(System.UInt32)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="T:IfBranchModuleCs.IfBranchResult">
+            <summary>
+            CH: 条件分支 | EN: Condition-Branch
+            </summary>
+        </member>
+        <member name="M:IfBranchModuleCs.IfBranchResult.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="P:IfBranchModuleCs.IfBranchResult.ModuStatus">
+            <summary>
+            CH: 模块状态 | EN: ModuStatus
+            </summary>
+        </member>
+        <member name="P:IfBranchModuleCs.IfBranchResult.BranchMatch">
+            <summary>
+            CH: 分支路线 | EN: BranchMatch
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmParamList>
+  
+	<ParamItem>
+		<Name>DcfPath</Name>
+		<DefaultValue></DefaultValue>
+	</ParamItem>
+	
+	<ParamItem>
+		<Name>LoadCamera</Name>
+		<DefaultValue></DefaultValue>
+	</ParamItem>
+	
+	<ParamItem>
+		<Name>ExposureTime</Name>
+		<DefaultValue>0</DefaultValue>
+	</ParamItem>
+	<ParamItem>
+		<Name>AcquisitionFrameRate</Name>
+		<DefaultValue>53.907162</DefaultValue>
+	</ParamItem>
+	<ParamItem>
+		<Name>AcquisitionFrameRateAbs</Name>
+		<DefaultValue>53.907162</DefaultValue>
+	</ParamItem>
+	<ParamItem>
+		<Name>AcquisitionLineRate</Name>
+		<DefaultValue>100</DefaultValue>
+	</ParamItem>
+	<ParamItem>
+		<Name>GainAuto</Name>
+		<DefaultValue>0</DefaultValue>
+	</ParamItem>
+	<ParamItem>
+		<Name>Gain</Name>
+		<DefaultValue>3.5</DefaultValue>
+	</ParamItem>
+	<ParamItem>
+		<Name>ExposureTimeAbs</Name>
+		<DefaultValue>0</DefaultValue>
+	</ParamItem>
+
+</AlgorithmParamList>

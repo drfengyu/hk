@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMappingItem>
+  <MappingItem Category="property_displayname" Name="Width" Display="宽度" />
+  <MappingItem Category="property_displayname" Name="Height" Display="高度" />
+  <MappingItem Category="property_displayname" Name="Size" Display="尺寸" />
+  <MappingItem Category="property_displayname" Name="Background" Display="背景" />
+  <MappingItem Category="property_displayname" Name="Margin" Display="边距" />
+  <MappingItem Category="property_displayname" Name="Foreground" Display="字体颜色" />
+  <MappingItem Category="property_displayname" Name="Header" Display="标题" />
+  <MappingItem Category="property_displayname" Name="Font" Display="字体" />
+  <MappingItem Category="property_displayname" Name="BorderThickness" Display="边框厚度" />
+  <MappingItem Category="property_displayname" Name="BorderBrush" Display="边框颜色" />
+  <MappingItem Category="property_displayname" Name="ImageData" Display="图像源" />
+  <MappingItem Category="property_displayname" Name="ColumnName" Display="列名" />
+  <MappingItem Category="property_displayname" Name="CornerRadius" Display="圆角半径" />
+  <MappingItem Category="property_displayname" Name="ValueType" Display="数据类型" />
+  <MappingItem Category="property_displayname" Name="BindingPath" Display="数据源"/>
+  <MappingItem Category="property_displayname" Name="BindGlobalVariable" Display="绑定全局变量"/>
+  <MappingItem Category="property_displayname" Name="ButtonColor" Display="按钮颜色"/>
+  <MappingItem Category="property_displayname" Name="IconColor" Display="图标颜色"/>
+  <MappingItem Category="property_displayname" Name="Format" Display="格式化字符串"/>
+  <MappingItem Category="property_displayname" Name="Text" Display="显示文本"/>
+  <MappingItem Category="property_displayname" Name="ShowIcon" Display="显示图标"/>
+  <MappingItem Category="property_displayname" Name="Stretch" Display="拉伸模式"/>
+  <MappingItem Category="property_displayname" Name="Title" Display="标题"/>
+  <MappingItem Category="property_displayname" Name="HeaderBrush" Display="标题栏颜色"/>
+  <MappingItem Category="property_displayname" Name="BusyBackColor" Display="背景色"/>
+  <MappingItem Category="property_displayname" Name="BusyForeColor" Display="前景色"/>
+  <MappingItem Category="property_displayname" Name="FreeBackColor" Display="背景色"/>
+  <MappingItem Category="property_displayname" Name="FreeForeColor" Display="前景色"/>
+  <MappingItem Category="property_displayname" Name="OKFont" Display="字体"/>
+  <MappingItem Category="property_displayname" Name="OKContent" Display="内容"/>
+  <MappingItem Category="property_displayname" Name="OKBorderThickness" Display="边框厚度"/>
+  <MappingItem Category="property_displayname" Name="OKBorderColor" Display="边框颜色"/>
+  <MappingItem Category="property_displayname" Name="OKBackColor" Display="背景色"/>
+  <MappingItem Category="property_displayname" Name="OKForeColor" Display="字体色"/>
+  <MappingItem Category="property_displayname" Name="NGFont" Display="字体"/>
+  <MappingItem Category="property_displayname" Name="NGContent" Display="内容"/>
+  <MappingItem Category="property_displayname" Name="NGBorderThickness" Display="边框厚度"/>
+  <MappingItem Category="property_displayname" Name="NGBorderColor" Display="边框颜色"/>
+  <MappingItem Category="property_displayname" Name="NGForeColor" Display="字体色"/>
+  <MappingItem Category="property_displayname" Name="NGBackColor" Display="背景色"/>
+  <MappingItem Category="property_displayname" Name="CommandType" Display="参数类型"/>
+  <MappingItem Category="property_displayname" Name="GraphicsBinding" Display="图形源"/>
+  <MappingItem Category="property_displayname" Name="ShowCross" Display="显示辅助线"/>
+  <MappingItem Category="property_displayname" Name="CrossThickness" Display="厚度"/>
+  <MappingItem Category="property_displayname" Name="HorizontalOffset" Display="水平偏移"/>
+  <MappingItem Category="property_displayname" Name="VerticalOffset" Display="垂直偏移"/>
+  <MappingItem Category="property_displayname" Name="CrossBrush" Display="颜色"/>
+  <MappingItem Category="property_displayname" Name="ColumnCout" Display="列数"/>
+  <MappingItem Category="property_displayname" Name="RowCount" Display="行数"/>
+  <MappingItem Category="property_displayname" Name="Columns" Display="列绑定"/>
+  <MappingItem Category="property_displayname" Name="ParamType" Display="参数类型"/>
+  <MappingItem Category="property_displayname" Name="FitSize" Display="自适应"/>
+  <MappingItem Category="property_displayname" Name="Document" Display="编辑子界面"/>
+  <MappingItem Category="property_displayname" Name="SubWindowPassword" Display="密码"/>
+  <MappingItem Category="property_displayname" Name="ShowTitle" Display="标题栏菜单"/>
+  <MappingItem Category="property_category" Name="Foreground" Display="外观" />
+  <MappingItem Category="property_category" Name="ImageData" Display="图像" />
+  <MappingItem Category="property_category" Name="ShowCross" Display="辅助线"/>
+  <MappingItem Category="property_category" Name="CrossThickness" Display="辅助线"/>
+  <MappingItem Category="property_category" Name="CrossBrush" Display="辅助线"/>
+  <MappingItem Category="property_category" Name="HorizontalOffset" Display="辅助线"/>
+  <MappingItem Category="property_category" Name="VerticalOffset" Display="辅助线"/>
+  <MappingItem Category="property_category" Name="Width" Display="外观" />
+  <MappingItem Category="property_category" Name="Size" Display="布局" />
+  <MappingItem Category="property_category" Name="BorderBrush" Display="外观" />
+  <MappingItem Category="property_category" Name="BorderThickness" Display="外观" />
+  <MappingItem Category="property_category" Name="Height" Display="外观" />
+  <MappingItem Category="property_category" Name="Background" Display="外观" />
+  <MappingItem Category="property_category" Name="Font" Display="外观" />
+  <MappingItem Category="property_category" Name="Header" Display="外观" />
+  <MappingItem Category="property_category" Name="CornerRadius" Display="外观" />
+  <MappingItem Category="property_category" Name="Margin" Display="布局"/>
+  <MappingItem Category="property_category" Name="ValueType" Display="数据绑定"/>
+  <MappingItem Category="property_category" Name="BindingPath" Display="数据绑定"/>
+  <MappingItem Category="property_category" Name="BindingPath" Display="数据绑定"/>
+  <MappingItem Category="property_category" Name="BindGlobalVariable" Display="数据绑定"/>
+  <MappingItem Category="property_category" Name="ButtonColor" Display="外观"/>
+  <MappingItem Category="property_category" Name="IconColor" Display="外观"/>
+  <MappingItem Category="property_category" Name="Format" Display="数据绑定"/>
+  <MappingItem Category="property_category" Name="Text" Display="外观"/>
+  <MappingItem Category="property_category" Name="ShowIcon" Display="外观"/>
+  <MappingItem Category="property_category" Name="Stretch" Display="图像"/>
+  <MappingItem Category="property_category" Name="Title" Display="外观"/>
+  <MappingItem Category="property_category" Name="HeaderBrush" Display="外观"/>
+  <MappingItem Category="property_category" Name="BusyBackColor" Display="样式_忙碌"/>
+  <MappingItem Category="property_category" Name="BusyForeColor" Display="样式_忙碌"/>
+  <MappingItem Category="property_category" Name="FreeBackColor" Display="样式_空闲"/>
+  <MappingItem Category="property_category" Name="FreeForeColor" Display="样式_空闲"/>
+  <MappingItem Category="property_category" Name="OKFont" Display="样式_OK"/>
+  <MappingItem Category="property_category" Name="OKContent" Display="样式_OK"/>
+  <MappingItem Category="property_category" Name="OKBorderThickness" Display="样式_OK"/>
+  <MappingItem Category="property_category" Name="OKBorderColor" Display="样式_OK"/>
+  <MappingItem Category="property_category" Name="OKBackColor" Display="样式_OK"/>
+  <MappingItem Category="property_category" Name="OKForeColor" Display="样式_OK"/>
+  <MappingItem Category="property_category" Name="NGFont" Display="样式_NG"/>
+  <MappingItem Category="property_category" Name="NGContent" Display="样式_NG"/>
+  <MappingItem Category="property_category" Name="NGBorderThickness" Display="样式_NG"/>
+  <MappingItem Category="property_category" Name="NGBorderColor" Display="样式_NG"/>
+  <MappingItem Category="property_category" Name="NGForeColor" Display="样式_NG"/>
+  <MappingItem Category="property_category" Name="NGBackColor" Display="样式_NG"/>
+  <MappingItem Category="property_category" Name="CommandType" Display="数据绑定"/>
+  <MappingItem Category="property_category" Name="GraphicsBinding" Display="数据绑定"/>
+  <MappingItem Category="property_category" Name="ParamType" Display="数据绑定"/>
+  <MappingItem Category="property_category" Name="ColumnCout" Display="表格"/>
+  <MappingItem Category="property_category" Name="RowCount" Display="表格"/>
+  <MappingItem Category="property_category" Name="Columns" Display="表格"/>
+  <MappingItem Category="property_category" Name="FitSize" Display="布局"/>
+  <MappingItem Category="property_category" Name="Document" Display="设计"/>
+  <MappingItem Category="property_category" Name="SubWindowPassword" Display="设计"/>
+  <MappingItem Category="property_category" Name="ShowTitle" Display="外观"/>
+  <MappingItem Category="property_category" Name="Foreground" Display="外观" />
+</ArrayOfMappingItem>

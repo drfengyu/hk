@@ -1,0 +1,107 @@
+<Window x:Class="TestModuControl.ModelConfigDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:VMControls.WPF;assembly=VMControls.WPF"
+        xmlns:paramcontrol="clr-namespace:Apps.XmlUI;assembly=Apps.XmlUI"
+        xmlns:local="clr-namespace:TestModuControl"
+        mc:Ignorable="d"
+        Title="模板配置" x:Name="window" Height="534" Width="820" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.Resources>
+            <ResourceDictionary>
+                <ResourceDictionary.MergedDictionaries>
+                    <ResourceDictionary Source="/TestModuControl;component/Style/ModelControlStyle.xaml"/>
+                    <ResourceDictionary Source="/Apps.XmlUI;component/ResourceDictionaries/GlobalResources.xaml"/>
+                </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#f2f3f5">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" HorizontalAlignment="Left" Orientation="Horizontal" Margin="0,0,0,5">
+                    <Button Style="{StaticResource ButtonStyle}" Width="95" Height="24" Margin="0,4,8,6" Click="AddImgButton_Click" Content="添加模型图像"/>
+                    <Button Style="{StaticResource ButtonStyle}" Width="95" Height="24" Margin="0,4,8,6" Click="DrawButton_Click" Content="绘制矩形" x:Name="BtnDraw"/>
+                </StackPanel>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="270"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" BorderBrush="#E6E6E6" BorderThickness="1" Margin="0,0,5,0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid Name="viewGrid" Grid.RowSpan="2">
+                                <controls:RenderControlBase x:Name="imageView"/>
+                            </Grid>
+                            <Grid Grid.Row="1" Name="mROIView">
+                                <Canvas x:Name="mView" Background="Transparent" MouseLeftButtonDown="OnMouseLeftButtonDown" MouseLeftButtonUp ="OnMouseLeftButtonUp" MouseMove="OnMouseMove" Visibility="Collapsed">
+                                    <Canvas.RenderTransform>
+                                        <ScaleTransform x:Name="stf"/>
+                                    </Canvas.RenderTransform>
+                                </Canvas>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid Background="White">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="中心点X" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock Grid.Row="1" Text="中心点Y" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock Grid.Row="2" Text="矩形宽度" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock Grid.Row="3" Text="矩形高度" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock Grid.Row="4" Text="旋转角度" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBox x:Name="tbCenterX" Grid.Column="1" Width="120" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBox x:Name="tbCenterY" Grid.Row="1" Grid.Column="1" Width="120" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBox x:Name="tbWidth" Grid.Row="2" Grid.Column="1" Width="120" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBox x:Name="tbHeight" Grid.Row="3" Grid.Column="1" Width="120" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBox x:Name="tbAngle" Grid.Row="4" Grid.Column="1" Width="120" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <Button Grid.Row="5" Grid.Column="1" Style="{StaticResource ButtonStyle}" Width="95" Height="24" Click="ReDrawButton_Click" Content="按参数绘制"/>
+                        </Grid>
+                        <Border Grid.Row="1" BorderBrush="#e6e6e6" BorderThickness="1">
+                            <paramcontrol:ParamListView x:Name="paramList" Style="{StaticResource ParamListViewStyle}" ItemContainerStyle ="{StaticResource ParamItemStyle}" Background="White" DataContext="{Binding ElementName=window, Path=ParamSource}" ChildMargin="10, 1, 5, 0" ChildLeftWidth="120"/>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Border Grid.Row="1" Background="#E6E6E6" BorderThickness="0,1,0,0" BorderBrush="#C2C2C2">
+            <Grid>
+                <StatusBar Height="25" Background="Transparent" Foreground="#808080" FontSize="13" HorizontalAlignment="Left">
+                    <StatusBarItem Content="   x : "/>
+                    <StatusBarItem Name="xVal" Content="--" HorizontalContentAlignment="Center"/>
+                    <StatusBarItem Content="  y : "/>
+                    <StatusBarItem Name="yVal" Content="--" HorizontalContentAlignment="Center"/>
+                </StatusBar>
+                <Button Style="{StaticResource ButtonStyle}" Margin="0,0,90,0" Click="Create_OnClick" Content="建模" ToolTip="建模" Width="66" Height="24" HorizontalAlignment="Right"/>
+                <Button Style="{StaticResource ButtonStyle}" Margin="0,0,10,0" Click="Finish_OnClick" Content="确定" ToolTip="确定" Width="66" Height="24" HorizontalAlignment="Right"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

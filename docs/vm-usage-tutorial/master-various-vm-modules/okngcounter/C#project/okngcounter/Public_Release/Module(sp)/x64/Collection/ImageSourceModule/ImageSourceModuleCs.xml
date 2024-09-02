@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImageSourceModuleCs</name>
+    </assembly>
+    <members>
+        <member name="T:ImageSourceModuleCs.ImageSourceParam">
+            <summary>
+            CH: 图像源 | EN: Image Source
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.TriggerString">
+            <summary>
+            CH: 触发字符(仅当次执行起效) | EN: String(Only valid for this execution)
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.TriggerFilter">
+            <summary>
+            CH: 过滤字符(仅当次执行起效) | EN: TriggerFilter(Only valid for this execution)
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.ExposureTimeInput">
+            <summary>
+            CH: 曝光时间(仅当次执行起效) | EN: ExposureTimeInput(Only valid for this execution)
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.GainInput">
+            <summary>
+            CH: 增益时间(仅当次执行起效) | EN: GainInput(Only valid for this execution)
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:ImageSourceModuleCs.ImageSourceParam.ClearTriggerValue" -->
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.ImageSourceType">
+            <summary>
+            CH: 图像源 | EN: ImageSource
+            </summary>
+        </member>
+        <member name="F:ImageSourceModuleCs.ImageSourceParam.ImageSourceTypeEnum.LocalImage">
+            <summary>
+            CH: 本地图像 | EN: Local Image
+            </summary>
+        </member>
+        <member name="F:ImageSourceModuleCs.ImageSourceParam.ImageSourceTypeEnum.Camera">
+            <summary>
+            CH: 相机 | EN: Camera
+            </summary>
+        </member>
+        <member name="F:ImageSourceModuleCs.ImageSourceParam.ImageSourceTypeEnum.SDK">
+            <summary>
+            CH: SDK | EN: SDK
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.PixelFormat">
+            <summary>
+            CH: 像素格式 | EN: Pixel Format
+            </summary>
+        </member>
+        <member name="F:ImageSourceModuleCs.ImageSourceParam.PixelFormatEnum.MONO8">
+            <summary>
+            CH: MONO8 | EN: MONO8
+            </summary>
+        </member>
+        <member name="F:ImageSourceModuleCs.ImageSourceParam.PixelFormatEnum.RGB24">
+            <summary>
+            CH: RGB24 | EN: RGB24
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.Interval">
+            <summary>
+            CH: 取图间隔 | EN: Acquisition Rate
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.SolSaveImageData">
+            <summary>
+            CH: 方案存图 | EN: Save Image
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.ShowImageName">
+            <summary>
+            CH: 显示图像名称 | EN: Show Image Name
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.InitialSN">
+            <summary>
+            CH: SN初始值 | EN: Initial SN
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.PathCache">
+            <summary>
+            CH: 图片缓存 | EN: PathCache
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.OutMono8">
+            <summary>
+            CH: 输出Mono8 | EN: Output Mono8
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.StitchEnable">
+            <summary>
+            CH: 拼接使能 | EN: Stitch Enable
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.StitchStartHeight">
+            <summary>
+            CH: 起始高度 | EN: Start Height
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.StitchHeight">
+            <summary>
+            CH: 拼接高度 | EN: Stitch Height
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.ClearTrigger">
+            <summary>
+            CH: 触发清空 | EN: Trigger Clear
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.AutoPlay">
+            <summary>
+            CH: 自动切换 | EN: Auto Switch
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.AutoStop">
+            <summary>
+            CH: 最后一张停止 | EN: The last one stops
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.TriggerStringEnable">
+            <summary>
+            CH: 字符触发过滤 | EN: Character Trigger Filter
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceParam.CameraName">
+            <summary>
+            CH: 关联相机 | EN: Associated Camera
+            </summary>
+        </member>
+        <member name="M:ImageSourceModuleCs.ImageSourceParam.#ctor(System.UInt32)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="T:ImageSourceModuleCs.ImageSourceResult">
+            <summary>
+            CH: 图像源 | EN: Image Source
+            </summary>
+        </member>
+        <member name="M:ImageSourceModuleCs.ImageSourceResult.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceResult.ImageData">
+            <summary>
+            CH: 图像 | EN: ImageData
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceResult.ImageDataMono8">
+            <summary>
+            CH: 灰度图像 | EN: Mono8 Image
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceResult.CurImagePath">
+            <summary>
+            CH: 当前图像路径 | EN: Current Image Path
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceResult.CurImageName">
+            <summary>
+            CH: 当前图像名称 | EN: Current Image Name
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceResult.FrameNum">
+            <summary>
+            CH: 帧号 | EN: FrameNum
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceResult.LostFrameCount">
+            <summary>
+            CH: 丢帧数 | EN: LostFrameCount
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceResult.LostPacketCount">
+            <summary>
+            CH: 丢包数 | EN: Lost Packet Count
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceResult.GetCameraFailCount">
+            <summary>
+            CH: 相机获取失败次数 | EN: Times of getting cameras failed.
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceResult.SNCode">
+            <summary>
+            CH: SN码 | EN: SN code
+            </summary>
+        </member>
+        <member name="T:ImageSourceModuleCs.ImageSourceModuleTool">
+            <summary>
+            CH: 图像源 | EN: Image Source
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceModuleTool.ModuResult">
+            <summary>
+            CH: 模块结果对象 | EN: Module Result Object
+            </summary>
+        </member>
+        <member name="P:ImageSourceModuleCs.ImageSourceModuleTool.ModuParams">
+            <summary>
+            CH: 模块参数对象 | EN: Module Param Object
+            </summary>
+        </member>
+        <member name="M:ImageSourceModuleCs.ImageSourceModuleTool.Run">
+            <summary>
+            CH: 模块自执行 | EN: Module Self Run
+            </summary>
+        </member>
+        <member name="M:ImageSourceModuleCs.ImageSourceModuleTool.SetImagePath(System.String)">
+            <summary>
+            设置图像路径（图像源需选择SDK模式）
+            </summary>
+        </member>
+        <member name="M:ImageSourceModuleCs.ImageSourceModuleTool.SetImageData(VM.PlatformSDKCS.ImageBaseData,System.Boolean)">
+            <summary>
+            设置图像数据（图像源需选择SDK模式）(仅当次执行起效)
+            </summary>
+            <param name="stImgData">图像数据</param>
+            <param name="bIsWaitCopy">是否等待图像拷贝完成,如不等待,则在当次执行期间,避免释放该图像数据</param>
+        </member>
+        <member name="M:ImageSourceModuleCs.ImageSourceModuleTool.SetImageDataP2P(VM.PlatformSDKCS.ImageBaseData,System.Boolean)">
+            <summary>
+            点对点设置图像数据（图像源需选择SDK模式）(仅当次执行起效)
+            </summary>
+            <param name="stImgData">图像数据</param>
+            <param name="bIsWaitCopy">是否等待图像拷贝完成,如不等待,则在当次执行期间,避免释放该图像数据</param>
+        </member>
+        <member name="M:ImageSourceModuleCs.ImageSourceModuleTool.AddInputImageByPath(System.String)">
+            <summary>
+            通过路径添加图像
+            </summary>
+        </member>
+        <member name="M:ImageSourceModuleCs.ImageSourceModuleTool.DeleteInputImageByPath(System.String)">
+            <summary>
+            通过路径删除图像
+            </summary>
+        </member>
+        <member name="M:ImageSourceModuleCs.ImageSourceModuleTool.ClearAllInputImage">
+            <summary>
+            清空所有输入图像
+            </summary>
+        </member>
+        <member name="M:ImageSourceModuleCs.ImageSourceModuleTool.SetParamValue(System.String,System.String)">
+            <summary>
+            设置参数值
+            </summary>
+        </member>
+    </members>
+</doc>

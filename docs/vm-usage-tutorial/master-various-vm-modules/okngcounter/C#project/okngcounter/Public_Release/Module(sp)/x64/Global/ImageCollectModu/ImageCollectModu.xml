@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Base">
+      <Items>
+        <String Name="ServerRepAddress">
+          <CurValue>tcp://127.0.0.1:5555</CurValue>
+        </String>
+        <String Name="ModuleName">
+          <CurValue>ImageCollectModu</CurValue>
+        </String>
+        <Bool Name="IsLoalModule">
+          <CurValue>0</CurValue>
+        </Bool>
+        <Integer Name="ModuleViewMode">
+          <CurValue>1</CurValue>
+        </Integer>
+        <String Name="ModuleDisplayName">
+          <CurValue>ImageCollectModu</CurValue>
+        </String>
+        <String Name="ModuleHelp">
+          <CurValue>Reserve</CurValue>
+        </String>
+        <String Name="IsSaveTabXml">
+          <CurValue>False</CurValue>
+        </String>
+        <Integer Name="ModuleType">
+          <CurValue>6</CurValue>
+        </Integer>
+      </Items>
+    </Category>
+    <Category Name="Output">
+      <Items>
+        <Combination Name="ImageData" Style="IMAGE" IsArray="false">
+          <Filters>
+            <Filter Name="Image" ValueType="image" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="Width" ValueType="int" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="Height" ValueType="int" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="PixelFormat" ValueType="int" IsForce="true" IsArray="false"></Filter>
+          </Filters>
+        </Combination>
+        <Combination Name="ImageDataMono8" Style="IMAGE" IsArray="false">
+          <Filters>
+            <Filter Name="ImageMono8" ValueType="image" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="WidthMono8" ValueType="int" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="HeightMono8" ValueType="int" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="PixelFormatMono8" ValueType="int" IsForce="true" IsArray="false"></Filter>
+          </Filters>
+        </Combination>
+        <!--<Filter Name="ModuStatus" StructName="ModuStatus" ValueType="int" IsForce="true" isShow="true" AccessMode="RW"/>-->
+      </Items>
+    </Category>
+    <Category Name="TransmitInfo" />
+  </Categorys>
+</ParamRoot>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlgorithmTabRoot>
+  <ZHCustomTabHeight>488</ZHCustomTabHeight>
+  <ZHCustomTabWidth>680</ZHCustomTabWidth>
+  <ENCustomTabWidth>680</ENCustomTabWidth>
+  <ENCustomTabHeight>488</ENCustomTabHeight>
+  <Tabs>
+    <Tab Name="Tab_Basic Params">
+      <TabType>1</TabType>
+      <Categorys>
+        <CategoryNoHead Name="Tab_Calculator">
+          <Items>
+            <ButtonSelecter_CalculatorPro Name="CalculatorPro" />
+            <Command Name="command#restvalue">
+              <Description>Reset</Description>
+              <DisplayName>Reset</DisplayName>
+              <AccessMode>Rw</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SupportCommTrigger>True</SupportCommTrigger>
+            </Command>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+    <Tab Name="ResultShow">
+      <Categorys>
+        <GroupLinkItem Name="TextDisplayGroup">
+          <LinkName>TextDisplayGroup</LinkName>
+        </GroupLinkItem>
+      </Categorys>
+    </Tab>
+  </Tabs>
+  <BottomExcuteButtons>
+    <BottomCommand Name="ResetValue">
+      <Description>Reset</Description>
+      <DisplayName>Reset</DisplayName>
+      <AccessMode>O</AccessMode>
+      <!--只能取OK、NG、NULL(未校验)-->
+      <CurStatus>NULL</CurStatus>
+      <CommandSetter>
+        <OperationName>ExcuteMethodOperation</OperationName>
+        <OperationParams>Rest_CalculateModule</OperationParams>
+      </CommandSetter>
+    </BottomCommand>
+    <ExecuteOnceBottomCommand>
+      <Description>Execute</Description>
+      <DisplayName>Execute</DisplayName>
+      <AccessMode>O</AccessMode>
+      <!--只能取OK、NG、NULL(未校验)-->
+      <CurStatus>NULL</CurStatus>
+      <CommandSetter>
+        <OperationName>ExcuteMethodOperation</OperationName>
+        <OperationParams>Execute_CalculateModule</OperationParams>
+      </CommandSetter>
+    </ExecuteOnceBottomCommand>
+    <BottomCommand>
+      <Description>Confirm</Description>
+      <DisplayName>Confirm</DisplayName>
+      <AccessMode>O</AccessMode>
+      <!--只能取OK、NG、NULL(未校验)-->
+      <CurStatus>NULL</CurStatus>
+      <CommandSetter>
+        <OperationName>ExcuteMethodOperation</OperationName>
+        <OperationParams>Close_CalculateModule</OperationParams>
+      </CommandSetter>
+    </BottomCommand>
+  </BottomExcuteButtons>
+</AlgorithmTabRoot>

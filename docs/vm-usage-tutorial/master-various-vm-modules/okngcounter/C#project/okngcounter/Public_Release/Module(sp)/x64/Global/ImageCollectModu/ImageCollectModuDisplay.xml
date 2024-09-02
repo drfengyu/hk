@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamRoot>
+    <Categorys>
+        <Category Name="Display" okcolor="#7cfc00" ngcolor="#ff0000">
+            <Items>
+					<Object Name="Data Record" Type="datarecord" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true">
+					  <Features>
+						<Feature Name="Content" Value="Image:Width:{0} Height:{1}" Mapping="Width,Height" />
+						<Feature Name="Num" Value="1" Mapping="NULL" />
+					  </Features>
+					</Object>
+					<Object Name="Data Record" Type="datarecord" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true">
+					  <Features>
+						<Feature Name="Content" Value="FrameNum:{0} LostFrameCount:{1} LostPacketCount:{2} GetCameraFailCount:{3}" Mapping="FrameNum,LostFrameCount,LostPacketCount,GetCameraFailCount" />
+						<Feature Name="Num" Value="1" Mapping="NULL" />
+					  </Features>
+					</Object>
+            </Items>
+        </Category>
+    </Categorys>
+</ParamRoot>
+
+

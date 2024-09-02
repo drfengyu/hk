@@ -1,0 +1,58 @@
+/* src/pages/submit-post.css */
+.submit-post-container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.submit-post-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.submit-post-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.submit-post-container input[type="text"],
+.submit-post-container input[type="url"],
+.submit-post-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-post-container input[type="text"]:focus,
+.submit-post-container input[type="url"]:focus,
+.submit-post-container textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.submit-post-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-post-container button:hover {
+    background-color: #0056b3;
+}
+
+.submit-post-container textarea {
+    resize: vertical; /* 允许用户垂直调整大小 */
+}

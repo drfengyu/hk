@@ -1,0 +1,134 @@
+﻿Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：ERROR MSG：启动失败:环境异常，尝试使用版本切换工具重置到目标版本，或联系维护人员。
+
+System.TypeInitializationException: “VM.Core.TempVmSolution”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “VM.PlatformSDKCS.ServerSDKManager”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “VM.PlatformSDKCS.CVmObjectBase”的类型初始值设定项引发异常。 ---> System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 VM.PlatformSDKCS.NativeMethods.IMVS_PF_CreateHandle(IntPtr& handle, String strServerPath)
+   在 VM.PlatformSDKCS.ServerSDKAPI.IMVS_PF_CreateHandle(IntPtr& handle, String strServerPath)
+   在 VM.PlatformSDKCS.CVmObjectBase..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.PlatformSDKCS.CVmObjectBase.add_OnModuleRegisterCallBack(ModuleRegisterCallBack value)
+   在 VM.PlatformSDKCS.ModuleManager..ctor()
+   在 VM.PlatformSDKCS.ServerSDKManager..ctor()
+   在 VM.PlatformSDKCS.ServerSDKManager..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.PlatformSDKCS.ServerSDKManager.get_serverSDKManager()
+   在 VM.Core.TempVmSolution..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.Core.TempVmSolution.Init()
+   在 VMControls.WPF.Release.VmProcedureConfigControl.InitControl()
+   在 VMControls.WPF.Release.VmProcedureConfigControl..ctor()
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：ERROR MSG：启动失败:环境异常，尝试使用版本切换工具重置到目标版本，或联系维护人员。
+
+System.TypeInitializationException: “VM.Core.TempVmSolution”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “VM.PlatformSDKCS.ServerSDKManager”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “VM.PlatformSDKCS.CVmObjectBase”的类型初始值设定项引发异常。 ---> System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 VM.PlatformSDKCS.NativeMethods.IMVS_PF_CreateHandle(IntPtr& handle, String strServerPath)
+   在 VM.PlatformSDKCS.ServerSDKAPI.IMVS_PF_CreateHandle(IntPtr& handle, String strServerPath)
+   在 VM.PlatformSDKCS.CVmObjectBase..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.PlatformSDKCS.CVmObjectBase.add_OnModuleRegisterCallBack(ModuleRegisterCallBack value)
+   在 VM.PlatformSDKCS.ModuleManager..ctor()
+   在 VM.PlatformSDKCS.ServerSDKManager..ctor()
+   在 VM.PlatformSDKCS.ServerSDKManager..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.PlatformSDKCS.ServerSDKManager.get_serverSDKManager()
+   在 VM.Core.TempVmSolution..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.Core.TempVmSolution.Init()
+   在 VMControls.WPF.Release.VmProcedureConfigControl.InitControl()
+   在 VMControls.WPF.Release.VmProcedureConfigControl..ctor()
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：ERROR MSG：启动失败:环境异常，尝试使用版本切换工具重置到目标版本，或联系维护人员。
+
+System.TypeInitializationException: “VM.Core.TempVmSolution”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “VM.PlatformSDKCS.ServerSDKManager”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “VM.PlatformSDKCS.CVmObjectBase”的类型初始值设定项引发异常。 ---> System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 VM.PlatformSDKCS.NativeMethods.IMVS_PF_CreateHandle(IntPtr& handle, String strServerPath)
+   在 VM.PlatformSDKCS.ServerSDKAPI.IMVS_PF_CreateHandle(IntPtr& handle, String strServerPath)
+   在 VM.PlatformSDKCS.CVmObjectBase..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.PlatformSDKCS.CVmObjectBase.add_OnModuleRegisterCallBack(ModuleRegisterCallBack value)
+   在 VM.PlatformSDKCS.ModuleManager..ctor()
+   在 VM.PlatformSDKCS.ServerSDKManager..ctor()
+   在 VM.PlatformSDKCS.ServerSDKManager..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.PlatformSDKCS.ServerSDKManager.get_serverSDKManager()
+   在 VM.Core.TempVmSolution..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.Core.TempVmSolution.Init()
+   在 VMControls.WPF.Release.VmProcedureConfigControl.InitControl()
+   在 VMControls.WPF.Release.VmProcedureConfigControl..ctor()
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：ERROR MSG：启动失败:环境异常，尝试使用版本切换工具重置到目标版本，或联系维护人员。
+
+System.TypeInitializationException: “VM.Core.TempVmSolution”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “VM.PlatformSDKCS.ServerSDKManager”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “VM.PlatformSDKCS.CVmObjectBase”的类型初始值设定项引发异常。 ---> System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 VM.PlatformSDKCS.NativeMethods.IMVS_PF_CreateHandle(IntPtr& handle, String strServerPath)
+   在 VM.PlatformSDKCS.ServerSDKAPI.IMVS_PF_CreateHandle(IntPtr& handle, String strServerPath)
+   在 VM.PlatformSDKCS.CVmObjectBase..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.PlatformSDKCS.CVmObjectBase.add_OnModuleRegisterCallBack(ModuleRegisterCallBack value)
+   在 VM.PlatformSDKCS.ModuleManager..ctor()
+   在 VM.PlatformSDKCS.ServerSDKManager..ctor()
+   在 VM.PlatformSDKCS.ServerSDKManager..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.PlatformSDKCS.ServerSDKManager.get_serverSDKManager()
+   在 VM.Core.TempVmSolution..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.Core.TempVmSolution.Init()
+   在 VMControls.WPF.Release.VmProcedureConfigControl.InitControl()
+   在 VMControls.WPF.Release.VmProcedureConfigControl..ctor()
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：ERROR MSG：启动失败:环境异常，尝试使用版本切换工具重置到目标版本，或联系维护人员。
+
+System.TypeInitializationException: “VM.Core.TempVmSolution”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “VM.PlatformSDKCS.ServerSDKManager”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “VM.PlatformSDKCS.CVmObjectBase”的类型初始值设定项引发异常。 ---> System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 VM.PlatformSDKCS.NativeMethods.IMVS_PF_CreateHandle(IntPtr& handle, String strServerPath)
+   在 VM.PlatformSDKCS.ServerSDKAPI.IMVS_PF_CreateHandle(IntPtr& handle, String strServerPath)
+   在 VM.PlatformSDKCS.CVmObjectBase..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.PlatformSDKCS.CVmObjectBase.add_OnModuleRegisterCallBack(ModuleRegisterCallBack value)
+   在 VM.PlatformSDKCS.ModuleManager..ctor()
+   在 VM.PlatformSDKCS.ServerSDKManager..ctor()
+   在 VM.PlatformSDKCS.ServerSDKManager..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.PlatformSDKCS.ServerSDKManager.get_serverSDKManager()
+   在 VM.Core.TempVmSolution..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 VM.Core.TempVmSolution.Init()
+   在 VMControls.WPF.Release.VmProcedureConfigControl.InitControl()
+   在 VMControls.WPF.Release.VmProcedureConfigControl..ctor()
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-20384-,2024-08-22 13:40:16.418 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-20384-,2024-08-22 13:40:17.255 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-8156-,2024-08-22 13:42:15.079 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-8156-,2024-08-22 13:42:15.518 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+
+Level：INFO  MSG：C:\Program Files\VisionMaster4.3.0\Development\V4.x\ComControls\Assembly\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-24952-,2024-08-22 13:42:40.251 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(start)
+
+Level：INFO  MSG：ProcessID-24952-,2024-08-22 13:42:41.091 [1] [ToolBoxData::LoadData] ToolBoxData.LoadData(end)
+

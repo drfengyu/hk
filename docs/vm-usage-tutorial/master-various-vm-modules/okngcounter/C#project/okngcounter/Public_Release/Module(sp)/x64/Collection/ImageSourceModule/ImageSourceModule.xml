@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Base">
+      <Items>
+        <String Name="ServerRepAddress">
+          <CurValue>tcp://127.0.0.1:5555</CurValue>
+        </String>
+        <String Name="ModuleName">
+          <CurValue>ImageSourceModule</CurValue>
+        </String>
+        <Bool Name="IsLoalModule">
+          <CurValue>0</CurValue>
+        </Bool>
+        <Integer Name="ModuleAccess">
+          <CurValue>1</CurValue>
+        </Integer>
+        <String Name="ModuleDisplayName">
+          <CurValue>ImageSourceModule</CurValue>
+        </String>
+        <String Name="ModuleHelp">
+          <CurValue>Reserve</CurValue>
+        </String>
+        <String Name="DisplayType">
+          <CurValue>IMAGE_MODULE</CurValue>
+        </String>
+        <String Name="IsSaveTabXml">
+          <CurValue>False</CurValue>
+        </String>
+        <Integer Name="MaxConnecion">
+          <CurValue>256</CurValue>
+        </Integer>
+      </Items>
+    </Category>
+    <Category Name="Input">
+      <Items>
+        <Filter Name="TriggerString" ValueType="string" IsForce="false" Visible="false"></Filter>
+        <Filter Name="TriggerFilter" ValueType="string" IsForce="false" Visible="false"></Filter>
+        <Filter Name="ExposureTimeInput" StructName="ExposureTimeInput" ValueType="float" IsForce="false"></Filter>
+        <Filter Name="GainInput" StructName="GainInput" ValueType="float" IsForce="false"></Filter>
+        <Filter Name="ClearTriggerValue" ValueType="int" IsForce="false"></Filter>
+      </Items>
+    </Category>
+    <Category Name="Output">
+      <Items>
+        <Combination Name="ImageData" Style="IMAGE" IsArray="false">
+          <Filters>
+            <Filter Name="Image" ValueType="image" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="Width" ValueType="int" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="Height" ValueType="int" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="PixelFormat" ValueType="int" IsForce="true" IsArray="false"></Filter>
+          </Filters>
+        </Combination>
+        <Combination Name="ImageDataMono8" Style="IMAGE" IsArray="false">
+          <Filters>
+            <Filter Name="ImageMono8" ValueType="image" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="WidthMono8" ValueType="int" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="HeightMono8" ValueType="int" IsForce="true" IsArray="false"></Filter>
+            <Filter Name="PixelFormatMono8" ValueType="int" IsForce="true" IsArray="false"></Filter>
+          </Filters>
+        </Combination>
+        <Filter Name="CurImagePath" ValueType="string" IsForce="true" IsArray="false" CustomVisible="false"></Filter>
+        <Filter Name="CurImageName" ValueType="string" IsForce="true" IsArray="false" CustomVisible="false"></Filter>
+        <Filter Name="FrameNum" ValueType="int" IsForce="true" IsArray="false"></Filter>
+        <Filter Name="LostFrameCount" ValueType="int" IsForce="true" IsArray="false"></Filter>
+        <Filter Name="LostPacketCount" ValueType="int" IsForce="true" IsArray="false"></Filter>
+        <Filter Name="GetCameraFailCount" ValueType="int" IsForce="true" IsArray="false"></Filter>
+        <Filter Name="SNCode" ValueType="int" IsForce="true" IsArray="false"></Filter>
+      </Items>
+    </Category>
+    <Category Name="TransmitInfo"></Category>
+  </Categorys>
+</ParamRoot>

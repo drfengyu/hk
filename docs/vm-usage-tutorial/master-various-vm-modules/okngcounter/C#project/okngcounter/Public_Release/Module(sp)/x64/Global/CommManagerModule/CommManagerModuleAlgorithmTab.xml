@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlgorithmTabRoot>
+  <Tabs>
+    <Tab Name="Tab_Basic Params">
+      <Categorys>
+        <CategoryNoHead Name="Tab_Basic Params">
+          <Items>
+            <Boolean Name="LoadSolution">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>Load Solution Trigger</Description>
+              <DisplayName>Lang_SolLoad</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>True</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>SolutionTrigger</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>SolCommunicationModuleID</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </Boolean>
+            <EnumeraionComDevice Name="SolCommunicationModuleID">
+              <Description>Select Communication Device</Description>
+              <DisplayName>RunParam_Communication Device</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue>0x0</CurValue>
+              <DefaultValue>0x0</DefaultValue>
+              <ProtocolType>None</ProtocolType>
+              <CustomVisible>False</CustomVisible>
+            </EnumeraionComDevice>
+            <Integer Name="SolutionTimeOut">
+              <Description>Set communicate time out</Description>
+              <DisplayName>RunParam_SolutionTimeOut</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x01</AlgorithmIndex>
+              <CurValue>0x00</CurValue>
+              <DefaultValue>0x00</DefaultValue>
+              <MinValue>0x0</MinValue>
+              <MaxValue>0x64</MaxValue>
+              <IncValue>0x1</IncValue>
+            </Integer>
+            <String Name="SolutionTrigger">
+              <MaxLen>33</MaxLen>
+              <Description>TriggerString</Description>
+              <DisplayName>TriggerString</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+              <CustomVisible>False</CustomVisible>
+            </String>
+            <Boolean Name="ProcessControl">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>Process Status Trigger</Description>
+              <DisplayName>IMVSProcessControl</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>True</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ProSeparator</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ProcessFreeTrigger</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ProcessBusyTrigger</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ProcCommunicationModuleID</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </Boolean>
+            <EnumeraionComDevice Name="ProcCommunicationModuleID">
+              <Description>Select Communication Device</Description>
+              <DisplayName>RunParam_Communication Device</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue>0x0</CurValue>
+              <DefaultValue>0x0</DefaultValue>
+              <ProtocolType>None</ProtocolType>
+              <CustomVisible>False</CustomVisible>
+            </EnumeraionComDevice>
+            <ComboxEdit Name="ProSeparator">
+              <Description>RunParam_Split Symbol</Description>
+              <DisplayName>RunParam_Split Symbol</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0</AlgorithmIndex>
+              <CurValue>,</CurValue>
+              <DefaultValue>,</DefaultValue>
+              <CustomVisible>False</CustomVisible>
+              <EnumEntrys>
+                <EnumEntryStr Name="Dot">
+                  <Description>Dot</Description>
+                  <DisplayName>RunParam_Dot</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>,</Value>
+                </EnumEntryStr>
+                <EnumEntryStr Name="Title">
+                  <Description>Title</Description>
+                  <DisplayName>RunParam_Title</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>;</Value>
+                </EnumEntryStr>
+                <EnumEntryStr Name="Underline">
+                  <Description>Underline</Description>
+                  <DisplayName>RunParam_Underline</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>_</Value>
+                </EnumEntryStr>
+                <EnumEntryStr Name="EnterR">
+                  <Description>Underline</Description>
+                  <DisplayName>RunParam_Underline</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>\r</Value>
+                </EnumEntryStr>
+                <EnumEntryStr Name="EnterN">
+                  <Description>Underline</Description>
+                  <DisplayName>RunParam_Underline</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>\n</Value>
+                </EnumEntryStr>
+              </EnumEntrys>
+            </ComboxEdit>
+            <String Name="ProcessFreeTrigger">
+              <MaxLen>33</MaxLen>
+              <Description>TriggerString</Description>
+              <DisplayName>RunParam_Free Trigger</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+              <CustomVisible>False</CustomVisible>
+            </String>
+            <String Name="ProcessBusyTrigger">
+              <MaxLen>33</MaxLen>
+              <Description>TriggerString</Description>
+              <DisplayName>RunParam_Busy Trigger</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+              <CustomVisible>False</CustomVisible>
+            </String>
+            <Boolean Name="CameraRespnseControl">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>Camera Status Trigger</Description>
+              <DisplayName>RunParam_Camera Control</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>True</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>CameraSeparator</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ConnectTrigger</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>DisConnectTrigger</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>CamCommunicationModuleID</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </Boolean>
+            <EnumeraionComDevice Name="CamCommunicationModuleID">
+              <Description>Select Communication Device</Description>
+              <DisplayName>RunParam_Communication Device</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue>0x0</CurValue>
+              <DefaultValue>0x0</DefaultValue>
+              <ProtocolType>None</ProtocolType>
+              <CustomVisible>False</CustomVisible>
+            </EnumeraionComDevice>
+            <ComboxEdit Name="CameraSeparator">
+              <Description>RunParam_Split Symbol</Description>
+              <DisplayName>RunParam_Split Symbol</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0x0</AlgorithmIndex>
+              <CurValue>,</CurValue>
+              <DefaultValue>,</DefaultValue>
+              <CustomVisible>False</CustomVisible>
+              <EnumEntrys>
+                <EnumEntryStr Name="Dot">
+                  <Description>Dot</Description>
+                  <DisplayName>RunParam_Dot</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>,</Value>
+                </EnumEntryStr>
+                <EnumEntryStr Name="Title">
+                  <Description>Title</Description>
+                  <DisplayName>RunParam_Title</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>;</Value>
+                </EnumEntryStr>
+                <EnumEntryStr Name="Underline">
+                  <Description>Underline</Description>
+                  <DisplayName>RunParam_Underline</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>_</Value>
+                </EnumEntryStr>
+                <EnumEntryStr Name="EnterR">
+                  <Description>Underline</Description>
+                  <DisplayName>RunParam_Underline</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>\r</Value>
+                </EnumEntryStr>
+                <EnumEntryStr Name="EnterN">
+                  <Description>Underline</Description>
+                  <DisplayName>RunParam_Underline</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>\n</Value>
+                </EnumEntryStr>
+              </EnumEntrys>
+            </ComboxEdit>
+            <String Name="ConnectTrigger">
+              <MaxLen>33</MaxLen>
+              <Description>TriggerString</Description>
+              <DisplayName>RunParam_Connect Trigger</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+              <CustomVisible>False</CustomVisible>
+            </String>
+            <String Name="DisConnectTrigger">
+              <MaxLen>33</MaxLen>
+              <Description>TriggerString</Description>
+              <DisplayName>RunParam_Disconnect Trigger</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+              <CustomVisible>False</CustomVisible>
+            </String>
+            <TextNormal Name="SampleSeparatorTip">
+              <DisplayName>RunParam_SampleSeparator</DisplayName>
+              <Margin>34, 5, 40, 5</Margin>
+              <SigleAlignment>Left</SigleAlignment>
+              <AccessMode>RW</AccessMode>
+              <FontSize>12</FontSize>
+              <CustomVisible>False</CustomVisible>
+            </TextNormal>
+            <TextNormal Name="CameraSeparatorTip">
+              <DisplayName>RunParam_CameraSeparator</DisplayName>
+              <Margin>34, 5, 40, 5</Margin>
+              <SigleAlignment>Left</SigleAlignment>
+              <AccessMode>RW</AccessMode>
+              <FontSize>12</FontSize>
+              <CustomVisible>False</CustomVisible>
+            </TextNormal>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+  </Tabs>
+</AlgorithmTabRoot>

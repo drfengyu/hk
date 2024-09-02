@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppData>
+  <IsNeutral>false</IsNeutral>
+  <IsUseCustomName>false</IsUseCustomName>
+  <IsUseCustomVersion>false</IsUseCustomVersion>
+  <CustomVersion>4.3.0</CustomVersion>
+  <IsUseCustomCopyright>false</IsUseCustomCopyright>
+  <IsHideWelcomePage>false</IsHideWelcomePage>
+  <IsHideHelp>false</IsHideHelp>
+  <IsHideLogo>false</IsHideLogo>
+  <IsHideCopyright>false</IsHideCopyright>
+  <IsHideMultiLanguage>false</IsHideMultiLanguage>
+  <IsHideGuideLine>false</IsHideGuideLine>
+  <IsHideServerAppLOGO>false</IsHideServerAppLOGO>
+</AppData>

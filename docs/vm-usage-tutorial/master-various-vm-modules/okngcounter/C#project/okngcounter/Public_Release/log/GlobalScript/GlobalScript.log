@@ -1,0 +1,75 @@
+﻿2024-08-16 10:47:06.064 INFO  [1] [VMGlobalScript.GlobalScript::Init@0]  ====================================================V4.3.0 GlobalScript Start Print Log====================================================
+
+2024-08-16 10:47:08.734 INFO  [13] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive:CloseScript
+
+2024-08-16 10:47:08.737 INFO  [13] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive end:CloseScript
+
+2024-08-16 10:47:08.791 INFO  [13] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive:LoadSolution
+
+2024-08-16 10:47:08.950 INFO  [13] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive end:LoadSolution
+
+2024-08-16 10:47:08.963 INFO  [13] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive:LoadSolutionEnd
+
+2024-08-16 10:47:08.964 INFO  [13] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive end:LoadSolutionEnd
+
+2024-08-16 10:47:08.965 INFO  [7] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile begin
+
+2024-08-16 10:47:09.296 INFO  [7] [VM.GlobalScript.Support.UserGlobalScriptSupport::CompileCode@0] 2024-08-16 10:47:09:296 : Compile complete -- 0 Errors, 0 Warnings 
+
+
+2024-08-16 10:47:09.332 INFO  [7] [VM.GlobalScript.Support.UserGlobalScriptManger::updateBackFile@0] Update BackFile end
+
+2024-08-16 10:47:09.332 INFO  [7] [VM.GlobalScript.Support.UserGlobalScriptManger::compileGlobalScript@0] Compile end
+
+2024-08-16 10:47:09.333 INFO  [6] [VM.GlobalScript.Support.UserGlobalScriptManger::loadInitAction@0] ExecuteLoadInit start
+
+2024-08-16 10:47:13.765 INFO  [7] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive:ExcuteOnce
+
+2024-08-16 10:47:13.765 INFO  [7] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive end:ExcuteOnce
+
+2024-08-16 10:47:13.766 INFO  [6] [VM.GlobalScript.Support.UserGlobalScriptManger::initSourceAndStartScript@0] InitSourceEndStartScript already init
+
+2024-08-16 10:47:13.781 INFO  [6] [VM.GlobalScript.Support.UserGlobalScriptManger::<StartOnce>b__60_0@0] GlobalScript execute once
+
+2024-08-16 10:47:15.320 INFO  [7] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive:ExcuteOnce
+
+2024-08-16 10:47:15.320 INFO  [7] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive end:ExcuteOnce
+
+2024-08-16 10:47:15.320 INFO  [24] [VM.GlobalScript.Support.UserGlobalScriptManger::initSourceAndStartScript@0] InitSourceEndStartScript already init
+
+2024-08-16 10:47:15.323 INFO  [24] [VM.GlobalScript.Support.UserGlobalScriptManger::<StartOnce>b__60_0@0] GlobalScript execute once
+
+2024-08-16 10:47:16.240 INFO  [24] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive:ExcuteOnce
+
+2024-08-16 10:47:16.240 INFO  [24] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive end:ExcuteOnce
+
+2024-08-16 10:47:16.240 INFO  [25] [VM.GlobalScript.Support.UserGlobalScriptManger::initSourceAndStartScript@0] InitSourceEndStartScript already init
+
+2024-08-16 10:47:16.244 INFO  [25] [VM.GlobalScript.Support.UserGlobalScriptManger::<StartOnce>b__60_0@0] GlobalScript execute once
+
+2024-08-16 10:47:16.928 INFO  [7] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive:ExcuteOnce
+
+2024-08-16 10:47:16.928 INFO  [7] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive end:ExcuteOnce
+
+2024-08-16 10:47:16.928 INFO  [24] [VM.GlobalScript.Support.UserGlobalScriptManger::initSourceAndStartScript@0] InitSourceEndStartScript already init
+
+2024-08-16 10:47:16.930 INFO  [24] [VM.GlobalScript.Support.UserGlobalScriptManger::<StartOnce>b__60_0@0] GlobalScript execute once
+
+2024-08-16 10:47:17.663 INFO  [6] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive:ExcuteOnce
+
+2024-08-16 10:47:17.664 INFO  [6] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive end:ExcuteOnce
+
+2024-08-16 10:47:17.664 INFO  [7] [VM.GlobalScript.Support.UserGlobalScriptManger::initSourceAndStartScript@0] InitSourceEndStartScript already init
+
+2024-08-16 10:47:17.666 INFO  [7] [VM.GlobalScript.Support.UserGlobalScriptManger::<StartOnce>b__60_0@0] GlobalScript execute once
+
+2024-08-16 10:47:21.752 INFO  [7] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive:ExcuteOnce
+
+2024-08-16 10:47:21.753 INFO  [7] [VM.GlobalScript.Support.GlobalManager::HandleCmd@0] Receive end:ExcuteOnce
+
+2024-08-16 10:47:21.753 INFO  [24] [VM.GlobalScript.Support.UserGlobalScriptManger::initSourceAndStartScript@0] InitSourceEndStartScript already init
+
+2024-08-16 10:47:21.755 INFO  [24] [VM.GlobalScript.Support.UserGlobalScriptManger::<StartOnce>b__60_0@0] GlobalScript execute once
+
+2024-08-16 10:47:25.651 INFO  [7] [VM.GlobalScript.Support.UserGlobalScriptManger::CloseScript@0] Global script cancel UinitSDK end
+

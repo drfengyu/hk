@@ -1,0 +1,503 @@
+2024-08-16 10:47:06.112 INFO  [20600] [PF_M_Init@33] ===========PF_M_Init main begin. Version[V4.3.0, build May 12 2023, 15:02:15] Process[okngcounter.exe]===========
+
+2024-08-16 10:47:06.112 INFO  [20600] [PF_M_Init@34] [Init] [Begin]
+
+2024-08-16 10:47:06.112 INFO  [20600] [CiMVSWorkJob::Init@127] [Init] Client manager init begin.
+
+2024-08-16 10:47:06.112 INFO  [20600] [CiMVSWorkJob::Init@179] [Init] Client manager init end.
+
+2024-08-16 10:47:06.112 INFO  [20600] [CiMVSWorkJob::StartRun@1943] [Init] StartRun begin, client type[1], 0:vm, 1:export process, 2:other.
+
+2024-08-16 10:47:06.112 INFO  [20600] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-16 10:47:06.113 INFO  [10032] [LogDllOpr::ClearInvalidUiMapFileDir@432] [Init] Clear invalid ui mapping file dir begin, currunt pid[1444]
+
+2024-08-16 10:47:06.113 INFO  [20600] [CUiParamSetBase::SetChunkDataThreshold@663] ChunkDataThreshold[20971520]
+
+2024-08-16 10:47:06.113 INFO  [20600] [CUiParamSetBase::SetUiChunkMapWhenLoad@881] UiChunkDataMap[0] when load
+
+2024-08-16 10:47:06.113 INFO  [20600] [CiMVSWorkJob::LoadCfgParam@5092] [Init] Get config param, Now RepAddr[tcp://127.0.0.1:5556] memory[98] IsSamePc[1] loadTimeoutmin[180000] loadTimeoutmax[210000] AutoLoadSoluDelay[30000]
+
+2024-08-16 10:47:06.113 INFO  [20600] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-16 10:47:06.113 INFO  [20600] [CPluginMgr::LoadCfgParam@510] Now plugin type[0], dongle type[0]
+
+2024-08-16 10:47:06.113 INFO  [20600] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-16 10:47:06.113 WARN  [20600] [CFileHandlerMng::InitAutoSaveSol@685] [Init] Can not find file, use default value
+
+2024-08-16 10:47:06.113 INFO  [18644] [FilterNodeManagerForSP::Init@148] [Init] Module manager init begin
+
+2024-08-16 10:47:06.113 INFO  [18644] [FilterNodeManagerForSP::LoadCfgParam@555] Now procedure count[64], token source[VisionMasterServerApp.exe]
+
+2024-08-16 10:47:06.113 INFO  [18644] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-16 10:47:06.113 INFO  [20600] [CiMVSWorkJob::StartRun@1976] [Init] Process mode[1]
+
+2024-08-16 10:47:06.113 INFO  [20600] [CPluginMgr::Init@42] [Init] Plugin manager init begin
+
+2024-08-16 10:47:06.113 INFO  [20600] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-16 10:47:06.113 INFO  [15424] [CFileHandlerMng::DoSolutionOperate@317] DoSolutionOperate begin.
+
+2024-08-16 10:47:06.113 INFO  [18644] [CDynamicParam::GetMaxModuleCount@148] Max module count [1024]
+
+2024-08-16 10:47:06.113 INFO  [18644] [FilterNodeManagerForSP::Init@204] [Init] Load proxy dll
+
+2024-08-16 10:47:06.113 INFO  [18644] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-16 10:47:06.113 INFO  [20600] [CPluginMgr::LoadCfgParam@510] Now plugin type[0], dongle type[0]
+
+2024-08-16 10:47:06.113 INFO  [20600] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-16 10:47:06.115 INFO  [18644] [CLoadProxyDll::LoadDll@38] Load [C:/Program Files/VisionMaster4.3.0/Applications/ModuleProxy/x64/ModuleProxy.dll] success.
+
+2024-08-16 10:47:06.120 INFO  [10032] [LogDllOpr::ClearInvalidUiMapFileDir@469] [Init] Pid[1444] already exist
+
+2024-08-16 10:47:06.120 INFO  [10032] [LogDllOpr::ClearInvalidUiMapFileDir@477] [Init] Clear invalid ui mapping file dir end
+
+2024-08-16 10:47:06.158 INFO  [20600] [CPluginMgr::LoadComponent@124] Load [PlugAuthorization.dll] success.
+
+2024-08-16 10:47:06.158 INFO  [20600] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-16 10:47:06.160 INFO  [20600] [CPluginMgr::LoadComponent@124] Load [PlugMonitorResource.dll] success.
+
+2024-08-16 10:47:06.168 INFO  [18644] [FilterNodeManagerForSP::Init@224] [Init] VM_PROXY_Init finish
+
+2024-08-16 10:47:06.168 INFO  [18644] [FilterNodeManagerForSP::Init@232] [Init] VM_PROXY_SetServerCallBack finish
+
+2024-08-16 10:47:06.168 INFO  [18644] [FilterNodeManagerForSP::Init@240] [Init] Module manager init finish
+
+2024-08-16 10:47:06.965 INFO  [20600] [CPluginMgr::Init@76] [Init] Plugin manager init finish
+
+2024-08-16 10:47:06.965 INFO  [20600] [CiMVSWorkJob::StartRun@2001] [Init] Now dongle state [0]
+
+2024-08-16 10:47:06.965 INFO  [20600] [FilterNodeManagerForSP::UpdateDongleInfoToProxy@9553] Dongle state[0] camera count[4]
+
+2024-08-16 10:47:06.965 INFO  [20600] [CiMVSWorkJob::StartRun@2021] [Init] StartRun end.
+
+2024-08-16 10:47:06.965 INFO  [20600] [PF_M_Init@49] [Init] [End] PF_M_Init end.
+
+2024-08-16 10:47:06.965 INFO  [20600] [FilterNodeManagerForSP::SPSetSdkCallback@9453] SPSetSdkCallback
+
+2024-08-16 10:47:06.965 INFO  [20600] [CGlobalSriptMng::SetCallback4Single@1922] pCallback[00007FFA5B551BB0] userdata[00007FFA5BC89230]
+
+2024-08-16 10:47:06.965 INFO  [20600] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2063-0*6200*4*1000000]
+
+2024-08-16 10:47:06.965 INFO  [20600] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:06.966 INFO  [20600] [FilterNodeManagerForSP::TransmitSdk2ProxyMsgWithReply@7613] TransmitSdk2ProxyMsgWithReply End. ret[0]
+
+2024-08-16 10:47:08.676 INFO  [20600] [CiMVSWorkJob::ControlGetAllProcedure@4524] Client get all procedure begin.
+
+2024-08-16 10:47:08.676 ERROR [20600] [CiMVSWorkJob::ControlGetAllProcedure@4534] ControlGetAllProcedure procedure is empty.
+
+2024-08-16 10:47:08.676 INFO  [20600] [CiMVSWorkJob::ControlGetAllProcedure@4566] Client get all procedure end.
+
+2024-08-16 10:47:08.678 INFO  [20600] [CiMVSWorkJob::ControlGetAllGlobalModules@6779] Control get all global modules.
+
+2024-08-16 10:47:08.722 INFO  [20600] [CiMVSWorkJob::ControlLoadSolutionLocalhost@4087] Client load solution localhost begin !!!
+
+2024-08-16 10:47:08.722 INFO  [20600] [CFileSolutionHandler::ImportFileLocalhost@729] [Load Solution] LoadSolutionLocalhost client type[0] file[G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\okngcounter\C#project\okngcounter\Public_Release\Solution\release.sol] ReportSilenceRunFlag[1].
+
+2024-08-16 10:47:08.722 INFO  [20600] [CFileSolutionHandler::ImportFileLocalhost@740] [Load Solution] Client load solution localhost end !!!
+
+2024-08-16 10:47:08.722 INFO  [15424] [CFileSolutionHandler::AsnycImportFile@1358] [Load Solution] [Asyn Begin] Asnyc load solution begin !!! [G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\okngcounter\C#project\okngcounter\Public_Release\Solution\release.sol]
+
+2024-08-16 10:47:08.722 INFO  [15424] [CFileHandlerMng::ResetFrameEventForLoad@447] ResetFrameEventForLoad
+
+2024-08-16 10:47:08.722 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2024-0	G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\okngcounter\C#project\okngcounter\Public_Release\Solution\release.sol]
+
+2024-08-16 10:47:08.731 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.731 INFO  [15424] [CFileExportBase::UncompressXmlData@135] UncompressXmlData end.
+
+2024-08-16 10:47:08.731 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2026-15]
+
+2024-08-16 10:47:08.732 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.732 INFO  [15424] [CFileHandlerMng::ResetFrameEventForCloseSol@480] ResetFrameEventForCloseSol, close flag[1]
+
+2024-08-16 10:47:08.732 INFO  [15424] [CFileSolutionHandler::ClearSolutionResource@261] Clear solution resource.
+
+2024-08-16 10:47:08.732 INFO  [15424] [CFileSolutionHandler::ClearSolutionResource@273] Notify client procedure stop execute, state is idle
+
+2024-08-16 10:47:08.732 INFO  [15424] [FilterNodeManagerForSP::DeleteAllModule@1481] DeleteAllModule begin.
+
+2024-08-16 10:47:08.732 INFO  [15424] [CModuleManagerBase::DeleteAllModule@514] DeleteAllModule.
+
+2024-08-16 10:47:08.732 INFO  [15424] [FilterNodeManagerForSP::DeleteAllModule@1483] DeleteAllModule end.
+
+2024-08-16 10:47:08.732 INFO  [15424] [FilterNodeManagerForSP::DeleteAllProcedureMngPtr@3385] Delete all procedureMngPtr 
+
+2024-08-16 10:47:08.732 INFO  [15424] [FilterNodeManagerForSP::NotifyCloseSolu@6159] Notify frame close solution.
+
+2024-08-16 10:47:08.732 INFO  [20508] [FilterNodeManagerForSP::SPReportCloseSoluStatus@6171] Frame close solution finish.
+
+2024-08-16 10:47:08.732 INFO  [20508] [CFileHandlerMng::SetFrameEventForCloseSol@471] SetFrameEventForCloseSol, frame return[0]
+
+2024-08-16 10:47:08.738 INFO  [15424] [CGlobalSriptMng::CallbackFun@1938] Callback command[4007] ret[0]
+
+2024-08-16 10:47:08.738 INFO  [15424] [CGlobalSriptMng::CloseSolution@1418] Global script close solution end.
+
+2024-08-16 10:47:08.738 INFO  [15424] [CDogEncryptFile::ResetSaveEncryption@251] Reset save encryption
+
+2024-08-16 10:47:08.738 INFO  [15424] [CFileSolutionHandler::AsnycImportFile@1408] [Load Solution] AsnycLoadSolution ParseSolutionXml begin.
+
+2024-08-16 10:47:08.738 INFO  [15424] [CDogEncryptFile::CheckFileEncrypt@106] Begin.
+
+2024-08-16 10:47:08.783 INFO  [15424] [CDogEncryptFile::CheckFileEncrypt@114] MVDP_GetDataEncryptionFlag nRet[0].
+
+2024-08-16 10:47:08.783 INFO  [15424] [CDogEncryptFile::CheckFileEncrypt@122] End.
+
+2024-08-16 10:47:08.783 INFO  [15424] [FilterNodeManagerForSP::CreateProcedureObjectsWhenLoad@3107] Create inner procedure objects end
+
+2024-08-16 10:47:08.783 INFO  [15424] [FilterNodeManagerForSP::CreateModuleObjectWhenLoad@6836] Create inner module objects end.
+
+2024-08-16 10:47:08.783 INFO  [15424] [FilterNodeManagerForSP::SaveModuleConnWhenLoad@6975] Add inner connects end.
+
+2024-08-16 10:47:08.783 INFO  [15424] [FilterNodeManagerForSP::SaveModuleSubWhenLoad@7005] Add inner subscribe end.
+
+2024-08-16 10:47:08.783 INFO  [15424] [CFileExportBase::GetWaitTime@199] Wait time[180000]
+
+2024-08-16 10:47:08.783 INFO  [15424] [FilterNodeManagerForSP::SPSetLoadingSolFlag@7149] SPSetLoadingSolFlag [1], ret[0].
+
+2024-08-16 10:47:08.783 INFO  [15424] [FilterNodeManagerForSP::ModuleFrameAddProcedureList@3153] ModuleFrameAddProcedureList end
+
+2024-08-16 10:47:08.783 INFO  [15424] [CFileSolutionHandler::AsnycImportFile@1496] [Load Solution] Module frame add procedures finish !!!
+
+2024-08-16 10:47:08.783 INFO  [15424] [FilterNodeManagerForSP::SPAddModuleList@4284] Notify frame add module list end. Module count[5] return[0]
+
+2024-08-16 10:47:08.783 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2026-30]
+
+2024-08-16 10:47:08.783 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.783 INFO  [1968] [SolUncompressUiData@97] begin
+
+2024-08-16 10:47:08.783 INFO  [1968] [CFileSolutionHandler::UncompressUiParamDataV42@2414] Uncompress ui param begin.
+
+2024-08-16 10:47:08.784 INFO  [19660] [UncompressPicThread@75] begin
+
+2024-08-16 10:47:08.784 INFO  [19660] [FilterNodeManagerForSP::GetUserTempDir@7137] Get temp path[C:\Users\Fengling\AppData\Local\Temp\VM1444ImgSrcTemp] end.
+
+2024-08-16 10:47:08.784 INFO  [1968] [CFileSolutionHandler::UncompressUiParamDataV42@2417] Uncompress ui param end [0].
+
+2024-08-16 10:47:08.784 INFO  [1968] [CFileSolutionHandler::NotifyUiGetParam@2210] Notify client get data
+
+2024-08-16 10:47:08.784 INFO  [1968] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2032]
+
+2024-08-16 10:47:08.785 INFO  [19660] [CFileExportBase::UncompressPicFile@418] Decompress pic file to[C:\Users\Fengling\AppData\Local\Temp\VM1444ImgSrcTemp] end, ret[0].
+
+2024-08-16 10:47:08.785 INFO  [19660] [CFileExportBase::SetPictureWaitEvent@580] SetPictureWaitEvent
+
+2024-08-16 10:47:08.785 INFO  [19660] [UncompressPicThread@89] end
+
+2024-08-16 10:47:08.787 INFO  [9400] [FilterNodeManagerForSP::SPReportAddModuleListFinish@6791] Frame add module list finish.
+
+2024-08-16 10:47:08.787 INFO  [9400] [CFileHandlerMng::SetFrameEventForLoad@432] SetFrameEventForLoad
+
+2024-08-16 10:47:08.787 INFO  [15424] [FilterNodeManagerForSP::SPFrameAddSonModules@7191] SPAddSonModules Start.
+
+2024-08-16 10:47:08.787 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2026-50]
+
+2024-08-16 10:47:08.787 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.787 INFO  [15424] [CFileSolutionHandler::AsnycImportFile@1530] [Load Solution] Frame create modules finish !!!
+
+2024-08-16 10:47:08.787 INFO  [15424] [CFileHandlerMng::ResetFrameEventForLoad@447] ResetFrameEventForLoad
+
+2024-08-16 10:47:08.787 INFO  [15424] [CFileSolutionHandler::NotifyFrameLoadData@1779] File path[G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\okngcounter\C#project\okngcounter\Public_Release\Solution\release.sol]
+
+2024-08-16 10:47:08.788 INFO  [1968] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.788 INFO  [1968] [SolUncompressUiData@125] UncompressUiParam end
+
+2024-08-16 10:47:08.788 INFO  [1968] [CFileExportBase::SetUiDataWaitEvent@557] Set ui data wait event
+
+2024-08-16 10:47:08.788 INFO  [1968] [SolUncompressUiData@130] end
+
+2024-08-16 10:47:08.789 INFO  [15424] [CFileSolutionHandler::NotifyGlobalscriptLoadData@1825] Notify global script begin
+
+2024-08-16 10:47:08.791 INFO  [15424] [CFileSolutionHandler::UncompressGlobalscriptData@1818] UncompressOtherData end.
+
+2024-08-16 10:47:08.791 INFO  [15424] [CDogEncryptFile::CheckFileEncrypt@106] Begin.
+
+2024-08-16 10:47:08.791 INFO  [15424] [CDogEncryptFile::CheckFileEncrypt@114] MVDP_GetDataEncryptionFlag nRet[0].
+
+2024-08-16 10:47:08.791 INFO  [15424] [CDogEncryptFile::CheckFileEncrypt@122] End.
+
+2024-08-16 10:47:08.791 INFO  [7352] [FilterNodeManagerForSP::SPReportModuleLoadFinish@6064] Frame load module file finish.
+
+2024-08-16 10:47:08.791 INFO  [7352] [CFileHandlerMng::SetFrameEventForLoad@432] SetFrameEventForLoad
+
+2024-08-16 10:47:08.951 INFO  [15424] [CGlobalSriptMng::CallbackFun@1938] Callback command[4006] ret[0]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CFileSolutionHandler::NotifyGlobalscriptLoadData@1860] Notify global script end
+
+2024-08-16 10:47:08.951 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2026-75]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CFileSolutionHandler::AsnycImportFile@1553] [Load Solution] Module frame load param end.
+
+2024-08-16 10:47:08.951 INFO  [15424] [FilterNodeManagerForSP::ModuleConnectWhenLoadSolution@1598] Notify module frame connect list end. return[0]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2026-85]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.951 INFO  [15424] [FilterNodeManagerForSP::ModuleSubWhenLoadSolution@1645] Notify module frame sub list[10] end, return[0].
+
+2024-08-16 10:47:08.951 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2026-90]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CiMVSWorkJob::SetCurrentSolModifyFlag@6823] SolModifyFlag[0]
+
+2024-08-16 10:47:08.951 INFO  [15424] [FilterNodeManagerForSP::SPSetLoadingSolFlag@7149] SPSetLoadingSolFlag [0], ret[0].
+
+2024-08-16 10:47:08.951 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2026-100]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.951 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2025-0*0*G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\okngcounter\C#project\okngcounter\Public_Release\Solution\release.sol]
+
+2024-08-16 10:47:08.954 INFO  [20600] [CiMVSWorkJob::ControlGetAllProcedure@4524] Client get all procedure begin.
+
+2024-08-16 10:47:08.954 INFO  [20600] [CiMVSWorkJob::ControlGetAllProcedure@4566] Client get all procedure end.
+
+2024-08-16 10:47:08.954 INFO  [15424] [CiMVSWorkJob::ControlGetSolutionFilePath@5677] Client get solution file path begin.
+
+2024-08-16 10:47:08.954 INFO  [15424] [CiMVSWorkJob::ControlGetSolutionFilePath@5700] Client get solution file path end.[0]
+
+2024-08-16 10:47:08.963 INFO  [15424] [CiMVSWorkJob::SetNoneReportModuResult@6576] Ui set none report
+
+2024-08-16 10:47:08.963 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.963 INFO  [15424] [CGlobalSriptMng::LoadSolutionEndSignal@1425] Global script LoadSolutionEndSignal begin
+
+2024-08-16 10:47:08.964 INFO  [15424] [CGlobalSriptMng::CallbackFun@1938] Callback command[4014] ret[0]
+
+2024-08-16 10:47:08.965 INFO  [15424] [CGlobalSriptMng::LoadSolutionEndSignal@1463] Global script LoadSolutionEndSignal end
+
+2024-08-16 10:47:08.965 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2030-0]
+
+2024-08-16 10:47:08.965 INFO  [15424] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:08.965 INFO  [15424] [CFileSolutionHandler::ProcessExecuteAfterLoadSolu@2074] Process execute flag[0] for silence run
+
+2024-08-16 10:47:08.965 INFO  [15424] [CFileSolutionHandler::AsnycImportFile@1670] [Load Solution] [Asyn end] AsnycLoadSolution end[0]!!! 
+
+
+2024-08-16 10:47:09.292 INFO  [18152] [CiMVSWorkJob::ControlGetAllProcedure@4524] Client get all procedure begin.
+
+2024-08-16 10:47:09.292 INFO  [18152] [CiMVSWorkJob::ControlGetAllProcedure@4566] Client get all procedure end.
+
+2024-08-16 10:47:09.845 ERROR [20600] [CUiParamHandler::GetUiParamByKeySp@386] Obj id[10000] key[CalibData], ret[e0000001]
+
+2024-08-16 10:47:09.858 INFO  [20600] [CiMVSWorkJob::ControlGetAllGlobalModules@6779] Control get all global modules.
+
+2024-08-16 10:47:09.859 INFO  [20600] [CUiParamHandler::GetUiParamByKeyInMultiObjSp@663] Recv msg[10000	SourceIndex	1]
+
+2024-08-16 10:47:09.860 INFO  [20600] [CUiParamHandler::GetUiParamByKeyInMultiObjSp@663] Recv msg[10000	TargetIndex	1]
+
+2024-08-16 10:47:09.860 INFO  [20600] [CUiParamHandler::GetUiParamByKeyInMultiObjSp@663] Recv msg[10000	Position	0]
+
+2024-08-16 10:47:09.860 ERROR [20600] [CUiParamHandler::GetUiParamByKeyInMultiObjSp@672] GetUiParamByKeyInMultiObj fail.
+
+2024-08-16 10:47:10.416 INFO  [20600] [FilterNodeManagerForSP::TransmitSdk2ProxyMsgWithReply@7613] TransmitSdk2ProxyMsgWithReply End. ret[0]
+
+2024-08-16 10:47:10.417 INFO  [20600] [CUiParamHandler::GetUiParamByKeyInMultiObjSp@663] Recv msg[0,1,2,3,4	SourceIndex	1]
+
+2024-08-16 10:47:10.418 INFO  [20600] [CUiParamHandler::GetUiParamByKeyInMultiObjSp@663] Recv msg[0,1,2,3,4	TargetIndex	1]
+
+2024-08-16 10:47:10.419 INFO  [20600] [CUiParamHandler::GetUiParamByKeyInMultiObjSp@663] Recv msg[0,1,2,3,4	Position	0]
+
+2024-08-16 10:47:10.420 INFO  [20600] [CiMVSWorkJob::GetMultiModuleState@5243] Client send[0,1,2,3,4]
+
+2024-08-16 10:47:10.470 ERROR [20600] [CUiParamHandler::GetUiParamByKeySp@386] Obj id[0] key[DynamicObject], ret[e0000001]
+
+2024-08-16 10:47:10.474 INFO  [20600] [CUiParamHandler::GetUiParamByIdSp@470] Id[0]
+
+2024-08-16 10:47:10.484 INFO  [20600] [FilterNodeManagerForSP::SPGetBinaryData@9519] Module id[0] param[DynamicOutData]
+
+2024-08-16 10:47:10.495 INFO  [20600] [FilterNodeManagerForSP::SPGetBinaryData@9519] Module id[0] param[DynamicInData]
+
+2024-08-16 10:47:10.504 INFO  [20600] [CiMVSWorkJob::SetReportModuResult@6424] Client send[1*0].
+
+2024-08-16 10:47:10.504 INFO  [20600] [FilterNodeManagerForSP::SPSetReportModuResult@8644] bReportAll[0].
+
+2024-08-16 10:47:10.504 INFO  [20600] [CiMVSWorkJob::SetReportModuResult@6466] End
+
+2024-08-16 10:47:10.515 ERROR [20600] [CUiParamHandler::GetUiParamByKeySp@386] Obj id[1] key[DynamicObject], ret[e0000001]
+
+2024-08-16 10:47:10.515 INFO  [20600] [CUiParamHandler::GetUiParamByIdSp@470] Id[1]
+
+2024-08-16 10:47:10.517 INFO  [20600] [FilterNodeManagerForSP::SPGetBinaryData@9519] Module id[1] param[DynamicOutData]
+
+2024-08-16 10:47:10.518 INFO  [20600] [FilterNodeManagerForSP::SPGetBinaryData@9519] Module id[1] param[DynamicInData]
+
+2024-08-16 10:47:10.522 INFO  [20600] [CiMVSWorkJob::SetReportModuResult@6424] Client send[1*0,1].
+
+2024-08-16 10:47:10.522 INFO  [20600] [FilterNodeManagerForSP::SPSetReportModuResult@8644] bReportAll[0].
+
+2024-08-16 10:47:10.522 INFO  [20600] [CiMVSWorkJob::SetReportModuResult@6466] End
+
+2024-08-16 10:47:10.531 INFO  [20600] [FilterNodeManagerForSP::SPGetBinaryData@9519] Module id[2] param[DynamicOutData]
+
+2024-08-16 10:47:10.539 INFO  [20600] [CiMVSWorkJob::SetReportModuResult@6424] Client send[1*0,1,2].
+
+2024-08-16 10:47:10.539 INFO  [20600] [FilterNodeManagerForSP::SPSetReportModuResult@8644] bReportAll[0].
+
+2024-08-16 10:47:10.539 INFO  [20600] [CiMVSWorkJob::SetReportModuResult@6466] End
+
+2024-08-16 10:47:10.546 INFO  [20600] [FilterNodeManagerForSP::SPGetBinaryData@9519] Module id[3] param[DynamicOutData]
+
+2024-08-16 10:47:10.549 INFO  [20600] [CiMVSWorkJob::SetReportModuResult@6424] Client send[1*0,1,2,3].
+
+2024-08-16 10:47:10.550 INFO  [20600] [FilterNodeManagerForSP::SPSetReportModuResult@8644] bReportAll[0].
+
+2024-08-16 10:47:10.550 INFO  [20600] [CiMVSWorkJob::SetReportModuResult@6466] End
+
+2024-08-16 10:47:10.552 INFO  [20600] [FilterNodeManagerForSP::SPGetBinaryData@9519] Module id[4] param[DynamicOutData]
+
+2024-08-16 10:47:10.552 INFO  [20600] [CiMVSWorkJob::SetReportModuResult@6424] Client send[1*0,1,2,3,4].
+
+2024-08-16 10:47:10.552 INFO  [20600] [FilterNodeManagerForSP::SPSetReportModuResult@8644] bReportAll[0].
+
+2024-08-16 10:47:10.553 INFO  [20600] [CiMVSWorkJob::SetReportModuResult@6466] End
+
+2024-08-16 10:47:13.763 INFO  [20600] [CUiParamHandler::GetUiParamByKeySp@382] Obj id[0] key[IsReady] value len[1], success
+
+2024-08-16 10:47:13.764 INFO  [20600] [CUiParamHandler::GetUiParamByKeySp@382] Obj id[1] key[IsReady] value len[1], success
+
+2024-08-16 10:47:13.764 INFO  [20600] [CUiParamHandler::GetUiParamByKeySp@382] Obj id[2] key[IsReady] value len[1], success
+
+2024-08-16 10:47:13.764 INFO  [20600] [CUiParamHandler::GetUiParamByKeySp@382] Obj id[3] key[IsReady] value len[1], success
+
+2024-08-16 10:47:13.764 INFO  [20600] [CUiParamHandler::GetUiParamByKeySp@382] Obj id[4] key[IsReady] value len[1], success
+
+2024-08-16 10:47:13.765 INFO  [18152] [CGlobalSriptMng::ExcuteOnce@637] [Run once] Global sript execute once begin
+
+2024-08-16 10:47:13.766 INFO  [18152] [CGlobalSriptMng::CallbackFun@1938] Callback command[4002] ret[0]
+
+2024-08-16 10:47:13.766 INFO  [18152] [CGlobalSriptMng::ExcuteOnce@697] [Run once] Global sript execute once end
+
+2024-08-16 10:47:13.846 INFO  [21052] [FilterNodeManagerForSP::SPGetBinaryData@9519] Module id[2] param[DynamicInData]
+
+2024-08-16 10:47:13.846 INFO  [21052] [FilterNodeManagerForSP::SPGetBinaryData@9519] Module id[3] param[DynamicInData]
+
+2024-08-16 10:47:13.847 INFO  [21052] [FilterNodeManagerForSP::SPGetBinaryData@9519] Module id[4] param[DynamicInData]
+
+2024-08-16 10:47:13.855 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2010-10000-1-1]
+
+2024-08-16 10:47:13.855 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:13.910 INFO  [20600] [CiMVSWorkJob::ClientGetMultiModuSub@6748] Client send[1].
+
+2024-08-16 10:47:15.320 INFO  [18152] [CGlobalSriptMng::ExcuteOnce@637] [Run once] Global sript execute once begin
+
+2024-08-16 10:47:15.321 INFO  [18152] [CGlobalSriptMng::CallbackFun@1938] Callback command[4002] ret[0]
+
+2024-08-16 10:47:15.321 INFO  [18152] [CGlobalSriptMng::ExcuteOnce@697] [Run once] Global sript execute once end
+
+2024-08-16 10:47:15.367 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2010-10000-2-1]
+
+2024-08-16 10:47:15.367 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:16.240 INFO  [4088] [CGlobalSriptMng::ExcuteOnce@637] [Run once] Global sript execute once begin
+
+2024-08-16 10:47:16.241 INFO  [4088] [CGlobalSriptMng::CallbackFun@1938] Callback command[4002] ret[0]
+
+2024-08-16 10:47:16.241 INFO  [4088] [CGlobalSriptMng::ExcuteOnce@697] [Run once] Global sript execute once end
+
+2024-08-16 10:47:16.286 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2010-10000-3-1]
+
+2024-08-16 10:47:16.286 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:16.928 INFO  [18152] [CGlobalSriptMng::ExcuteOnce@637] [Run once] Global sript execute once begin
+
+2024-08-16 10:47:16.928 INFO  [18152] [CGlobalSriptMng::CallbackFun@1938] Callback command[4002] ret[0]
+
+2024-08-16 10:47:16.928 INFO  [18152] [CGlobalSriptMng::ExcuteOnce@697] [Run once] Global sript execute once end
+
+2024-08-16 10:47:16.972 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2010-10000-4-1]
+
+2024-08-16 10:47:16.972 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:17.663 INFO  [5284] [CGlobalSriptMng::ExcuteOnce@637] [Run once] Global sript execute once begin
+
+2024-08-16 10:47:17.664 INFO  [5284] [CGlobalSriptMng::CallbackFun@1938] Callback command[4002] ret[0]
+
+2024-08-16 10:47:17.664 INFO  [5284] [CGlobalSriptMng::ExcuteOnce@697] [Run once] Global sript execute once end
+
+2024-08-16 10:47:17.707 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2010-10000-5-1]
+
+2024-08-16 10:47:17.707 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:21.752 INFO  [18152] [CGlobalSriptMng::ExcuteOnce@637] [Run once] Global sript execute once begin
+
+2024-08-16 10:47:21.753 INFO  [18152] [CGlobalSriptMng::CallbackFun@1938] Callback command[4002] ret[0]
+
+2024-08-16 10:47:21.753 INFO  [18152] [CGlobalSriptMng::ExcuteOnce@697] [Run once] Global sript execute once end
+
+2024-08-16 10:47:21.795 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4160] Callback msg to client begin, [2010-10000-6-1]
+
+2024-08-16 10:47:21.795 INFO  [20508] [CiMVSWorkJob::SendMainPubMsg@4167] Callback msg to client end, ret[0]
+
+2024-08-16 10:47:25.239 INFO  [20600] [CiMVSWorkJob::ClientCheckCurrentSolModify@6843] Current sol modify[OK*0]
+
+2024-08-16 10:47:25.240 INFO  [18152] [CiMVSWorkJob::SetPubMsgCallback@7130] Begin
+
+2024-08-16 10:47:25.240 INFO  [18152] [CiMVSWorkJob::SetPubMsgCallback@7134] End
+
+2024-08-16 10:47:25.240 INFO  [18152] [CiMVSWorkJob::SetReportModuleMsgCallback@7711] Begin
+
+2024-08-16 10:47:25.240 INFO  [18152] [CiMVSWorkJob::SetReportModuleMsgCallback@7715] End
+
+2024-08-16 10:47:25.240 INFO  [18152] [FilterNodeManagerForSP::SPSetSdkCallback@9453] SPSetSdkCallback
+
+2024-08-16 10:47:25.286 INFO  [18152] [CiMVSWorkJob::SetPubMsgCallback@7130] Begin
+
+2024-08-16 10:47:25.286 INFO  [18152] [CiMVSWorkJob::SetPubMsgCallback@7134] End
+
+2024-08-16 10:47:25.286 INFO  [18152] [CiMVSWorkJob::SetReportModuleMsgCallback@7711] Begin
+
+2024-08-16 10:47:25.286 INFO  [18152] [CiMVSWorkJob::SetReportModuleMsgCallback@7715] End
+
+2024-08-16 10:47:25.286 INFO  [18152] [FilterNodeManagerForSP::SPSetSdkCallback@9453] SPSetSdkCallback
+
+2024-08-16 10:47:25.286 INFO  [18152] [PF_M_Deinit@56] [Deinit] [Begin] PF_M_Deinit begin.
+
+2024-08-16 10:47:25.286 INFO  [18152] [CiMVSWorkJob::StopRun@2031] [Deinit] StopRun begin.
+
+2024-08-16 10:47:25.286 INFO  [18152] [FilterNodeManagerForSP::DeInit@250] [Deinit] Module manager deinit begin.
+
+2024-08-16 10:47:25.557 INFO  [18152] [CModuleManagerBase::DeleteAllModule@514] DeleteAllModule.
+
+2024-08-16 10:47:25.557 INFO  [18152] [FilterNodeManagerForSP::DeleteAllProcedureMngPtr@3385] Delete all procedureMngPtr 
+
+2024-08-16 10:47:25.557 INFO  [18152] [FilterNodeManagerForSP::DeInit@290] [Deinit] Module manager deinit finish.
+
+2024-08-16 10:47:25.557 INFO  [18152] [CFileHandlerMng::Deinit@202] [Deinit] Deinit begin
+
+2024-08-16 10:47:25.557 INFO  [15424] [CFileHandlerMng::DoSolutionOperate@370] DoSolutionOperate end.
+
+2024-08-16 10:47:25.558 INFO  [18152] [CModuleManagerBase::DeleteAllModule@514] DeleteAllModule.
+
+2024-08-16 10:47:25.558 INFO  [18152] [FilterNodeManagerForSP::UnloadProxyDll@297] [Deinit] Unload proxy dll.
+
+2024-08-16 10:47:25.558 INFO  [18152] [CiMVSWorkJob::StopRun@2060] [Deinit] StopRun end.
+
+2024-08-16 10:47:25.558 INFO  [18152] [CiMVSWorkJob::DeInit@1872] [Deinit] Client manager deinit begin.
+
+2024-08-16 10:47:25.558 INFO  [18152] [CPluginMgr::Unit@87] [Deinit] Plugin manager Deinit begin
+
+2024-08-16 10:47:25.645 INFO  [18152] [CPluginMgr::Unit@94] [Deinit] Plugin manager Deinit finish
+
+2024-08-16 10:47:25.645 INFO  [18152] [CUiSolutionParam::~CUiSolutionParam@22] [Deinit] ~CUiSolutionParam
+
+2024-08-16 10:47:25.645 INFO  [18152] [CiMVSWorkJob::DeInit@1890] [Deinit] Client manager deinit finish.
+
+2024-08-16 10:47:25.645 INFO  [18152] [PF_M_Deinit@64] [Deinit] [End] PF_M_Deinit end.
+

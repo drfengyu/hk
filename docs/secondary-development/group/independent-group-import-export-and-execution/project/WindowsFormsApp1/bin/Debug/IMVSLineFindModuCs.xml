@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IMVSLineFindModuCs</name>
+    </assembly>
+    <members>
+        <member name="T:IMVSLineFindModuCs.LineFindRoiManager">
+            <summary>
+            CH: ROI管理类 | EN: ROI Manager Class
+            </summary>
+        </member>
+        <member name="M:IMVSLineFindModuCs.LineFindRoiManager.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IMVSLineFindModuCs.LineFindRoiManager.#ctor(VM.PlatformSDKCS.CModuleParamBase,System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindRoiManager.RoiRectangle">
+            <summary>
+            CH: 矩形ROI(仅当次执行起效) | EN: Rectangle ROI(Only valid for this execution)
+            </summary>
+        </member>
+        <member name="T:IMVSLineFindModuCs.LineFindParam">
+            <summary>
+            CH: 直线查找 | EN: Line Search
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.InputImage">
+            <summary>
+            CH: 输入图像(仅当次执行起效) | EN: InputImage(Only valid for this execution)
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.ModuRoiManager">
+            <summary>
+            CH: ROI管理器 | EN: ROI Manager
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.FindMode">
+            <summary>
+            CH: 边缘类型 | EN: Edge Type
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.FindModeEnum.Best">
+            <summary>
+            CH: 最强 | EN: Strongest Edge
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.FindModeEnum.First">
+            <summary>
+            CH: 第一条 | EN: First Edge
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.FindModeEnum.Last">
+            <summary>
+            CH: 最后一条 | EN: Last Edge
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.FindModeEnum.Mid">
+            <summary>
+            CH: 接近中线 | EN: Close To Mid
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.EdgePolarity">
+            <summary>
+            CH: 边缘极性 | EN: EdgePolarity
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.EdgePolarityEnum.BlackToWhite">
+            <summary>
+            CH: 从黑到白 | EN: Dark to Light
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.EdgePolarityEnum.WhiteToBlack">
+            <summary>
+            CH: 从白到黑 | EN: Light to Dark
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.EdgePolarityEnum.Both">
+            <summary>
+            CH: 任意极性 | EN: Both
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.EdgeStrength">
+            <summary>
+            CH: 边缘阈值 | EN: Edge Threshold
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.KernelSize">
+            <summary>
+            CH: 滤波尺寸 | EN: Filter Size
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.RayNum">
+            <summary>
+            CH: 卡尺数量 | EN: Caliper Number
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.RevertFindOrient">
+            <summary>
+            CH: 直线查找反向 | EN: RevertFindOrient
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.AngleNormalization">
+            <summary>
+            CH: 角度归一化 | EN: AngleNormalization
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.RejectNum">
+            <summary>
+            CH: 剔除点数 | EN: Reject Number
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.RejectDist">
+            <summary>
+            CH: 剔除距离 | EN: Distance to remove
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.RegionWidth">
+            <summary>
+            CH: 投影宽度 | EN: Projection Width
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.InitType">
+            <summary>
+            CH: 初始拟合 | EN: Initial Fit
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.InitTypeEnum.ALS">
+            <summary>
+            CH: 全局 | EN: Global
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.InitTypeEnum.LLS">
+            <summary>
+            CH: 局部 | EN: Partial
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.FitFun">
+            <summary>
+            CH: 拟合方式 | EN: Fit Mode
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.FitFunEnum.LS">
+            <summary>
+            CH: 最小二乘 | EN: Least Squares
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.FitFunEnum.Huber">
+            <summary>
+            CH: huber | EN: huber
+            </summary>
+        </member>
+        <member name="F:IMVSLineFindModuCs.LineFindParam.FitFunEnum.Tukey">
+            <summary>
+            CH: tukey | EN: tukey
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.FitPointsLimitEnable">
+            <summary>
+            CH: 匹配点数判断 | EN: Fit Points Check
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.FitPointsLimitLow">
+            <summary>
+            CH: 拟合点数范围 | EN: Fit Points Range
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.FitPointsLimitHigh">
+            <summary>
+            CH: 拟合点数范围 | EN: Fit Points Range
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.AngleLimitEnable">
+            <summary>
+            CH: 角度判断 | EN: Angle Check
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.AngleLimitLow">
+            <summary>
+            CH: 角度范围 | EN: Angle Range
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.AngleLimitHigh">
+            <summary>
+            CH: 角度范围 | EN: Angle Range
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.ScoreLimitEnable">
+            <summary>
+            CH: 拟合误差判断 | EN: Fit Error Check
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.ScoreLimitLow">
+            <summary>
+            CH: 拟合误差范围 | EN: Fit Error Range
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindParam.ScoreLimitHigh">
+            <summary>
+            CH: 拟合误差范围 | EN: Fit Error Range
+            </summary>
+        </member>
+        <member name="M:IMVSLineFindModuCs.LineFindParam.#ctor(System.UInt32)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="T:IMVSLineFindModuCs.IMVSLineFindModuTool">
+            <summary>
+            CH: 直线查找 | EN: Find Line
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.IMVSLineFindModuTool.ModuResult">
+            <summary>
+            CH: 模块结果对象 | EN: Module Result Object
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.IMVSLineFindModuTool.ModuParams">
+            <summary>
+            CH: 模块参数对象 | EN: Module Param Object
+            </summary>
+        </member>
+        <member name="M:IMVSLineFindModuCs.IMVSLineFindModuTool.Run">
+            <summary>
+            CH: 模块自执行 | EN: Module Self Run
+            </summary>
+        </member>
+        <member name="T:IMVSLineFindModuCs.LineFindResult">
+            <summary>
+            CH: 直线查找 | EN: Line Search
+            </summary>
+        </member>
+        <member name="M:IMVSLineFindModuCs.LineFindResult.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.ModuStatus">
+            <summary>
+            CH: 模块状态 | EN: ModuStatus
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.OutputLine">
+            <summary>
+            CH: 输出直线 | EN: OutputLine
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.Midpoint">
+            <summary>
+            CH: 中点 | EN: Midpoint
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.LineAngle">
+            <summary>
+            CH: 直线角度 | EN: LineAngle
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.LineFitError">
+            <summary>
+            CH: 拟合误差 | EN: LineFitError
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.LinearContourPoint">
+            <summary>
+            CH: 直线轮廓点 | EN: Linear Contour Point
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.EdgePointNum">
+            <summary>
+            CH: 边缘点个数 | EN: EdgePointNum
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.EdgePointStatus">
+            <summary>
+            CH: 轮廓点状态 | EN: EdgePointStatus
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.ROI">
+            <summary>
+            CH: 检测区域 | EN: ROI
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.CaliperBox">
+            <summary>
+            CH: 卡尺框 | EN: CaliperBox
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.DetectCaliperBox">
+            <summary>
+            CH: 卡尺框检测区 | EN: DetectCaliperBox
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.BlindPolygonPointNum">
+            <summary>
+            CH: 多边形点数 | EN: PolygonPointNum
+            </summary>
+        </member>
+        <member name="P:IMVSLineFindModuCs.LineFindResult.BlindPolygonPoints">
+            <summary>
+            CH: 多边形点集 | EN: PolygonPoints
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmTabRoot>
+  <IsFullScreen>True</IsFullScreen>
+  <Tabs>
+    <Tab Name="通信配置">
+      <Categorys>        
+		<CategoryNoHead Name="Tab_Com Param">
+          <Items>
+			 <Enumeration Name="IntDataType">
+              <Description>RunParam_IntDataType</Description>
+              <DisplayName>RunParam_IntDataType</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>1</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <EnumEntrys>
+                <EnumEntry Name="16bit">
+                  <Description>16bit</Description>
+                  <DisplayName>16bit</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+                <EnumEntry Name="32bit">
+                  <Description>32bit</Description>
+                  <DisplayName>32bit</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+               </EnumEntrys>
+              </Enumeration>
+			 <Integer Name="SoftElementAddress">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>100</CurValue>
+              <DefaultValue>100</DefaultValue>
+              <Description>RunParam_Soft Component Address</Description>
+              <DisplayName>RunParam_Soft Component Address</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+			 <Integer Name="SoftElementNum">
+              <MinValue>1</MinValue>
+              <MaxValue>128</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>2</CurValue>
+              <DefaultValue>2</DefaultValue>
+              <Description>RunParam_Soft Component Points</Description>
+              <DisplayName>RunParam_Soft Component Points</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+			 <Integer Name="StationNum">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>StationNum</Description>
+              <DisplayName>StationNum</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+			 
+			 <Integer Name="PLCNum">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>PLCNum</Description>
+              <DisplayName>PLCNum</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+			 
+			 <Integer Name="VMNum">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>VMNum</Description>
+              <DisplayName>VMNum</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+			 
+			 <Integer Name="DeviceNum">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>DeviceNum</Description>
+              <DisplayName>DeviceNum</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+		     
+			 <Integer Name="OverTime">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>200</CurValue>
+              <DefaultValue>200</DefaultValue>
+              <Description>RunParam_Timeout</Description>
+              <DisplayName>RunParam_Timeout</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>		
+			<EnumEntryAdr Name="AssociatedAddress">
+				<Description>RunParam_AssociateAddress</Description>
+				<DisplayName>RunParam_AssociateAddress</DisplayName>
+				<Visibility>Beginner</Visibility>
+				<AccessMode>RW</AccessMode>
+				<AlgorithmIndex>0</AlgorithmIndex>
+				<CurValue>0</CurValue>
+				<DefaultValue>0</DefaultValue>
+				<CustomVisible>True</CustomVisible>
+				<SupportChangeEnable>True</SupportChangeEnable>
+			 </EnumEntryAdr>				 
+			 <Boolean Name="PollEnable">
+                <AlgorithmIndex>0</AlgorithmIndex>
+                <CurValue>False</CurValue>
+				<DefaultValue>False</DefaultValue>
+				<Description>RunParam_Polling</Description>
+				<DisplayName>RunParam_Polling</DisplayName>
+				<Visibility>Beginner</Visibility>
+				<AccessMode>RW</AccessMode>
+			 </Boolean>
+			 <Boolean Name="Upload">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>True</CurValue>
+              <DefaultValue>True</DefaultValue>
+              <Description>UploadTip</Description>
+              <DisplayName>Upload</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+            </Boolean>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+  </Tabs>
+</AlgorithmTabRoot>

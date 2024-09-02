@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToolBoxItemData>
+    <name>CalculatorModule</name>
+	<priority>7</priority>
+	<toolTip>CalculatorModule_Tip</toolTip>
+</ToolBoxItemData>

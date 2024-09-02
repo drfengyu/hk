@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Display">
+      <Items>
+        <Object Name="Show Text" Type="text" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" fontsize="9" opacity="1" IsDisplay="true">
+          <Features>
+            <Feature Name="PositionX" Mapping="NULL" Value="0" />
+            <Feature Name="PositionY" Mapping="NULL" Value="0" />
+            <Feature Name="FontSize" Mapping="NULL" Value="10" />
+            <Feature Name="Angle" Mapping="NULL" Value="0" />
+            <Feature Name="Content" Value="%{0}%" Mapping="ResultShow" />
+            <Feature Name="Status" Value="0" Mapping="ModuStatus" />
+          </Features>
+        </Object>
+        <Object Name="Data Record" Type="datarecord" okcolor="#66ff00" ngcolor="#ff0000" hotcolor="#66ff00" opacity="1" linetype="1" linewidth="2" IsDisplay="true">
+          <Features>
+            <Feature Name="Content" Value="Module Status:{0} {1}" Mapping="ModuStatus,ResultShow" />
+            <Feature Name="Num" Value="1" Mapping="NULL" />
+          </Features>
+        </Object>
+      </Items>
+    </Category>
+  </Categorys>
+</ParamRoot>

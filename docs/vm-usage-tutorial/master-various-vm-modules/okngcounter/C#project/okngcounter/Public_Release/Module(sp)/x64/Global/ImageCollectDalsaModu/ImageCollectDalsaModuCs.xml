@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImageCollectDalsaModuCs</name>
+    </assembly>
+    <members>
+        <member name="M:ImageCollectModuCs.ImageCollectDalsaModuTool.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:ImageCollectModuCs.ImageCollectDalsaModuTool.#ctor(System.Object)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+    </members>
+</doc>

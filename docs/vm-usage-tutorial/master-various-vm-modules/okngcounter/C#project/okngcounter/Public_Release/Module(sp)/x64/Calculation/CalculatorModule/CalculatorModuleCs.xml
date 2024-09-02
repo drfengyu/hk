@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculatorModuleCs</name>
+    </assembly>
+    <members>
+        <member name="T:CalculatorModuleCs.CalculatorParam">
+            <summary>
+            CH: 变量计算 | EN: Variable Calculation
+            </summary>
+        </member>
+        <member name="M:CalculatorModuleCs.CalculatorParam.DoResetValue">
+            <summary>
+            CH: 重置 | EN: Reset
+            </summary>
+        </member>
+        <member name="M:CalculatorModuleCs.CalculatorParam.#ctor(System.UInt32)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="T:CalculatorModuleCs.CalculatorModuleTool">
+            <summary>
+            CH: 变量计算 | EN: Calculator
+            </summary>
+        </member>
+        <member name="P:CalculatorModuleCs.CalculatorModuleTool.ModuResult">
+            <summary>
+            CH: 模块结果对象 | EN: Module Result Object
+            </summary>
+        </member>
+        <member name="P:CalculatorModuleCs.CalculatorModuleTool.ModuParams">
+            <summary>
+            CH: 模块参数对象 | EN: Module Param Object
+            </summary>
+        </member>
+        <member name="M:CalculatorModuleCs.CalculatorModuleTool.Run">
+            <summary>
+            CH: 模块自执行 | EN: Module Self Run
+            </summary>
+        </member>
+        <member name="F:CalculatorModuleCs.CalculatorModuleTool.sendData">
+            <summary>
+            下发数据
+            </summary>
+        </member>
+        <member name="F:CalculatorModuleCs.CalculatorModuleTool.sendlargeStart">
+            <summary>
+            下发大数据开始
+            </summary>
+        </member>
+        <member name="F:CalculatorModuleCs.CalculatorModuleTool.sendinglarge">
+             <summary>
+            数据发送中
+             </summary>
+        </member>
+        <member name="F:CalculatorModuleCs.CalculatorModuleTool.sendlargeend">
+             <summary>
+            数据发送结束
+             </summary>
+        </member>
+        <member name="F:CalculatorModuleCs.CalculatorModuleTool.sendStart">
+             <summary>
+            下发开始
+             </summary>
+        </member>
+        <member name="M:CalculatorModuleCs.CalculatorModuleTool.GetEscapeString(System.String)">
+            <summary>
+            获取转义后的字符串
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CalculatorModuleCs.CalculatorResult">
+            <summary>
+            CH: 变量计算 | EN: Variable Calculation
+            </summary>
+        </member>
+        <member name="M:CalculatorModuleCs.CalculatorResult.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="M:CalculatorModuleCs.CalculatorResult.#ctor(System.UInt32)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="P:CalculatorModuleCs.CalculatorResult.ResultShow">
+            <summary>
+            CH: 结果显示 | EN: ResultShow
+            </summary>
+        </member>
+        <member name="P:CalculatorModuleCs.CalculatorResult.ModuStatus">
+            <summary>
+            CH: 模块状态 | EN: ModuStatus
+            </summary>
+        </member>
+        <member name="P:CalculatorModuleCs.CalculatorResult.ModuleResult">
+            <summary>
+            结果缓存 加速获取
+            </summary>
+        </member>
+        <member name="M:CalculatorModuleCs.CalculatorResult.GetOutputInt(System.String)">
+            <summary>
+            整型结果
+            </summary>
+        </member>
+        <member name="M:CalculatorModuleCs.CalculatorResult.GetOutputFloat(System.String)">
+            <summary>
+            浮点型结果
+            </summary>
+        </member>
+        <member name="F:CalculatorModuleCs.CalculatorResult.m_nModuleId">
+            <summary>
+            模块ID
+            </summary>
+        </member>
+        <member name="M:CalculatorModuleCs.CalculatorResult.DeleteSpecifyChar(System.String,System.String)">
+            <summary>
+            剔除指定字符
+            </summary>
+        </member>
+    </members>
+</doc>

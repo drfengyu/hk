@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IMVSOcrModuCs</name>
+    </assembly>
+    <members>
+        <member name="T:IMVSOcrModuCs.IMVSOcrModuTool">
+            <summary>
+            CH: 字符识别 | EN: OcR
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.IMVSOcrModuTool.ModuResult">
+            <summary>
+            CH: 模块结果对象 | EN: Module Result Object
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.IMVSOcrModuTool.ModuParams">
+            <summary>
+            CH: 模块参数对象 | EN: Module Param Object
+            </summary>
+        </member>
+        <member name="M:IMVSOcrModuCs.IMVSOcrModuTool.Run">
+            <summary>
+            CH: 模块自执行 | EN: Module Self Run
+            </summary>
+        </member>
+        <member name="M:IMVSOcrModuCs.IMVSOcrModuTool.ImportModelData(System.String)">
+            <summary>
+            CH: 导入数据 | EN: Import Module Data
+            </summary>
+        </member>
+        <member name="T:IMVSOcrModuCs.OcrRoiManager">
+            <summary>
+            CH: ROI管理类 | EN: ROI Manager Class
+            </summary>
+        </member>
+        <member name="M:IMVSOcrModuCs.OcrRoiManager.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:IMVSOcrModuCs.OcrRoiManager.#ctor(VM.PlatformSDKCS.CModuleParamBase,System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrRoiManager.RoiRectangle">
+            <summary>
+            CH: 矩形ROI(仅当次执行起效) | EN: Rectangle ROI(Only valid for this execution)
+            </summary>
+        </member>
+        <member name="T:IMVSOcrModuCs.OcrParam">
+            <summary>
+            CH: 字符识别 | EN: OCR
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.InputImage">
+            <summary>
+            CH: 输入图像(仅当次执行起效) | EN: InputImage(Only valid for this execution)
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.ModuRoiManager">
+            <summary>
+            CH: ROI管理器 | EN: ROI Manager
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.FontFilterEnable">
+            <summary>
+            CH: 启用字符过滤 | EN: Character Filtration Enable
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.FontFilterNum">
+            <summary>
+            CH: 识别字符个数 | EN: Identify Character Quantity
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.FontFilterInfo">
+            <summary>
+            CH: 字符过滤信息 | EN: Character Filtration Info.
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.Polarity">
+            <summary>
+            CH: 字符极性 | EN: Character Polarity
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.PolarityEnum.DarkOnBright">
+            <summary>
+            CH: 白底黑字 | EN: Dark On Light
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.PolarityEnum.BrightOnDark">
+            <summary>
+            CH: 黑底白字 | EN: Light On Dark
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MinCharWidth">
+            <summary>
+            CH: 字符宽度范围 | EN: Character Width Range
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MaxCharWidth">
+            <summary>
+            CH: 字符宽度范围 | EN: Character Width Range
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.WidthType">
+            <summary>
+            CH: 宽度类型 | EN: Width Type
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.WidthTypeEnum.Changable">
+            <summary>
+            CH: 可变类型 | EN: Changable Type
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.WidthTypeEnum.Aequilatus">
+            <summary>
+            CH: 等宽类型 | EN: Aequilatus Type
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MinCharHeight">
+            <summary>
+            CH: 字符高度范围 | EN: Character Height Range
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MaxCharHeight">
+            <summary>
+            CH: 字符高度范围 | EN: Character Height Range
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.BinaryCoef">
+            <summary>
+            CH: 二值化系数 | EN: Binary Ratio
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MinCharArea">
+            <summary>
+            CH: 片段面积范围 | EN: Area of fragment area
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MaxCharArea">
+            <summary>
+            CH: 片段面积范围 | EN: Area of fragment area
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.AcceptThreshold">
+            <summary>
+            CH: 合格阈值 | EN: Accept Threshold
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MainLineDistThresh">
+            <summary>
+            CH: 距离阈值 | EN: Distance Threshold
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.IgnoreBorderFragmentEnable">
+            <summary>
+            CH: 忽略边框 | EN: Ignore Borders
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.IgnoreBorderFragmentEnableEnum.Tab_No">
+            <summary>
+            CH: 否 | EN: No
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.IgnoreBorderFragmentEnableEnum.Tab_Yes">
+            <summary>
+            CH: 是 | EN: Yes
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.OrientHalfRange">
+            <summary>
+            CH: 主方向范围 | EN: Main Direction Range
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.SlantHalfRange">
+            <summary>
+            CH: 倾斜角范围 | EN: Tilt Range
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MinInterCharGap">
+            <summary>
+            CH: 字符最小间隙 | EN: Min Char Gap
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MinInterTextGap">
+            <summary>
+            CH: 行间最小间隙 | EN: Min Text Gap
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MaxLengthWidthRatio">
+            <summary>
+            CH: 最大宽高比 | EN: Max Aspect Ratio
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.ClassMethod">
+            <summary>
+            CH: 分类方法 | EN: Classification Method
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.ClassMethodEnum.NearestDistance">
+            <summary>
+            CH: 距离最近 | EN: Nearest Distance
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.ClassMethodEnum.WeightHighest">
+            <summary>
+            CH: 权重最高 | EN: Weight Highest
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.ClassMethodEnum.RateFastest">
+            <summary>
+            CH: 频率最高 | EN: Rate Fastest
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.StrokeFilterEnable">
+            <summary>
+            CH: 字宽滤波使能 | EN: Stroke Width Filter
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.StrokeFilterEnableEnum.No">
+            <summary>
+            CH: 不使能 | EN: Disabled
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.StrokeFilterEnableEnum.Yes">
+            <summary>
+            CH: 使能 | EN: Enabled
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MinStrokeWidth">
+            <summary>
+            CH: 笔画宽度范围 | EN: Stroke Width Range
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.MaxStrokeWidth">
+            <summary>
+            CH: 笔画宽度范围 | EN: Stroke Width Range
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.SimilarFun">
+            <summary>
+            CH: 相似度类型 | EN: Similarity Type
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.SimilarFunEnum.Euclid">
+            <summary>
+            CH: 欧式距离 | EN: Euclidean Distance
+            </summary>
+        </member>
+        <member name="F:IMVSOcrModuCs.OcrParam.SimilarFunEnum.Cosine">
+            <summary>
+            CH: 余弦距离 | EN: Cosine Distance
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.NumLimitEnable">
+            <summary>
+            CH: 个数判断 | EN: Number Check
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.NumLimitLow">
+            <summary>
+            CH: 个数范围 | EN: Number Range
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.NumLimitHigh">
+            <summary>
+            CH: 个数范围 | EN: Number Range
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.VerifyEnable">
+            <summary>
+            CH: 字符验证 | EN: Character Verification
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.NumVerifyEnable">
+            <summary>
+            CH: 数字集 | EN: Number Set
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.SmallAlphabetVerify">
+            <summary>
+            CH: 小写字母集 | EN: Lowercase Set
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.BigAlphabetVerify">
+            <summary>
+            CH: 大写字母集 | EN: Uppercase Set
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.SpecialCharVerify">
+            <summary>
+            CH: 特殊字符集 | EN: Special Character Set
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.UserStringVerify">
+            <summary>
+            CH: 用户字符验证 | EN: UDC Verification
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrParam.UserString">
+            <summary>
+            CH: 用户字符 | EN: UDC
+            </summary>
+        </member>
+        <member name="M:IMVSOcrModuCs.OcrParam.#ctor(System.UInt32)">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="T:IMVSOcrModuCs.OcrResult">
+            <summary>
+            CH: 字符识别 | EN: OCR
+            </summary>
+        </member>
+        <member name="M:IMVSOcrModuCs.OcrResult.#ctor">
+            <summary>
+            CH: 构造函数 | EN: Constructor
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.ModuStatus">
+            <summary>
+            CH: 模块状态 | EN: ModuStatus
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.RecognitionResultNum">
+            <summary>
+            CH: 识别结果数量 | EN: Result Count
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.CharNum">
+            <summary>
+            CH: 字符个数 | EN: CharNum
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.Text">
+            <summary>
+            CH: 字符信息 | EN: Text
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.SecondText">
+            <summary>
+            CH: 候选字符 | EN: CandidateText
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.CharScore">
+            <summary>
+            CH: 字符分数 | EN: CharScore
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.CharRect">
+            <summary>
+            CH: 字符框 | EN: CharRect
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.CharBoxSkew">
+            <summary>
+            CH: 字符矩形倾斜度 | EN: CharBoxSkew
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.ROI">
+            <summary>
+            CH: 检测区域 | EN: ROI
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.Char0">
+            <summary>
+            CH: 第一字符 | EN: First Char
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.Char0Score">
+            <summary>
+            CH: 第一字符得分 | EN: First Char Score
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.Char1">
+            <summary>
+            CH: 第二字符 | EN: Second Char
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.Char1Score">
+            <summary>
+            CH: 第二字符得分 | EN: Second Char Score
+            </summary>
+        </member>
+        <member name="P:IMVSOcrModuCs.OcrResult.Confidence">
+            <summary>
+            CH: 置信度 | EN: Confidence
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,345 @@
+﻿<ResourceDictionary  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
+    <!--========================1、主题颜色========================-->
+    <!--主题色-->
+    <SolidColorBrush x:Key="Col_Theme" Color="#1877F2"/>
+    <!--主题色（浅色）-->
+    <SolidColorBrush x:Key="Col_Theme_Light" Color="#201877F2"/>
+    <!--窗体顶部线颜色-->
+    <SolidColorBrush x:Key="Col_Window_TopFill" Color="#00FAFAFA"/>
+    <!--子窗体边框色 -->
+    <SolidColorBrush x:Key="Col_SubForm_BorderBrush" Color="#8F8B88"/>
+    <!--子窗体背景色 -->
+    <SolidColorBrush x:Key="Col_SubForm_Background" Color="#F5F5F5"/>
+    <!--子窗体字体色 -->
+    <SolidColorBrush x:Key="Col_SubForm_Foreground" Color="#4D4D4D"/>
+    <!--子窗体标题栏背景色 -->
+    <LinearGradientBrush x:Key="Col_SubForm_HeaderBrush_Background" StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientStop Color="#F2F2F2" Offset="0"/>
+        <GradientStop Color="#E4E4E4" Offset="1"/>
+    </LinearGradientBrush>
+    <!--子窗体标题栏字体色 -->
+    <SolidColorBrush x:Key="Col_SubForm_HeaderBrush_Foreground" Color="#4D4D4D"/>
+    <!--子窗体关闭按钮选中时的背景色-->
+    <SolidColorBrush x:Key="Col_SubForm_CloseButton_Selected_Background" Color="#8F8B88"/>
+    <!--子窗体关闭按钮选中时的背景色 -->
+    <SolidColorBrush x:Key="Col_SubForm_CloseButton_Selected_BorderBrush" Color="#F5F5F5"/>
+    <!--下拉列表控件背景色-->
+    <SolidColorBrush x:Key="Col_ComboBox_Background" Color="#FCFCFC"/>
+    <!--下拉列表控件字体色-->
+    <SolidColorBrush x:Key="Col_ComboBox_Foreground" Color="#646464"/>
+    <!--下拉列表控件边框色-->
+    <SolidColorBrush x:Key="Col_ComboBox_BorderBrush" Color="#CCCCCD"/>
+    <!--下拉列表控件弹出框背景色-->
+    <SolidColorBrush x:Key="Col_ComboBox_Popup" Color="#FCFCFC"/>
+    <!--下拉列表控件弹出框边框色-->
+    <SolidColorBrush x:Key="Col_ComboBox_Popup_BoderBrush" Color="#CCCCCD"/>
+    <!--下拉列表控件弹出框选中背景色-->
+    <SolidColorBrush x:Key="Col_ComboBox_Popup_Selected_Background" Color="#E6E6E6"/>
+    <!--棋盘格填充颜色1-->
+    <SolidColorBrush x:Key="Col_Image_DrawingBrush1" Color="#E6E6E6"/>
+    <!--棋盘格填充颜色2-->
+    <SolidColorBrush x:Key="Col_Image_DrawingBrush2" Color="#E2E2E2"/>
+    <!--滚动条填充颜色-->
+    <SolidColorBrush x:Key="Col_ScrollBar_Fill" Color="#D1CFCF"/>
+    <!--滚动条边框颜色-->
+    <SolidColorBrush x:Key="Col_ScrollBar_BorderBrush" Color="#BFBDBD"/>
+    <!--========================2、菜单栏========================-->
+    <!--背景颜色-->
+    <SolidColorBrush x:Key="Col_Menubar_Background" Color="#FAFAFA"/>
+    <!--字体颜色-->
+    <SolidColorBrush x:Key="Col_Menubar_Foreground" Color="#404040"/>
+    <!--选中背景色-->
+    <SolidColorBrush x:Key="Col_Menubar_Selected_Background" Color="#1877F2"/>
+    <!--选中字体色-->
+    <SolidColorBrush x:Key="Col_Menubar_Selected_Foreground" Color="#FFFFFF"/>
+    <!--中间直线填充颜色-->
+    <SolidColorBrush x:Key="Col_Menubar_CentreLine_Fill" Color="#999999"/>
+    <!--快捷工具条选中背景色-->
+    <SolidColorBrush x:Key="Col_Menubar_Shortcut_Selected_Background" Color="#401877F2"/>
+    <!--子级菜单栏背景颜色-->
+    <LinearGradientBrush x:Key="Col_Menubar_Sub_Background" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FAFAFA" Offset="0"/>
+        <GradientStop Color="#FAFAFA" Offset="1"/>
+    </LinearGradientBrush>
+    <!--子级菜单栏边框颜色-->
+    <SolidColorBrush x:Key="Col_Menubar_Sub_BorderBrush" Color="#999999"/>
+    <!--快捷工具条分割线颜色-->
+    <SolidColorBrush x:Key="Col_Menubar_ShortcutsSplitLine" Color="#575858"/>
+    <!--快捷工具边框颜色-->
+    <SolidColorBrush x:Key="Col_Menubar_Shortcut_BorderBursh" Color="#1877F2"/>
+    <!--快捷工具移动背景颜色-->
+    <SolidColorBrush x:Key="Col_Menubar_Shortcut_MouseOver_Background" Color="#1877F2"/>
+    <!--快捷工具点击背景颜色-->
+    <SolidColorBrush x:Key="Col_Menubar_Shortcut_Pressed_Background" Color="#A01877F2"/>
+    <!--添加流程按钮背景颜色-->
+    <SolidColorBrush x:Key="Col_EditProcess_AddProcess_Background" Color="#525356"/>
+    <!--添加流程按钮字体颜色-->
+    <SolidColorBrush x:Key="Col_EditProcess_AddProcess_Foreground" Color="#D9D9D9"/>
+    <!--添加流程按钮边框颜色-->
+    <SolidColorBrush x:Key="Col_EditProcess_AddProcess_BorderBrush" Color="#1F0E01"/>
+    <!--========================3、工具栏========================-->
+    <!--背景色-->
+    <SolidColorBrush x:Key="Col_Toolbar_Backgound" Color="#F8F8F8"/>
+    <!--选中背景色-->
+    <SolidColorBrush x:Key="Col_Toolbar_Selected_Backgound" Color="#1877F2"/>
+    <!--底部展开背景色-->
+    <SolidColorBrush x:Key="Col_Toolbar_BottomExpand_Backgound" Color="#E6E6E6 "/>
+    <!--工具栏展开分割线颜色-->
+    <LinearGradientBrush x:Key="Col_Toolbar_Expand_Split" StartPoint="0.5,0" EndPoint="0.5,1" >
+        <GradientStop Color="#F8F8F8" Offset="0.5"/>
+        <GradientStop Color="#1877F2" Offset="0.8"/>
+        <GradientStop Color="#F8F8F8" Offset="1"/>
+    </LinearGradientBrush>
+    <!--工具栏展开字体颜色-->
+    <SolidColorBrush x:Key="Col_Toolbar_Expand_Foreground" Color="#333333"/>
+    <!--模块左侧线段颜色-->
+    <SolidColorBrush x:Key="Col_Toolbar_Modular_RectStroke" Color="#F8F8F8"/>
+    <!--模块边框颜色-->
+    <SolidColorBrush x:Key="Col_Toolbar_Modular_BorderBrush" Color="#1877F2"/>
+    <!--弹出框背景色-->
+    <LinearGradientBrush x:Key="Col_Toolbar_Popup_Background" EndPoint="0,1" StartPoint="1,2">
+        <GradientStop Color="#F8F8F8" Offset="0.25"/>
+        <GradientStop Color="#F8F8F8" Offset="1"/>
+    </LinearGradientBrush>
+    <!--弹出框标边框色-->
+    <SolidColorBrush x:Key="Col_Toolbar_Popup_BorderBrush" Color="#A2A09E"/>
+    <!--弹出框标题竖线颜色-->
+    <SolidColorBrush x:Key="Col_Toolbar_PopupTile_Line" Color="#1877F2"/>
+    <!--弹出框标题字体色-->
+    <SolidColorBrush x:Key="Col_Toolbar_PopupTile_Foreground" Color="#333333"/>
+    <!--弹出框模块字体色-->
+    <SolidColorBrush x:Key="Col_Toolbar_PopupModular_Selected_ForeBackground" Color="#666666"/>
+    <!--弹出框模块选中背景色-->
+    <LinearGradientBrush x:Key="Col_Toolbar_PopupModular_Selected_Background"  EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#FFFFFF" Offset="0"/>
+        <GradientStop Color="#FFFFFF" Offset="1"/>
+    </LinearGradientBrush>
+    <!--弹出框模块选中边框色-->
+    <SolidColorBrush x:Key="Col_Toolbar_PopupModular_Selected_BorderBrush" Color="#8FC0FF"/>
+    <!--========================4、流程编辑区域========================-->
+    <!--流程编辑控件背景颜色-->
+    <SolidColorBrush x:Key="Col_EditProcess_DiagramPage_Background" Color="#E7E7E7"/>
+    <!--流程编辑控件线条填充颜色-->
+    <SolidColorBrush x:Key="Col_EditProcess_DiagramPage_Fill" Color="#E2E2E2"/>
+    <!--连线颜色-->
+    <SolidColorBrush x:Key="Col_EditProcess_Ligature" Color="#1848FF"/>
+    <!--连线选中时的颜色-->
+    <SolidColorBrush x:Key="Col_EditProcess_Selected_Ligature" Color="#1877F2"/>
+    <!--正在绘制连线时的颜色-->
+    <SolidColorBrush x:Key="Col_EditProcess_Connecting_Ligature" Color="#1877F2"/>
+    <!--模块边框颜色-->
+    <SolidColorBrush x:Key="Col_EditProcess_Modular_BorderBrush" Color="#1877F2"/>
+    <!--模块状态颜色-OK-->
+    <SolidColorBrush x:Key="Col_EditProcess_Modular_OK_Status" Color="#0ABF3D"/>
+    <!--模块状态颜色-NG-->
+    <SolidColorBrush x:Key="Col_EditProcess_Modular_NG_Status" Color="#EC0000"/>
+    <!--字体颜色-->
+    <SolidColorBrush x:Key="Col_EditProcess_Foreground" Color="#4C4C4C"/>
+    <!--========================5、图像显示区域========================-->
+    <!--背景色-->
+    <SolidColorBrush x:Key="Col_DisplayImage_Background" Color="#E6E6E6"/>
+    <!--字体色-->
+    <SolidColorBrush x:Key="Col_DisplayImage_Foreground" Color="#666666"/>
+    <!--边框色-->
+    <SolidColorBrush x:Key="Col_DisplayImage_BorderBrush" Color="#C6C6C6"/>
+    <!--选中背景色-->
+    <SolidColorBrush x:Key="Col_DisplayImage_Selected_Background" Color="#1877F2"/>
+    <!--选中字体色-->
+    <SolidColorBrush x:Key="Col_DisplayImage_Selected_Foreground" Color="#FFFFFF"/>
+    <!--图像源背景色-->
+    <LinearGradientBrush x:Key="Col_DisplayImage_ImageSource_Background"  EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#E1E1E1" Offset="0.5"/>
+        <GradientStop Color="#D4D4D4" Offset="1"/>
+    </LinearGradientBrush>
+    <!--图像源字体色-->
+    <SolidColorBrush x:Key="Col_DisplayImage_ImageSource_Foreground" Color="#4C4C4C"/>
+    <!--图像源执行按钮背景色-->
+    <SolidColorBrush x:Key="Col_DisplayImage_ImageSource_Button_Background" Color="#5C5C5C "/>
+    <!--图像源执行按钮边框色-->
+    <SolidColorBrush x:Key="Col_DisplayImage_ImageSource_Button_BoderBrush" Color="#5C5C5C"/>
+    <!--图像显示控件边框色-->
+    <SolidColorBrush x:Key="Col_DisplayImage_Control_BorderBrush" Color="#BABABA" />
+    <!--========================6、结果显示区域========================-->
+    <!--背景色-->
+    <SolidColorBrush x:Key="Col_ShowResults_Background" Color="#FAFAFA"/>
+    <!--字体色-->
+    <SolidColorBrush x:Key="Col_ShowResults_Foreground" Color="#666666"/>
+    <!--边框色-->
+    <SolidColorBrush x:Key="Col_ShowResults_BorderBrush" Color="#D9D9D9"/>
+    <!--列表行边框色-->
+    <SolidColorBrush x:Key="Col_ShowResults_List_BorderBrush" Color="#BFBFBF"/>
+    <!--列表行交替色1-->
+    <SolidColorBrush x:Key="Col_ShowResults_List_AlternatingRowBackground1" Color="#FAFAFA"/>
+    <!--列表行交替色2-->
+    <SolidColorBrush x:Key="Col_ShowResults_List_AlternatingRowBackground2" Color="#E0E0E0"/>
+    <!--模块输出背景色-->
+    <SolidColorBrush x:Key="Col_ShowResults_ModuleResult_Background" Color="#FAFAFA"/>
+    <!--模块输出边框色-->
+    <SolidColorBrush x:Key="Col_ShowResults_ModuleResult_BorderBrush" Color="#999999"/>
+    <!--模块输出字体色-->
+    <SolidColorBrush x:Key="Col_ShowResults_ModuleResult_Foreground" Color="#666666"/>
+    <!--模块输出标题背景色-->
+    <SolidColorBrush x:Key="Col_ShowResults_ModuleResult_Title_Background" Color="#D1D1D1"/>
+    <!--========================7、流程耗时========================-->
+    <!--背景色-->
+    <LinearGradientBrush  x:Key="Col_ProcessTimeConsuming_Background" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#DBDBDB" Offset="0.7"/>
+        <GradientStop Color="#DBDBDB" Offset="1"/>
+    </LinearGradientBrush>
+    <!--标题字体色-->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_Title" Color="#666666"/>
+    <!--字体色-->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_Foreground" Color="#666666"/>
+    <!--边框色-->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_BorderBorush" Color="#999999"/>
+    <!--滑尺背景颜色-->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_Thumb_Background" Color="#666666"/>
+    <!--滑尺边框颜色-->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_Thumb_BorderBrush" Color="#666666"/>
+    <!--滑尺数值竖线颜色-->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_Thumb_Fill" Color="#666666"/>
+    <!--子窗体字体色 -->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_Subfrom_Forebackground" Color="#666666 "/>
+    <!--子窗体边框色 -->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_Subfrom_BorderBrush" Color="#E6E6E6"/>
+    <!--子窗体填充色  -->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_Subfrom_Title" Color="#E6E6E6"/>
+    <!--子窗体列表交替色1  -->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_Subfrom_AlternationIndex1" Color="#F6F6F6"/>
+    <!--子窗体列表交替色2  -->
+    <SolidColorBrush x:Key="Col_ProcessTimeConsuming_Subfrom_AlternationIndex2" Color="#E4E4E4"/>
+    <!--========================8、流程栏========================-->
+    <!--背景色-->
+    <SolidColorBrush x:Key="Col_ProcessBar_Background" Color="#D1D1D1"/>
+    <!--字体色-->
+    <SolidColorBrush x:Key="Col_ProcessBar_Foreground" Color="#333333"/>
+    <!--边框色-->
+    <SolidColorBrush x:Key="Col_ProcessBar_BorderBrush" Color="#B2B2B1"/>
+    <!--选中背景色-->
+    <SolidColorBrush x:Key="Col_ProcessBar_Selected_Background" Color="#E7E7E7"/>
+    <!--弹出界面背景色-->
+    <LinearGradientBrush  x:Key="Col_ProcessBar_Selected_Popup_Background"  StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientStop Color="#D1D1D1" Offset="0"/>
+        <GradientStop Color="#D1D1D1" Offset="1"/>
+    </LinearGradientBrush>
+    <!--弹出界面边框色-->
+    <SolidColorBrush x:Key="Col_ProcessBar_Selected_Popup_BorderBrush" Color="#B2B2B1"/>
+    <!--弹出界面字体色-->
+    <SolidColorBrush x:Key="Col_ProcessBar_Selected_Popup_Foreground" Color="#333333"/>
+    <!--========================9、鹰眼区域========================-->
+    <!--大边框颜色-->
+    <SolidColorBrush x:Key="Col_EagleEye_Big_BorderBrush" Color="#B2B2B1"/>
+    <!--小边框颜色-->
+    <SolidColorBrush x:Key="Col_EagleEye_Small_BorderBrush" Color="#1877F2"/>
+    <!--========================10、日志栏========================-->
+    <!--背景色-->
+    <SolidColorBrush x:Key="Col_LogBar_Background" Color="#EBEBEB"/>
+    <!--字体色-->
+    <SolidColorBrush x:Key="Col_LogBar_Foreground" Color="#707070"/>
+    <!--显示详情的边框色-->
+    <SolidColorBrush x:Key="Col_LogBar_BorderBrush" Color="#BFBFBF"/>
+    <!--显示详情的背景色-->
+    <SolidColorBrush x:Key="Col_LogBar_Popup_Background" Color="#EBEBEB"/>
+    <!--显示详情的字体色-->
+    <SolidColorBrush x:Key="Col_LogBar_Popup_Foreground" Color="#707070"/>
+    <!--显示详情按钮的边框色-->
+    <SolidColorBrush x:Key="Col_LogBar_PopupButton_BorderBrush" Color="#BFBFBF"/>
+    <!--========================11、引导页窗体========================-->
+    <!--背景色-->
+    <LinearGradientBrush x:Key="Col_GuideWindow_Background" StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientStop Color="#F5F5F5" Offset="0"/>
+        <GradientStop Color="#F5F5F5"  Offset="1"/>
+    </LinearGradientBrush>
+    <!--标题栏背景色-->
+    <LinearGradientBrush x:Key="Col_GuideWindow_Title_Background" StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientStop Color="#F5F5F5" Offset="0"/>
+        <GradientStop Color="#F5F5F5" Offset="1"/>
+    </LinearGradientBrush>
+    <!--边框色-->
+    <SolidColorBrush x:Key="Col_GuideWindow_Background_BorderBrush" Color="#06F606"/>
+    <!--背景的斜线的填充色-->
+    <SolidColorBrush x:Key="Col_GuideWindow_Background_Line" Color="#F5F5F5"/>
+    <!--中间横线的颜色-->
+    <SolidColorBrush x:Key="Col_GuideWindow_CenterLine" Color="#E6E6E6 "/>
+    <!--右边竖线的颜色-->
+    <SolidColorBrush x:Key="Col_GuideWindow_RightLine" Color="#9D9D9D"/>
+    <!--按钮处分割线颜色-->
+    <SolidColorBrush x:Key="Col_GuideWindow_Spliter" Color="#4C4D4E"/>
+    <!--底部按钮处的背景色-->
+    <SolidColorBrush x:Key="Col_GuideWindow_Bottom_Background" Color="#E6E6E6"/>
+    <!--文件列表的字体色 A6A6A6-->
+    <SolidColorBrush x:Key="Col_GuideWindow_ListView_Foreground" Color="#404040"/>
+    <!--文件列表选中时的字体色 E6E6E6-->
+    <SolidColorBrush x:Key="Col_GuideWindow_ListView_Selected_Foreground" Color="#666666"/>
+    <!--========================12、模块参数列表界面========================-->
+    <!--标题边框色-->
+    <SolidColorBrush x:Key="Col_ModuleConfig_Title_BorderBrush" Color="#CCC7C6"/>
+    <!--标题字体色-->
+    <SolidColorBrush x:Key="Col_ModuleConfig_Title_Foreground" Color="#666666"/>
+    <!--标题选中时的字体色-->
+    <SolidColorBrush x:Key="Col_ModuleConfig_Title_Selected_Foreground" Color="#4D4D4D"/>
+    <!--列表字体色-->
+    <SolidColorBrush x:Key="Col_ModuleConfig_List_Foreground" Color="#666666"/>
+    <!--下拉列表控件背景色-->
+    <SolidColorBrush x:Key="Col_ModuleConfig_ComboBox_Background" Color="#FFFFFF"/>
+    <!--下拉列表控件字体色-->
+    <SolidColorBrush x:Key="Col_ModuleConfig_ComboBox_Foreground" Color="#666666"/>
+    <!--下拉列表控件边框色-->
+    <SolidColorBrush x:Key="Col_ModuleConfig_ComboBox_BorderBrush" Color="#CCC7C6"/>
+    <!--下拉列表控件背景色-->
+    <SolidColorBrush x:Key="Col_ModuleConfig_ComboBox_Selected_Background" Color="#E6E6E6"/>
+    <!--========================13、运行界面========================-->
+    <!--背景色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_Background" Color="#F5F5F5"/>
+    <!--边框色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_BorderBrush" Color="#F5F5F5"/>
+    <!--字体色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_Foreground" Color="#666666"/>
+    <!--Controller控件不能使用时的图标填充色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_Controller_NotIsEnable_IconFill" Color="#C6C6C7"/>
+    <!--DesignPanel控件背景色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_Control_DesignPanel_Background" Color="#FFFFFF"/>
+    <!--DesignPanel控件底部条背景色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_DesignPanel_BottomBar_Background" Color="#DBDBDB"/>
+    <!--FrontTabControl控件背景色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_FrontTabControl_Background" Color="#E6E6E6"/>
+    <!--FrontTabControl控件线条色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_FrontTabControl_GridLineBrush" Color="#E6E6E6"/>
+    <!--FrontTabItem控件背景色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_FrontTabItem_Background" Color="#D3D3D3"/>
+    <!--FrontTabItem控件字体色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_FrontTabItem_Foreground" Color="#666666"/>
+    <!--FrontTabItem控件边框色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_FrontTabItem_BorderBrush" Color="#D0D0D0"/>
+    <!--FrontTabItem控件选中时的背景色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_FrontTabItem_Selected_Background" Color="#E2E2E2"/>
+    <!--FrontTabItem控件选中时的字体色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_FrontTabItem_Selected_Foreground" Color="#4C4C4C"/>
+    <!--SubWindow控件背景色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_Controller_Background" Color="#E2E2E2"/>
+    <!--Controller和SubWindow控件边框色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_Controller_BorderBrush" Color="#C6C6C7"/>
+    <!--SubWindow和Label控件字体色 FFFFFF-->
+    <SolidColorBrush x:Key="Col_FrontendUI_Controller_Foreground" Color="#666666"/>
+    <!--Controller控件背景色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_Controller_IsEnable_Background" Color="#E2E2E2"/>
+    <!--Controller控件不能使用时的控件背景色-->
+    <SolidColorBrush x:Key="Col_FrontendUI_Controller_NotIsEnable_Background" Color="#F2F2F2"/>
+    <!--Controller控件按下时的字体色 FFFFFF-->
+    <SolidColorBrush x:Key="Col_FrontendUI_Controller_Pressed_Foreground" Color="#FFFFFF"/>
+    <!--BooleanParamControl控件的背景色-->
+    <LinearGradientBrush x:Key="Col_FrontendUI_BooleanParamControl_Background"  StartPoint="0.5,0.5" EndPoint="0.5,1">
+        <GradientStop Offset="0"  Color="#bebebe"/>
+        <GradientStop Offset="1"  Color="#89898b"/>
+    </LinearGradientBrush>
+    <!--BooleanParamControl控件选中时的背景色-->
+    <LinearGradientBrush x:Key="Col_FrontendUI_BooleanParamControl_Selected_Background"  StartPoint="0.5,0.5" EndPoint="0.5,1">
+        <GradientStop Offset="0"  Color="#A01877F2"/>
+        <GradientStop Offset="1"  Color="#C01877F2"/>
+    </LinearGradientBrush>
+    <!--TabControl列表交替色1  -->
+    <SolidColorBrush x:Key="Col_FrontendUI_TabControl_AlternationIndex1" Color="#F6F6F6"/>
+    <!--TabControl列表交替色2  -->
+    <SolidColorBrush x:Key="Col_FrontendUI_TabControl_AlternationIndex2" Color="#E4E4E4"/>
+</ResourceDictionary>

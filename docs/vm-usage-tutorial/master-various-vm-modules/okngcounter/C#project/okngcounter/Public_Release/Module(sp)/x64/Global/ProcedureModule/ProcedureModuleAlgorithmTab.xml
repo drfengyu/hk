@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlgorithmTabRoot>
+  <ZHCustomTabWidth>420</ZHCustomTabWidth>
+  <Tabs>
+    <Tab Name="Tab_Input Params">
+      <TabType>1</TabType>
+      <Categorys>
+        <CategoryNoHead>
+          <Items>
+            <GroupInputParam Name="GroupInputParam">
+              <Description>Procedure Module</Description>
+              <DisplayName>RunParam_Group Module</DisplayName>
+              <ChangedCommandSetter>
+                <TargetName>GroupDisplayParam</TargetName>
+                <OperationName>ExcuteMethodOperation</OperationName>
+                <OperationParams>UpdateDisplayItems</OperationParams>
+              </ChangedCommandSetter>
+            </GroupInputParam>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+    <Tab Name="Tab_Output Params">
+      <TabType>1</TabType>
+      <Categorys>
+        <CategoryNoHead>
+          <Items>
+            <GroupOutputParam Name="GroupOutputParam">
+              <Description>Procedure Module</Description>
+              <DisplayName>RunParam_Group Module</DisplayName>
+              <ChangedCommandSetter>
+                <TargetName>GroupDisplayParam</TargetName>
+                <OperationName>ExcuteMethodOperation</OperationName>
+                <OperationParams>UpdateDisplayItems</OperationParams>
+              </ChangedCommandSetter>
+            </GroupOutputParam>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+    <Tab Name="Tab_Run Params">
+      <TabType>1</TabType>
+      <Categorys>
+        <CategoryNoHead>
+          <Items>
+            <GroupRunParam Name="Tab_Run Params">
+              <Description>Procedure Module</Description>
+              <DisplayName>RunParam_Group Module</DisplayName>
+            </GroupRunParam>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+    <Tab Name="Tab_Display Params">
+      <TabType>1</TabType>
+      <Categorys>
+        <CategoryNoHead>
+          <Items>
+            <GroupDisplayParam Name="GroupDisplayParam">
+              <Description>Procedure Module</Description>
+              <DisplayName>RunParam_Group Module</DisplayName>
+            </GroupDisplayParam>
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+  </Tabs>
+  <BottomExcuteButtons>
+    <GroupLinkItem Name="BottomCommandGroup">
+      <LinkName>BottomCommandGroup</LinkName>
+    </GroupLinkItem>
+  </BottomExcuteButtons>
+</AlgorithmTabRoot>

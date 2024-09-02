@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Base">
+      <Items>
+        <String Name="ServerRepAddress">
+          <CurValue>tcp://127.0.0.1:5555</CurValue>
+        </String>
+        <String Name="ModuleName">
+          <CurValue>ProcedureModule</CurValue>
+        </String>
+        <String Name="ModuleDisplayName">
+          <CurValue>ProcedureModule</CurValue>
+        </String>
+        <Bool Name="IsLoalModule">
+          <CurValue>0</CurValue>
+        </Bool>
+        <Integer Name="ModuleViewMode">
+          <CurValue>1</CurValue>
+        </Integer>
+        <String Name="ModuleHelp">
+          <CurValue>Reserve</CurValue>
+        </String>
+        <Integer Name="ModuleType">
+          <CurValue>20</CurValue>
+        </Integer>
+      </Items>
+    </Category>
+    <Category Name="Input">
+      <Items></Items>
+    </Category>
+    <Category Name="Output">
+      <Items></Items>
+    </Category>
+  </Categorys>
+</ParamRoot>

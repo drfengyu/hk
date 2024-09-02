@@ -1,0 +1,86 @@
+2024-08-16 10:47:06.161 INFO  [20600] [CAuthorization::Init@57] Init begin.
+
+2024-08-16 10:47:06.161 INFO  [20600] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-16 10:47:06.161 ERROR [20600] [CDongleV4::LoadCfgParam@363] Load auth name file fail, [C:\Program Files\VisionMaster4.3.0\Applications\Server\ServerAuthName.ini].
+
+2024-08-16 10:47:06.164 ERROR [20600] [CDongleV4::GetLicenseWithState@412] MVIE_GetLicense return[-2]
+
+2024-08-16 10:47:06.164 ERROR [20600] [CDongleV4::GetLicenseInfo@473] GetLicenseWithState fail.
+
+2024-08-16 10:47:06.629 INFO  [20600] [CDongleV5::Login@85] MV_LoginLicense sucessfully, dongle type[0](0:dongle, 2:soft lock, 3:remote dongle) handle[1] licId[40001]
+
+2024-08-16 10:47:06.629 INFO  [20600] [CDongleV5::GetDongleInfo@131] MV_GetUserDataSize begin
+
+2024-08-16 10:47:06.692 INFO  [20600] [CDongleV5::GetDongleInfo@139] MV_GetUserDataSize end
+
+2024-08-16 10:47:06.757 INFO  [20600] [CDongleV5::GetDongleInfo@156] MV_ReadUserData, Dongle name[6200], camera num[4], soft version[1]
+
+2024-08-16 10:47:06.932 INFO  [20600] [CDongleV5::GetLicenseInfo@263] GetRemainTime end.
+
+2024-08-16 10:47:06.932 INFO  [20600] [CAuthorization::Init@86] Get license v5 sucessfully
+
+2024-08-16 10:47:06.932 INFO  [20600] [CAuthorization::StartCheckThread@208] StartCheckThread begin.
+
+2024-08-16 10:47:06.933 INFO  [20600] [CAuthorization::StartCheckThread@234] StartCheckThread end.
+
+2024-08-16 10:47:06.933 INFO  [20600] [CAuthorization::Init@119] Init end.
+
+2024-08-16 10:47:06.962 INFO  [20648] [CAuthorization::DoAuthCheck@260] DoAuthCheck begin.
+
+2024-08-16 10:47:06.963 ERROR [20648] [CDongleV4::GetLicenseWithState@412] MVIE_GetLicense return[-2]
+
+2024-08-16 10:47:06.963 ERROR [20648] [CDongleV4::GetLicenseInfo@473] GetLicenseWithState fail.
+
+2024-08-16 10:47:06.963 ERROR [20648] [CAuthorization::DoAuthCheck@273] Can not find v4 dongle
+
+2024-08-16 10:47:07.666 INFO  [20648] [CDongleV5::Login@85] MV_LoginLicense sucessfully, dongle type[0](0:dongle, 2:soft lock, 3:remote dongle) handle[2] licId[40001]
+
+2024-08-16 10:47:07.666 INFO  [20648] [CDongleV5::GetDongleInfo@131] MV_GetUserDataSize begin
+
+2024-08-16 10:47:07.759 INFO  [20648] [CDongleV5::GetDongleInfo@139] MV_GetUserDataSize end
+
+2024-08-16 10:47:07.830 INFO  [20648] [CDongleV5::GetDongleInfo@156] MV_ReadUserData, Dongle name[6200], camera num[4], soft version[1]
+
+2024-08-16 10:47:07.956 INFO  [20648] [CDongleV5::GetLicenseInfo@263] GetRemainTime end.
+
+2024-08-16 10:47:06.964 INFO  [20600] [InitPluginInstance@33] InitPluginInstance - Begin
+
+2024-08-16 10:47:06.964 INFO  [20600] [CMonitorResourceUsage::Init@47] Init begin.
+
+2024-08-16 10:47:06.964 INFO  [20600] [GetDllFilePath@262] path[C:\Program Files\VisionMaster4.3.0\Applications\Server]
+
+2024-08-16 10:47:06.965 INFO  [20600] [CMonitorResourceUsage::LoadCfgParam@449] Now resource monitor interval[5]
+
+2024-08-16 10:47:06.965 INFO  [20600] [CMonitorResourceUsage::StartMonitorThread@90] StartMonitorThread begin.
+
+2024-08-16 10:47:06.965 INFO  [20600] [CMonitorResourceUsage::StartMonitorThread@121] StartCheckThread end.
+
+2024-08-16 10:47:06.965 INFO  [20600] [InitPluginInstance@39] InitPluginInstance - End
+
+2024-08-16 10:47:06.973 INFO  [21368] [CMonitorResourceUsage::DoMonitorRes@176] DoMonitorResource begin.
+
+2024-08-16 10:47:06.973 INFO  [21368] [CMonitorResourceUsage::SystemVersionMoreThanWin10@155] MajorVersion[6] MinorVersion[2], 6.2 is win10
+
+2024-08-16 10:47:06.973 INFO  [21368] [CMonitorResourceUsage::DoMonitorRes@200] Do not check process resource
+
+2024-08-16 10:47:25.558 INFO  [18152] [CAuthorization::StopCheckThead@245] StopCheckThead begin.
+
+2024-08-16 10:47:25.558 WARN  [20648] [CAuthorization::DoAuthCheck@350] DoAuthCheck m_bExitAuthCheckThd = true
+
+2024-08-16 10:47:25.558 INFO  [20648] [CAuthorization::DoAuthCheck@358] DoAuthCheck end.
+
+2024-08-16 10:47:25.558 INFO  [18152] [CAuthorization::StopCheckThead@250] StopCheckThead end.
+
+2024-08-16 10:47:25.596 INFO  [18152] [CAuthorization::Uninit@134] Uninit end
+
+2024-08-16 10:47:25.597 INFO  [18152] [UnitPluginInstance@51] UnitPluginInstance - Begin
+
+2024-08-16 10:47:25.597 INFO  [18152] [CMonitorResourceUsage::StopMonitorThead@132] StopMonitorThead begin.
+
+2024-08-16 10:47:25.643 INFO  [21368] [CMonitorResourceUsage::DoMonitorRes@229] DoMonitorResource end, m_bExitMonitorThread is true
+
+2024-08-16 10:47:25.643 INFO  [18152] [CMonitorResourceUsage::StopMonitorThead@145] StopMonitorThead end.
+
+2024-08-16 10:47:25.643 INFO  [18152] [UnitPluginInstance@55] UnitPluginInstance - End
+

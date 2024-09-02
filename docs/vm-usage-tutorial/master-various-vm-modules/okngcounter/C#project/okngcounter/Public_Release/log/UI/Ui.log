@@ -1,0 +1,66 @@
+﻿Level：INFO  MSG：G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\okngcounter\C#project\okngcounter\Public_Release\\ColorCFG\ColorStyleSet.cfg
+
+Level：INFO  MSG：color resource loaded successfully
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:08.785 [14] [VmSolution::MSolutionManager_OnUIGlobalProcessObjectIDCallBack] 通知获取界面数据回调开始
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:08.788 [14] [VmSolution::MSolutionManager_OnUIGlobalProcessObjectIDCallBack] 通知获取界面数据回调结束
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:08.788 [15] [<>c::<MSolutionManager_OnUIGlobalProcessObjectIDCallBack>b__415_0] 开始获取界面数据
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:08.788 [15] [<>c::<MSolutionManager_OnUIGlobalProcessObjectIDCallBack>b__415_0] VmSolution Clear
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:08.788 [15] [<>c::<MSolutionManager_OnUIGlobalProcessObjectIDCallBack>b__415_0] 结束获取界面数据
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:08.963 [13] [VmSolution::MSolutionManager_OnSolutionLoadEndCallBack] 加载方案后失败状态 ------begin
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:08.963 [13] [VmSolution::MSolutionManager_OnSolutionLoadEndCallBack] 加载方案后失败状态 ------end
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:09.844 [1] [UserData::get_Item] 获取userdata模块ID名为10000 流程1,key为CalibData
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:09.855 [1] [VmModule::PreAddModuleTo] Add module:流程1
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:09.863 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取前
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:09.864 [1] [VmModuleSet::LoadModules] GetFirstLayerModuleTree获取后
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:10.011 [1] [VmModule::PreAddModuleTo] Add module:图像源1
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:10.064 [1] [VmModule::PreAddModuleTo] Add module:圆弧边缘缺陷检测1
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:10.176 [1] [VmModule::PreAddModuleTo] Add module:条件检测1
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:10.412 [1] [VmModule::PreAddModuleTo] Add module:计数
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:10.413 [1] [VmModule::PreAddModuleTo] Add module:合格率
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:10.420 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---begin
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:10.421 [1] [VmModuleSet::LoadConnections] 加载方案后失败状态 ---VmModuleSet---end
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:10.470 [1] [UserData::get_Item] 获取userdata模块ID名为0 图像源1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:10.515 [1] [UserData::get_Item] 获取userdata模块ID名为1 圆弧边缘缺陷检测1,key为DynamicObject
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:13.763 [1] [UserData::get_Item] 获取userdata模块ID名为0 图像源1,key为IsReady
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:13.764 [1] [UserData::get_Item] 获取userdata模块ID名为1 圆弧边缘缺陷检测1,key为IsReady
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:13.764 [1] [UserData::get_Item] 获取userdata模块ID名为2 条件检测1,key为IsReady
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:13.764 [1] [UserData::get_Item] 获取userdata模块ID名为3 计数,key为IsReady
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:13.764 [1] [UserData::get_Item] 获取userdata模块ID名为4 合格率,key为IsReady
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:13.855 [22] [VmSolution::MProcessManager_OnModuleStopRunProcessStatusCallBack] process 10000 stop call back:1
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:15.367 [22] [VmSolution::MProcessManager_OnModuleStopRunProcessStatusCallBack] process 10000 stop call back:1
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:16.285 [22] [VmSolution::MProcessManager_OnModuleStopRunProcessStatusCallBack] process 10000 stop call back:1
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:16.972 [22] [VmSolution::MProcessManager_OnModuleStopRunProcessStatusCallBack] process 10000 stop call back:1
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:17.707 [22] [VmSolution::MProcessManager_OnModuleStopRunProcessStatusCallBack] process 10000 stop call back:1
+
+Level：INFO  MSG：ProcessID-1444-,2024-08-16 10:47:21.795 [22] [VmSolution::MProcessManager_OnModuleStopRunProcessStatusCallBack] process 10000 stop call back:1
+

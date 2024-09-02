@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VM.CodeCompletion</name>
+    </assembly>
+    <members>
+        <member name="T:VM.CodeCompletion.CodeTextEditor">
+            <summary>
+            定义包含代码输入完成的文本编辑器
+            </summary>
+        </member>
+        <member name="E:VM.CodeCompletion.CodeTextEditor.BeginAddVariable">
+            <summary>
+            在类作用域中编辑代码时（智能感知数据源中包含this）触发
+            </summary>
+        </member>
+        <member name="M:VM.CodeCompletion.CodeTextEditor.OpenFile(System.String)">
+            <summary>
+            加载源代码文件
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:VM.CodeCompletion.CodeTextEditor.GetCompletionDocument(System.Int32@)">
+            <summary>
+            Gets the document used for code completion, can be overridden to provide a custom document
+            </summary>
+            <param name="offset"></param>
+            <returns>The document of this text editor.</returns>
+        </member>
+        <member name="P:VM.CodeCompletion.CSharpCompletion.IsThisWord">
+            <summary>
+            是否this关键字
+            </summary>
+        </member>
+        <member name="M:VM.CodeCompletion.CSharpCompletionContext.#ctor(ICSharpCode.NRefactory.Editor.IDocument,System.Int32,ICSharpCode.NRefactory.TypeSystem.IProjectContent,System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VM.CodeCompletion.CSharpCompletionContext"/> class.
+            </summary>
+            <param name="document">The document, make sure the FileName property is set on the document.</param>
+            <param name="offset">The offset.</param>
+            <param name="projectContent">Content of the project.</param>
+            <param name="usings">The usings.</param>
+            <param name="variables">The variables</param>
+        </member>
+        <member name="M:VM.CodeCompletion.DataItems.EntityCompletionData.GetText(ICSharpCode.NRefactory.TypeSystem.IEntity)">
+            <summary>
+            Converts a member to text.
+            Returns the declaration of the member as C# or VB code, e.g.
+            "public void MemberName(string parameter)"
+            </summary>
+        </member>
+        <member name="T:VM.CodeCompletion.DataItems.ImportCompletionData">
+            <summary>
+            Completion item that introduces a using declaration.
+            </summary>
+        </member>
+        <member name="T:VM.CodeCompletion.DataItems.OverrideCompletionData">
+            <summary>
+            Item for 'override' completion.
+            </summary>
+        </member>
+        <member name="T:VM.CodeCompletion.ICSharpScriptProvider">
+            <summary>
+            This interface allows to provide more information for scripts such as using statements, etc.
+            </summary>
+        </member>
+        <member name="T:VM.CodeCompletion.CompletionImage">
+            <summary>
+            Provides icons for code-completion.
+            </summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.NamespaceImage">
+            <summary>
+            Gets the image for namespaces.
+            </summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Class">
+            <summary>Gets the image used for non-static classes.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Struct">
+            <summary>Gets the image used for structs.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Interface">
+            <summary>Gets the image used for interfaces.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Delegate">
+            <summary>Gets the image used for delegates.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Enum">
+            <summary>Gets the image used for enums.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.StaticClass">
+            <summary>Gets the image used for modules/static classes.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Field">
+            <summary>Gets the image used for non-static classes.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.ReadOnlyField">
+            <summary>Gets the image used for structs.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Literal">
+            <summary>Gets the image used for constants.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.EnumValue">
+            <summary>Gets the image used for enum values.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Method">
+            <summary>Gets the image used for methods.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Constructor">
+            <summary>Gets the image used for constructos.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.VirtualMethod">
+            <summary>Gets the image used for virtual methods.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Operator">
+            <summary>Gets the image used for operators.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.ExtensionMethod">
+            <summary>Gets the image used for extension methods.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.PInvokeMethod">
+            <summary>Gets the image used for P/Invoke methods.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Property">
+            <summary>Gets the image used for properties.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Indexer">
+            <summary>Gets the image used for indexers.</summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.Event">
+            <summary>Gets the image used for events.</summary>
+        </member>
+        <member name="M:VM.CodeCompletion.CompletionImage.GetCompletionImage(ICSharpCode.NRefactory.TypeSystem.IEntity)">
+            <summary>
+            Gets the CompletionImage instance for the specified entity.
+            Returns null when no image is available for the entity type.
+            </summary>
+        </member>
+        <member name="M:VM.CodeCompletion.CompletionImage.GetCompletionImage(ICSharpCode.NRefactory.TypeSystem.IUnresolvedEntity)">
+            <summary>
+            Gets the CompletionImage instance for the specified entity.
+            Returns null when no image is available for the entity type.
+            </summary>
+        </member>
+        <member name="M:VM.CodeCompletion.CompletionImage.GetImage(ICSharpCode.NRefactory.TypeSystem.IEntity)">
+            <summary>
+            Gets the image for the specified entity.
+            Returns null when no image is available for the entity type.
+            </summary>
+        </member>
+        <member name="M:VM.CodeCompletion.CompletionImage.GetImage(ICSharpCode.NRefactory.TypeSystem.IUnresolvedEntity)">
+            <summary>
+            Gets the image for the specified entity.
+            Returns null when no image is available for the entity type.
+            </summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.StaticOverlay">
+            <summary>
+            Gets the overlay image for the static modifier.
+            </summary>
+        </member>
+        <member name="M:VM.CodeCompletion.CompletionImage.GetAccessibilityOverlay(ICSharpCode.NRefactory.TypeSystem.Accessibility)">
+            <summary>
+            Gets an overlay image for the specified accessibility.
+            Returns null if no overlay exists (for example, public members don't use overlays).
+            </summary>
+        </member>
+        <member name="P:VM.CodeCompletion.CompletionImage.BaseImage">
+            <summary>
+            Gets the image without any overlays.
+            </summary>
+        </member>
+        <member name="M:VM.CodeCompletion.CompletionImage.GetImage(ICSharpCode.NRefactory.TypeSystem.Accessibility,System.Boolean)">
+            <summary>
+            Gets this image combined with the specified accessibility overlay.
+            </summary>
+        </member>
+        <member name="M:VM.CodeCompletion.CompletionImage.GetImage(System.String,ICSharpCode.NRefactory.TypeSystem.Accessibility,System.Boolean,System.Boolean)">
+            <summary>
+            根据图像名称和访问级别获取图像
+            </summary>
+            <param name="imgName">图像名称</param>
+            <param name="accessibility">访问级别</param>
+            <param name="isStatic">是否静态成员或类型</param>
+            <param name="showStaticOverlay">是否显示静态覆盖图标</param>
+            <returns></returns>
+        </member>
+        <member name="M:VM.CodeCompletion.CompletionImage.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="T:VM.CodeCompletion.SegmentTrackingOutputFormatter">
+            <summary>
+            Output formatter that creates a dictionary from AST nodes to segments in the output text.
+            </summary>
+        </member>
+    </members>
+</doc>

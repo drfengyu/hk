@@ -1,0 +1,6 @@
+﻿2024-08-16 10:47:10.497 INFO  [1] [FrontendUI.WPF.Controls.ImageControl::UpdateImageSource@0] ImageControl Binding Process [10000]
+
+2024-08-16 10:47:10.507 INFO  [1] [FrontendUI.WPF.Controls.ImageControl::UpdateImageSource@0] Register ImageSource OK. Apps.XmlParser.Object[%图像源1%.OutputImage]
+
+2024-08-16 10:47:10.539 INFO  [1] [FrontendUI.WPF.Controls.OKNGControl::UpdateImageSource@0] Register IVmIO[流程1.条件检测1.(NIfResult)] OK.
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CalibInfo>
+    <CalibInputParam>
+        <CalibParam ParamName="CreateCalibTime" DataType="string">
+            <ParamValue>2023-07-26 19:08:21</ParamValue>
+        </CalibParam>
+        <CalibParam ParamName="CalibType" DataType="string">
+            <ParamValue>MapCalib</ParamValue>
+        </CalibParam>
+        <CalibParam ParamName="MapError" DataType="int">
+            <ParamValue>0.16470993</ParamValue>
+        </CalibParam>
+        <CalibParam ParamName="CalibStatus1" DataType="float">
+            <ParamValue>1</ParamValue>
+        </CalibParam>
+        <CalibParam ParamName="CalibStatus2" DataType="float">
+            <ParamValue>1</ParamValue>
+        </CalibParam>
+        <CalibParam ParamName="PixelScale1" DataType="float">
+            <ParamValue>0.030449921</ParamValue>
+        </CalibParam>
+        <CalibParam ParamName="PixelScale2" DataType="float">
+            <ParamValue>0.030413948</ParamValue>
+        </CalibParam>
+        <CalibParam ParamName="PixelPrecision" DataType="float">
+            <ParamValue>0.99885201</ParamValue>
+        </CalibParam>
+    </CalibInputParam>
+    <CalibOutputParam>
+        <CalibFloatListParam ParamName="CalibMatrix" DataType="FloatList">
+            <ParamValue>0.99509829</ParamValue>
+            <ParamValue>0.0032509104</ParamValue>
+            <ParamValue>-325.03607</ParamValue>
+            <ParamValue>-0.0028176168</ParamValue>
+            <ParamValue>1.0025965</ParamValue>
+            <ParamValue>331.36578</ParamValue>
+            <ParamValue>-2.5382913e-006</ParamValue>
+            <ParamValue>3.1058037e-006</ParamValue>
+            <ParamValue>1</ParamValue>
+        </CalibFloatListParam>
+    </CalibOutputParam>
+</CalibInfo>

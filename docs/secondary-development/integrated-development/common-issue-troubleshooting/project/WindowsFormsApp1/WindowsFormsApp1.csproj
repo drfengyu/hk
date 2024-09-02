@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F341F8CE-21C0-4099-ABA7-D5E9F6FD6C0E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MvCameraControl.Net, Version=3.4.0.1, Culture=neutral, PublicKeyToken=52fddfb3f94be800, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MvCameraControl.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVD2DArrayCorrect.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=0529a896ee45f679, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVD2DArrayCorrect.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDAlmightyPatMatch.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=d1775c00d24b42a0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDAlmightyPatMatch.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDAnnROIFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=97ec39eb4034b7d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDAnnROIFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDArcFlawInsp.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=bd8581b6a5250c25, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDArcFlawInsp.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDArcPairFlawInsp.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=cdac38e7a285283f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDArcPairFlawInsp.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDBeadGuide.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=fb248436c750475f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDBeadGuide.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDBlobFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=1ddaedcf30433c37, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDBlobFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDBoxFilter.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=124a165d583b0691, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDBoxFilter.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDBoxMerge.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=dabed17f60a4445c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDBoxMerge.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDBoxOverlap.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=266db6fa12428608, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDBoxOverlap.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDBoxROIFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=2495c2110e9d7cc2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDBoxROIFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDC2CMeasure.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=0dac72cc364c7640, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDC2CMeasure.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCalibBoardCalib.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=3728378fabe05282, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCalibBoardCalib.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCalibTrans.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=352ee58ba4cf465e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCalibTrans.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCaliper.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=94a55c4a911f5eec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCaliper.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCamera.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=48f48ccffe421386, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCamera.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCameraMap.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=218f41f0d044eef8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCameraMap.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCellLocation.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=6301766f92bbcade, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCellLocation.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCellSetLocation.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=0f6f41dcabac1934, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCellSetLocation.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCircleFind.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=20e73207c21b5977, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCircleFind.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCircleFit.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=16e96addc76d495b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCircleFit.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDClassifier.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=12aec68eb47b9be3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDClassifier.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCNNUnsupervisedSegment.Net, Version=4.2.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCNNUnsupervisedSegment.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCode1DReader.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=bef02a3304c24b14, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCode1DReader.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCode2DReader.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=8cf0701c7bb1a732, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCode2DReader.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDColorConvert.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=55ee1206a130a392, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDColorConvert.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDColorExtract.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=7de443f83b9b8167, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDColorExtract.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDColorMeasure.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=132388fccc508c1a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDColorMeasure.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDColorRecognition.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=aa40005f31260bb8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDColorRecognition.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCommonTool.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=fa74ba48aa050387, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCommonTool.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDContourPatMatch.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=b8a81e306fd608d0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDContourPatMatch.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCore.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=1325730a174c0650, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Common\MVDCore.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDCrossPointFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=09dd7f726767f5a4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDCrossPointFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDDefectInspect.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=b15fde6008782a09, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDDefectInspect.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDEdgeFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=764b77c29cfe559e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDEdgeFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDEdgeFlawInsp.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=b55a42fd12ee5186, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDEdgeFlawInsp.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDEdgePairFlawInsp.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=40ecc0c98f9e19d9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDEdgePairFlawInsp.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDEdgePairPosTrendAnaly.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=f883b9eb1bc23951, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDEdgePairPosTrendAnaly.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDEdgePosTrendAnaly.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=26abcc0ac8472aa1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDEdgePosTrendAnaly.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDEdgeWidth.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=0beaa88e62b44d2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDEdgeWidth.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDEllipseFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=bdd2f44bf6610e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDEllipseFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDEllipseFit.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=7a11346480a73d4e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDEllipseFit.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDFastFeaturePatMatch.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=310a9e0bac47bc94, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDFastFeaturePatMatch.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDGlobalInit.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=aeadd7f72d0eda88, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDGlobalInit.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDGrayPatMatch.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=a8b65b043ba16bb7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDGrayPatMatch.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDGrayPatMatchV2.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=3f69ec037058254f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDGrayPatMatchV2.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDGridLocation.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=6301766f92bbcade, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDGridLocation.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDHistTool.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=a63e4a07691bd9dc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDHistTool.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDHPFeaturePatMatch.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=d6986191a46ccd81, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDHPFeaturePatMatch.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImage.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=ce2c144a3e6a9a93, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Common\MVDImage.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageAffineTransform.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=85794d8c0bf3f2be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageAffineTransform.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageArithmetic.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=572f56b863e4ebce, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageArithmetic.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageBinary.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=c8e52e37b57a53fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageBinary.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageCalib.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=25f25801eedcbb97, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageCalib.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageCorrectCalib.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=8dc23e138e174bf8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageCorrectCalib.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageCorrectManual.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=dfea01508f78675b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageCorrectManual.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageEnhance.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=67327742ed4680c7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageEnhance.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageFilter.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=18868089030fb619, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageFilter.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageFixture.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=921a95bf8571f28e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageFixture.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageFrameMean.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=da9c0900e2d65a35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageFrameMean.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageMirror.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=f249ac4b11efc6f4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageMirror.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageMorph.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=d60fc2b505bf3a6c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageMorph.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageNormalize.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=5d33b93f585e895f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageNormalize.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageRegionCopy.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=7a3e64db8a1b16f5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageRegionCopy.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageResize.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=db23ae5274a15f99, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageResize.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageSharpness.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=4417ab564a7624cd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageSharpness.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDImageStitch.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=aabcf6343c94f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDImageStitch.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDIntensityMeasure.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=1fb8ad9d47742a1d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDIntensityMeasure.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDL2CMeasure.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=543d31dd8f6f3e9d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDL2CMeasure.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDL2LMeasure.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=38d351edf25ea0ee, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDL2LMeasure.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDLineAlign.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=3662cb50ad464a68, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDLineAlign.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDLineEdgeFlawInsp.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=65498c1ff96440e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDLineEdgeFlawInsp.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDLineEdgePairFlawInsp.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=4a13fb330cec5054, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDLineEdgePairFlawInsp.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDLineFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=f53e9becd799eccd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDLineFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDLineFit.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=8b56d6c67ad2e4c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDLineFit.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDMalif.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=b33bb8a574720c2e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDMalif.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDMapCalib.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=7b78d9ec98cf80a0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDMapCalib.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDMarkFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=b15fde6008782a09, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDMarkFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDMatrixFix.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=f3bbf0a264ba6aa8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDMatrixFix.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDMatrixToParam.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=fdf8b2718d6923e8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDMatrixToParam.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDMKInsp.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=4e7d164c75344ad5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDMKInsp.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDMKInspV2.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=342580dd698f7393, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDMKInspV2.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDMultiCategoryBlobFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=7de07f6fccdca9c3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDMultiCategoryBlobFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDMultiLabelFilter.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=6413e0fbfecbaa1b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDMultiLabelFilter.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDMultiLineFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=4144026de295021d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDMultiLineFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDNearestPointFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=7aba2dfc1d9ed572, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDNearestPointFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDNImageCalib.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=0938573ff002305b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDNImageCalib.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDNImageCalibV2.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=9443f0a0afd2510c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDNImageCalibV2.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDNPointCalib.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=a5c2d9b3a64ee3b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDNPointCalib.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDOCR.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=3b281d096bd07fbd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDOCR.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDP2CMeasure.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=d5e0ff127dd3a5c2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDP2CMeasure.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDP2LMeasure.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=1eb6424468ccd1c6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDP2LMeasure.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDP2PMeasure.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=3150efb7e24e4646, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDP2PMeasure.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDPairLineFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=167793acc9680f60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDPairLineFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDPeakFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=ef5222648a68e033, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDPeakFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDPitchFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=73b368db74d9dd15, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDPitchFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDPixelCount.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=dfe725b177af5d5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDPixelCount.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDPointSetAlign.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=9661ab548bac213f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDPointSetAlign.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDPolarWarp.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=0b74019af00cca68, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDPolarWarp.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDPositionFix.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=0dabd5a0cd753dff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDPositionFix.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDPreproMask.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=8a4d121e96fe3223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDPreproMask.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDQuadrangleFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=d016530f536ed96d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDQuadrangleFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDRectangleFind.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=040a6db1866afc84, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDRectangleFind.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDRegionProjection.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=51f7c9d7a909d62b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDRegionProjection.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDSDKLog.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=4900f093fd18c638, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Common\MVDSDKLog.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDShadeCorrect.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=118c759a7024c9d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDShadeCorrect.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDShape.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=a59215ef735587a6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Common\MVDShape.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDSinglePointAlign.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=6c7066e88a4ed9ca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDSinglePointAlign.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDSurfaceDefectFilter.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=bd8581b6a5250c25, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDSurfaceDefectFilter.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDTrack.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=f8ffbce1872852e6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDTrack.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDUndistortCorrect.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=a5c2d9b3a64ee3b9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDUndistortCorrect.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDVersionObtain.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=378f3a2cbcb1e336, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDVersionObtain.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDVMControlBaseClass.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=000b45aeea1d33c0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVDVMControlBaseClass.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVDXmlParse.NET, Version=4.2.1.4, Culture=neutral, PublicKeyToken=7806150e22c43124, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Common\MVDXmlParse.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="MVD_Algorithm.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=385ca9747223c2af, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Algorithms\MVD_Algorithm.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MvRenderActiveX.Net, Version=4.2.1.4, Culture=neutral, PublicKeyToken=da2fd3581884613a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MVDAlgorithmSDK\ReferencedAssemblies\Common\MvRenderActiveX.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

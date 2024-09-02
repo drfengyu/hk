@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlgorithmTabRoot>
+  <IsFullScreen>True</IsFullScreen>
+  <Tabs>
+    <Tab Name="通信配置">
+      <Categorys>        
+		<CategoryNoHead Name="Tab_Com Param">
+		  <CustomVisible>False</CustomVisible>
+          <Items>
+		     <EnumEntryCOM Name="ComPort">
+              <Description>RunParam_Port Number</Description>
+              <DisplayName>RunParam_Port Number</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+<!-- 			  <EnumEntrys>
+                <EnumEntry Name="COM0">
+                  <Description>COM0</Description>
+                  <DisplayName>COM0</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x0</Value>
+                </EnumEntry>
+                <EnumEntry Name="COM1">
+                  <Description>COM1</Description>
+                  <DisplayName>COM1</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+				<EnumEntry Name="COM2">
+                  <Description>COM2</Description>
+                  <DisplayName>COM2</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+				<EnumEntry Name="COM3">
+                  <Description>COM3</Description>
+                  <DisplayName>COM3</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x3</Value>
+                </EnumEntry>
+				<EnumEntry Name="COM4">
+                  <Description>COM4</Description>
+                  <DisplayName>COM4</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x4</Value>
+                </EnumEntry>
+				<EnumEntry Name="COM5">
+                  <Description>COM5</Description>
+                  <DisplayName>COM5</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x5</Value>
+                </EnumEntry>
+				<EnumEntry Name="COM6">
+                  <Description>COM6</Description>
+                  <DisplayName>COM6</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x6</Value>
+                </EnumEntry>
+               </EnumEntrys> -->
+              </EnumEntryCOM>
+			  <Enumeration Name="Baudrate">
+              <Description>Baudrate</Description>
+              <DisplayName>RunParam_Baudrate</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>9600</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+			  <EnumEntrys>
+                <EnumEntry Name="110">
+                  <Description>110</Description>
+                  <DisplayName>110</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>110</Value>
+                </EnumEntry>
+                <EnumEntry Name="300">
+                  <Description>300</Description>
+                  <DisplayName>300</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>300</Value>
+                </EnumEntry>
+				<EnumEntry Name="600">
+                  <Description>600</Description>
+                  <DisplayName>600</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>600</Value>
+                </EnumEntry>
+				<EnumEntry Name="1200">
+                  <Description>1200</Description>
+                  <DisplayName>1200</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1200</Value>
+                </EnumEntry>
+				<EnumEntry Name="2400">
+                  <Description>2400</Description>
+                  <DisplayName>2400</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2400</Value>
+                </EnumEntry>
+				<EnumEntry Name="4800">
+                  <Description>4800</Description>
+                  <DisplayName>4800</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>4800</Value>
+                </EnumEntry>
+				<EnumEntry Name="9600">
+                  <Description>9600</Description>
+                  <DisplayName>9600</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>9600</Value>
+                </EnumEntry>
+				<EnumEntry Name="14400">
+                  <Description>14400</Description>
+                  <DisplayName>14400</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>14400</Value>
+                </EnumEntry>
+				<EnumEntry Name="19200">
+                  <Description>19200</Description>
+                  <DisplayName>19200</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>19200</Value>
+                </EnumEntry>
+				<EnumEntry Name="38400">
+                  <Description>38400</Description>
+                  <DisplayName>38400</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>38400</Value>
+                </EnumEntry>
+				<EnumEntry Name="56000">
+                  <Description>56000</Description>
+                  <DisplayName>56000</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>56000</Value>
+                </EnumEntry>
+				<EnumEntry Name="57600">
+                  <Description>57600</Description>
+                  <DisplayName>57600</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>57600</Value>
+                </EnumEntry>
+				<EnumEntry Name="115200">
+                  <Description>115200</Description>
+                  <DisplayName>115200</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>115200</Value>
+                </EnumEntry>
+				<EnumEntry Name="128000">
+                  <Description>128000</Description>
+                  <DisplayName>128000</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>128000</Value>
+                </EnumEntry>
+				<EnumEntry Name="256000">
+                  <Description>256000</Description>
+                  <DisplayName>256000</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>256000</Value>
+                </EnumEntry>
+               </EnumEntrys>
+              </Enumeration>
+			  <Enumeration Name="DataBits">
+              <Description>RunParam_Data Bit</Description>
+              <DisplayName>RunParam_Data Bit</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>8</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+			  <EnumEntrys>
+                <EnumEntry Name="5">
+                  <Description>5</Description>
+                  <DisplayName>5</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x5</Value>
+                </EnumEntry>
+                <EnumEntry Name="6">
+                  <Description>6</Description>
+                  <DisplayName>6</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x6</Value>
+                </EnumEntry>
+				<EnumEntry Name="7">
+                  <Description>7</Description>
+                  <DisplayName>7</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x7</Value>
+                </EnumEntry>
+				<EnumEntry Name="8">
+                  <Description>8</Description>
+                  <DisplayName>8</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x8</Value>
+                </EnumEntry>
+               </EnumEntrys>
+              </Enumeration>
+			  <Enumeration Name="Parity">
+              <Description>RunParam_Parity Bit</Description>
+              <DisplayName>RunParam_Parity Bit</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+			  <EnumEntrys>
+                <EnumEntry Name="NOPARITY">
+                  <Description>NO PARITY</Description>
+                  <DisplayName>NO PARITY</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x0</Value>
+                </EnumEntry>
+                <EnumEntry Name="ODDPARITY">
+                  <Description>ODD PARITY</Description>
+                  <DisplayName>ODD PARITY</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+				<EnumEntry Name="EVENPARITY">
+                  <Description>EVEN PARITY</Description>
+                  <DisplayName>EVEN PARITY</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+				<EnumEntry Name="MARKPARITY">
+                  <Description>MARK PARITY</Description>
+                  <DisplayName>MARK PARITY</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x3</Value>
+                </EnumEntry>
+				<EnumEntry Name="SPACEPARITY">
+                  <Description>SPACE PARITY</Description>
+                  <DisplayName>SPACE PARITY</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x4</Value>
+                </EnumEntry>
+               </EnumEntrys>
+              </Enumeration>
+			  <Enumeration Name="StopBits">
+              <Description>RunParam_Stop Bit</Description>
+              <DisplayName>RunParam_Stop Bit</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>1</DefaultValue>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+			  <EnumEntrys>
+                <EnumEntry Name="1">
+                  <Description>1</Description>
+                  <DisplayName>1</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x0</Value>
+                </EnumEntry>
+                <EnumEntry Name="1.5">
+                  <Description>1.5</Description>
+                  <DisplayName>1.5</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x1</Value>
+                </EnumEntry>
+				<EnumEntry Name="2">
+                  <Description>2</Description>
+                  <DisplayName>2</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0x2</Value>
+                </EnumEntry>
+               </EnumEntrys>
+              </Enumeration>
+			  <Integer Name="ReadIntervalTimeout">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>10</CurValue>
+              <DefaultValue>10</DefaultValue>
+              <Description>ReadIntervalTimeoutTip</Description>
+              <DisplayName>ReadIntervalTimeout</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer>
+<!-- 			 <Integer Name="ReadTime">
+              <MinValue>0</MinValue>
+              <MaxValue>65535</MaxValue>
+              <IncValue>1</IncValue>
+              <CurValue>100</CurValue>
+              <DefaultValue>100</DefaultValue>
+              <Description>读超时</Description>
+              <DisplayName>读超时</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+             </Integer> -->
+		     <Boolean Name="Upload">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>True</CurValue>
+              <DefaultValue>True</DefaultValue>
+              <Description>UploadTip</Description>
+              <DisplayName>Upload</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+            </Boolean>
+			<Boolean Name="ReConnectState">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>RunParam_AutoReconnect</Description>
+              <DisplayName>RunParam_AutoReconnect</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+            </Boolean>
+		    <Boolean Name="EndCodeEnable">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>False</CurValue>
+              <DefaultValue>False</DefaultValue>
+              <Description>RunParam_End Char</Description>
+              <DisplayName>RunParam_End Char</DisplayName>
+              <Visibility>Beginner</Visibility>
+              <AccessMode>RW</AccessMode>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+			  <Triggers>
+				<Trigger>
+				  <Property>CurValue</Property>
+                  <Value>True</Value>
+                    <Setters>
+                        <Setter>
+                          <TargetName>EndCode</TargetName>
+                          <OperationName>VisibleOperation</OperationName>
+                        </Setter>
+                    </Setters>
+				</Trigger>
+			  </Triggers>
+            </Boolean>
+			
+		    <EndChar Name="EndCode">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+			  <MaxLen>32</MaxLen>
+              <Description>RunParam_End Char</Description>
+              <DisplayName>RunParam_End Char</DisplayName>
+              <Visibility>Beginner</Visibility>
+			  <CustomVisible>False</CustomVisible>
+              <AccessMode>RW</AccessMode>
+			  <SupportChangeEnable>True</SupportChangeEnable>
+            </EndChar>		
+          </Items>
+        </CategoryNoHead>
+      </Categorys>
+    </Tab>
+  </Tabs>
+</AlgorithmTabRoot>

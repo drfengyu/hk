@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlgorithmTabRoot>
+  <Tabs>
+    <Tab Name="Tab_Basic Params">
+      <Categorys>
+        <Category Name="Tab_Basic Params">
+          <Items>
+            <OpenFileForCameraDialog Name="DcfPath">
+              <Description>配置文件</Description>
+              <DisplayName>配置文件</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <MaxFileDirLength>200</MaxFileDirLength>
+              <FileOption>
+                <IsMultiselect>false</IsMultiselect>
+                <FilterName>%.dcf|*.dcf%</FilterName>
+              </FileOption>
+            </OpenFileForCameraDialog>
+            <EnumerationLx Name="CameraName">
+              <AlgorithmIndex>0x00000000</AlgorithmIndex>
+              <CurValue>0x00000000</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Connected Cameras in Current LAN, including GIGE Area Scan and Line Scan Camera, or USB Connected U3V Camera</Description>
+              <DisplayName>RunParam_Choose Camera</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>CameraType</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+            </EnumerationLx>
+            <String Name="CameraType">
+              <CurValue></CurValue>
+              <DefaultValue></DefaultValue>
+              <Description></Description>
+              <DisplayName></DisplayName>
+              <CustomVisible>False</CustomVisible>
+              <AccessMode>RO</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Value>MV-CL</Value>
+                  <Setters>
+                    <Setter>
+                      <TargetName>AcquisitionLineRate</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ResultingLineRate</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>AcquisitionFrameRate</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>PreampGain</TargetName>
+                      <OperationName>VisibleOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>Gain</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                    <Setter>
+                      <TargetName>GainAuto</TargetName>
+                      <OperationName>HiddenOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </String>
+          </Items>
+        </Category>
+        <Category Name="Tab_Image Params">
+          <Items>
+            <FloatBx Name="AcquisitionFrameRate">
+              <MinValue>0</MinValue>
+              <MaxValue>0</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Set Fps of Current Camera</Description>
+              <DisplayName>RunParam_Fps</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <FloatBx Name="AcquisitionFrameRateAbs">
+              <MinValue>0</MinValue>
+              <MaxValue>2000</MaxValue>
+              <CurValue>53.907162</CurValue>
+              <DefaultValue>53.907162</DefaultValue>
+              <Description>Set Fps of Current Camera</Description>
+              <DisplayName>RunParam_Fps</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRateAbs</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <StringBx Name="ResultingFrameRate">
+              <CurValue>53.907162</CurValue>
+              <DefaultValue>53.907162</DefaultValue>
+              <Description>Actual Fps of Current Camera</Description>
+              <DisplayName>RunParam_Actual Fps</DisplayName>
+              <AccessMode>RO</AccessMode>
+              <SubscribeVisible>False</SubscribeVisible>
+            </StringBx>
+            <StringBx Name="ResultingFrameRateAbs">
+              <CurValue>53.907162</CurValue>
+              <DefaultValue>53.907162</DefaultValue>
+              <Description>Actual Fps of Current Camera</Description>
+              <DisplayName>RunParam_Actual Fps</DisplayName>
+              <AccessMode>RO</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </StringBx>
+            <FloatBx Name="AcquisitionLineRate">
+              <MinValue>0</MinValue>
+              <MaxValue>0</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Set HSF of Current Camera</Description>
+              <DisplayName>RunParam_Hsf</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingLineRate</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <StringBx Name="ResultingLineRate">
+              <CurValue>100</CurValue>
+              <DefaultValue>100</DefaultValue>
+              <Description>Line rate opened (line scan camera parameter)</Description>
+              <DisplayName>RunParam_Actual Frequency</DisplayName>
+              <AccessMode>RO</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </StringBx>
+            <FloatBx Name="ExposureTime">
+              <MinValue>0</MinValue>
+              <MaxValue>0</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Exposure Time of Current Camera(unit:ms)</Description>
+              <DisplayName>ExposureTimeInput</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRate</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <FloatBx Name="ExposureTimeAbs">
+              <MinValue>0</MinValue>
+              <MaxValue>0</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Exposure Time of Current Camera(unit:ms)</Description>
+              <DisplayName>ExposureTimeInput</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>ResultingFrameRateAbs</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+          </Items>
+        </Category>
+        <Category Name="Tab_Gain">
+          <Items>
+            <FloatBx Name="Gain">
+              <MinValue>0</MinValue>
+              <MaxValue>0</MaxValue>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Gain of Current Camera</Description>
+              <DisplayName>Tab_Gain</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <SubscribeVisible>False</SubscribeVisible>
+            </FloatBx>
+            <EnumerationBx Name="GainAuto">
+              <AlgorithmIndex>0</AlgorithmIndex>
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Represent Gain Mode, including Continuous Mode, Once Mode and Off Mode</Description>
+              <DisplayName>RunParam_Gain Mode</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <Triggers>
+                <Trigger>
+                  <Property>CurValue</Property>
+                  <Setters>
+                    <Setter>
+                      <TargetName>GainAuto</TargetName>
+                      <OperationName>GetParamOperation</OperationName>
+                    </Setter>
+                  </Setters>
+                </Trigger>
+              </Triggers>
+              <EnumEntrys>
+                <EnumEntry Name="OFF">
+                  <Description>OFF</Description>
+                  <DisplayName>OFF</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>0</Value>
+                </EnumEntry>
+                <EnumEntry Name="ONCE">
+                  <Description>ONCE</Description>
+                  <DisplayName>ONCE</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>1</Value>
+                </EnumEntry>
+                <EnumEntry Name="CONTINUOUS">
+                  <Description>CONTINUOUS</Description>
+                  <DisplayName>CONTINUOUS</DisplayName>
+                  <IsImplemented>0x1</IsImplemented>
+                  <Value>2</Value>
+                </EnumEntry>
+              </EnumEntrys>
+            </EnumerationBx>
+            <EnumerationGain Name="PreampGain">
+              <CurValue>0</CurValue>
+              <DefaultValue>0</DefaultValue>
+              <Description>Gain of Current Camera</Description>
+              <DisplayName>Tab_Gain</DisplayName>
+              <AccessMode>RW</AccessMode>
+              <CustomVisible>False</CustomVisible>
+              <SubscribeVisible>False</SubscribeVisible>
+            </EnumerationGain>
+          </Items>
+        </Category>
+      </Categorys>
+    </Tab>
+  </Tabs>
+</AlgorithmTabRoot>

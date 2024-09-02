@@ -1,0 +1,735 @@
+2024-08-22 10:55:58.550 ERROR [22948] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM11728ImgSrcTemp
+
+
+2024-08-22 10:55:58.550 ERROR [22948] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-22 10:55:58.550 ERROR [22948] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-22 10:55:58.550 ERROR [22948] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-22 14:16:13.247 ERROR [12596] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM20492ImgSrcTemp
+
+
+2024-08-22 14:16:13.247 ERROR [12596] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-22 14:16:13.247 ERROR [12596] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-22 14:16:13.247 ERROR [12596] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-22 14:17:03.486 ERROR [23736] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM22724ImgSrcTemp
+
+
+2024-08-22 14:17:03.486 ERROR [23736] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-22 14:17:03.486 ERROR [23736] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-22 14:17:03.486 ERROR [23736] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-22 15:24:19.812 ERROR [24476] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM27536ImgSrcTemp
+
+
+2024-08-22 15:24:19.812 ERROR [24476] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-22 15:24:19.812 ERROR [24476] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-22 15:24:19.812 ERROR [24476] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-22 15:29:52.752 ERROR [20620] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM21736ImgSrcTemp
+
+
+2024-08-22 15:29:52.752 ERROR [20620] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-22 15:29:52.752 ERROR [20620] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-22 15:29:52.752 ERROR [20620] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 09:51:40.895 ERROR [24272] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 09:51:41.033 ERROR [24352] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 09:51:41.034 ERROR [24352] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 09:51:41.043 ERROR [22636] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetParam@517] MVDSDK catch IMVDException exception! nErrCode[80100006], description[Illegal file path(The file does not exist).]
+
+2024-08-23 09:51:41.043 ERROR [24272] [] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM23176ImgSrcTemp
+
+
+2024-08-23 09:51:41.043 ERROR [14436] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM23176ImgSrcTemp
+
+
+2024-08-23 09:51:41.045 ERROR [24272] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 09:51:41.045 ERROR [24272] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 09:51:41.045 ERROR [24272] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 09:51:41.045 ERROR [22636] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 09:51:41.045 ERROR [22636] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 09:51:41.045 ERROR [22636] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 09:51:41.045 ERROR [24272] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 09:51:41.045 ERROR [14436] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 09:51:41.045 ERROR [14436] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 09:51:41.045 ERROR [14436] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 09:51:41.045 ERROR [22636] [GateWayFrame] [ModuId:8001] [CControlDelegate::VMLoadSolutionFromCache@1958] rm -f G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\GwLoadSolution fail, error:0
+
+2024-08-23 09:51:41.045 ERROR [14436] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 09:51:41.191 ERROR [16340] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 10:04:45.527 ERROR [24700] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 10:04:45.573 ERROR [24708] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 10:04:45.574 ERROR [24708] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 10:04:45.579 ERROR [24684] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM7640ImgSrcTemp
+
+
+2024-08-23 10:04:45.579 ERROR [24684] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 10:04:45.579 ERROR [24684] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 10:04:45.579 ERROR [24684] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 10:04:45.579 ERROR [24692] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM7640ImgSrcTemp
+
+
+2024-08-23 10:04:45.579 ERROR [24692] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 10:04:45.579 ERROR [24692] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 10:04:45.579 ERROR [24692] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 10:04:45.579 ERROR [24684] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 10:04:45.579 ERROR [24692] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 10:04:45.579 ERROR [24684] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 10:04:45.579 ERROR [24684] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 10:04:45.579 ERROR [24684] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 10:04:45.580 ERROR [24700] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetParam@517] MVDSDK catch IMVDException exception! nErrCode[80100006], description[Illegal file path(The file does not exist).]
+
+2024-08-23 10:04:45.684 ERROR [22468] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 10:05:34.218 ERROR [20788] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::DeInit@178] begin
+
+2024-08-23 10:05:34.314 ERROR [20788] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@773] GetDataResult HKR_COMM_Write data fail once. nRet = [e0000001]
+
+2024-08-23 10:05:34.314 ERROR [20788] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@774] LastError:[(null)]
+
+2024-08-23 10:05:34.314 ERROR [20788] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@779] GetDataResult HKR_COMM_Write rewrite data fail. nRet = [e0000001]
+
+2024-08-23 10:05:34.314 ERROR [20788] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@780] LastError:[(null)]
+
+2024-08-23 10:05:34.315 ERROR [20788] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@789] catch... nRet = [e0000108]
+
+2024-08-23 10:05:34.315 ERROR [20788] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::pGwFnEventCallback@732] pProxyManagerThis->GetEventInfo return [e0000108].
+
+2024-08-23 10:05:34.315 ERROR [20788] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::DeInit@180] GP_DeInit
+
+2024-08-23 13:25:20.601 ERROR [12440] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 13:25:20.704 ERROR [8968] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 13:25:20.704 ERROR [8968] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 13:25:20.714 ERROR [20376] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM18532ImgSrcTemp
+
+
+2024-08-23 13:25:20.714 ERROR [20376] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:25:20.714 ERROR [20376] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:25:20.714 ERROR [20376] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:25:20.715 ERROR [12440] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM18532ImgSrcTemp
+
+
+2024-08-23 13:25:20.715 ERROR [12440] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:25:20.715 ERROR [12440] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:25:20.715 ERROR [12440] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:25:20.715 ERROR [20376] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:25:20.715 ERROR [12440] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:25:20.715 ERROR [20376] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 13:25:20.715 ERROR [20376] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 13:25:20.715 ERROR [20376] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 13:25:20.717 ERROR [28304] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetParam@517] MVDSDK catch IMVDException exception! nErrCode[80100006], description[Illegal file path(The file does not exist).]
+
+2024-08-23 13:25:20.862 ERROR [22100] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 13:38:01.809 ERROR [21016] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 13:38:01.809 ERROR [21016] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 13:38:01.836 ERROR [1288] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 13:38:01.842 ERROR [28464] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM24724ImgSrcTemp
+
+
+2024-08-23 13:38:01.842 ERROR [27028] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM24724ImgSrcTemp
+
+
+2024-08-23 13:38:01.842 ERROR [28464] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:38:01.842 ERROR [27028] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:38:01.842 ERROR [28464] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:38:01.842 ERROR [27028] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:38:01.842 ERROR [28464] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:38:01.842 ERROR [27028] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:38:01.842 ERROR [27028] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:38:01.842 ERROR [28464] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:38:01.843 ERROR [1288] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetParam@517] MVDSDK catch IMVDException exception! nErrCode[80100006], description[Illegal file path(The file does not exist).]
+
+2024-08-23 13:38:01.843 ERROR [27028] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 13:38:01.843 ERROR [27028] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 13:38:01.843 ERROR [27028] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 13:38:01.947 ERROR [21764] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 13:39:08.894 ERROR [27028] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SaveModuleData@2592] pstSaveInfo->struModuleData.pszAttachmentsDir == G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\ServerExportFile\ProcFile\ModuleAttachments
+
+
+2024-08-23 13:40:48.518 ERROR [21044] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM9744ImgSrcTemp
+
+
+2024-08-23 13:40:48.518 ERROR [21044] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:40:48.518 ERROR [21044] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:40:48.518 ERROR [21044] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:41:46.870 ERROR [22556] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 13:41:46.921 ERROR [23204] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 13:41:46.922 ERROR [23204] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 13:41:46.932 ERROR [21044] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM9744ImgSrcTemp
+
+
+2024-08-23 13:41:46.932 ERROR [21044] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:41:46.932 ERROR [21044] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:41:46.932 ERROR [21044] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:41:46.932 ERROR [21044] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:41:46.932 ERROR [21044] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 13:41:46.932 ERROR [21044] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 13:41:46.932 ERROR [21044] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 13:41:46.933 ERROR [23204] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetParam@517] MVDSDK catch IMVDException exception! nErrCode[80100006], description[Illegal file path(The file does not exist).]
+
+2024-08-23 13:41:46.933 ERROR [22556] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM9744ImgSrcTemp
+
+
+2024-08-23 13:41:46.933 ERROR [22556] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:41:46.933 ERROR [22556] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:41:46.933 ERROR [22556] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:41:46.933 ERROR [22556] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:41:47.037 ERROR [10656] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 13:42:27.116 ERROR [8808] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM9744ImgSrcTemp
+
+
+2024-08-23 13:42:27.116 ERROR [8808] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:42:27.116 ERROR [8808] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:42:27.116 ERROR [8808] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:42:27.116 ERROR [22556] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 13:42:27.116 ERROR [22556] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 13:42:27.116 ERROR [22556] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 13:42:27.139 ERROR [10656] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 13:45:36.013 ERROR [23504] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 13:45:36.052 ERROR [17216] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 13:45:36.053 ERROR [17216] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 13:45:36.057 ERROR [26068] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM21000ImgSrcTemp
+
+
+2024-08-23 13:45:36.057 ERROR [26068] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:45:36.057 ERROR [26068] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:45:36.057 ERROR [26068] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:45:36.057 ERROR [26068] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:45:36.057 ERROR [9160] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM21000ImgSrcTemp
+
+
+2024-08-23 13:45:36.057 ERROR [9160] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:45:36.057 ERROR [9160] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:45:36.057 ERROR [9160] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:45:36.057 ERROR [9160] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:45:36.058 ERROR [23504] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetParam@517] MVDSDK catch IMVDException exception! nErrCode[80100006], description[Illegal file path(The file does not exist).]
+
+2024-08-23 13:45:36.058 ERROR [24072] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 13:45:36.058 ERROR [24072] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 13:45:36.058 ERROR [24072] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 13:45:36.162 ERROR [22256] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 13:47:42.437 ERROR [18280] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::DeInit@178] begin
+
+2024-08-23 13:47:42.530 ERROR [18280] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@773] GetDataResult HKR_COMM_Write data fail once. nRet = [e0000001]
+
+2024-08-23 13:47:42.530 ERROR [18280] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@774] LastError:[(null)]
+
+2024-08-23 13:47:42.530 ERROR [18280] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@779] GetDataResult HKR_COMM_Write rewrite data fail. nRet = [e0000001]
+
+2024-08-23 13:47:42.530 ERROR [18280] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@780] LastError:[(null)]
+
+2024-08-23 13:47:42.531 ERROR [18280] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@789] catch... nRet = [e0000108]
+
+2024-08-23 13:47:42.531 ERROR [18280] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::pGwFnEventCallback@732] pProxyManagerThis->GetEventInfo return [e0000108].
+
+2024-08-23 13:47:42.532 ERROR [18280] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::DeInit@180] GP_DeInit
+
+2024-08-23 13:48:19.136 ERROR [27284] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 13:48:19.177 ERROR [27916] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 13:48:19.177 ERROR [27916] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 13:48:19.182 ERROR [7144] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM19732ImgSrcTemp
+
+
+2024-08-23 13:48:19.182 ERROR [7144] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:48:19.182 ERROR [7144] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:48:19.182 ERROR [7144] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:48:19.182 ERROR [27284] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM19732ImgSrcTemp
+
+
+2024-08-23 13:48:19.182 ERROR [27284] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:48:19.182 ERROR [27284] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:48:19.182 ERROR [27284] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:48:19.182 ERROR [7144] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:48:19.182 ERROR [27284] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:48:19.182 ERROR [7144] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 13:48:19.182 ERROR [7144] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 13:48:19.182 ERROR [7144] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 13:48:19.183 ERROR [22316] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetParam@517] MVDSDK catch IMVDException exception! nErrCode[80100006], description[Illegal file path(The file does not exist).]
+
+2024-08-23 13:48:19.287 ERROR [24400] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 13:49:40.922 ERROR [11552] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::DeInit@178] begin
+
+2024-08-23 13:49:41.005 ERROR [11552] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@773] GetDataResult HKR_COMM_Write data fail once. nRet = [e0000001]
+
+2024-08-23 13:49:41.005 ERROR [11552] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@774] LastError:[(null)]
+
+2024-08-23 13:49:41.005 ERROR [11552] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@779] GetDataResult HKR_COMM_Write rewrite data fail. nRet = [e0000001]
+
+2024-08-23 13:49:41.005 ERROR [11552] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@780] LastError:[(null)]
+
+2024-08-23 13:49:41.005 ERROR [11552] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@789] catch... nRet = [e0000108]
+
+2024-08-23 13:49:41.005 ERROR [11552] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::pGwFnEventCallback@732] pProxyManagerThis->GetEventInfo return [e0000108].
+
+2024-08-23 13:49:41.005 ERROR [11552] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::DeInit@180] GP_DeInit
+
+2024-08-23 13:51:54.821 ERROR [22936] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 13:51:54.862 ERROR [26872] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 13:51:54.863 ERROR [26872] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 13:51:54.868 ERROR [22936] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM10116ImgSrcTemp
+
+
+2024-08-23 13:51:54.868 ERROR [22936] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:51:54.868 ERROR [22936] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:51:54.868 ERROR [14120] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM10116ImgSrcTemp
+
+
+2024-08-23 13:51:54.868 ERROR [22936] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:51:54.868 ERROR [14120] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:51:54.868 ERROR [14120] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:51:54.868 ERROR [14120] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:51:54.868 ERROR [22936] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:51:54.868 ERROR [14120] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:51:54.868 ERROR [22936] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 13:51:54.868 ERROR [22936] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 13:51:54.868 ERROR [22936] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 13:51:54.868 ERROR [25508] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetParam@517] MVDSDK catch IMVDException exception! nErrCode[80100006], description[Illegal file path(The file does not exist).]
+
+2024-08-23 13:51:54.972 ERROR [12480] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 13:54:51.516 ERROR [18716] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 13:54:51.556 ERROR [25344] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 13:54:51.556 ERROR [25344] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 13:54:51.561 ERROR [28180] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM22148ImgSrcTemp
+
+
+2024-08-23 13:54:51.561 ERROR [28180] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:54:51.561 ERROR [28180] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:54:51.561 ERROR [28180] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:54:51.561 ERROR [25180] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM22148ImgSrcTemp
+
+
+2024-08-23 13:54:51.561 ERROR [25180] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:54:51.561 ERROR [25180] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:54:51.561 ERROR [25180] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:54:51.561 ERROR [28180] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:54:51.561 ERROR [25180] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 13:54:51.561 ERROR [25180] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 13:54:51.561 ERROR [25180] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 13:54:51.561 ERROR [25180] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 13:54:51.562 ERROR [25344] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetParam@517] MVDSDK catch IMVDException exception! nErrCode[80100006], description[Illegal file path(The file does not exist).]
+
+2024-08-23 13:54:51.666 ERROR [2928] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 13:55:08.040 ERROR [25180] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM22148ImgSrcTemp
+
+
+2024-08-23 13:55:08.040 ERROR [25180] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 13:55:08.040 ERROR [25180] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 13:55:08.040 ERROR [25180] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 13:55:08.040 ERROR [28180] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 13:55:08.040 ERROR [28180] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 13:55:08.040 ERROR [28180] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 13:55:08.072 ERROR [2928] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 14:02:04.535 ERROR [6236] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 14:02:04.576 ERROR [27548] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 14:02:04.577 ERROR [27548] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 14:02:04.583 ERROR [22452] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM27828ImgSrcTemp
+
+
+2024-08-23 14:02:04.583 ERROR [9540] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM27828ImgSrcTemp
+
+
+2024-08-23 14:02:04.583 ERROR [9540] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 14:02:04.583 ERROR [22452] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 14:02:04.583 ERROR [9540] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 14:02:04.583 ERROR [22452] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 14:02:04.583 ERROR [9540] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 14:02:04.583 ERROR [22452] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 14:02:04.583 ERROR [27548] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetParam@517] MVDSDK catch IMVDException exception! nErrCode[80100006], description[Illegal file path(The file does not exist).]
+
+2024-08-23 14:02:04.583 ERROR [9540] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 14:02:04.583 ERROR [22452] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@3147] File G:\PythonProject\HalConVisionStudydoc\my-website\docs\vm-usage -tutorial\distortioncalibration-and-distortioncorrection\project\0111560-IMG_1.bmp is not exit
+
+2024-08-23 14:02:04.583 ERROR [27548] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 14:02:04.583 ERROR [27548] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 14:02:04.583 ERROR [27548] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 14:02:04.687 ERROR [4200] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 14:02:20.670 ERROR [27548] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM27828ImgSrcTemp
+
+
+2024-08-23 14:02:20.670 ERROR [27548] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 14:02:20.671 ERROR [27548] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 14:02:20.671 ERROR [27548] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 14:02:20.671 ERROR [12896] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 14:02:20.671 ERROR [12896] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 14:02:20.671 ERROR [12896] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 14:02:20.680 ERROR [4200] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 14:02:44.795 ERROR [22452] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SaveModuleData@2592] pstSaveInfo->struModuleData.pszAttachmentsDir == G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\ServerExportFile\ProcFile\ModuleAttachments
+
+
+2024-08-23 14:04:16.495 ERROR [22452] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::Process@294] local image path is empty
+
+2024-08-23 14:04:37.378 ERROR [22452] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::Process@294] local image path is empty
+
+2024-08-23 14:04:43.682 ERROR [22452] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::Process@294] local image path is empty
+
+2024-08-23 14:11:26.577 ERROR [20764] [IMVSImageCorrectCalibModu] [ModuId:3] [CIMVSImageCorrectCalibModu::SetAlgToolSharedMemNodeNum@595] SetRunParam fail, code = 80100006, exception = Illegal parameter. Such as a null pointer.
+
+2024-08-23 14:11:26.620 ERROR [24596] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@107] GP_Init
+
+2024-08-23 14:11:26.620 ERROR [24596] [CommManagerModule] [ModuId:0] [CMyAlgorithmManager::Init@162] end
+
+2024-08-23 14:11:26.625 ERROR [24700] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM28500ImgSrcTemp
+
+
+2024-08-23 14:11:26.625 ERROR [24700] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 14:11:26.625 ERROR [24700] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 14:11:26.625 ERROR [24700] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 14:11:26.625 ERROR [20764] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM28500ImgSrcTemp
+
+
+2024-08-23 14:11:26.625 ERROR [20764] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 14:11:26.625 ERROR [20764] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 14:11:26.625 ERROR [20764] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 14:11:26.625 ERROR [20764] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 14:11:26.625 ERROR [20764] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 14:11:26.625 ERROR [20764] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 14:11:26.628 ERROR [25272] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 14:11:49.899 ERROR [23700] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM28500ImgSrcTemp
+
+
+2024-08-23 14:11:49.899 ERROR [23700] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 14:11:49.899 ERROR [23700] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 14:11:49.899 ERROR [23700] [ImageSourceModule] [ModuId:8] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 14:11:49.899 ERROR [20764] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@773] m_nDeviceModuleId = -1
+
+2024-08-23 14:11:49.899 ERROR [20764] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@792] m_nDeviceModuleId = -1
+
+2024-08-23 14:11:49.899 ERROR [20764] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::SetParam@811] m_nDeviceModuleId = -1
+
+2024-08-23 14:11:49.905 ERROR [25272] [GateWayFrame] [ModuId:8001] [CControlDelegate::LoadModuleData@1164] read serial-mode error
+
+2024-08-23 14:12:02.138 ERROR [24596] [ImageSourceModule] [ModuId:2] [CMyAlgorithmManager::SaveModuleData@2592] pstSaveInfo->struModuleData.pszAttachmentsDir == G:\PythonProject\HalConVisionStudydoc\my-website\docs\secondary-development\environment-config\data-acquisition-display\project\ocrproject\bin\Debug\ServerExportFile\ProcFile\ModuleAttachments
+
+
+2024-08-23 14:14:52.925 ERROR [11504] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::DeInit@178] begin
+
+2024-08-23 14:14:53.008 ERROR [11504] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@773] GetDataResult HKR_COMM_Write data fail once. nRet = [e0000001]
+
+2024-08-23 14:14:53.008 ERROR [11504] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@774] LastError:[(null)]
+
+2024-08-23 14:14:53.008 ERROR [11504] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@779] GetDataResult HKR_COMM_Write rewrite data fail. nRet = [e0000001]
+
+2024-08-23 14:14:53.008 ERROR [11504] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@780] LastError:[(null)]
+
+2024-08-23 14:14:53.008 ERROR [11504] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::GetEventInfo@789] catch... nRet = [e0000108]
+
+2024-08-23 14:14:53.008 ERROR [11504] [GateWayProxy] [ModuId:8002] [CGatewayProxyManager::pGwFnEventCallback@732] pProxyManagerThis->GetEventInfo return [e0000108].
+
+2024-08-23 14:14:53.010 ERROR [11504] [CommManagerModule] [ModuId:11000] [CMyAlgorithmManager::DeInit@180] GP_DeInit
+
+2024-08-23 14:50:06.905 ERROR [11188] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM22472ImgSrcTemp
+
+
+2024-08-23 14:50:06.905 ERROR [11188] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 14:50:06.905 ERROR [11188] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 14:50:06.905 ERROR [11188] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 16:14:16.764 ERROR [21948] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM27320ImgSrcTemp
+
+
+2024-08-23 16:14:16.765 ERROR [21948] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 16:14:16.765 ERROR [21948] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 16:14:16.765 ERROR [21948] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 16:14:17.282 ERROR [27828] [GW-PlatformSDK] [ModuId:8003] [CServerManager::SendAndRecvCommand@1037] SendCommandMessage NULL == m_hCmdReq
+
+2024-08-23 16:15:27.310 ERROR [28544] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM24024ImgSrcTemp
+
+
+2024-08-23 16:15:27.310 ERROR [28544] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 16:15:27.310 ERROR [28544] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 16:15:27.310 ERROR [28544] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 16:15:27.450 ERROR [22084] [GW-PlatformSDK] [ModuId:8003] [CServerManager::SendAndRecvCommand@1037] SendCommandMessage NULL == m_hCmdReq
+
+2024-08-23 16:24:02.763 ERROR [19404] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM20908ImgSrcTemp
+
+
+2024-08-23 16:24:02.763 ERROR [19404] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 16:24:02.763 ERROR [19404] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 16:24:02.763 ERROR [19404] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 16:24:02.838 ERROR [17656] [GW-PlatformSDK] [ModuId:8003] [CServerManager::SendAndRecvCommand@1037] SendCommandMessage NULL == m_hCmdReq
+
+2024-08-23 16:30:40.051 ERROR [27404] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM6832ImgSrcTemp
+
+
+2024-08-23 16:30:40.051 ERROR [27404] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 16:30:40.051 ERROR [27404] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 16:30:40.051 ERROR [27404] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 16:30:40.476 ERROR [18536] [GW-PlatformSDK] [ModuId:8003] [CServerManager::SendAndRecvCommand@1037] SendCommandMessage NULL == m_hCmdReq
+
+2024-08-23 16:37:38.306 ERROR [23752] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM27908ImgSrcTemp
+
+
+2024-08-23 16:37:38.306 ERROR [23752] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 16:37:38.306 ERROR [23752] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 16:37:38.306 ERROR [23752] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 16:37:38.384 ERROR [25964] [GW-PlatformSDK] [ModuId:8003] [CServerManager::SendAndRecvCommand@1037] SendCommandMessage NULL == m_hCmdReq
+
+2024-08-23 16:50:46.217 ERROR [29388] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM23124ImgSrcTemp
+
+
+2024-08-23 16:50:46.217 ERROR [29388] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 16:50:46.217 ERROR [29388] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 16:50:46.217 ERROR [29388] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 16:50:46.302 ERROR [18636] [GW-PlatformSDK] [ModuId:8003] [CServerManager::SendAndRecvCommand@1037] SendCommandMessage NULL == m_hCmdReq
+
+2024-08-23 16:57:32.348 ERROR [28028] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM14900ImgSrcTemp
+
+
+2024-08-23 16:57:32.348 ERROR [28028] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 16:57:32.348 ERROR [28028] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 16:57:32.348 ERROR [28028] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 17:10:59.852 ERROR [13516] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM17232ImgSrcTemp
+
+
+2024-08-23 17:10:59.852 ERROR [13516] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 17:10:59.852 ERROR [13516] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 17:10:59.852 ERROR [13516] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 17:12:08.077 ERROR [24092] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM14300ImgSrcTemp
+
+
+2024-08-23 17:12:08.077 ERROR [24092] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 17:12:08.077 ERROR [24092] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 17:12:08.077 ERROR [24092] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 17:17:53.418 ERROR [17584] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM18940ImgSrcTemp
+
+
+2024-08-23 17:17:53.418 ERROR [17584] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 17:17:53.418 ERROR [17584] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 17:17:53.418 ERROR [17584] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+
+2024-08-23 17:25:23.291 ERROR [1284] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::LoadModuleData@2913] pstLoadInfo->struModuleData.pszAttachmentsDir == C:\Users\Fengling\AppData\Local\Temp\VM23964ImgSrcTemp
+
+
+2024-08-23 17:25:23.291 ERROR [1284] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@1836] ClearCacheImage return [e0000302]
+
+2024-08-23 17:25:23.291 ERROR [1284] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2278] Set camera id : -1
+
+2024-08-23 17:25:23.291 ERROR [1284] [ImageSourceModule] [ModuId:0] [CMyAlgorithmManager::SetParam@2092] ClearImage 0
+

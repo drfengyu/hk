@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ParamRoot>
+  <Categorys>
+    <Category Name="Base">
+      <Items>
+        <String Name="ServerRepAddress">
+          <CurValue>tcp://127.0.0.1:5555</CurValue>
+        </String>
+        <String Name="ModuleName">
+          <CurValue>IfModule</CurValue>
+        </String>
+        <String Name="ModuleDisplayName">
+          <CurValue>IfModule</CurValue>
+        </String>
+        <Bool Name="IsLoalModule">
+          <CurValue>0</CurValue>
+        </Bool>
+        <Integer Name="ModuleViewMode">
+          <CurValue>1</CurValue>
+        </Integer>
+        <String Name="ModuleHelp">
+          <CurValue>Reserve</CurValue>
+        </String>
+      </Items>
+    </Category>
+    <Category Name="Input">
+      <Items>
+        <!--         <Filter Name="float1" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float2" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float3" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float4" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float5" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float6" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float7" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float8" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float9" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float10" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float11" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float12" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float13" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float14" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float15" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float16" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float17" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float18" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float19" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float20" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float21" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float22" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float23" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float24" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float25" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float26" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float27" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float28" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float29" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float30" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float31" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="float32" ValueType="float" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int1" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int2" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int3" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int4" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int5" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int6" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int7" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int8" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int9" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int10" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int11" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int12" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int13" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int14" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int15" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int16" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int17" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int18" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int19" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int20" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int21" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int22" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int23" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int24" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int25" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int26" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int27" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int28" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int29" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int30" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int31" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter>
+        <Filter Name="int32" ValueType="int" IsForce="false" Visible="false" AutoSubscribe="false">
+        </Filter> -->
+      </Items>
+    </Category>
+    <Category Name="Output">
+      <Items>
+        <Filter Name="ModuStatus" ValueType="int" IsForce="true" IsArray="false"  CustomVisible="false"></Filter>
+        <Filter Name="StrResult" ValueType="string" IsForce="true" IsArray="false" CustomVisible="false"></Filter>
+        <Filter Name="NIfResult" ValueType="int" IsForce="true" IsArray="false" CustomVisible="false"></Filter>
+        <Filter Name="IfItemResult" ValueType="string" IsForce="true" IsArray="true" CustomVisible="false"></Filter>
+        <Filter Name="IfItemStatus" ValueType="int" IsForce="true" IsArray="true" CustomVisible="false"></Filter>
+      </Items>
+    </Category>
+    <Category Name="TransmitInfo">
+      <Items>
+        <String Name="pubaddress">
+          <CurValue>0</CurValue>
+        </String>
+        <Integer Name="cycleid">
+          <CurValue>0</CurValue>
+        </Integer>
+      </Items>
+    </Category>
+  </Categorys>
+</ParamRoot>
