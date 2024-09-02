@@ -84,7 +84,7 @@ const config = {
             label: '教程',
           },
           // {to: '/submit-post', label: '发布', position: 'left'},
-          // {to: 'blog', label: '博客', position: 'left'},
+           {to: 'blog/chat', label: '留言板', position: 'right'},
           // {
           //   to: 'ai',
           //   label: 'Sign in to chat with AI free ',
