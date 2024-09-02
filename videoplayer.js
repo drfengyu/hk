@@ -10,6 +10,9 @@ export default function VideoPlayer({src}) {
       id: 'video-player', // 确保 id 是唯一的
       url: src,
       el: playerRef.current, // 将 ref 传递给播放器
+      autoplay: false, // 自动播放
+      controls: true,
+      fluid: true, // 使播放器自适应宽高
     });
 
     return () => {
@@ -19,7 +22,7 @@ export default function VideoPlayer({src}) {
 
   return (
     <div>
-      <div id='video-player' ref={playerRef} /> {/* 为播放器提供一个容器 */}
+      <div id='video-player' ref={playerRef} style={{ width: '100%', height: 'auto' }}/> {/* 为播放器提供一个容器 */}
     </div>
   );
 }
