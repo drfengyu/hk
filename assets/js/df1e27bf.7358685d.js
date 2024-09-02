@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4322],{77566:e=>{e.exports=JSON.parse('{"tags":[{"label":"Hello","permalink":"/HalConVisionStudydoc/blog/tags/hello","description":"Hello tag description","count":1},{"label":"chat","permalink":"/HalConVisionStudydoc/blog/tags/chat","count":1}]}')}}]);

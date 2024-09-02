@@ -4,31 +4,19 @@
         <title>海康视觉学习 Blog</title>
         <link>https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog</link>
         <description>海康视觉学习 Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Sep 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog/welcome</link>
-            <guid>https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog/welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
-<ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
-</ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://your-docusaurus-site.example.com/HalConVisionStudydoc/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>Facebook</category>
+            <title><![CDATA[留言板]]></title>
+            <link>https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog/chat</link>
+            <guid>https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog/chat</guid>
+            <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=timeGradient&amp;height=300&amp;&amp;section=header&amp;text=HI%20THERE!&amp;fontSize=90&amp;fontAlign=50&amp;fontAlignY=30&amp;desc=I%20am%20drfengyu!&amp;descAlign=50&amp;descSize=30&amp;descAlignY=60&amp;animation=twinkling"></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com/?font=Orbitron&amp;size=25&amp;pause=1000&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=600&amp;lines=%E6%AC%A2%E8%BF%8E%E5%AD%A6%E4%B9%A0%E6%B5%B7%E5%BA%B7%E8%A7%86%E8%A7%89!;%E6%9C%89%E9%97%AE%E9%A2%98%E6%88%96%E5%BB%BA%E8%AE%AE%E5%8F%AF%E4%BB%A5%E5%9C%A8%E4%B8%8B%E6%96%B9%E8%AF%84%E8%AE%BA%E5%8C%BA%E7%95%99%E8%A8%80!"></p>]]></content:encoded>
             <category>Hello</category>
-            <category>Docusaurus</category>
+            <category>chat</category>
         </item>
     </channel>
 </rss>
