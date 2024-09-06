@@ -16,12 +16,12 @@ const config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/HalConVisionStudydoc/',
+  baseUrl: '/hk/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'drfengyu', // Usually your GitHub org/user name.
-  projectName: 'HalConVisionStudydoc', // Usually your repo name.
+  projectName: 'hk', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/drfengyu/HalConVisionStudydoc/tree/gh-pages/',
+            'https://github.com/drfengyu/hk/tree/gh-pages/',
         },
         
         blog: {
@@ -56,7 +56,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/drfengyu/HalConVisionStudydoc/tree/gh-pages/',
+            'https://github.com/drfengyu/hk/tree/gh-pages/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -91,7 +91,7 @@ const config = {
           //   position: 'right',
           // },
           {
-            href: 'https://github.com/drfengyu/HalConVisionStudydoc',
+            href: 'https://github.com/drfengyu/hk',
             label: 'GitHub',
             position: 'right',
           },
@@ -128,7 +128,7 @@ const config = {
               
               {
                 label: 'GitHub',
-                href: 'https://github.com/drfengyu/HalConVisionStudydoc',
+                href: 'https://github.com/drfengyu/hk',
               },
             ],
           },
