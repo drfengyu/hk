@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog</id>
+    <id>https://your-docusaurus-site.example.com/hk/blog</id>
     <title>海康视觉学习 Blog</title>
     <updated>2024-09-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog"/>
+    <link rel="alternate" href="https://your-docusaurus-site.example.com/hk/blog"/>
     <subtitle>海康视觉学习 Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/HalConVisionStudydoc/img/favicon.ico</icon>
+    <icon>https://your-docusaurus-site.example.com/hk/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[留言板]]></title>
-        <id>https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog/chat</id>
-        <link href="https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog/chat"/>
+        <id>https://your-docusaurus-site.example.com/hk/blog/chat</id>
+        <link href="https://your-docusaurus-site.example.com/hk/blog/chat"/>
         <updated>2024-09-02T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=timeGradient&amp;height=300&amp;&amp;section=header&amp;text=HI%20THERE!&amp;fontSize=90&amp;fontAlign=50&amp;fontAlignY=30&amp;desc=I%20am%20drfengyu!&amp;descAlign=50&amp;descSize=30&amp;descAlignY=60&amp;animation=twinkling"></p>
 <p align="center"><img src="https://readme-typing-svg.demolab.com/?font=Orbitron&amp;size=25&amp;pause=1000&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=600&amp;lines=%E6%AC%A2%E8%BF%8E%E5%AD%A6%E4%B9%A0%E6%B5%B7%E5%BA%B7%E8%A7%86%E8%A7%89!;%E6%9C%89%E9%97%AE%E9%A2%98%E6%88%96%E5%BB%BA%E8%AE%AE%E5%8F%AF%E4%BB%A5%E5%9C%A8%E4%B8%8B%E6%96%B9%E8%AF%84%E8%AE%BA%E5%8C%BA%E7%95%99%E8%A8%80!"></p>]]></content>

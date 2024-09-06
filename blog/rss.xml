@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>海康视觉学习 Blog</title>
-        <link>https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog</link>
+        <link>https://your-docusaurus-site.example.com/hk/blog</link>
         <description>海康视觉学习 Blog</description>
         <lastBuildDate>Mon, 02 Sep 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>zh-Hans</language>
         <item>
             <title><![CDATA[留言板]]></title>
-            <link>https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog/chat</link>
-            <guid>https://your-docusaurus-site.example.com/HalConVisionStudydoc/blog/chat</guid>
+            <link>https://your-docusaurus-site.example.com/hk/blog/chat</link>
+            <guid>https://your-docusaurus-site.example.com/hk/blog/chat</guid>
             <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&amp;color=timeGradient&amp;height=300&amp;&amp;section=header&amp;text=HI%20THERE!&amp;fontSize=90&amp;fontAlign=50&amp;fontAlignY=30&amp;desc=I%20am%20drfengyu!&amp;descAlign=50&amp;descSize=30&amp;descAlignY=60&amp;animation=twinkling"></p>
 <p align="center"><img src="https://readme-typing-svg.demolab.com/?font=Orbitron&amp;size=25&amp;pause=1000&amp;center=true&amp;vCenter=true&amp;random=false&amp;width=600&amp;lines=%E6%AC%A2%E8%BF%8E%E5%AD%A6%E4%B9%A0%E6%B5%B7%E5%BA%B7%E8%A7%86%E8%A7%89!;%E6%9C%89%E9%97%AE%E9%A2%98%E6%88%96%E5%BB%BA%E8%AE%AE%E5%8F%AF%E4%BB%A5%E5%9C%A8%E4%B8%8B%E6%96%B9%E8%AF%84%E8%AE%BA%E5%8C%BA%E7%95%99%E8%A8%80!"></p>]]></content:encoded>
