@@ -130,6 +130,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/drfengyu/hk',
               },
+              {
+                label: 'drfengling.online',
+                href: 'https://drfengling.online',
+              },
             ],
           },
           {
